@@ -1,0 +1,1051 @@
+Case_ID,Triage_to_Antibiotics_Hours,Antibiotics_Compliance_Cohort,ER_to_Admission_Hours,Admission_Latency_Cohort
+A,2.5,2. Sepsis Bundle (1 - 3h),2.96,1. Rapid (<= 4h)
+AA,5.34,3. Delayed (> 3h),,Not Admitted
+AAA,2.41,2. Sepsis Bundle (1 - 3h),2.47,1. Rapid (<= 4h)
+AB,3.91,3. Delayed (> 3h),,Not Admitted
+ABA,1.54,2. Sepsis Bundle (1 - 3h),3.95,1. Rapid (<= 4h)
+AC,2.96,2. Sepsis Bundle (1 - 3h),4.72,2. Standard (4 - 8h)
+ACA,0.69,1. Golden Hour (<= 1h),,Not Admitted
+AD,1.54,2. Sepsis Bundle (1 - 3h),4.5,2. Standard (4 - 8h)
+ADA,2.49,2. Sepsis Bundle (1 - 3h),4.71,2. Standard (4 - 8h)
+AE,3.9,3. Delayed (> 3h),4.0,2. Standard (4 - 8h)
+AEA,4.09,3. Delayed (> 3h),4.23,2. Standard (4 - 8h)
+AF,2.99,2. Sepsis Bundle (1 - 3h),3.51,1. Rapid (<= 4h)
+AFA,4.96,3. Delayed (> 3h),5.21,2. Standard (4 - 8h)
+AG,,Not Administered,,Not Admitted
+AGA,2.21,2. Sepsis Bundle (1 - 3h),3.71,1. Rapid (<= 4h)
+AH,1.65,2. Sepsis Bundle (1 - 3h),2.47,1. Rapid (<= 4h)
+AHA,0.26,1. Golden Hour (<= 1h),4.14,2. Standard (4 - 8h)
+AI,2.78,2. Sepsis Bundle (1 - 3h),2.83,1. Rapid (<= 4h)
+AIA,3.56,3. Delayed (> 3h),3.65,1. Rapid (<= 4h)
+AJ,3.91,3. Delayed (> 3h),4.07,2. Standard (4 - 8h)
+AJA,,Not Administered,,Not Admitted
+AK,1.22,2. Sepsis Bundle (1 - 3h),4.48,2. Standard (4 - 8h)
+AKA,,Not Administered,,Not Admitted
+AL,0.91,1. Golden Hour (<= 1h),5.34,2. Standard (4 - 8h)
+ALA,0.01,1. Golden Hour (<= 1h),3.55,1. Rapid (<= 4h)
+AM,,Not Administered,,Not Admitted
+AMA,,Not Administered,2.85,1. Rapid (<= 4h)
+AN,4.99,3. Delayed (> 3h),,Not Admitted
+ANA,,Not Administered,6.02,2. Standard (4 - 8h)
+AO,,Not Administered,2.75,1. Rapid (<= 4h)
+AP,0.67,1. Golden Hour (<= 1h),4.21,2. Standard (4 - 8h)
+AQ,3.48,3. Delayed (> 3h),3.54,1. Rapid (<= 4h)
+AR,0.49,1. Golden Hour (<= 1h),1.24,1. Rapid (<= 4h)
+AS,1.5,2. Sepsis Bundle (1 - 3h),4.56,2. Standard (4 - 8h)
+AT,0.66,1. Golden Hour (<= 1h),,Not Admitted
+AU,0.01,1. Golden Hour (<= 1h),2.27,1. Rapid (<= 4h)
+AV,0.28,1. Golden Hour (<= 1h),4.4,2. Standard (4 - 8h)
+AW,1.37,2. Sepsis Bundle (1 - 3h),,Not Admitted
+AX,,Not Administered,,Not Admitted
+AY,,Not Administered,2.3,1. Rapid (<= 4h)
+AZ,2.7,2. Sepsis Bundle (1 - 3h),3.14,1. Rapid (<= 4h)
+B,1.28,2. Sepsis Bundle (1 - 3h),2.21,1. Rapid (<= 4h)
+BA,0.01,1. Golden Hour (<= 1h),3.52,1. Rapid (<= 4h)
+BAA,2.42,2. Sepsis Bundle (1 - 3h),2.61,1. Rapid (<= 4h)
+BB,,Not Administered,,Not Admitted
+BBA,3.46,3. Delayed (> 3h),3.62,1. Rapid (<= 4h)
+BC,,Not Administered,,Not Admitted
+BCA,4.83,3. Delayed (> 3h),5.2,2. Standard (4 - 8h)
+BD,2.91,2. Sepsis Bundle (1 - 3h),3.22,1. Rapid (<= 4h)
+BDA,4.23,3. Delayed (> 3h),4.34,2. Standard (4 - 8h)
+BE,4.28,3. Delayed (> 3h),4.62,2. Standard (4 - 8h)
+BEA,0.32,1. Golden Hour (<= 1h),,Not Admitted
+BF,0.39,1. Golden Hour (<= 1h),3.28,1. Rapid (<= 4h)
+BFA,0.12,1. Golden Hour (<= 1h),2.16,1. Rapid (<= 4h)
+BG,,Not Administered,3.39,1. Rapid (<= 4h)
+BGA,1.95,2. Sepsis Bundle (1 - 3h),2.28,1. Rapid (<= 4h)
+BH,1.41,2. Sepsis Bundle (1 - 3h),3.37,1. Rapid (<= 4h)
+BHA,0.12,1. Golden Hour (<= 1h),4.23,2. Standard (4 - 8h)
+BI,3.3,3. Delayed (> 3h),4.08,2. Standard (4 - 8h)
+BIA,2.39,2. Sepsis Bundle (1 - 3h),2.5,1. Rapid (<= 4h)
+BJ,0.49,1. Golden Hour (<= 1h),1.55,1. Rapid (<= 4h)
+BJA,2.69,2. Sepsis Bundle (1 - 3h),2.78,1. Rapid (<= 4h)
+BK,0.16,1. Golden Hour (<= 1h),3.9,1. Rapid (<= 4h)
+BKA,3.29,3. Delayed (> 3h),3.43,1. Rapid (<= 4h)
+BL,2.33,2. Sepsis Bundle (1 - 3h),3.16,1. Rapid (<= 4h)
+BLA,2.21,2. Sepsis Bundle (1 - 3h),6.42,2. Standard (4 - 8h)
+BM,2.19,2. Sepsis Bundle (1 - 3h),2.88,1. Rapid (<= 4h)
+BMA,1.44,2. Sepsis Bundle (1 - 3h),5.4,2. Standard (4 - 8h)
+BN,3.39,3. Delayed (> 3h),3.44,1. Rapid (<= 4h)
+BNA,,Not Administered,2.29,1. Rapid (<= 4h)
+BO,,Not Administered,,Not Admitted
+BP,,Not Administered,4.51,2. Standard (4 - 8h)
+BQ,2.76,2. Sepsis Bundle (1 - 3h),2.84,1. Rapid (<= 4h)
+BR,0.56,1. Golden Hour (<= 1h),2.91,1. Rapid (<= 4h)
+BS,1.2,2. Sepsis Bundle (1 - 3h),2.72,1. Rapid (<= 4h)
+BT,1.97,2. Sepsis Bundle (1 - 3h),2.62,1. Rapid (<= 4h)
+BU,0.13,1. Golden Hour (<= 1h),2.66,1. Rapid (<= 4h)
+BV,3.24,3. Delayed (> 3h),3.46,1. Rapid (<= 4h)
+BW,0.17,1. Golden Hour (<= 1h),4.21,2. Standard (4 - 8h)
+BX,2.27,2. Sepsis Bundle (1 - 3h),3.06,1. Rapid (<= 4h)
+BY,,Not Administered,,Not Admitted
+BZ,5.87,3. Delayed (> 3h),5.94,2. Standard (4 - 8h)
+C,0.03,1. Golden Hour (<= 1h),3.4,1. Rapid (<= 4h)
+CA,0.11,1. Golden Hour (<= 1h),,Not Admitted
+CAA,0.9,1. Golden Hour (<= 1h),,Not Admitted
+CB,2.64,2. Sepsis Bundle (1 - 3h),2.81,1. Rapid (<= 4h)
+CBA,2.51,2. Sepsis Bundle (1 - 3h),2.59,1. Rapid (<= 4h)
+CC,0.02,1. Golden Hour (<= 1h),2.22,1. Rapid (<= 4h)
+CCA,3.3,3. Delayed (> 3h),,Not Admitted
+CD,5.39,3. Delayed (> 3h),,Not Admitted
+CDA,,Not Administered,,Not Admitted
+CE,1.64,2. Sepsis Bundle (1 - 3h),2.35,1. Rapid (<= 4h)
+CEA,0.91,1. Golden Hour (<= 1h),2.89,1. Rapid (<= 4h)
+CF,2.96,2. Sepsis Bundle (1 - 3h),3.04,1. Rapid (<= 4h)
+CFA,5.02,3. Delayed (> 3h),5.09,2. Standard (4 - 8h)
+CG,5.54,3. Delayed (> 3h),5.74,2. Standard (4 - 8h)
+CGA,1.39,2. Sepsis Bundle (1 - 3h),2.4,1. Rapid (<= 4h)
+CH,0.02,1. Golden Hour (<= 1h),4.06,2. Standard (4 - 8h)
+CHA,2.67,2. Sepsis Bundle (1 - 3h),3.79,1. Rapid (<= 4h)
+CI,0.26,1. Golden Hour (<= 1h),2.85,1. Rapid (<= 4h)
+CIA,,Not Administered,,Not Admitted
+CJ,2.73,2. Sepsis Bundle (1 - 3h),4.57,2. Standard (4 - 8h)
+CJA,,Not Administered,2.19,1. Rapid (<= 4h)
+CK,,Not Administered,,Not Admitted
+CKA,2.02,2. Sepsis Bundle (1 - 3h),2.15,1. Rapid (<= 4h)
+CL,,Not Administered,,Not Admitted
+CLA,2.91,2. Sepsis Bundle (1 - 3h),,Not Admitted
+CM,1.72,2. Sepsis Bundle (1 - 3h),4.87,2. Standard (4 - 8h)
+CMA,8.91,3. Delayed (> 3h),9.05,3. Prolonged (> 8h)
+CN,0.26,1. Golden Hour (<= 1h),3.96,1. Rapid (<= 4h)
+CNA,,Not Administered,3.33,1. Rapid (<= 4h)
+CO,0.02,1. Golden Hour (<= 1h),2.13,1. Rapid (<= 4h)
+CP,0.01,1. Golden Hour (<= 1h),4.57,2. Standard (4 - 8h)
+CQ,0.09,1. Golden Hour (<= 1h),3.81,1. Rapid (<= 4h)
+CR,4.71,3. Delayed (> 3h),4.89,2. Standard (4 - 8h)
+CS,1.61,2. Sepsis Bundle (1 - 3h),,Not Admitted
+CT,2.5,2. Sepsis Bundle (1 - 3h),2.55,1. Rapid (<= 4h)
+CU,,Not Administered,2.22,1. Rapid (<= 4h)
+CV,0.61,1. Golden Hour (<= 1h),4.04,2. Standard (4 - 8h)
+CW,0.01,1. Golden Hour (<= 1h),2.33,1. Rapid (<= 4h)
+CX,1.97,2. Sepsis Bundle (1 - 3h),4.21,2. Standard (4 - 8h)
+CY,1.62,2. Sepsis Bundle (1 - 3h),1.65,1. Rapid (<= 4h)
+CZ,4.07,3. Delayed (> 3h),5.19,2. Standard (4 - 8h)
+D,0.84,1. Golden Hour (<= 1h),2.25,1. Rapid (<= 4h)
+DA,2.47,2. Sepsis Bundle (1 - 3h),2.57,1. Rapid (<= 4h)
+DAA,0.26,1. Golden Hour (<= 1h),2.63,1. Rapid (<= 4h)
+DB,3.66,3. Delayed (> 3h),3.74,1. Rapid (<= 4h)
+DBA,0.64,1. Golden Hour (<= 1h),3.07,1. Rapid (<= 4h)
+DC,0.61,1. Golden Hour (<= 1h),1.8,1. Rapid (<= 4h)
+DCA,3.18,3. Delayed (> 3h),3.27,1. Rapid (<= 4h)
+DD,,Not Administered,2.56,1. Rapid (<= 4h)
+DDA,0.34,1. Golden Hour (<= 1h),3.81,1. Rapid (<= 4h)
+DE,,Not Administered,,Not Admitted
+DEA,3.87,3. Delayed (> 3h),4.09,2. Standard (4 - 8h)
+DF,,Not Administered,,Not Admitted
+DFA,,Not Administered,3.99,1. Rapid (<= 4h)
+DG,3.16,3. Delayed (> 3h),3.32,1. Rapid (<= 4h)
+DGA,0.07,1. Golden Hour (<= 1h),3.35,1. Rapid (<= 4h)
+DH,2.36,2. Sepsis Bundle (1 - 3h),2.55,1. Rapid (<= 4h)
+DHA,,Not Administered,2.4,1. Rapid (<= 4h)
+DI,2.78,2. Sepsis Bundle (1 - 3h),2.94,1. Rapid (<= 4h)
+DIA,,Not Administered,,Not Admitted
+DJ,0.13,1. Golden Hour (<= 1h),5.13,2. Standard (4 - 8h)
+DJA,,Not Administered,2.03,1. Rapid (<= 4h)
+DK,0.14,1. Golden Hour (<= 1h),2.11,1. Rapid (<= 4h)
+DKA,4.32,3. Delayed (> 3h),4.57,2. Standard (4 - 8h)
+DL,1.54,2. Sepsis Bundle (1 - 3h),2.55,1. Rapid (<= 4h)
+DLA,3.19,3. Delayed (> 3h),,Not Admitted
+DM,1.38,2. Sepsis Bundle (1 - 3h),,Not Admitted
+DMA,,Not Administered,,Not Admitted
+DN,,Not Administered,,Not Admitted
+DNA,2.61,2. Sepsis Bundle (1 - 3h),,Not Admitted
+DO,2.38,2. Sepsis Bundle (1 - 3h),2.58,1. Rapid (<= 4h)
+DP,0.46,1. Golden Hour (<= 1h),4.47,2. Standard (4 - 8h)
+DQ,1.22,2. Sepsis Bundle (1 - 3h),,Not Admitted
+DR,3.26,3. Delayed (> 3h),3.36,1. Rapid (<= 4h)
+DS,0.13,1. Golden Hour (<= 1h),1.61,1. Rapid (<= 4h)
+DT,,Not Administered,2.9,1. Rapid (<= 4h)
+DU,2.33,2. Sepsis Bundle (1 - 3h),2.48,1. Rapid (<= 4h)
+DV,1.7,2. Sepsis Bundle (1 - 3h),,Not Admitted
+DW,1.73,2. Sepsis Bundle (1 - 3h),4.4,2. Standard (4 - 8h)
+DX,2.22,2. Sepsis Bundle (1 - 3h),2.56,1. Rapid (<= 4h)
+DY,1.76,2. Sepsis Bundle (1 - 3h),1.87,1. Rapid (<= 4h)
+DZ,2.07,2. Sepsis Bundle (1 - 3h),3.44,1. Rapid (<= 4h)
+E,0.33,1. Golden Hour (<= 1h),,Not Admitted
+EA,3.76,3. Delayed (> 3h),4.01,2. Standard (4 - 8h)
+EAA,,Not Administered,3.91,1. Rapid (<= 4h)
+EB,4.06,3. Delayed (> 3h),,Not Admitted
+EBA,4.23,3. Delayed (> 3h),4.99,2. Standard (4 - 8h)
+EC,4.11,3. Delayed (> 3h),4.17,2. Standard (4 - 8h)
+ECA,3.29,3. Delayed (> 3h),3.45,1. Rapid (<= 4h)
+ED,1.16,2. Sepsis Bundle (1 - 3h),4.3,2. Standard (4 - 8h)
+EDA,1.48,2. Sepsis Bundle (1 - 3h),2.26,1. Rapid (<= 4h)
+EE,,Not Administered,2.83,1. Rapid (<= 4h)
+EEA,0.58,1. Golden Hour (<= 1h),2.44,1. Rapid (<= 4h)
+EF,0.01,1. Golden Hour (<= 1h),3.22,1. Rapid (<= 4h)
+EFA,,Not Administered,,Not Admitted
+EG,,Not Administered,,Not Admitted
+EGA,2.17,2. Sepsis Bundle (1 - 3h),2.24,1. Rapid (<= 4h)
+EH,2.78,2. Sepsis Bundle (1 - 3h),2.91,1. Rapid (<= 4h)
+EHA,1.37,2. Sepsis Bundle (1 - 3h),3.96,1. Rapid (<= 4h)
+EI,5.41,3. Delayed (> 3h),5.44,2. Standard (4 - 8h)
+EIA,2.5,2. Sepsis Bundle (1 - 3h),2.6,1. Rapid (<= 4h)
+EJ,3.13,3. Delayed (> 3h),3.18,1. Rapid (<= 4h)
+EJA,0.02,1. Golden Hour (<= 1h),2.87,1. Rapid (<= 4h)
+EK,2.86,2. Sepsis Bundle (1 - 3h),3.04,1. Rapid (<= 4h)
+EKA,0.49,1. Golden Hour (<= 1h),5.42,2. Standard (4 - 8h)
+EL,0.88,1. Golden Hour (<= 1h),2.55,1. Rapid (<= 4h)
+ELA,0.22,1. Golden Hour (<= 1h),2.38,1. Rapid (<= 4h)
+EM,2.07,2. Sepsis Bundle (1 - 3h),3.22,1. Rapid (<= 4h)
+EMA,0.86,1. Golden Hour (<= 1h),1.97,1. Rapid (<= 4h)
+EN,6.16,3. Delayed (> 3h),,Not Admitted
+ENA,,Not Administered,,Not Admitted
+EO,0.14,1. Golden Hour (<= 1h),4.98,2. Standard (4 - 8h)
+EP,3.34,3. Delayed (> 3h),,Not Admitted
+EQ,2.18,2. Sepsis Bundle (1 - 3h),2.22,1. Rapid (<= 4h)
+ER,0.9,1. Golden Hour (<= 1h),,Not Admitted
+ES,0.36,1. Golden Hour (<= 1h),3.89,1. Rapid (<= 4h)
+ET,3.83,3. Delayed (> 3h),3.89,1. Rapid (<= 4h)
+EU,0.18,1. Golden Hour (<= 1h),4.28,2. Standard (4 - 8h)
+EV,3.01,3. Delayed (> 3h),,Not Admitted
+EW,2.33,2. Sepsis Bundle (1 - 3h),2.58,1. Rapid (<= 4h)
+EX,0.18,1. Golden Hour (<= 1h),3.18,1. Rapid (<= 4h)
+EY,4.35,3. Delayed (> 3h),4.57,2. Standard (4 - 8h)
+EZ,,Not Administered,,Not Admitted
+F,3.06,3. Delayed (> 3h),3.1,1. Rapid (<= 4h)
+FA,5.76,3. Delayed (> 3h),,Not Admitted
+FAA,2.68,2. Sepsis Bundle (1 - 3h),2.84,1. Rapid (<= 4h)
+FB,0.29,1. Golden Hour (<= 1h),,Not Admitted
+FBA,,Not Administered,2.26,1. Rapid (<= 4h)
+FC,,Not Administered,3.34,1. Rapid (<= 4h)
+FCA,0.5,1. Golden Hour (<= 1h),2.6,1. Rapid (<= 4h)
+FD,1.38,2. Sepsis Bundle (1 - 3h),,Not Admitted
+FDA,2.57,2. Sepsis Bundle (1 - 3h),2.66,1. Rapid (<= 4h)
+FE,,Not Administered,5.95,2. Standard (4 - 8h)
+FEA,0.27,1. Golden Hour (<= 1h),4.05,2. Standard (4 - 8h)
+FF,5.65,3. Delayed (> 3h),,Not Admitted
+FFA,,Not Administered,,Not Admitted
+FG,0.03,1. Golden Hour (<= 1h),2.82,1. Rapid (<= 4h)
+FGA,4.51,3. Delayed (> 3h),4.57,2. Standard (4 - 8h)
+FH,3.99,3. Delayed (> 3h),4.04,2. Standard (4 - 8h)
+FHA,2.1,2. Sepsis Bundle (1 - 3h),2.75,1. Rapid (<= 4h)
+FI,3.12,3. Delayed (> 3h),,Not Admitted
+FIA,,Not Administered,3.17,1. Rapid (<= 4h)
+FJ,0.97,1. Golden Hour (<= 1h),4.1,2. Standard (4 - 8h)
+FJA,4.2,3. Delayed (> 3h),4.37,2. Standard (4 - 8h)
+FK,0.03,1. Golden Hour (<= 1h),3.07,1. Rapid (<= 4h)
+FKA,,Not Administered,5.41,2. Standard (4 - 8h)
+FL,26.81,3. Delayed (> 3h),5.06,2. Standard (4 - 8h)
+FLA,,Not Administered,,Not Admitted
+FM,0.59,1. Golden Hour (<= 1h),3.5,1. Rapid (<= 4h)
+FMA,1.85,2. Sepsis Bundle (1 - 3h),1.98,1. Rapid (<= 4h)
+FN,0.62,1. Golden Hour (<= 1h),3.17,1. Rapid (<= 4h)
+FNA,3.09,3. Delayed (> 3h),3.29,1. Rapid (<= 4h)
+FO,0.02,1. Golden Hour (<= 1h),2.01,1. Rapid (<= 4h)
+FP,2.19,2. Sepsis Bundle (1 - 3h),,Not Admitted
+FQ,,Not Administered,1.49,1. Rapid (<= 4h)
+FR,3.34,3. Delayed (> 3h),3.45,1. Rapid (<= 4h)
+FS,,Not Administered,,Not Admitted
+FT,1.74,2. Sepsis Bundle (1 - 3h),1.79,1. Rapid (<= 4h)
+FU,,Not Administered,3.05,1. Rapid (<= 4h)
+FV,0.16,1. Golden Hour (<= 1h),,Not Admitted
+FW,0.76,1. Golden Hour (<= 1h),3.16,1. Rapid (<= 4h)
+FX,3.52,3. Delayed (> 3h),3.91,1. Rapid (<= 4h)
+FY,1.29,2. Sepsis Bundle (1 - 3h),5.82,2. Standard (4 - 8h)
+FZ,2.75,2. Sepsis Bundle (1 - 3h),2.99,1. Rapid (<= 4h)
+G,0.44,1. Golden Hour (<= 1h),4.66,2. Standard (4 - 8h)
+GA,0.35,1. Golden Hour (<= 1h),3.57,1. Rapid (<= 4h)
+GAA,3.08,3. Delayed (> 3h),3.66,1. Rapid (<= 4h)
+GB,0.25,1. Golden Hour (<= 1h),2.06,1. Rapid (<= 4h)
+GBA,1.76,2. Sepsis Bundle (1 - 3h),4.77,2. Standard (4 - 8h)
+GC,0.27,1. Golden Hour (<= 1h),2.1,1. Rapid (<= 4h)
+GCA,3.32,3. Delayed (> 3h),3.49,1. Rapid (<= 4h)
+GD,3.59,3. Delayed (> 3h),3.65,1. Rapid (<= 4h)
+GDA,,Not Administered,1.93,1. Rapid (<= 4h)
+GE,0.41,1. Golden Hour (<= 1h),3.39,1. Rapid (<= 4h)
+GEA,2.98,2. Sepsis Bundle (1 - 3h),3.54,1. Rapid (<= 4h)
+GF,2.23,2. Sepsis Bundle (1 - 3h),2.29,1. Rapid (<= 4h)
+GFA,4.33,3. Delayed (> 3h),4.7,2. Standard (4 - 8h)
+GG,,Not Administered,4.75,2. Standard (4 - 8h)
+GGA,1.73,2. Sepsis Bundle (1 - 3h),,Not Admitted
+GH,1.58,2. Sepsis Bundle (1 - 3h),,Not Admitted
+GHA,3.85,3. Delayed (> 3h),3.94,1. Rapid (<= 4h)
+GI,2.15,2. Sepsis Bundle (1 - 3h),6.36,2. Standard (4 - 8h)
+GIA,0.39,1. Golden Hour (<= 1h),,Not Admitted
+GJ,0.21,1. Golden Hour (<= 1h),3.82,1. Rapid (<= 4h)
+GJA,0.43,1. Golden Hour (<= 1h),3.2,1. Rapid (<= 4h)
+GK,0.97,1. Golden Hour (<= 1h),3.88,1. Rapid (<= 4h)
+GKA,,Not Administered,,Not Admitted
+GL,2.36,2. Sepsis Bundle (1 - 3h),2.4,1. Rapid (<= 4h)
+GLA,0.24,1. Golden Hour (<= 1h),2.2,1. Rapid (<= 4h)
+GM,0.37,1. Golden Hour (<= 1h),3.43,1. Rapid (<= 4h)
+GMA,,Not Administered,3.59,1. Rapid (<= 4h)
+GN,2.32,2. Sepsis Bundle (1 - 3h),6.77,2. Standard (4 - 8h)
+GNA,0.82,1. Golden Hour (<= 1h),1.35,1. Rapid (<= 4h)
+GO,2.86,2. Sepsis Bundle (1 - 3h),3.04,1. Rapid (<= 4h)
+GP,2.24,2. Sepsis Bundle (1 - 3h),2.29,1. Rapid (<= 4h)
+GQ,2.95,2. Sepsis Bundle (1 - 3h),3.02,1. Rapid (<= 4h)
+GR,,Not Administered,,Not Admitted
+GS,,Not Administered,4.82,2. Standard (4 - 8h)
+GT,,Not Administered,4.19,2. Standard (4 - 8h)
+GU,1.41,2. Sepsis Bundle (1 - 3h),1.79,1. Rapid (<= 4h)
+GV,0.26,1. Golden Hour (<= 1h),5.04,2. Standard (4 - 8h)
+GW,0.16,1. Golden Hour (<= 1h),,Not Admitted
+GX,0.75,1. Golden Hour (<= 1h),2.44,1. Rapid (<= 4h)
+GY,0.22,1. Golden Hour (<= 1h),2.91,1. Rapid (<= 4h)
+GZ,,Not Administered,,Not Admitted
+H,,Not Administered,4.07,2. Standard (4 - 8h)
+HA,,Not Administered,3.22,1. Rapid (<= 4h)
+HAA,2.15,2. Sepsis Bundle (1 - 3h),2.25,1. Rapid (<= 4h)
+HB,1.19,2. Sepsis Bundle (1 - 3h),2.72,1. Rapid (<= 4h)
+HBA,8.0,3. Delayed (> 3h),8.12,3. Prolonged (> 8h)
+HC,,Not Administered,,Not Admitted
+HCA,0.2,1. Golden Hour (<= 1h),,Not Admitted
+HD,3.09,3. Delayed (> 3h),3.37,1. Rapid (<= 4h)
+HDA,0.28,1. Golden Hour (<= 1h),2.52,1. Rapid (<= 4h)
+HE,3.35,3. Delayed (> 3h),3.44,1. Rapid (<= 4h)
+HEA,2.59,2. Sepsis Bundle (1 - 3h),2.89,1. Rapid (<= 4h)
+HF,0.28,1. Golden Hour (<= 1h),3.73,1. Rapid (<= 4h)
+HFA,4.66,3. Delayed (> 3h),,Not Admitted
+HG,1.82,2. Sepsis Bundle (1 - 3h),1.9,1. Rapid (<= 4h)
+HGA,5.4,3. Delayed (> 3h),5.5,2. Standard (4 - 8h)
+HH,1.96,2. Sepsis Bundle (1 - 3h),3.35,1. Rapid (<= 4h)
+HHA,1.68,2. Sepsis Bundle (1 - 3h),1.77,1. Rapid (<= 4h)
+HI,,Not Administered,3.61,1. Rapid (<= 4h)
+HIA,0.45,1. Golden Hour (<= 1h),6.27,2. Standard (4 - 8h)
+HJ,1.17,2. Sepsis Bundle (1 - 3h),3.49,1. Rapid (<= 4h)
+HJA,2.23,2. Sepsis Bundle (1 - 3h),2.35,1. Rapid (<= 4h)
+HK,2.19,2. Sepsis Bundle (1 - 3h),2.28,1. Rapid (<= 4h)
+HKA,2.78,2. Sepsis Bundle (1 - 3h),2.96,1. Rapid (<= 4h)
+HL,2.58,2. Sepsis Bundle (1 - 3h),2.85,1. Rapid (<= 4h)
+HLA,1.6,2. Sepsis Bundle (1 - 3h),1.67,1. Rapid (<= 4h)
+HM,,Not Administered,0.88,1. Rapid (<= 4h)
+HMA,,Not Administered,,Not Admitted
+HN,2.52,2. Sepsis Bundle (1 - 3h),2.65,1. Rapid (<= 4h)
+HNA,1.74,2. Sepsis Bundle (1 - 3h),1.83,1. Rapid (<= 4h)
+HO,3.13,3. Delayed (> 3h),3.48,1. Rapid (<= 4h)
+HP,,Not Administered,1.85,1. Rapid (<= 4h)
+HQ,5.33,3. Delayed (> 3h),5.4,2. Standard (4 - 8h)
+HR,0.27,1. Golden Hour (<= 1h),3.94,1. Rapid (<= 4h)
+HS,1.46,2. Sepsis Bundle (1 - 3h),9.67,3. Prolonged (> 8h)
+HT,1.93,2. Sepsis Bundle (1 - 3h),2.98,1. Rapid (<= 4h)
+HU,,Not Administered,,Not Admitted
+HV,0.08,1. Golden Hour (<= 1h),2.19,1. Rapid (<= 4h)
+HW,,Not Administered,,Not Admitted
+HX,1.72,2. Sepsis Bundle (1 - 3h),1.77,1. Rapid (<= 4h)
+HY,2.1,2. Sepsis Bundle (1 - 3h),4.84,2. Standard (4 - 8h)
+HZ,3.33,3. Delayed (> 3h),3.16,1. Rapid (<= 4h)
+I,0.01,1. Golden Hour (<= 1h),1.6,1. Rapid (<= 4h)
+IA,0.32,1. Golden Hour (<= 1h),,Not Admitted
+IAA,,Not Administered,5.21,2. Standard (4 - 8h)
+IB,0.03,1. Golden Hour (<= 1h),2.83,1. Rapid (<= 4h)
+IBA,0.27,1. Golden Hour (<= 1h),2.21,1. Rapid (<= 4h)
+IC,3.72,3. Delayed (> 3h),3.92,1. Rapid (<= 4h)
+ICA,,Not Administered,,Not Admitted
+ID,,Not Administered,,Not Admitted
+IDA,1.16,2. Sepsis Bundle (1 - 3h),2.99,1. Rapid (<= 4h)
+IE,,Not Administered,4.47,2. Standard (4 - 8h)
+IEA,0.12,1. Golden Hour (<= 1h),2.66,1. Rapid (<= 4h)
+IF,2.69,2. Sepsis Bundle (1 - 3h),2.93,1. Rapid (<= 4h)
+IFA,2.7,2. Sepsis Bundle (1 - 3h),,Not Admitted
+IG,,Not Administered,2.5,1. Rapid (<= 4h)
+IGA,3.15,3. Delayed (> 3h),3.27,1. Rapid (<= 4h)
+IH,1.89,2. Sepsis Bundle (1 - 3h),2.56,1. Rapid (<= 4h)
+IHA,1.63,2. Sepsis Bundle (1 - 3h),3.11,1. Rapid (<= 4h)
+II,5.37,3. Delayed (> 3h),5.5,2. Standard (4 - 8h)
+IIA,0.59,1. Golden Hour (<= 1h),1.98,1. Rapid (<= 4h)
+IJ,3.35,3. Delayed (> 3h),3.54,1. Rapid (<= 4h)
+IJA,1.74,2. Sepsis Bundle (1 - 3h),3.9,1. Rapid (<= 4h)
+IK,,Not Administered,,Not Admitted
+IKA,0.87,1. Golden Hour (<= 1h),,Not Admitted
+IL,0.04,1. Golden Hour (<= 1h),2.56,1. Rapid (<= 4h)
+ILA,2.28,2. Sepsis Bundle (1 - 3h),4.01,2. Standard (4 - 8h)
+IM,3.77,3. Delayed (> 3h),3.85,1. Rapid (<= 4h)
+IMA,,Not Administered,,Not Admitted
+IN,1.26,2. Sepsis Bundle (1 - 3h),2.89,1. Rapid (<= 4h)
+INA,,Not Administered,,Not Admitted
+IO,4.16,3. Delayed (> 3h),4.45,2. Standard (4 - 8h)
+IP,3.74,3. Delayed (> 3h),3.8,1. Rapid (<= 4h)
+IQ,2.42,2. Sepsis Bundle (1 - 3h),2.66,1. Rapid (<= 4h)
+IR,0.37,1. Golden Hour (<= 1h),,Not Admitted
+IS,0.46,1. Golden Hour (<= 1h),3.39,1. Rapid (<= 4h)
+IT,1.49,2. Sepsis Bundle (1 - 3h),1.74,1. Rapid (<= 4h)
+IU,0.01,1. Golden Hour (<= 1h),3.75,1. Rapid (<= 4h)
+IV,3.07,3. Delayed (> 3h),,Not Admitted
+IW,0.3,1. Golden Hour (<= 1h),1.97,1. Rapid (<= 4h)
+IX,4.13,3. Delayed (> 3h),,Not Admitted
+IY,0.63,1. Golden Hour (<= 1h),2.83,1. Rapid (<= 4h)
+IZ,,Not Administered,2.66,1. Rapid (<= 4h)
+J,1.21,2. Sepsis Bundle (1 - 3h),3.4,1. Rapid (<= 4h)
+JA,0.11,1. Golden Hour (<= 1h),6.15,2. Standard (4 - 8h)
+JAA,,Not Administered,6.95,2. Standard (4 - 8h)
+JB,1.66,2. Sepsis Bundle (1 - 3h),,Not Admitted
+JBA,1.78,2. Sepsis Bundle (1 - 3h),,Not Admitted
+JC,0.04,1. Golden Hour (<= 1h),2.78,1. Rapid (<= 4h)
+JCA,3.28,3. Delayed (> 3h),3.5,1. Rapid (<= 4h)
+JD,3.39,3. Delayed (> 3h),3.59,1. Rapid (<= 4h)
+JDA,6.63,3. Delayed (> 3h),,Not Admitted
+JE,0.21,1. Golden Hour (<= 1h),3.73,1. Rapid (<= 4h)
+JEA,1.26,2. Sepsis Bundle (1 - 3h),2.07,1. Rapid (<= 4h)
+JF,3.36,3. Delayed (> 3h),,Not Admitted
+JFA,,Not Administered,4.5,2. Standard (4 - 8h)
+JG,0.88,1. Golden Hour (<= 1h),6.33,2. Standard (4 - 8h)
+JGA,,Not Administered,3.49,1. Rapid (<= 4h)
+JH,0.33,1. Golden Hour (<= 1h),2.23,1. Rapid (<= 4h)
+JHA,,Not Administered,3.64,1. Rapid (<= 4h)
+JI,0.42,1. Golden Hour (<= 1h),,Not Admitted
+JIA,1.53,2. Sepsis Bundle (1 - 3h),,Not Admitted
+JJ,2.32,2. Sepsis Bundle (1 - 3h),3.59,1. Rapid (<= 4h)
+JJA,,Not Administered,4.99,2. Standard (4 - 8h)
+JK,0.23,1. Golden Hour (<= 1h),2.67,1. Rapid (<= 4h)
+JKA,1.46,2. Sepsis Bundle (1 - 3h),3.13,1. Rapid (<= 4h)
+JL,4.26,3. Delayed (> 3h),4.35,2. Standard (4 - 8h)
+JLA,1.2,2. Sepsis Bundle (1 - 3h),2.03,1. Rapid (<= 4h)
+JM,,Not Administered,4.48,2. Standard (4 - 8h)
+JMA,0.2,1. Golden Hour (<= 1h),4.43,2. Standard (4 - 8h)
+JN,0.18,1. Golden Hour (<= 1h),2.56,1. Rapid (<= 4h)
+JNA,,Not Administered,,Not Admitted
+JO,2.24,2. Sepsis Bundle (1 - 3h),5.79,2. Standard (4 - 8h)
+JP,,Not Administered,,Not Admitted
+JQ,2.38,2. Sepsis Bundle (1 - 3h),2.89,1. Rapid (<= 4h)
+JR,2.33,2. Sepsis Bundle (1 - 3h),2.42,1. Rapid (<= 4h)
+JS,1.52,2. Sepsis Bundle (1 - 3h),4.26,2. Standard (4 - 8h)
+JT,1.9,2. Sepsis Bundle (1 - 3h),3.87,1. Rapid (<= 4h)
+JU,0.01,1. Golden Hour (<= 1h),2.94,1. Rapid (<= 4h)
+JV,0.23,1. Golden Hour (<= 1h),2.85,1. Rapid (<= 4h)
+JW,3.11,3. Delayed (> 3h),3.28,1. Rapid (<= 4h)
+JX,0.51,1. Golden Hour (<= 1h),3.36,1. Rapid (<= 4h)
+JY,2.86,2. Sepsis Bundle (1 - 3h),3.6,1. Rapid (<= 4h)
+JZ,6.66,3. Delayed (> 3h),,Not Admitted
+K,2.69,2. Sepsis Bundle (1 - 3h),3.11,1. Rapid (<= 4h)
+KA,0.12,1. Golden Hour (<= 1h),2.39,1. Rapid (<= 4h)
+KAA,,Not Administered,1.73,1. Rapid (<= 4h)
+KB,0.35,1. Golden Hour (<= 1h),4.14,2. Standard (4 - 8h)
+KBA,1.16,2. Sepsis Bundle (1 - 3h),4.33,2. Standard (4 - 8h)
+KC,0.66,1. Golden Hour (<= 1h),2.83,1. Rapid (<= 4h)
+KCA,1.9,2. Sepsis Bundle (1 - 3h),3.57,1. Rapid (<= 4h)
+KD,0.55,1. Golden Hour (<= 1h),2.68,1. Rapid (<= 4h)
+KDA,,Not Administered,,Not Admitted
+KE,0.57,1. Golden Hour (<= 1h),6.28,2. Standard (4 - 8h)
+KEA,1.09,2. Sepsis Bundle (1 - 3h),,Not Admitted
+KF,3.32,3. Delayed (> 3h),4.52,2. Standard (4 - 8h)
+KFA,4.32,3. Delayed (> 3h),4.5,2. Standard (4 - 8h)
+KG,1.63,2. Sepsis Bundle (1 - 3h),3.92,1. Rapid (<= 4h)
+KGA,,Not Administered,3.23,1. Rapid (<= 4h)
+KH,0.45,1. Golden Hour (<= 1h),3.95,1. Rapid (<= 4h)
+KHA,0.16,1. Golden Hour (<= 1h),2.94,1. Rapid (<= 4h)
+KI,0.32,1. Golden Hour (<= 1h),2.19,1. Rapid (<= 4h)
+KIA,0.8,1. Golden Hour (<= 1h),3.09,1. Rapid (<= 4h)
+KJ,2.06,2. Sepsis Bundle (1 - 3h),3.18,1. Rapid (<= 4h)
+KJA,,Not Administered,,Not Admitted
+KK,0.68,1. Golden Hour (<= 1h),5.38,2. Standard (4 - 8h)
+KKA,1.05,2. Sepsis Bundle (1 - 3h),1.16,1. Rapid (<= 4h)
+KL,,Not Administered,,Not Admitted
+KLA,2.53,2. Sepsis Bundle (1 - 3h),4.68,2. Standard (4 - 8h)
+KM,1.58,2. Sepsis Bundle (1 - 3h),2.06,1. Rapid (<= 4h)
+KMA,3.22,3. Delayed (> 3h),4.41,2. Standard (4 - 8h)
+KN,4.12,3. Delayed (> 3h),4.47,2. Standard (4 - 8h)
+KNA,5.18,3. Delayed (> 3h),5.63,2. Standard (4 - 8h)
+KO,1.91,2. Sepsis Bundle (1 - 3h),2.05,1. Rapid (<= 4h)
+KP,2.54,2. Sepsis Bundle (1 - 3h),5.45,2. Standard (4 - 8h)
+KQ,,Not Administered,3.9,1. Rapid (<= 4h)
+KR,3.63,3. Delayed (> 3h),4.03,2. Standard (4 - 8h)
+KS,0.85,1. Golden Hour (<= 1h),4.06,2. Standard (4 - 8h)
+KT,2.23,2. Sepsis Bundle (1 - 3h),2.46,1. Rapid (<= 4h)
+KU,0.28,1. Golden Hour (<= 1h),,Not Admitted
+KV,,Not Administered,3.77,1. Rapid (<= 4h)
+KW,1.5,2. Sepsis Bundle (1 - 3h),1.6,1. Rapid (<= 4h)
+KX,,Not Administered,0.66,1. Rapid (<= 4h)
+KY,,Not Administered,,Not Admitted
+KZ,3.42,3. Delayed (> 3h),3.63,1. Rapid (<= 4h)
+L,3.17,3. Delayed (> 3h),3.79,1. Rapid (<= 4h)
+LA,,Not Administered,,Not Admitted
+LAA,0.91,1. Golden Hour (<= 1h),,Not Admitted
+LB,1.18,2. Sepsis Bundle (1 - 3h),2.44,1. Rapid (<= 4h)
+LBA,0.22,1. Golden Hour (<= 1h),3.17,1. Rapid (<= 4h)
+LC,2.14,2. Sepsis Bundle (1 - 3h),2.39,1. Rapid (<= 4h)
+LCA,2.87,2. Sepsis Bundle (1 - 3h),,Not Admitted
+LD,3.66,3. Delayed (> 3h),6.05,2. Standard (4 - 8h)
+LDA,0.02,1. Golden Hour (<= 1h),2.15,1. Rapid (<= 4h)
+LE,0.8,1. Golden Hour (<= 1h),6.68,2. Standard (4 - 8h)
+LEA,1.81,2. Sepsis Bundle (1 - 3h),1.88,1. Rapid (<= 4h)
+LF,,Not Administered,,Not Admitted
+LFA,1.26,2. Sepsis Bundle (1 - 3h),3.28,1. Rapid (<= 4h)
+LG,4.27,3. Delayed (> 3h),4.43,2. Standard (4 - 8h)
+LGA,5.19,3. Delayed (> 3h),4.11,2. Standard (4 - 8h)
+LH,,Not Administered,6.53,2. Standard (4 - 8h)
+LHA,0.5,1. Golden Hour (<= 1h),4.72,2. Standard (4 - 8h)
+LI,2.63,2. Sepsis Bundle (1 - 3h),2.72,1. Rapid (<= 4h)
+LIA,0.89,1. Golden Hour (<= 1h),1.19,1. Rapid (<= 4h)
+LJ,1.21,2. Sepsis Bundle (1 - 3h),3.85,1. Rapid (<= 4h)
+LJA,2.26,2. Sepsis Bundle (1 - 3h),,Not Admitted
+LK,1.07,2. Sepsis Bundle (1 - 3h),2.15,1. Rapid (<= 4h)
+LKA,2.74,2. Sepsis Bundle (1 - 3h),2.81,1. Rapid (<= 4h)
+LL,0.43,1. Golden Hour (<= 1h),2.75,1. Rapid (<= 4h)
+LLA,,Not Administered,,Not Admitted
+LM,5.2,3. Delayed (> 3h),5.39,2. Standard (4 - 8h)
+LMA,,Not Administered,2.78,1. Rapid (<= 4h)
+LN,0.01,1. Golden Hour (<= 1h),4.88,2. Standard (4 - 8h)
+LNA,,Not Administered,,Not Admitted
+LO,2.72,2. Sepsis Bundle (1 - 3h),,Not Admitted
+LP,2.0,2. Sepsis Bundle (1 - 3h),2.92,1. Rapid (<= 4h)
+LQ,2.87,2. Sepsis Bundle (1 - 3h),2.9,1. Rapid (<= 4h)
+LR,1.17,2. Sepsis Bundle (1 - 3h),1.58,1. Rapid (<= 4h)
+LS,0.76,1. Golden Hour (<= 1h),2.13,1. Rapid (<= 4h)
+LT,0.86,1. Golden Hour (<= 1h),2.38,1. Rapid (<= 4h)
+LU,2.73,2. Sepsis Bundle (1 - 3h),2.78,1. Rapid (<= 4h)
+LV,,Not Administered,2.44,1. Rapid (<= 4h)
+LW,4.33,3. Delayed (> 3h),4.67,2. Standard (4 - 8h)
+LX,3.83,3. Delayed (> 3h),4.01,2. Standard (4 - 8h)
+LY,,Not Administered,,Not Admitted
+LZ,0.02,1. Golden Hour (<= 1h),4.8,2. Standard (4 - 8h)
+M,,Not Administered,,Not Admitted
+MA,3.18,3. Delayed (> 3h),3.26,1. Rapid (<= 4h)
+MAA,,Not Administered,2.56,1. Rapid (<= 4h)
+MB,,Not Administered,,Not Admitted
+MBA,0.02,1. Golden Hour (<= 1h),3.83,1. Rapid (<= 4h)
+MC,4.31,3. Delayed (> 3h),4.7,2. Standard (4 - 8h)
+MCA,,Not Administered,,Not Admitted
+MD,2.47,2. Sepsis Bundle (1 - 3h),2.51,1. Rapid (<= 4h)
+MDA,1.27,2. Sepsis Bundle (1 - 3h),2.93,1. Rapid (<= 4h)
+ME,0.48,1. Golden Hour (<= 1h),1.94,1. Rapid (<= 4h)
+MEA,0.34,1. Golden Hour (<= 1h),3.7,1. Rapid (<= 4h)
+MF,,Not Administered,,Not Admitted
+MFA,0.52,1. Golden Hour (<= 1h),2.73,1. Rapid (<= 4h)
+MG,,Not Administered,,Not Admitted
+MGA,0.01,1. Golden Hour (<= 1h),3.25,1. Rapid (<= 4h)
+MH,,Not Administered,,Not Admitted
+MHA,8.05,3. Delayed (> 3h),8.16,3. Prolonged (> 8h)
+MI,1.37,2. Sepsis Bundle (1 - 3h),,Not Admitted
+MIA,0.11,1. Golden Hour (<= 1h),2.21,1. Rapid (<= 4h)
+MJ,1.59,2. Sepsis Bundle (1 - 3h),4.01,2. Standard (4 - 8h)
+MJA,4.72,3. Delayed (> 3h),,Not Admitted
+MK,1.45,2. Sepsis Bundle (1 - 3h),1.52,1. Rapid (<= 4h)
+MKA,0.77,1. Golden Hour (<= 1h),4.23,2. Standard (4 - 8h)
+ML,0.27,1. Golden Hour (<= 1h),3.83,1. Rapid (<= 4h)
+MLA,,Not Administered,,Not Admitted
+MM,,Not Administered,2.61,1. Rapid (<= 4h)
+MMA,1.0,2. Sepsis Bundle (1 - 3h),,Not Admitted
+MN,,Not Administered,3.71,1. Rapid (<= 4h)
+MO,4.44,3. Delayed (> 3h),4.43,2. Standard (4 - 8h)
+MP,0.09,1. Golden Hour (<= 1h),2.65,1. Rapid (<= 4h)
+MQ,2.54,2. Sepsis Bundle (1 - 3h),2.6,1. Rapid (<= 4h)
+MR,0.57,1. Golden Hour (<= 1h),2.94,1. Rapid (<= 4h)
+MS,0.16,1. Golden Hour (<= 1h),2.82,1. Rapid (<= 4h)
+MT,1.43,2. Sepsis Bundle (1 - 3h),2.6,1. Rapid (<= 4h)
+MU,0.38,1. Golden Hour (<= 1h),3.84,1. Rapid (<= 4h)
+MV,0.43,1. Golden Hour (<= 1h),4.16,2. Standard (4 - 8h)
+MW,0.2,1. Golden Hour (<= 1h),2.3,1. Rapid (<= 4h)
+MX,1.47,2. Sepsis Bundle (1 - 3h),2.71,1. Rapid (<= 4h)
+MY,,Not Administered,,Not Admitted
+MZ,2.87,2. Sepsis Bundle (1 - 3h),4.2,2. Standard (4 - 8h)
+N,2.38,2. Sepsis Bundle (1 - 3h),2.44,1. Rapid (<= 4h)
+NA,0.07,1. Golden Hour (<= 1h),2.87,1. Rapid (<= 4h)
+NAA,,Not Administered,,Not Admitted
+NB,2.27,2. Sepsis Bundle (1 - 3h),2.6,1. Rapid (<= 4h)
+NBA,,Not Administered,,Not Admitted
+NC,4.81,3. Delayed (> 3h),,Not Admitted
+NCA,0.84,1. Golden Hour (<= 1h),3.6,1. Rapid (<= 4h)
+ND,3.02,3. Delayed (> 3h),4.32,2. Standard (4 - 8h)
+NDA,0.69,1. Golden Hour (<= 1h),0.79,1. Rapid (<= 4h)
+NE,,Not Administered,,Not Admitted
+NEA,0.43,1. Golden Hour (<= 1h),0.59,1. Rapid (<= 4h)
+NF,1.73,2. Sepsis Bundle (1 - 3h),1.84,1. Rapid (<= 4h)
+NFA,1.14,2. Sepsis Bundle (1 - 3h),,Not Admitted
+NG,,Not Administered,,Not Admitted
+NGA,3.02,3. Delayed (> 3h),3.38,1. Rapid (<= 4h)
+NH,3.18,3. Delayed (> 3h),3.23,1. Rapid (<= 4h)
+NHA,3.6,3. Delayed (> 3h),5.06,2. Standard (4 - 8h)
+NI,2.31,2. Sepsis Bundle (1 - 3h),2.45,1. Rapid (<= 4h)
+NIA,2.78,2. Sepsis Bundle (1 - 3h),2.88,1. Rapid (<= 4h)
+NJ,1.32,2. Sepsis Bundle (1 - 3h),4.33,2. Standard (4 - 8h)
+NJA,1.78,2. Sepsis Bundle (1 - 3h),1.85,1. Rapid (<= 4h)
+NK,0.44,1. Golden Hour (<= 1h),4.38,2. Standard (4 - 8h)
+NKA,2.56,2. Sepsis Bundle (1 - 3h),2.6,1. Rapid (<= 4h)
+NL,,Not Administered,,Not Admitted
+NLA,,Not Administered,,Not Admitted
+NM,3.95,3. Delayed (> 3h),4.07,2. Standard (4 - 8h)
+NMA,0.04,1. Golden Hour (<= 1h),5.5,2. Standard (4 - 8h)
+NN,0.09,1. Golden Hour (<= 1h),2.79,1. Rapid (<= 4h)
+NO,2.4,2. Sepsis Bundle (1 - 3h),2.48,1. Rapid (<= 4h)
+NP,2.08,2. Sepsis Bundle (1 - 3h),2.21,1. Rapid (<= 4h)
+NQ,,Not Administered,,Not Admitted
+NR,0.01,1. Golden Hour (<= 1h),2.83,1. Rapid (<= 4h)
+NS,,Not Administered,,Not Admitted
+NT,0.01,1. Golden Hour (<= 1h),3.77,1. Rapid (<= 4h)
+NU,2.5,2. Sepsis Bundle (1 - 3h),2.74,1. Rapid (<= 4h)
+NV,0.35,1. Golden Hour (<= 1h),2.67,1. Rapid (<= 4h)
+NW,2.14,2. Sepsis Bundle (1 - 3h),4.73,2. Standard (4 - 8h)
+NX,1.61,2. Sepsis Bundle (1 - 3h),2.7,1. Rapid (<= 4h)
+NY,3.21,3. Delayed (> 3h),,Not Admitted
+NZ,5.29,3. Delayed (> 3h),5.82,2. Standard (4 - 8h)
+O,0.37,1. Golden Hour (<= 1h),3.4,1. Rapid (<= 4h)
+OA,0.01,1. Golden Hour (<= 1h),,Not Admitted
+OAA,2.61,2. Sepsis Bundle (1 - 3h),2.99,1. Rapid (<= 4h)
+OB,1.79,2. Sepsis Bundle (1 - 3h),5.49,2. Standard (4 - 8h)
+OBA,,Not Administered,3.65,1. Rapid (<= 4h)
+OC,0.1,1. Golden Hour (<= 1h),3.65,1. Rapid (<= 4h)
+OCA,,Not Administered,,Not Admitted
+OD,1.45,2. Sepsis Bundle (1 - 3h),1.72,1. Rapid (<= 4h)
+ODA,0.03,1. Golden Hour (<= 1h),4.91,2. Standard (4 - 8h)
+OE,,Not Administered,,Not Admitted
+OEA,5.04,3. Delayed (> 3h),5.12,2. Standard (4 - 8h)
+OF,,Not Administered,,Not Admitted
+OFA,4.45,3. Delayed (> 3h),,Not Admitted
+OG,,Not Administered,3.41,1. Rapid (<= 4h)
+OGA,3.59,3. Delayed (> 3h),3.83,1. Rapid (<= 4h)
+OH,2.62,2. Sepsis Bundle (1 - 3h),2.85,1. Rapid (<= 4h)
+OHA,0.17,1. Golden Hour (<= 1h),3.68,1. Rapid (<= 4h)
+OI,,Not Administered,,Not Admitted
+OIA,2.46,2. Sepsis Bundle (1 - 3h),3.04,1. Rapid (<= 4h)
+OJ,1.26,2. Sepsis Bundle (1 - 3h),2.28,1. Rapid (<= 4h)
+OJA,,Not Administered,,Not Admitted
+OK,2.83,2. Sepsis Bundle (1 - 3h),4.01,2. Standard (4 - 8h)
+OKA,2.53,2. Sepsis Bundle (1 - 3h),2.67,1. Rapid (<= 4h)
+OL,,Not Administered,5.6,2. Standard (4 - 8h)
+OLA,1.97,2. Sepsis Bundle (1 - 3h),3.1,1. Rapid (<= 4h)
+OM,3.08,3. Delayed (> 3h),3.24,1. Rapid (<= 4h)
+OMA,0.51,1. Golden Hour (<= 1h),3.35,1. Rapid (<= 4h)
+ON,0.85,1. Golden Hour (<= 1h),1.78,1. Rapid (<= 4h)
+OO,4.62,3. Delayed (> 3h),4.72,2. Standard (4 - 8h)
+OP,1.26,2. Sepsis Bundle (1 - 3h),,Not Admitted
+OQ,0.01,1. Golden Hour (<= 1h),4.54,2. Standard (4 - 8h)
+OR,1.45,2. Sepsis Bundle (1 - 3h),1.59,1. Rapid (<= 4h)
+OS,2.26,2. Sepsis Bundle (1 - 3h),2.32,1. Rapid (<= 4h)
+OT,1.72,2. Sepsis Bundle (1 - 3h),5.51,2. Standard (4 - 8h)
+OU,0.54,1. Golden Hour (<= 1h),2.57,1. Rapid (<= 4h)
+OV,3.01,3. Delayed (> 3h),3.09,1. Rapid (<= 4h)
+OW,3.09,3. Delayed (> 3h),3.42,1. Rapid (<= 4h)
+OX,0.53,1. Golden Hour (<= 1h),3.73,1. Rapid (<= 4h)
+OY,,Not Administered,2.22,1. Rapid (<= 4h)
+OZ,0.69,1. Golden Hour (<= 1h),,Not Admitted
+P,,Not Administered,,Not Admitted
+PA,,Not Administered,,Not Admitted
+PAA,2.11,2. Sepsis Bundle (1 - 3h),,Not Admitted
+PB,3.31,3. Delayed (> 3h),3.35,1. Rapid (<= 4h)
+PBA,0.19,1. Golden Hour (<= 1h),1.08,1. Rapid (<= 4h)
+PC,,Not Administered,,Not Admitted
+PCA,,Not Administered,3.28,1. Rapid (<= 4h)
+PD,0.01,1. Golden Hour (<= 1h),,Not Admitted
+PDA,2.54,2. Sepsis Bundle (1 - 3h),2.57,1. Rapid (<= 4h)
+PE,0.18,1. Golden Hour (<= 1h),,Not Admitted
+PEA,2.35,2. Sepsis Bundle (1 - 3h),2.91,1. Rapid (<= 4h)
+PF,3.86,3. Delayed (> 3h),3.92,1. Rapid (<= 4h)
+PFA,0.02,1. Golden Hour (<= 1h),3.15,1. Rapid (<= 4h)
+PG,0.0,1. Golden Hour (<= 1h),3.33,1. Rapid (<= 4h)
+PGA,0.21,1. Golden Hour (<= 1h),3.62,1. Rapid (<= 4h)
+PH,0.1,1. Golden Hour (<= 1h),,Not Admitted
+PHA,3.03,3. Delayed (> 3h),,Not Admitted
+PI,23.98,3. Delayed (> 3h),3.62,1. Rapid (<= 4h)
+PIA,3.12,3. Delayed (> 3h),3.27,1. Rapid (<= 4h)
+PJ,2.31,2. Sepsis Bundle (1 - 3h),3.45,1. Rapid (<= 4h)
+PJA,0.39,1. Golden Hour (<= 1h),,Not Admitted
+PK,2.8,2. Sepsis Bundle (1 - 3h),2.99,1. Rapid (<= 4h)
+PKA,1.13,2. Sepsis Bundle (1 - 3h),3.3,1. Rapid (<= 4h)
+PL,,Not Administered,,Not Admitted
+PLA,1.36,2. Sepsis Bundle (1 - 3h),4.24,2. Standard (4 - 8h)
+PM,0.77,1. Golden Hour (<= 1h),,Not Admitted
+PMA,4.15,3. Delayed (> 3h),4.22,2. Standard (4 - 8h)
+PN,,Not Administered,,Not Admitted
+PO,2.68,2. Sepsis Bundle (1 - 3h),2.74,1. Rapid (<= 4h)
+PP,,Not Administered,,Not Admitted
+PQ,,Not Administered,2.46,1. Rapid (<= 4h)
+PR,,Not Administered,3.58,1. Rapid (<= 4h)
+PS,2.17,2. Sepsis Bundle (1 - 3h),2.23,1. Rapid (<= 4h)
+PT,0.36,1. Golden Hour (<= 1h),2.26,1. Rapid (<= 4h)
+PU,0.38,1. Golden Hour (<= 1h),3.72,1. Rapid (<= 4h)
+PV,4.53,3. Delayed (> 3h),4.61,2. Standard (4 - 8h)
+PW,3.77,3. Delayed (> 3h),3.95,1. Rapid (<= 4h)
+PX,,Not Administered,,Not Admitted
+PY,3.48,3. Delayed (> 3h),,Not Admitted
+PZ,0.48,1. Golden Hour (<= 1h),2.79,1. Rapid (<= 4h)
+Q,,Not Administered,,Not Admitted
+QA,2.06,2. Sepsis Bundle (1 - 3h),2.79,1. Rapid (<= 4h)
+QAA,3.87,3. Delayed (> 3h),3.96,1. Rapid (<= 4h)
+QB,4.31,3. Delayed (> 3h),4.35,2. Standard (4 - 8h)
+QBA,0.16,1. Golden Hour (<= 1h),4.48,2. Standard (4 - 8h)
+QC,4.67,3. Delayed (> 3h),5.06,2. Standard (4 - 8h)
+QCA,2.76,2. Sepsis Bundle (1 - 3h),2.91,1. Rapid (<= 4h)
+QD,3.29,3. Delayed (> 3h),3.38,1. Rapid (<= 4h)
+QDA,,Not Administered,3.16,1. Rapid (<= 4h)
+QE,4.27,3. Delayed (> 3h),6.19,2. Standard (4 - 8h)
+QEA,1.14,2. Sepsis Bundle (1 - 3h),,Not Admitted
+QF,2.89,2. Sepsis Bundle (1 - 3h),3.15,1. Rapid (<= 4h)
+QFA,,Not Administered,3.51,1. Rapid (<= 4h)
+QG,1.76,2. Sepsis Bundle (1 - 3h),1.93,1. Rapid (<= 4h)
+QGA,5.81,3. Delayed (> 3h),,Not Admitted
+QH,,Not Administered,2.68,1. Rapid (<= 4h)
+QHA,0.57,1. Golden Hour (<= 1h),2.03,1. Rapid (<= 4h)
+QI,,Not Administered,3.15,1. Rapid (<= 4h)
+QIA,0.08,1. Golden Hour (<= 1h),3.31,1. Rapid (<= 4h)
+QJ,0.53,1. Golden Hour (<= 1h),2.69,1. Rapid (<= 4h)
+QJA,0.01,1. Golden Hour (<= 1h),,Not Admitted
+QK,0.81,1. Golden Hour (<= 1h),1.1,1. Rapid (<= 4h)
+QKA,2.37,2. Sepsis Bundle (1 - 3h),2.41,1. Rapid (<= 4h)
+QL,,Not Administered,,Not Admitted
+QLA,1.53,2. Sepsis Bundle (1 - 3h),,Not Admitted
+QM,4.18,3. Delayed (> 3h),4.3,2. Standard (4 - 8h)
+QMA,0.41,1. Golden Hour (<= 1h),4.37,2. Standard (4 - 8h)
+QN,0.22,1. Golden Hour (<= 1h),3.96,1. Rapid (<= 4h)
+QO,2.4,2. Sepsis Bundle (1 - 3h),3.84,1. Rapid (<= 4h)
+QP,2.26,2. Sepsis Bundle (1 - 3h),2.37,1. Rapid (<= 4h)
+QQ,1.18,2. Sepsis Bundle (1 - 3h),2.58,1. Rapid (<= 4h)
+QR,,Not Administered,,Not Admitted
+QS,1.31,2. Sepsis Bundle (1 - 3h),5.87,2. Standard (4 - 8h)
+QT,3.46,3. Delayed (> 3h),3.63,1. Rapid (<= 4h)
+QU,3.17,3. Delayed (> 3h),4.41,2. Standard (4 - 8h)
+QV,0.48,1. Golden Hour (<= 1h),4.73,2. Standard (4 - 8h)
+QW,2.35,2. Sepsis Bundle (1 - 3h),2.71,1. Rapid (<= 4h)
+QX,1.26,2. Sepsis Bundle (1 - 3h),2.1,1. Rapid (<= 4h)
+QY,,Not Administered,6.17,2. Standard (4 - 8h)
+QZ,3.62,3. Delayed (> 3h),3.76,1. Rapid (<= 4h)
+R,,Not Administered,,Not Admitted
+RA,,Not Administered,,Not Admitted
+RAA,7.4,3. Delayed (> 3h),7.68,2. Standard (4 - 8h)
+RB,,Not Administered,2.71,1. Rapid (<= 4h)
+RBA,0.89,1. Golden Hour (<= 1h),2.31,1. Rapid (<= 4h)
+RC,3.21,3. Delayed (> 3h),5.33,2. Standard (4 - 8h)
+RCA,1.51,2. Sepsis Bundle (1 - 3h),1.55,1. Rapid (<= 4h)
+RD,4.19,3. Delayed (> 3h),,Not Admitted
+RDA,1.53,2. Sepsis Bundle (1 - 3h),,Not Admitted
+RE,0.37,1. Golden Hour (<= 1h),,Not Admitted
+REA,,Not Administered,,Not Admitted
+RF,0.42,1. Golden Hour (<= 1h),3.9,1. Rapid (<= 4h)
+RFA,0.01,1. Golden Hour (<= 1h),2.64,1. Rapid (<= 4h)
+RG,,Not Administered,3.22,1. Rapid (<= 4h)
+RGA,3.33,3. Delayed (> 3h),3.66,1. Rapid (<= 4h)
+RH,,Not Administered,,Not Admitted
+RHA,,Not Administered,3.2,1. Rapid (<= 4h)
+RI,2.89,2. Sepsis Bundle (1 - 3h),3.17,1. Rapid (<= 4h)
+RIA,1.99,2. Sepsis Bundle (1 - 3h),2.35,1. Rapid (<= 4h)
+RJ,4.7,3. Delayed (> 3h),,Not Admitted
+RJA,3.51,3. Delayed (> 3h),,Not Admitted
+RK,0.35,1. Golden Hour (<= 1h),2.87,1. Rapid (<= 4h)
+RKA,,Not Administered,2.58,1. Rapid (<= 4h)
+RL,,Not Administered,2.83,1. Rapid (<= 4h)
+RLA,3.82,3. Delayed (> 3h),4.0,2. Standard (4 - 8h)
+RM,,Not Administered,2.95,1. Rapid (<= 4h)
+RN,2.22,2. Sepsis Bundle (1 - 3h),2.61,1. Rapid (<= 4h)
+RO,0.67,1. Golden Hour (<= 1h),2.87,1. Rapid (<= 4h)
+RP,,Not Administered,3.2,1. Rapid (<= 4h)
+RQ,0.24,1. Golden Hour (<= 1h),,Not Admitted
+RR,0.35,1. Golden Hour (<= 1h),2.55,1. Rapid (<= 4h)
+RS,2.48,2. Sepsis Bundle (1 - 3h),2.65,1. Rapid (<= 4h)
+RT,0.55,1. Golden Hour (<= 1h),2.32,1. Rapid (<= 4h)
+RU,3.91,3. Delayed (> 3h),4.21,2. Standard (4 - 8h)
+RV,,Not Administered,,Not Admitted
+RW,0.75,1. Golden Hour (<= 1h),3.91,1. Rapid (<= 4h)
+RX,,Not Administered,,Not Admitted
+RY,3.39,3. Delayed (> 3h),4.6,2. Standard (4 - 8h)
+RZ,3.42,3. Delayed (> 3h),3.55,1. Rapid (<= 4h)
+S,2.15,2. Sepsis Bundle (1 - 3h),3.13,1. Rapid (<= 4h)
+SA,0.84,1. Golden Hour (<= 1h),3.99,1. Rapid (<= 4h)
+SAA,,Not Administered,4.05,2. Standard (4 - 8h)
+SB,0.01,1. Golden Hour (<= 1h),2.15,1. Rapid (<= 4h)
+SBA,3.14,3. Delayed (> 3h),3.77,1. Rapid (<= 4h)
+SC,0.62,1. Golden Hour (<= 1h),,Not Admitted
+SCA,0.62,1. Golden Hour (<= 1h),2.11,1. Rapid (<= 4h)
+SD,4.02,3. Delayed (> 3h),4.21,2. Standard (4 - 8h)
+SDA,3.78,3. Delayed (> 3h),4.1,2. Standard (4 - 8h)
+SE,0.65,1. Golden Hour (<= 1h),3.54,1. Rapid (<= 4h)
+SEA,0.27,1. Golden Hour (<= 1h),2.68,1. Rapid (<= 4h)
+SF,0.03,1. Golden Hour (<= 1h),3.33,1. Rapid (<= 4h)
+SFA,1.37,2. Sepsis Bundle (1 - 3h),3.06,1. Rapid (<= 4h)
+SG,,Not Administered,,Not Admitted
+SGA,4.16,3. Delayed (> 3h),4.26,2. Standard (4 - 8h)
+SH,3.66,3. Delayed (> 3h),3.81,1. Rapid (<= 4h)
+SHA,0.02,1. Golden Hour (<= 1h),2.1,1. Rapid (<= 4h)
+SI,0.23,1. Golden Hour (<= 1h),3.16,1. Rapid (<= 4h)
+SIA,0.05,1. Golden Hour (<= 1h),,Not Admitted
+SJ,4.85,3. Delayed (> 3h),4.86,2. Standard (4 - 8h)
+SJA,0.33,1. Golden Hour (<= 1h),3.06,1. Rapid (<= 4h)
+SK,0.49,1. Golden Hour (<= 1h),6.86,2. Standard (4 - 8h)
+SKA,,Not Administered,,Not Admitted
+SL,0.72,1. Golden Hour (<= 1h),3.73,1. Rapid (<= 4h)
+SLA,0.96,1. Golden Hour (<= 1h),3.02,1. Rapid (<= 4h)
+SM,0.45,1. Golden Hour (<= 1h),3.04,1. Rapid (<= 4h)
+SMA,0.43,1. Golden Hour (<= 1h),2.11,1. Rapid (<= 4h)
+SN,4.63,3. Delayed (> 3h),,Not Admitted
+SO,0.05,1. Golden Hour (<= 1h),0.77,1. Rapid (<= 4h)
+SP,,Not Administered,,Not Admitted
+SQ,,Not Administered,2.75,1. Rapid (<= 4h)
+SR,0.11,1. Golden Hour (<= 1h),1.53,1. Rapid (<= 4h)
+SS,2.35,2. Sepsis Bundle (1 - 3h),2.56,1. Rapid (<= 4h)
+ST,0.34,1. Golden Hour (<= 1h),3.53,1. Rapid (<= 4h)
+SU,4.2,3. Delayed (> 3h),4.31,2. Standard (4 - 8h)
+SV,4.36,3. Delayed (> 3h),4.42,2. Standard (4 - 8h)
+SW,0.04,1. Golden Hour (<= 1h),5.46,2. Standard (4 - 8h)
+SX,1.75,2. Sepsis Bundle (1 - 3h),5.04,2. Standard (4 - 8h)
+SY,0.12,1. Golden Hour (<= 1h),3.79,1. Rapid (<= 4h)
+SZ,6.09,3. Delayed (> 3h),,Not Admitted
+T,0.03,1. Golden Hour (<= 1h),2.53,1. Rapid (<= 4h)
+TA,,Not Administered,2.07,1. Rapid (<= 4h)
+TAA,2.73,2. Sepsis Bundle (1 - 3h),2.89,1. Rapid (<= 4h)
+TB,,Not Administered,4.75,2. Standard (4 - 8h)
+TBA,0.45,1. Golden Hour (<= 1h),2.52,1. Rapid (<= 4h)
+TC,0.02,1. Golden Hour (<= 1h),2.68,1. Rapid (<= 4h)
+TCA,1.03,2. Sepsis Bundle (1 - 3h),4.12,2. Standard (4 - 8h)
+TD,3.03,3. Delayed (> 3h),3.06,1. Rapid (<= 4h)
+TDA,0.02,1. Golden Hour (<= 1h),3.87,1. Rapid (<= 4h)
+TE,,Not Administered,,Not Admitted
+TEA,2.22,2. Sepsis Bundle (1 - 3h),2.67,1. Rapid (<= 4h)
+TF,,Not Administered,4.64,2. Standard (4 - 8h)
+TFA,,Not Administered,,Not Admitted
+TG,2.53,2. Sepsis Bundle (1 - 3h),2.91,1. Rapid (<= 4h)
+TGA,0.01,1. Golden Hour (<= 1h),4.74,2. Standard (4 - 8h)
+TH,0.86,1. Golden Hour (<= 1h),2.73,1. Rapid (<= 4h)
+THA,0.01,1. Golden Hour (<= 1h),3.6,1. Rapid (<= 4h)
+TI,,Not Administered,3.75,1. Rapid (<= 4h)
+TIA,,Not Administered,3.39,1. Rapid (<= 4h)
+TJ,0.06,1. Golden Hour (<= 1h),2.79,1. Rapid (<= 4h)
+TJA,1.43,2. Sepsis Bundle (1 - 3h),2.62,1. Rapid (<= 4h)
+TK,,Not Administered,,Not Admitted
+TKA,3.53,3. Delayed (> 3h),3.64,1. Rapid (<= 4h)
+TL,0.07,1. Golden Hour (<= 1h),5.21,2. Standard (4 - 8h)
+TLA,3.9,3. Delayed (> 3h),,Not Admitted
+TM,2.6,2. Sepsis Bundle (1 - 3h),,Not Admitted
+TMA,1.73,2. Sepsis Bundle (1 - 3h),5.1,2. Standard (4 - 8h)
+TN,24.06,3. Delayed (> 3h),5.53,2. Standard (4 - 8h)
+TO,2.54,2. Sepsis Bundle (1 - 3h),2.69,1. Rapid (<= 4h)
+TP,3.4,3. Delayed (> 3h),3.59,1. Rapid (<= 4h)
+TQ,0.5,1. Golden Hour (<= 1h),1.83,1. Rapid (<= 4h)
+TR,,Not Administered,2.91,1. Rapid (<= 4h)
+TS,2.2,2. Sepsis Bundle (1 - 3h),3.21,1. Rapid (<= 4h)
+TT,,Not Administered,,Not Admitted
+TU,,Not Administered,3.09,1. Rapid (<= 4h)
+TV,3.59,3. Delayed (> 3h),3.77,1. Rapid (<= 4h)
+TW,3.79,3. Delayed (> 3h),4.19,2. Standard (4 - 8h)
+TX,0.11,1. Golden Hour (<= 1h),2.23,1. Rapid (<= 4h)
+TY,,Not Administered,,Not Admitted
+TZ,1.1,2. Sepsis Bundle (1 - 3h),,Not Admitted
+U,,Not Administered,2.38,1. Rapid (<= 4h)
+UA,1.13,2. Sepsis Bundle (1 - 3h),3.92,1. Rapid (<= 4h)
+UAA,,Not Administered,,Not Admitted
+UB,0.16,1. Golden Hour (<= 1h),3.27,1. Rapid (<= 4h)
+UBA,1.99,2. Sepsis Bundle (1 - 3h),2.17,1. Rapid (<= 4h)
+UC,2.6,2. Sepsis Bundle (1 - 3h),2.76,1. Rapid (<= 4h)
+UCA,,Not Administered,,Not Admitted
+UD,4.3,3. Delayed (> 3h),4.46,2. Standard (4 - 8h)
+UDA,3.52,3. Delayed (> 3h),3.89,1. Rapid (<= 4h)
+UE,0.22,1. Golden Hour (<= 1h),3.52,1. Rapid (<= 4h)
+UEA,,Not Administered,,Not Admitted
+UF,1.61,2. Sepsis Bundle (1 - 3h),1.73,1. Rapid (<= 4h)
+UFA,3.29,3. Delayed (> 3h),,Not Admitted
+UG,2.16,2. Sepsis Bundle (1 - 3h),,Not Admitted
+UGA,1.55,2. Sepsis Bundle (1 - 3h),2.26,1. Rapid (<= 4h)
+UH,,Not Administered,,Not Admitted
+UHA,,Not Administered,,Not Admitted
+UI,1.52,2. Sepsis Bundle (1 - 3h),1.76,1. Rapid (<= 4h)
+UIA,0.43,1. Golden Hour (<= 1h),4.71,2. Standard (4 - 8h)
+UJ,2.15,2. Sepsis Bundle (1 - 3h),2.36,1. Rapid (<= 4h)
+UJA,0.02,1. Golden Hour (<= 1h),,Not Admitted
+UK,,Not Administered,5.4,2. Standard (4 - 8h)
+UKA,3.28,3. Delayed (> 3h),3.41,1. Rapid (<= 4h)
+UL,0.02,1. Golden Hour (<= 1h),,Not Admitted
+ULA,1.28,2. Sepsis Bundle (1 - 3h),1.89,1. Rapid (<= 4h)
+UM,0.98,1. Golden Hour (<= 1h),,Not Admitted
+UMA,0.34,1. Golden Hour (<= 1h),2.33,1. Rapid (<= 4h)
+UN,,Not Administered,,Not Admitted
+UO,,Not Administered,2.0,1. Rapid (<= 4h)
+UP,1.93,2. Sepsis Bundle (1 - 3h),3.39,1. Rapid (<= 4h)
+UQ,,Not Administered,1.73,1. Rapid (<= 4h)
+UR,3.96,3. Delayed (> 3h),4.09,2. Standard (4 - 8h)
+US,2.59,2. Sepsis Bundle (1 - 3h),2.94,1. Rapid (<= 4h)
+UT,1.64,2. Sepsis Bundle (1 - 3h),2.74,1. Rapid (<= 4h)
+UU,,Not Administered,1.24,1. Rapid (<= 4h)
+UV,2.51,2. Sepsis Bundle (1 - 3h),2.67,1. Rapid (<= 4h)
+UW,3.06,3. Delayed (> 3h),3.16,1. Rapid (<= 4h)
+UX,0.32,1. Golden Hour (<= 1h),,Not Admitted
+UY,0.71,1. Golden Hour (<= 1h),5.23,2. Standard (4 - 8h)
+UZ,1.32,2. Sepsis Bundle (1 - 3h),3.45,1. Rapid (<= 4h)
+V,1.25,2. Sepsis Bundle (1 - 3h),1.85,1. Rapid (<= 4h)
+VA,2.39,2. Sepsis Bundle (1 - 3h),2.5,1. Rapid (<= 4h)
+VAA,0.01,1. Golden Hour (<= 1h),3.88,1. Rapid (<= 4h)
+VB,3.29,3. Delayed (> 3h),3.68,1. Rapid (<= 4h)
+VBA,,Not Administered,,Not Admitted
+VC,0.28,1. Golden Hour (<= 1h),3.85,1. Rapid (<= 4h)
+VCA,0.75,1. Golden Hour (<= 1h),2.44,1. Rapid (<= 4h)
+VD,2.03,2. Sepsis Bundle (1 - 3h),3.38,1. Rapid (<= 4h)
+VDA,0.71,1. Golden Hour (<= 1h),3.3,1. Rapid (<= 4h)
+VE,0.66,1. Golden Hour (<= 1h),2.55,1. Rapid (<= 4h)
+VEA,2.74,2. Sepsis Bundle (1 - 3h),,Not Admitted
+VF,2.27,2. Sepsis Bundle (1 - 3h),2.32,1. Rapid (<= 4h)
+VFA,3.53,3. Delayed (> 3h),3.82,1. Rapid (<= 4h)
+VG,,Not Administered,5.59,2. Standard (4 - 8h)
+VGA,1.87,2. Sepsis Bundle (1 - 3h),,Not Admitted
+VH,,Not Administered,,Not Admitted
+VHA,,Not Administered,,Not Admitted
+VI,0.17,1. Golden Hour (<= 1h),2.74,1. Rapid (<= 4h)
+VIA,1.63,2. Sepsis Bundle (1 - 3h),3.41,1. Rapid (<= 4h)
+VJ,3.1,3. Delayed (> 3h),3.19,1. Rapid (<= 4h)
+VJA,,Not Administered,,Not Admitted
+VK,1.35,2. Sepsis Bundle (1 - 3h),2.36,1. Rapid (<= 4h)
+VKA,0.66,1. Golden Hour (<= 1h),4.95,2. Standard (4 - 8h)
+VL,1.65,2. Sepsis Bundle (1 - 3h),1.77,1. Rapid (<= 4h)
+VLA,0.54,1. Golden Hour (<= 1h),,Not Admitted
+VM,3.93,3. Delayed (> 3h),4.05,2. Standard (4 - 8h)
+VMA,,Not Administered,,Not Admitted
+VN,1.18,2. Sepsis Bundle (1 - 3h),3.27,1. Rapid (<= 4h)
+VO,0.52,1. Golden Hour (<= 1h),2.6,1. Rapid (<= 4h)
+VP,0.34,1. Golden Hour (<= 1h),4.25,2. Standard (4 - 8h)
+VQ,3.99,3. Delayed (> 3h),4.59,2. Standard (4 - 8h)
+VR,0.2,1. Golden Hour (<= 1h),3.9,1. Rapid (<= 4h)
+VS,0.39,1. Golden Hour (<= 1h),3.82,1. Rapid (<= 4h)
+VT,3.11,3. Delayed (> 3h),3.15,1. Rapid (<= 4h)
+VU,2.75,2. Sepsis Bundle (1 - 3h),2.79,1. Rapid (<= 4h)
+VV,,Not Administered,,Not Admitted
+VW,1.02,2. Sepsis Bundle (1 - 3h),2.57,1. Rapid (<= 4h)
+VX,,Not Administered,,Not Admitted
+VY,2.34,2. Sepsis Bundle (1 - 3h),4.15,2. Standard (4 - 8h)
+VZ,,Not Administered,,Not Admitted
+W,0.53,1. Golden Hour (<= 1h),3.26,1. Rapid (<= 4h)
+WA,,Not Administered,5.05,2. Standard (4 - 8h)
+WAA,0.21,1. Golden Hour (<= 1h),2.46,1. Rapid (<= 4h)
+WB,,Not Administered,,Not Admitted
+WBA,,Not Administered,2.25,1. Rapid (<= 4h)
+WC,2.96,2. Sepsis Bundle (1 - 3h),3.06,1. Rapid (<= 4h)
+WCA,0.06,1. Golden Hour (<= 1h),2.74,1. Rapid (<= 4h)
+WD,,Not Administered,,Not Admitted
+WDA,0.23,1. Golden Hour (<= 1h),0.92,1. Rapid (<= 4h)
+WE,,Not Administered,4.3,2. Standard (4 - 8h)
+WEA,2.77,2. Sepsis Bundle (1 - 3h),,Not Admitted
+WF,2.97,2. Sepsis Bundle (1 - 3h),3.62,1. Rapid (<= 4h)
+WFA,0.01,1. Golden Hour (<= 1h),2.1,1. Rapid (<= 4h)
+WG,1.95,2. Sepsis Bundle (1 - 3h),4.01,2. Standard (4 - 8h)
+WGA,2.09,2. Sepsis Bundle (1 - 3h),2.12,1. Rapid (<= 4h)
+WH,,Not Administered,,Not Admitted
+WHA,0.3,1. Golden Hour (<= 1h),3.36,1. Rapid (<= 4h)
+WI,,Not Administered,2.47,1. Rapid (<= 4h)
+WIA,,Not Administered,,Not Admitted
+WJA,0.78,1. Golden Hour (<= 1h),2.01,1. Rapid (<= 4h)
+WK,2.12,2. Sepsis Bundle (1 - 3h),2.4,1. Rapid (<= 4h)
+WKA,0.25,1. Golden Hour (<= 1h),2.93,1. Rapid (<= 4h)
+WL,,Not Administered,6.14,2. Standard (4 - 8h)
+WLA,,Not Administered,2.85,1. Rapid (<= 4h)
+WM,2.23,2. Sepsis Bundle (1 - 3h),2.3,1. Rapid (<= 4h)
+WMA,,Not Administered,,Not Admitted
+WN,5.75,3. Delayed (> 3h),5.79,2. Standard (4 - 8h)
+WO,0.32,1. Golden Hour (<= 1h),3.68,1. Rapid (<= 4h)
+WP,1.94,2. Sepsis Bundle (1 - 3h),2.05,1. Rapid (<= 4h)
+WQ,3.18,3. Delayed (> 3h),3.26,1. Rapid (<= 4h)
+WR,6.08,3. Delayed (> 3h),6.36,2. Standard (4 - 8h)
+WS,,Not Administered,,Not Admitted
+WT,0.51,1. Golden Hour (<= 1h),1.56,1. Rapid (<= 4h)
+WU,1.47,2. Sepsis Bundle (1 - 3h),4.62,2. Standard (4 - 8h)
+WV,1.65,2. Sepsis Bundle (1 - 3h),4.34,2. Standard (4 - 8h)
+WW,1.75,2. Sepsis Bundle (1 - 3h),3.89,1. Rapid (<= 4h)
+WX,3.69,3. Delayed (> 3h),,Not Admitted
+WY,,Not Administered,,Not Admitted
+WZ,3.67,3. Delayed (> 3h),3.81,1. Rapid (<= 4h)
+X,,Not Administered,4.24,2. Standard (4 - 8h)
+XA,,Not Administered,,Not Admitted
+XAA,0.1,1. Golden Hour (<= 1h),4.17,2. Standard (4 - 8h)
+XB,1.82,2. Sepsis Bundle (1 - 3h),1.88,1. Rapid (<= 4h)
+XBA,24.38,3. Delayed (> 3h),4.44,2. Standard (4 - 8h)
+XC,0.27,1. Golden Hour (<= 1h),,Not Admitted
+XCA,1.59,2. Sepsis Bundle (1 - 3h),1.79,1. Rapid (<= 4h)
+XD,0.11,1. Golden Hour (<= 1h),2.9,1. Rapid (<= 4h)
+XDA,,Not Administered,,Not Admitted
+XE,0.26,1. Golden Hour (<= 1h),,Not Admitted
+XEA,3.1,3. Delayed (> 3h),3.17,1. Rapid (<= 4h)
+XF,3.67,3. Delayed (> 3h),3.81,1. Rapid (<= 4h)
+XFA,,Not Administered,2.82,1. Rapid (<= 4h)
+XG,2.13,2. Sepsis Bundle (1 - 3h),,Not Admitted
+XGA,2.62,2. Sepsis Bundle (1 - 3h),2.89,1. Rapid (<= 4h)
+XH,2.53,2. Sepsis Bundle (1 - 3h),2.65,1. Rapid (<= 4h)
+XHA,1.75,2. Sepsis Bundle (1 - 3h),2.0,1. Rapid (<= 4h)
+XI,2.62,2. Sepsis Bundle (1 - 3h),2.81,1. Rapid (<= 4h)
+XIA,,Not Administered,,Not Admitted
+XJ,1.61,2. Sepsis Bundle (1 - 3h),2.88,1. Rapid (<= 4h)
+XJA,0.61,1. Golden Hour (<= 1h),2.7,1. Rapid (<= 4h)
+XK,,Not Administered,,Not Admitted
+XKA,0.38,1. Golden Hour (<= 1h),1.83,1. Rapid (<= 4h)
+XL,3.16,3. Delayed (> 3h),3.23,1. Rapid (<= 4h)
+XLA,2.67,2. Sepsis Bundle (1 - 3h),,Not Admitted
+XM,3.74,3. Delayed (> 3h),4.14,2. Standard (4 - 8h)
+XMA,,Not Administered,,Not Admitted
+XN,3.46,3. Delayed (> 3h),3.8,1. Rapid (<= 4h)
+XO,0.08,1. Golden Hour (<= 1h),2.31,1. Rapid (<= 4h)
+XP,2.33,2. Sepsis Bundle (1 - 3h),3.63,1. Rapid (<= 4h)
+XQ,2.24,2. Sepsis Bundle (1 - 3h),2.44,1. Rapid (<= 4h)
+XR,1.97,2. Sepsis Bundle (1 - 3h),,Not Admitted
+XS,0.88,1. Golden Hour (<= 1h),2.42,1. Rapid (<= 4h)
+XT,0.73,1. Golden Hour (<= 1h),2.06,1. Rapid (<= 4h)
+XU,0.11,1. Golden Hour (<= 1h),,Not Admitted
+XV,2.95,2. Sepsis Bundle (1 - 3h),,Not Admitted
+XW,1.92,2. Sepsis Bundle (1 - 3h),3.13,1. Rapid (<= 4h)
+XX,2.14,2. Sepsis Bundle (1 - 3h),2.31,1. Rapid (<= 4h)
+XY,3.62,3. Delayed (> 3h),5.96,2. Standard (4 - 8h)
+XZ,0.12,1. Golden Hour (<= 1h),2.66,1. Rapid (<= 4h)
+Y,0.31,1. Golden Hour (<= 1h),,Not Admitted
+YA,,Not Administered,,Not Admitted
+YAA,4.11,3. Delayed (> 3h),4.27,2. Standard (4 - 8h)
+YB,1.08,2. Sepsis Bundle (1 - 3h),2.99,1. Rapid (<= 4h)
+YBA,4.24,3. Delayed (> 3h),4.28,2. Standard (4 - 8h)
+YC,4.82,3. Delayed (> 3h),,Not Admitted
+YCA,0.3,1. Golden Hour (<= 1h),2.6,1. Rapid (<= 4h)
+YD,1.27,2. Sepsis Bundle (1 - 3h),,Not Admitted
+YDA,0.3,1. Golden Hour (<= 1h),3.26,1. Rapid (<= 4h)
+YE,3.81,3. Delayed (> 3h),4.01,2. Standard (4 - 8h)
+YEA,2.94,2. Sepsis Bundle (1 - 3h),2.99,1. Rapid (<= 4h)
+YF,2.13,2. Sepsis Bundle (1 - 3h),2.26,1. Rapid (<= 4h)
+YFA,0.19,1. Golden Hour (<= 1h),3.65,1. Rapid (<= 4h)
+YG,0.02,1. Golden Hour (<= 1h),2.82,1. Rapid (<= 4h)
+YGA,3.35,3. Delayed (> 3h),3.39,1. Rapid (<= 4h)
+YH,,Not Administered,2.41,1. Rapid (<= 4h)
+YHA,1.78,2. Sepsis Bundle (1 - 3h),1.87,1. Rapid (<= 4h)
+YI,4.52,3. Delayed (> 3h),4.55,2. Standard (4 - 8h)
+YIA,0.76,1. Golden Hour (<= 1h),2.44,1. Rapid (<= 4h)
+YJ,,Not Administered,2.55,1. Rapid (<= 4h)
+YJA,0.01,1. Golden Hour (<= 1h),1.73,1. Rapid (<= 4h)
+YK,0.65,1. Golden Hour (<= 1h),3.16,1. Rapid (<= 4h)
+YKA,1.39,2. Sepsis Bundle (1 - 3h),1.62,1. Rapid (<= 4h)
+YL,0.71,1. Golden Hour (<= 1h),4.05,2. Standard (4 - 8h)
+YLA,,Not Administered,2.78,1. Rapid (<= 4h)
+YM,0.92,1. Golden Hour (<= 1h),2.99,1. Rapid (<= 4h)
+YMA,,Not Administered,2.18,1. Rapid (<= 4h)
+YN,,Not Administered,,Not Admitted
+YO,4.65,3. Delayed (> 3h),4.7,2. Standard (4 - 8h)
+YP,4.9,3. Delayed (> 3h),5.86,2. Standard (4 - 8h)
+YQ,2.59,2. Sepsis Bundle (1 - 3h),2.68,1. Rapid (<= 4h)
+YR,0.02,1. Golden Hour (<= 1h),1.68,1. Rapid (<= 4h)
+YS,1.79,2. Sepsis Bundle (1 - 3h),1.92,1. Rapid (<= 4h)
+YT,1.5,2. Sepsis Bundle (1 - 3h),3.16,1. Rapid (<= 4h)
+YU,,Not Administered,,Not Admitted
+YV,0.19,1. Golden Hour (<= 1h),2.85,1. Rapid (<= 4h)
+YW,,Not Administered,3.48,1. Rapid (<= 4h)
+YX,0.01,1. Golden Hour (<= 1h),3.05,1. Rapid (<= 4h)
+YY,4.08,3. Delayed (> 3h),4.25,2. Standard (4 - 8h)
+YZ,0.99,1. Golden Hour (<= 1h),3.06,1. Rapid (<= 4h)
+Z,,Not Administered,1.37,1. Rapid (<= 4h)
+ZA,0.92,1. Golden Hour (<= 1h),,Not Admitted
+ZAA,2.92,2. Sepsis Bundle (1 - 3h),3.0,1. Rapid (<= 4h)
+ZB,4.9,3. Delayed (> 3h),5.65,2. Standard (4 - 8h)
+ZBA,3.62,3. Delayed (> 3h),3.96,1. Rapid (<= 4h)
+ZC,6.19,3. Delayed (> 3h),,Not Admitted
+ZCA,4.28,3. Delayed (> 3h),,Not Admitted
+ZD,,Not Administered,3.52,1. Rapid (<= 4h)
+ZDA,2.24,2. Sepsis Bundle (1 - 3h),2.31,1. Rapid (<= 4h)
+ZE,3.69,3. Delayed (> 3h),3.81,1. Rapid (<= 4h)
+ZEA,0.1,1. Golden Hour (<= 1h),2.18,1. Rapid (<= 4h)
+ZF,0.05,1. Golden Hour (<= 1h),4.06,2. Standard (4 - 8h)
+ZFA,1.11,2. Sepsis Bundle (1 - 3h),2.93,1. Rapid (<= 4h)
+ZG,3.43,3. Delayed (> 3h),3.73,1. Rapid (<= 4h)
+ZGA,2.09,2. Sepsis Bundle (1 - 3h),2.3,1. Rapid (<= 4h)
+ZH,3.78,3. Delayed (> 3h),4.03,2. Standard (4 - 8h)
+ZHA,0.96,1. Golden Hour (<= 1h),2.03,1. Rapid (<= 4h)
+ZI,0.28,1. Golden Hour (<= 1h),3.72,1. Rapid (<= 4h)
+ZIA,2.86,2. Sepsis Bundle (1 - 3h),,Not Admitted
+ZJ,0.15,1. Golden Hour (<= 1h),2.48,1. Rapid (<= 4h)
+ZJA,4.68,3. Delayed (> 3h),4.75,2. Standard (4 - 8h)
+ZK,2.63,2. Sepsis Bundle (1 - 3h),3.04,1. Rapid (<= 4h)
+ZKA,0.5,1. Golden Hour (<= 1h),4.38,2. Standard (4 - 8h)
+ZL,0.03,1. Golden Hour (<= 1h),3.3,1. Rapid (<= 4h)
+ZLA,0.82,1. Golden Hour (<= 1h),3.81,1. Rapid (<= 4h)
+ZM,0.32,1. Golden Hour (<= 1h),1.89,1. Rapid (<= 4h)
+ZMA,0.35,1. Golden Hour (<= 1h),4.41,2. Standard (4 - 8h)
+ZN,,Not Administered,,Not Admitted
+ZO,0.02,1. Golden Hour (<= 1h),3.48,1. Rapid (<= 4h)
+ZP,0.03,1. Golden Hour (<= 1h),3.56,1. Rapid (<= 4h)
+ZQ,2.09,2. Sepsis Bundle (1 - 3h),5.13,2. Standard (4 - 8h)
+ZR,2.66,2. Sepsis Bundle (1 - 3h),3.03,1. Rapid (<= 4h)
+ZS,2.68,2. Sepsis Bundle (1 - 3h),7.74,2. Standard (4 - 8h)
+ZT,2.8,2. Sepsis Bundle (1 - 3h),3.75,1. Rapid (<= 4h)
+ZU,1.84,2. Sepsis Bundle (1 - 3h),3.33,1. Rapid (<= 4h)
+ZV,2.24,2. Sepsis Bundle (1 - 3h),2.3,1. Rapid (<= 4h)
+ZW,0.85,1. Golden Hour (<= 1h),2.26,1. Rapid (<= 4h)
+ZX,2.11,2. Sepsis Bundle (1 - 3h),2.32,1. Rapid (<= 4h)
+ZY,6.17,3. Delayed (> 3h),,Not Admitted
+ZZ,3.54,3. Delayed (> 3h),3.8,1. Rapid (<= 4h)

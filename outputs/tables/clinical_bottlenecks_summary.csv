@@ -1,0 +1,6 @@
+Analysis_Domain,Finding
+Antibiotic Latency,36.9% received antibiotics within 1h; 74.8% within 3h; median latency = 1.73h.
+Admission Boarding,Median boarding time from ER intake to hospital ward bed = 3.22h across 810 admitted cases.
+Recorded Log Window vs Stay,"Cases without Return ER had median recorded span of 3.5 days, whereas cases with Return ER had median span of 55.2 days."
+Return ER Event Context,"294 cases recorded Return ER with median gap of 47.3 days after discharge. This represents out-of-hospital elapsed time, not continuous bed occupancy."
+Clinical Caveat,"Process mining identifies event transitions and timestamp differences; it does not infer clinical causation, medical fault, or definitive clinical outcomes."

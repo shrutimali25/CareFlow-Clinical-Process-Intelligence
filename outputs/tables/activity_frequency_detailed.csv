@@ -1,0 +1,17 @@
+concept:name,total_occurrences,unique_cases,case_reach_pct,repeated_cases_count,rework_rate_pct,max_repetitions_in_single_case,mean_occurrences_per_case,first_activity_case_count,last_activity_case_count
+Leucocytes,3383,1012,96.38,677,66.9,74,3.34,18,44
+CRP,3262,1007,95.9,692,68.72,69,3.24,10,41
+LacticAcid,1466,860,81.9,172,20.0,51,1.7,0,24
+Admission NC,1182,800,76.19,313,39.12,5,1.48,0,14
+ER Triage,1053,1050,100.0,3,0.29,2,1.0,6,2
+ER Registration,1050,1050,100.0,0,0.0,1,1.0,995,0
+ER Sepsis Triage,1049,1049,99.9,0,0.0,1,1.0,7,49
+IV Antibiotics,823,823,78.38,0,0.0,1,1.0,0,87
+IV Liquid,753,753,71.71,0,0.0,1,1.0,14,12
+Release A,671,671,63.9,0,0.0,1,1.0,0,393
+Return ER,294,294,28.0,0,0.0,1,1.0,0,291
+Admission IC,117,110,10.48,7,6.36,2,1.06,0,0
+Release B,56,56,5.33,0,0.0,1,1.0,0,55
+Release C,25,25,2.38,0,0.0,1,1.0,0,19
+Release D,24,24,2.29,0,0.0,1,1.0,0,14
+Release E,6,6,0.57,0,0.0,1,1.0,0,5

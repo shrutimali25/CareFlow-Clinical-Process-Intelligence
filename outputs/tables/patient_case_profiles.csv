@@ -1,0 +1,1051 @@
+case:concept:name,total_events,first_event_time,last_event_time,entry_activity,exit_activity,Age,Diagnose,SIRSCriteria2OrMore,InfectionSuspected,treatment_duration_hours,treatment_duration_days,admitted_normal_care,admitted_intensive_care,received_antibiotics,received_iv_liquid,had_return_er
+A,22,2014-10-22 09:15:41+00:00,2014-11-02 14:15:00+00:00,ER Registration,Release A,85.0,A,True,True,268.99,11.21,True,False,True,True,False
+AA,8,2014-12-03 08:06:44+00:00,2014-12-03 13:28:01+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,5.35,0.22,False,False,True,True,False
+AAA,11,2014-11-19 02:16:21+00:00,2014-11-28 15:15:17+00:00,ER Registration,Return ER,60.0,C,True,False,228.98,9.54,True,False,True,True,True
+AB,8,2014-02-16 08:55:43+00:00,2014-02-16 12:52:06+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,3.94,0.16,False,False,True,True,False
+ABA,17,2014-10-12 09:22:24+00:00,2014-10-18 14:15:00+00:00,ER Registration,Release A,75.0,UC,True,True,148.88,6.2,True,False,True,True,False
+AC,13,2014-09-24 13:39:13+00:00,2014-12-02 17:47:17+00:00,ER Registration,Return ER,80.0,C,True,True,1660.13,69.17,True,False,True,True,True
+ACA,8,2014-09-22 08:00:00+00:00,2014-09-22 08:45:56+00:00,ER Registration,IV Antibiotics,55.0,Unrecorded,True,True,0.77,0.03,False,False,True,True,False
+AD,29,2013-12-19 08:04:38+00:00,2014-05-04 16:34:00+00:00,ER Registration,Return ER,70.0,B,True,True,3272.49,136.35,True,True,True,True,True
+ADA,24,2014-06-21 05:14:16+00:00,2014-07-06 18:58:00+00:00,ER Registration,LacticAcid,85.0,S,True,True,373.73,15.57,True,False,True,False,True
+AE,18,2014-03-11 07:41:47+00:00,2014-07-23 15:38:24+00:00,ER Registration,Return ER,90.0,D,True,True,3223.94,134.33,True,True,True,True,True
+AEA,9,2014-02-26 09:15:03+00:00,2014-02-26 13:28:44+00:00,ER Registration,Admission NC,85.0,Unrecorded,True,True,4.23,0.18,True,False,True,True,False
+AF,17,2014-04-06 14:03:24+00:00,2014-04-20 00:58:15+00:00,ER Registration,Return ER,50.0,JA,True,True,322.91,13.45,True,False,True,True,True
+AFA,13,2014-04-16 10:21:27+00:00,2014-07-13 11:18:24+00:00,ER Registration,Return ER,60.0,E,True,True,2112.95,88.04,True,False,True,False,True
+AG,5,2014-05-09 23:00:00+00:00,2014-05-10 09:24:00+00:00,ER Sepsis Triage,CRP,50.0,Unrecorded,False,False,10.4,0.43,False,False,False,False,False
+AGA,15,2014-08-06 15:06:19+00:00,2014-08-09 11:30:00+00:00,ER Registration,Release A,85.0,H,True,True,68.39,2.85,True,False,True,True,False
+AH,11,2013-11-20 07:34:52+00:00,2013-11-24 09:00:00+00:00,ER Registration,Release A,70.0,LA,True,True,97.42,4.06,True,False,True,False,False
+AHA,12,2014-05-20 19:53:19+00:00,2014-05-23 10:41:00+00:00,ER Registration,Release A,60.0,C,True,True,62.79,2.62,True,False,True,True,False
+AI,15,2013-12-19 18:47:57+00:00,2014-12-19 01:38:36+00:00,ER Registration,Return ER,65.0,C,True,True,8742.84,364.28,True,False,True,True,True
+AIA,17,2014-05-25 16:20:51+00:00,2014-06-09 14:49:06+00:00,ER Registration,Return ER,70.0,AB,True,True,358.47,14.94,True,False,True,True,True
+AJ,25,2014-07-24 07:37:32+00:00,2014-08-09 09:00:00+00:00,ER Registration,Release A,85.0,C,True,True,385.37,16.06,True,False,True,True,False
+AJA,5,2014-05-17 22:07:04+00:00,2014-05-18 09:46:11+00:00,ER Registration,ER Sepsis Triage,60.0,Unrecorded,True,True,11.65,0.49,False,False,False,False,False
+AK,11,2014-10-08 19:41:35+00:00,2014-10-09 06:00:00+00:00,ER Registration,Leucocytes,60.0,U,True,True,10.31,0.43,True,False,True,True,False
+AKA,3,2014-08-02 13:20:57+00:00,2014-08-02 13:48:09+00:00,ER Registration,ER Sepsis Triage,35.0,Unrecorded,False,False,0.45,0.02,False,False,False,False,False
+AL,19,2014-04-07 16:13:06+00:00,2015-02-22 05:16:14+00:00,ER Registration,Return ER,90.0,IB,True,True,7693.05,320.54,True,False,True,True,True
+ALA,11,2014-10-02 15:31:45+00:00,2014-10-05 15:00:00+00:00,ER Registration,Release A,75.0,AA,True,True,71.47,2.98,True,False,True,True,False
+AM,5,2014-02-17 13:29:57+00:00,2014-02-17 13:50:00+00:00,ER Registration,CRP,65.0,Unrecorded,False,False,0.33,0.01,False,False,False,False,False
+AMA,9,2014-07-23 09:18:49+00:00,2014-08-01 16:00:00+00:00,ER Registration,Release A,75.0,KA,False,False,222.69,9.28,True,False,False,False,False
+AN,8,2014-05-20 17:22:09+00:00,2014-05-21 20:32:29+00:00,ER Registration,IV Liquid,55.0,Unrecorded,True,True,27.17,1.13,False,False,True,True,False
+ANA,9,2014-05-16 15:11:45+00:00,2014-05-17 14:00:00+00:00,ER Registration,Release A,75.0,ZB,False,False,22.8,0.95,True,False,False,False,False
+AO,7,2014-08-27 07:18:56+00:00,2015-01-04 20:06:48+00:00,ER Registration,Return ER,65.0,OB,False,False,3132.8,130.53,True,False,False,False,True
+AP,11,2014-10-29 17:36:01+00:00,2014-10-30 06:00:00+00:00,ER Registration,Leucocytes,60.0,U,True,True,12.4,0.52,True,False,True,True,False
+AQ,14,2014-06-05 17:43:42+00:00,2014-06-12 12:20:00+00:00,ER Registration,Release A,85.0,C,True,True,162.6,6.78,True,False,True,True,False
+AR,23,2014-04-04 10:36:40+00:00,2014-05-16 13:37:49+00:00,ER Registration,Return ER,90.0,N,True,True,1011.02,42.13,True,False,True,True,True
+AS,22,2013-11-23 16:32:23+00:00,2013-11-24 17:16:00+00:00,ER Registration,Release B,75.0,G,True,True,24.73,1.03,False,True,True,True,False
+AT,8,2014-06-10 14:00:33+00:00,2014-06-10 14:45:01+00:00,ER Registration,IV Antibiotics,70.0,Unrecorded,True,True,0.74,0.03,False,False,True,True,False
+AU,12,2013-12-05 21:13:04+00:00,2013-12-09 09:15:00+00:00,ER Registration,Release A,65.0,E,True,True,84.03,3.5,True,False,True,True,False
+AV,10,2014-11-10 02:21:46+00:00,2014-11-15 12:00:00+00:00,ER Registration,Release A,90.0,E,True,True,129.64,5.4,True,False,True,True,False
+AW,7,2013-12-22 21:16:04+00:00,2013-12-22 22:56:58+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,1.68,0.07,False,False,True,False,False
+AX,6,2014-02-26 20:41:19+00:00,2014-02-26 20:52:00+00:00,ER Registration,LacticAcid,75.0,Unrecorded,False,False,0.18,0.01,False,False,False,False,False
+AY,22,2014-01-04 11:08:23+00:00,2014-01-12 15:15:00+00:00,ER Registration,Release B,85.0,Q,False,False,196.11,8.17,True,False,False,False,False
+AZ,15,2014-02-23 02:21:21+00:00,2014-02-28 10:30:00+00:00,ER Registration,Release A,50.0,ID,True,True,128.14,5.34,True,False,True,True,False
+B,12,2014-12-21 10:04:24+00:00,2014-12-26 17:00:00+00:00,ER Registration,Release A,45.0,B,True,True,126.93,5.29,True,False,True,True,False
+BA,13,2014-05-07 15:36:23+00:00,2014-08-01 06:58:21+00:00,ER Registration,Return ER,75.0,D,True,True,2055.37,85.64,True,False,True,True,True
+BAA,12,2014-12-17 19:21:03+00:00,2014-12-20 11:00:00+00:00,ER Registration,Release A,25.0,C,True,True,63.65,2.65,True,False,True,True,False
+BB,6,2014-03-10 11:13:21+00:00,2014-03-10 12:07:00+00:00,ER Registration,Leucocytes,35.0,Unrecorded,False,False,0.89,0.04,False,False,False,False,False
+BBA,14,2014-04-23 08:08:21+00:00,2014-04-28 11:00:00+00:00,ER Registration,Release A,80.0,C,True,True,122.86,5.12,True,False,True,True,False
+BC,5,2015-02-07 14:14:13+00:00,2015-02-07 15:23:00+00:00,ER Registration,CRP,80.0,Unrecorded,False,False,1.15,0.05,False,False,False,False,False
+BCA,19,2015-01-01 10:37:39+00:00,2015-01-03 11:00:00+00:00,ER Registration,Release E,60.0,TD,True,True,48.37,2.02,True,False,True,True,False
+BD,12,2015-02-02 01:03:30+00:00,2015-02-05 09:00:00+00:00,ER Registration,Release A,50.0,DA,True,True,79.94,3.33,True,False,True,True,False
+BDA,12,2014-10-15 06:59:57+00:00,2014-10-20 09:00:00+00:00,ER Registration,Release A,75.0,C,True,True,122.0,5.08,True,False,True,True,False
+BE,15,2014-02-21 10:37:38+00:00,2014-10-31 14:35:09+00:00,ER Registration,Return ER,70.0,GA,True,True,6051.96,252.16,True,False,True,True,True
+BEA,8,2014-05-29 11:01:00+00:00,2014-05-29 11:53:10+00:00,CRP,IV Liquid,60.0,Unrecorded,True,True,0.87,0.04,False,False,True,True,False
+BF,13,2014-08-07 08:15:51+00:00,2014-08-11 11:38:32+00:00,ER Registration,Return ER,65.0,B,True,True,99.38,4.14,True,False,True,True,True
+BFA,21,2014-10-21 06:52:00+00:00,2014-10-25 13:30:00+00:00,Leucocytes,Release B,60.0,B,True,True,102.63,4.28,True,True,True,True,False
+BG,10,2014-03-06 08:30:52+00:00,2014-03-09 09:00:00+00:00,ER Registration,Release A,65.0,HA,False,False,72.49,3.02,True,False,False,False,False
+BGA,12,2014-08-10 00:45:02+00:00,2014-08-13 13:45:00+00:00,ER Registration,Release A,50.0,K,True,True,85.0,3.54,True,False,True,True,False
+BH,20,2014-03-01 20:48:52+00:00,2014-03-06 10:30:00+00:00,ER Registration,Release A,35.0,P,True,True,109.69,4.57,True,False,True,True,False
+BHA,15,2014-05-02 04:59:42+00:00,2014-05-07 13:20:00+00:00,ER Registration,Release A,75.0,C,True,True,128.34,5.35,True,False,True,True,False
+BI,10,2014-02-06 13:57:26+00:00,2014-02-08 01:05:00+00:00,ER Registration,Release B,90.0,S,True,True,35.13,1.46,True,False,True,False,False
+BIA,36,2014-09-04 18:00:00+00:00,2014-12-13 23:05:21+00:00,IV Liquid,Return ER,80.0,G,True,True,2405.09,100.21,True,True,True,True,True
+BJ,21,2014-11-22 04:43:13+00:00,2014-11-28 11:45:00+00:00,ER Registration,Release A,80.0,H,True,True,151.03,6.29,True,True,True,True,False
+BJA,17,2013-12-15 20:17:27+00:00,2014-08-05 08:57:36+00:00,ER Registration,Return ER,80.0,C,True,True,5580.67,232.53,True,False,True,True,True
+BK,13,2014-11-24 09:14:01+00:00,2015-03-27 09:29:21+00:00,ER Registration,Return ER,45.0,B,True,True,2952.26,123.01,True,False,True,True,True
+BKA,19,2014-05-27 14:43:10+00:00,2014-06-20 14:09:03+00:00,ER Registration,Return ER,35.0,BB,True,True,575.43,23.98,True,False,True,True,True
+BL,11,2014-05-06 20:37:39+00:00,2014-05-08 09:00:00+00:00,ER Registration,Release A,60.0,VA,True,True,36.37,1.52,True,False,True,False,False
+BLA,20,2014-06-25 06:44:52+00:00,2014-08-19 09:50:36+00:00,ER Registration,Return ER,75.0,C,True,True,1323.1,55.13,True,False,True,True,True
+BM,9,2014-09-21 15:05:30+00:00,2014-09-21 17:58:30+00:00,ER Registration,Admission NC,80.0,Unrecorded,True,True,2.88,0.12,True,False,True,True,False
+BMA,12,2014-07-28 14:24:15+00:00,2014-12-02 08:47:57+00:00,ER Registration,Return ER,55.0,VB,True,True,3042.4,126.77,True,False,True,True,True
+BN,26,2014-02-27 09:52:15+00:00,2014-03-22 08:30:00+00:00,ER Registration,Release A,80.0,B,True,True,550.63,22.94,True,False,True,True,False
+BNA,7,2014-09-06 13:22:52+00:00,2014-09-09 10:35:00+00:00,ER Registration,Release A,30.0,Z,False,False,69.2,2.88,True,False,False,False,False
+BO,6,2014-05-30 14:45:52+00:00,2014-05-30 15:10:00+00:00,ER Registration,CRP,65.0,Unrecorded,False,False,0.4,0.02,False,False,False,False,False
+BP,22,2015-01-31 08:50:31+00:00,2015-02-14 09:30:00+00:00,ER Registration,Release A,85.0,YB,False,False,336.66,14.03,True,True,False,False,False
+BQ,12,2014-03-24 17:09:11+00:00,2014-03-30 12:00:00+00:00,ER Registration,Release A,90.0,EB,True,True,138.85,5.79,True,False,True,True,False
+BR,11,2014-03-26 11:20:45+00:00,2014-10-14 12:59:49+00:00,ER Registration,Return ER,65.0,H,True,True,4849.65,202.07,True,False,True,True,True
+BS,13,2014-08-02 12:17:41+00:00,2014-08-15 11:00:00+00:00,ER Registration,Release C,90.0,KC,True,True,310.71,12.95,True,False,True,True,False
+BT,13,2014-07-19 12:09:40+00:00,2014-10-12 14:01:01+00:00,ER Registration,Return ER,75.0,VB,True,True,2041.86,85.08,True,False,True,True,True
+BU,14,2014-03-10 08:57:48+00:00,2014-03-14 10:00:00+00:00,ER Registration,Release A,60.0,WA,True,True,97.04,4.04,True,False,True,True,False
+BV,16,2013-11-13 13:11:53+00:00,2013-11-18 10:30:00+00:00,ER Registration,Release A,90.0,E,True,True,117.3,4.89,True,False,True,True,False
+BW,21,2014-04-02 14:39:39+00:00,2014-04-21 12:00:00+00:00,ER Registration,Release A,50.0,E,True,True,453.34,18.89,True,False,True,True,False
+BX,17,2014-08-19 18:04:00+00:00,2014-11-28 08:00:33+00:00,ER Registration,Return ER,75.0,GB,True,True,2413.94,100.58,True,False,True,True,True
+BY,6,2014-05-25 10:30:39+00:00,2014-05-25 11:24:00+00:00,ER Registration,LacticAcid,30.0,Unrecorded,True,True,0.89,0.04,False,False,False,False,False
+BZ,24,2014-01-15 18:56:31+00:00,2014-01-28 13:00:00+00:00,ER Registration,Release A,75.0,JD,False,False,306.06,12.75,True,False,True,False,False
+C,14,2014-02-09 18:29:29+00:00,2014-02-15 09:00:00+00:00,ER Registration,Release A,55.0,C,True,True,134.51,5.6,True,False,True,True,False
+CA,8,2013-12-23 18:11:35+00:00,2013-12-23 18:57:00+00:00,ER Registration,Leucocytes,75.0,Unrecorded,True,True,0.76,0.03,False,False,True,True,False
+CAA,8,2015-01-10 09:11:59+00:00,2015-01-10 10:13:10+00:00,ER Registration,IV Antibiotics,35.0,Unrecorded,True,True,1.02,0.04,False,False,True,True,False
+CB,14,2014-02-11 11:36:56+00:00,2014-02-18 08:00:00+00:00,ER Registration,Release A,75.0,E,True,True,164.38,6.85,True,False,True,True,False
+CBA,21,2015-02-01 21:20:15+00:00,2015-02-16 13:00:00+00:00,ER Registration,Release A,85.0,LA,True,True,351.66,14.65,True,False,True,True,False
+CC,14,2015-02-22 23:50:05+00:00,2015-02-26 13:18:29+00:00,ER Registration,Return ER,75.0,E,True,True,85.47,3.56,True,False,True,True,True
+CCA,8,2014-06-05 09:40:54+00:00,2014-06-05 13:00:53+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,3.33,0.14,False,False,True,True,False
+CD,8,2014-09-22 12:38:49+00:00,2014-09-22 18:15:38+00:00,ER Registration,IV Antibiotics,55.0,Unrecorded,True,True,5.61,0.23,False,False,True,True,False
+CDA,3,2014-02-16 00:58:26+00:00,2014-02-16 01:00:31+00:00,ER Registration,ER Sepsis Triage,20.0,Unrecorded,False,False,0.03,0.0,False,False,False,False,False
+CE,11,2014-10-11 14:40:44+00:00,2014-10-21 06:00:00+00:00,ER Registration,Release A,50.0,C,True,True,231.32,9.64,True,False,True,True,False
+CEA,14,2013-12-25 09:26:40+00:00,2014-01-02 09:00:00+00:00,ER Registration,Release A,90.0,R,True,True,191.56,7.98,True,False,True,True,False
+CF,27,2014-05-12 11:10:14+00:00,2014-06-05 10:56:16+00:00,ER Registration,Return ER,80.0,KA,True,True,575.77,23.99,True,False,True,False,True
+CFA,18,2014-07-01 22:05:48+00:00,2014-07-16 11:30:00+00:00,ER Registration,Release A,50.0,C,True,True,349.4,14.56,True,False,True,False,False
+CG,15,2013-11-24 08:56:15+00:00,2013-11-29 07:45:00+00:00,ER Registration,Release A,70.0,OA,True,True,118.81,4.95,True,False,True,True,False
+CGA,10,2014-11-17 21:34:16+00:00,2014-11-20 10:10:00+00:00,ER Registration,Release B,90.0,R,True,True,60.6,2.52,True,False,True,True,False
+CH,9,2014-12-22 04:25:48+00:00,2014-12-24 12:30:00+00:00,ER Registration,Release A,80.0,M,True,True,56.07,2.34,True,False,True,False,False
+CHA,13,2014-07-18 14:37:59+00:00,2014-07-27 04:59:42+00:00,ER Registration,Return ER,75.0,C,True,True,206.36,8.6,True,False,True,True,True
+CI,13,2015-01-06 17:29:49+00:00,2015-01-10 13:00:00+00:00,ER Registration,Release A,90.0,R,True,True,91.5,3.81,True,False,True,True,False
+CIA,5,2014-04-26 18:23:08+00:00,2014-04-26 19:34:00+00:00,ER Registration,CRP,55.0,Unrecorded,True,True,1.18,0.05,False,False,False,False,False
+CJ,25,2014-08-09 13:19:00+00:00,2014-08-20 03:45:00+00:00,Leucocytes,Release B,90.0,AB,True,True,254.43,10.6,True,False,True,True,False
+CJA,8,2015-01-06 23:55:03+00:00,2015-01-10 11:30:00+00:00,ER Registration,Release A,85.0,H,False,False,83.58,3.48,True,False,False,False,False
+CK,5,2014-01-29 01:42:25+00:00,2014-01-29 02:09:00+00:00,ER Registration,Leucocytes,75.0,Unrecorded,False,False,0.44,0.02,False,False,False,False,False
+CKA,17,2014-10-03 07:22:45+00:00,2014-10-12 08:30:00+00:00,ER Registration,Release A,90.0,C,True,True,217.12,9.05,True,False,True,True,False
+CL,4,2014-02-06 00:17:00+00:00,2014-02-06 00:26:00+00:00,ER Registration,Leucocytes,70.0,Unrecorded,False,False,0.15,0.01,False,False,False,False,False
+CLA,8,2014-10-26 23:00:42+00:00,2014-10-27 02:00:00+00:00,ER Registration,IV Antibiotics,40.0,Unrecorded,True,True,2.99,0.12,False,False,True,True,False
+CM,15,2015-01-25 14:00:04+00:00,2015-01-30 12:00:00+00:00,ER Registration,Release A,80.0,E,True,True,118.0,4.92,True,False,True,False,False
+CMA,8,2014-09-01 06:40:16+00:00,2014-09-01 15:43:18+00:00,ER Registration,Admission NC,90.0,Unrecorded,True,True,9.05,0.38,True,False,True,False,False
+CN,11,2014-01-01 16:06:57+00:00,2014-01-02 08:00:00+00:00,ER Registration,Release B,70.0,C,True,True,15.88,0.66,True,False,True,True,False
+CNA,17,2014-09-19 06:14:18+00:00,2014-10-06 08:36:47+00:00,ER Registration,Return ER,65.0,BA,False,False,410.37,17.1,True,False,False,False,True
+CO,8,2014-01-17 15:44:42+00:00,2014-01-21 10:00:00+00:00,ER Registration,Release A,85.0,K,True,True,90.26,3.76,True,False,True,False,False
+CP,15,2014-04-09 11:21:46+00:00,2014-04-28 09:15:00+00:00,ER Registration,Release C,90.0,Q,True,True,453.89,18.91,True,False,True,True,False
+CQ,13,2014-02-24 20:43:57+00:00,2014-02-28 09:30:00+00:00,ER Registration,Release A,75.0,C,True,True,84.77,3.53,True,False,True,True,False
+CR,17,2014-04-18 16:44:51+00:00,2014-05-27 12:03:53+00:00,ER Registration,Return ER,90.0,C,True,True,931.32,38.8,True,False,True,True,True
+CS,7,2013-11-28 15:06:15+00:00,2013-11-28 16:48:05+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,1.7,0.07,False,False,True,False,False
+CT,12,2014-05-31 19:46:45+00:00,2014-06-06 12:00:00+00:00,ER Registration,Release A,65.0,AA,True,True,136.22,5.68,True,False,True,True,False
+CU,11,2014-12-26 18:45:40+00:00,2015-01-04 15:32:50+00:00,ER Registration,Return ER,30.0,VC,False,False,212.79,8.87,True,False,False,False,True
+CV,12,2014-04-17 19:30:41+00:00,2014-04-21 07:45:00+00:00,ER Registration,Release A,30.0,E,True,True,84.24,3.51,True,False,True,True,False
+CW,15,2015-01-11 14:59:46+00:00,2015-01-15 14:30:00+00:00,ER Registration,Release A,90.0,E,True,True,95.5,3.98,True,False,True,True,False
+CX,14,2014-03-01 20:28:17+00:00,2014-03-06 09:00:00+00:00,ER Registration,Release A,50.0,R,True,True,108.53,4.52,True,False,True,False,False
+CY,33,2014-06-04 18:02:57+00:00,2014-07-03 07:00:00+00:00,ER Registration,Release E,70.0,B,True,True,684.95,28.54,True,True,True,True,False
+CZ,40,2014-09-18 11:46:43+00:00,2014-10-02 22:59:00+00:00,ER Registration,Release B,50.0,CA,True,True,347.2,14.47,True,True,True,True,False
+D,13,2014-07-10 09:52:00+00:00,2014-07-28 15:36:41+00:00,ER Registration,Return ER,70.0,D,True,True,437.74,18.24,True,False,True,True,True
+DA,12,2014-02-16 20:57:06+00:00,2014-02-22 12:50:00+00:00,ER Registration,Release C,90.0,C,True,True,135.88,5.66,True,False,True,True,False
+DAA,16,2014-07-13 23:15:16+00:00,2014-07-22 12:00:00+00:00,ER Registration,Release A,80.0,C,True,True,204.75,8.53,True,False,True,True,False
+DB,12,2014-06-04 09:56:17+00:00,2014-06-09 09:30:00+00:00,ER Registration,Release A,90.0,E,True,True,119.56,4.98,True,False,True,True,False
+DBA,14,2014-10-31 10:25:27+00:00,2014-11-04 09:00:00+00:00,ER Registration,Release A,90.0,E,True,True,94.58,3.94,True,False,True,True,False
+DC,12,2014-03-08 02:44:37+00:00,2014-11-26 02:05:34+00:00,ER Registration,Return ER,45.0,BA,True,True,6311.35,262.97,True,False,True,True,True
+DCA,13,2014-05-20 10:31:49+00:00,2014-07-01 09:40:54+00:00,ER Registration,Return ER,75.0,D,True,True,1007.15,41.96,True,False,True,True,True
+DD,8,2014-02-13 12:14:23+00:00,2014-02-18 18:30:00+00:00,ER Registration,Release B,90.0,EA,True,True,126.26,5.26,True,False,False,False,False
+DDA,17,2014-02-11 16:12:08+00:00,2014-02-22 07:55:00+00:00,ER Registration,Release A,85.0,AC,True,True,255.71,10.65,True,False,True,True,False
+DE,5,2014-02-19 23:02:34+00:00,2014-02-19 23:26:00+00:00,ER Registration,Leucocytes,75.0,Unrecorded,False,False,0.39,0.02,False,False,False,False,False
+DEA,14,2014-03-05 02:36:26+00:00,2014-03-07 10:00:00+00:00,ER Registration,Release A,55.0,ZB,True,True,55.39,2.31,True,False,True,True,False
+DF,5,2014-03-21 13:38:19+00:00,2014-03-21 15:50:54+00:00,ER Registration,ER Sepsis Triage,85.0,Unrecorded,False,False,2.21,0.09,False,False,False,False,False
+DFA,10,2014-10-05 13:28:27+00:00,2014-10-12 13:00:00+00:00,ER Registration,Release A,70.0,S,True,True,167.53,6.98,True,False,False,False,False
+DG,12,2014-09-19 06:51:17+00:00,2014-09-22 14:00:00+00:00,ER Registration,Release A,70.0,Y,True,True,79.15,3.3,True,False,True,True,False
+DGA,18,2014-08-19 17:41:58+00:00,2014-09-01 08:00:00+00:00,ER Registration,Release C,90.0,C,True,True,302.3,12.6,True,False,True,True,False
+DH,15,2014-06-30 16:04:08+00:00,2014-10-18 09:17:01+00:00,ER Registration,Return ER,25.0,AA,True,True,2633.21,109.72,True,False,True,True,True
+DHA,8,2014-09-20 14:26:51+00:00,2014-09-25 09:14:39+00:00,ER Registration,Release D,65.0,BE,False,False,114.8,4.78,True,False,False,False,False
+DI,12,2014-08-29 20:54:03+00:00,2014-09-01 07:30:00+00:00,ER Registration,Release A,70.0,C,True,True,58.6,2.44,True,False,True,True,False
+DIA,5,2014-09-13 19:00:25+00:00,2014-09-13 19:16:00+00:00,ER Registration,Leucocytes,45.0,Unrecorded,False,False,0.26,0.01,False,False,False,False,False
+DJ,23,2014-12-26 14:44:53+00:00,2015-05-04 10:21:42+00:00,ER Registration,Return ER,90.0,G,True,True,3091.61,128.82,True,True,True,True,True
+DJA,9,2014-02-09 12:39:54+00:00,2014-04-05 01:40:50+00:00,ER Registration,Return ER,85.0,H,False,False,1309.02,54.54,True,False,False,False,True
+DK,13,2014-06-21 04:33:03+00:00,2014-09-25 14:04:57+00:00,ER Registration,Return ER,80.0,E,True,True,2313.53,96.4,True,False,True,True,True
+DKA,14,2014-03-29 17:23:51+00:00,2014-04-28 19:05:08+00:00,ER Registration,Return ER,65.0,LA,True,True,721.69,30.07,True,False,True,True,True
+DL,11,2015-01-07 19:39:25+00:00,2015-01-11 09:00:00+00:00,ER Registration,Release A,60.0,JB,True,True,85.34,3.56,True,False,True,True,False
+DLA,8,2015-01-04 09:44:28+00:00,2015-01-04 13:18:23+00:00,ER Registration,IV Antibiotics,35.0,Unrecorded,True,True,3.57,0.15,False,False,True,True,False
+DM,8,2014-02-13 14:51:08+00:00,2014-02-13 16:38:56+00:00,ER Registration,IV Antibiotics,45.0,Unrecorded,True,True,1.8,0.08,False,False,True,True,False
+DMA,3,2014-05-02 15:08:18+00:00,2014-05-02 15:28:02+00:00,ER Registration,ER Sepsis Triage,55.0,Unrecorded,False,False,0.33,0.01,False,False,False,False,False
+DN,5,2013-11-19 17:19:38+00:00,2013-11-19 17:29:00+00:00,ER Registration,Leucocytes,70.0,Unrecorded,True,True,0.16,0.01,False,False,False,False,False
+DNA,8,2014-11-10 03:25:25+00:00,2014-11-10 06:04:51+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,2.66,0.11,False,False,True,True,False
+DO,16,2013-12-11 12:16:08+00:00,2014-01-11 11:57:22+00:00,ER Registration,Return ER,85.0,C,True,True,743.69,30.99,True,False,True,True,True
+DP,14,2014-07-13 08:57:07+00:00,2014-07-18 08:00:00+00:00,ER Registration,Release A,85.0,E,True,True,119.05,4.96,True,False,True,True,False
+DQ,8,2014-07-27 20:02:28+00:00,2014-07-27 21:20:55+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,1.31,0.05,False,False,True,True,False
+DR,15,2014-04-20 16:21:54+00:00,2014-04-25 16:00:00+00:00,ER Registration,Release A,75.0,B,True,True,119.64,4.99,True,False,True,True,False
+DS,15,2014-10-28 20:08:11+00:00,2014-11-06 09:45:00+00:00,IV Liquid,Release A,85.0,KA,True,True,205.61,8.57,True,False,True,True,False
+DT,9,2014-03-27 10:05:24+00:00,2014-04-02 14:00:00+00:00,ER Registration,Release A,45.0,QC,True,True,147.91,6.16,True,False,False,False,False
+DU,9,2013-11-28 18:08:21+00:00,2013-11-28 20:37:05+00:00,ER Registration,Admission NC,65.0,H,True,True,2.48,0.1,True,False,True,True,False
+DV,8,2014-03-16 21:55:04+00:00,2014-03-16 23:38:14+00:00,ER Registration,IV Antibiotics,55.0,Unrecorded,True,True,1.72,0.07,False,False,True,True,False
+DW,13,2014-11-07 14:08:45+00:00,2014-11-10 15:00:00+00:00,ER Registration,Release A,80.0,Z,True,True,72.85,3.04,True,False,True,True,False
+DX,13,2014-09-18 15:41:00+00:00,2014-09-22 12:00:00+00:00,Leucocytes,Release A,55.0,E,True,True,92.32,3.85,True,False,True,True,False
+DY,14,2014-10-17 20:14:45+00:00,2014-10-24 09:00:00+00:00,ER Registration,Release A,80.0,K,True,True,156.75,6.53,True,False,True,True,False
+DZ,32,2014-07-26 16:22:41+00:00,2014-08-16 08:35:00+00:00,ER Registration,Release A,70.0,G,True,True,496.21,20.68,True,True,True,True,False
+E,8,2015-01-15 19:14:58+00:00,2015-01-15 19:35:59+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,0.35,0.01,False,False,True,True,False
+EA,15,2014-06-08 10:28:37+00:00,2014-11-20 09:58:55+00:00,ER Registration,Return ER,70.0,D,True,True,3959.5,164.98,True,False,True,True,True
+EAA,15,2014-06-23 12:19:50+00:00,2014-06-26 02:00:00+00:00,ER Registration,Release B,70.0,C,False,False,61.67,2.57,True,False,False,False,False
+EB,8,2014-10-17 08:02:44+00:00,2014-10-17 12:07:37+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,4.08,0.17,False,False,True,True,False
+EBA,12,2015-02-02 14:30:18+00:00,2015-02-05 12:30:00+00:00,ER Registration,Release A,25.0,C,True,True,70.0,2.92,True,False,True,True,False
+EC,17,2014-02-27 07:58:20+00:00,2014-03-16 08:30:00+00:00,ER Registration,Release A,85.0,B,True,True,408.53,17.02,True,False,True,True,False
+ECA,19,2014-04-25 14:42:42+00:00,2014-04-30 07:04:38+00:00,ER Registration,Release A,50.0,IC,True,True,112.37,4.68,True,True,True,True,False
+ED,33,2014-02-19 08:26:10+00:00,2014-08-05 20:02:37+00:00,ER Registration,Return ER,90.0,C,True,True,4019.61,167.48,True,False,True,True,True
+EDA,12,2015-02-02 09:35:49+00:00,2015-02-08 23:14:34+00:00,ER Registration,Return ER,70.0,C,True,True,157.65,6.57,True,False,True,True,True
+EE,7,2014-07-18 03:04:02+00:00,2014-07-23 08:00:00+00:00,ER Registration,Release A,85.0,P,False,False,124.93,5.21,True,False,False,False,False
+EEA,13,2014-02-12 13:18:20+00:00,2014-07-04 15:09:34+00:00,ER Registration,Return ER,90.0,VB,True,True,3409.85,142.08,True,False,True,True,True
+EF,14,2014-05-02 16:36:15+00:00,2014-05-06 13:00:00+00:00,ER Registration,Release A,45.0,K,True,True,92.4,3.85,True,False,True,True,False
+EFA,6,2014-06-10 11:08:33+00:00,2014-06-10 11:33:00+00:00,ER Registration,LacticAcid,85.0,Unrecorded,False,False,0.41,0.02,False,False,False,False,False
+EG,5,2014-10-26 18:22:19+00:00,2014-10-26 19:25:22+00:00,ER Registration,ER Sepsis Triage,45.0,Unrecorded,False,False,1.05,0.04,False,False,False,False,False
+EGA,13,2014-03-10 14:53:54+00:00,2014-03-17 12:00:00+00:00,ER Registration,Release A,90.0,ZC,True,True,165.1,6.88,True,False,True,True,False
+EH,10,2014-05-12 10:27:58+00:00,2014-05-17 08:00:00+00:00,ER Registration,Release A,65.0,TA,True,True,117.53,4.9,True,False,True,True,False
+EHA,30,2014-03-30 15:57:58+00:00,2014-04-10 11:30:00+00:00,ER Registration,Release A,60.0,G,True,True,259.53,10.81,True,True,True,True,False
+EI,14,2014-08-18 12:10:03+00:00,2014-09-07 09:07:45+00:00,ER Registration,Return ER,90.0,YA,True,True,476.96,19.87,True,False,True,False,True
+EIA,12,2014-05-09 08:55:38+00:00,2014-11-18 09:23:28+00:00,ER Registration,Return ER,60.0,E,True,True,4632.46,193.02,True,False,True,True,True
+EJ,11,2014-10-25 11:30:00+00:00,2014-10-27 12:00:00+00:00,ER Registration,Release A,80.0,B,True,True,48.5,2.02,True,False,True,False,False
+EJA,9,2014-03-10 11:45:15+00:00,2014-03-15 09:00:00+00:00,ER Registration,Release A,70.0,B,True,True,117.25,4.89,True,False,True,False,False
+EK,20,2014-05-11 10:18:51+00:00,2014-05-18 12:00:00+00:00,ER Registration,Release B,65.0,H,True,True,169.69,7.07,True,True,True,True,False
+EKA,14,2013-12-08 09:50:16+00:00,2013-12-12 13:20:00+00:00,ER Registration,Release A,85.0,KE,True,True,99.5,4.15,True,False,True,True,False
+EL,14,2014-07-29 00:57:58+00:00,2014-08-04 08:35:00+00:00,ER Registration,Release A,90.0,R,True,True,151.62,6.32,True,False,True,True,False
+ELA,20,2014-06-19 20:46:46+00:00,2014-07-01 11:30:00+00:00,ER Registration,Release A,70.0,AC,True,True,278.72,11.61,True,False,True,True,False
+EM,29,2014-03-02 13:16:17+00:00,2014-06-02 12:08:19+00:00,ER Registration,Return ER,85.0,G,True,True,2206.87,91.95,True,True,True,True,True
+EMA,17,2014-09-09 19:42:34+00:00,2014-10-12 19:17:11+00:00,ER Registration,Return ER,80.0,C,True,True,791.58,32.98,True,False,True,True,True
+EN,8,2014-11-01 08:56:02+00:00,2014-11-01 15:18:06+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,6.37,0.27,False,False,True,True,False
+ENA,5,2014-11-20 08:25:52+00:00,2014-11-20 08:57:00+00:00,ER Registration,Leucocytes,80.0,Unrecorded,True,True,0.52,0.02,False,False,False,False,False
+EO,15,2014-07-02 02:39:23+00:00,2015-01-02 09:14:22+00:00,ER Registration,Return ER,65.0,K,True,True,4422.58,184.27,True,False,True,True,True
+EP,8,2014-08-05 11:49:12+00:00,2014-08-05 15:17:55+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,3.48,0.14,False,False,True,True,False
+EQ,30,2014-02-10 20:51:26+00:00,2014-03-05 13:48:59+00:00,ER Registration,Return ER,80.0,D,True,True,544.96,22.71,True,False,True,True,True
+ER,8,2014-10-07 16:47:11+00:00,2014-10-07 17:50:27+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,1.05,0.04,False,False,True,True,False
+ES,48,2014-11-04 13:02:09+00:00,2014-12-05 11:13:23+00:00,ER Registration,Return ER,75.0,B,True,True,742.19,30.92,True,True,True,True,True
+ET,10,2015-01-26 11:06:00+00:00,2015-01-29 09:00:00+00:00,ER Registration,Release A,80.0,RC,True,True,69.9,2.91,True,False,True,True,False
+EU,14,2014-05-27 15:50:50+00:00,2014-11-22 12:38:12+00:00,ER Registration,Return ER,75.0,F,True,True,4292.79,178.87,True,False,True,True,True
+EV,10,2014-07-22 21:28:12+00:00,2014-07-23 21:45:54+00:00,ER Registration,IV Liquid,80.0,Unrecorded,True,True,24.3,1.01,False,False,True,True,False
+EW,23,2015-01-07 21:32:17+00:00,2015-01-22 11:00:00+00:00,ER Registration,Release A,40.0,B,True,True,349.46,14.56,True,False,True,True,False
+EX,24,2014-01-05 19:36:30+00:00,2014-01-23 15:29:00+00:00,ER Registration,Release A,30.0,C,True,True,427.88,17.83,True,False,True,True,False
+EY,12,2014-06-02 11:01:57+00:00,2014-06-07 18:00:00+00:00,ER Registration,Release B,80.0,LA,True,True,126.97,5.29,True,False,True,True,False
+EZ,6,2014-11-08 13:46:59+00:00,2014-11-08 15:05:00+00:00,ER Registration,LacticAcid,25.0,Unrecorded,False,False,1.3,0.05,False,False,False,False,False
+F,10,2014-05-07 16:56:57+00:00,2014-05-09 09:00:00+00:00,ER Registration,Release A,50.0,E,True,True,40.05,1.67,True,False,True,True,False
+FA,8,2014-05-12 14:30:57+00:00,2014-05-12 20:17:45+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,5.78,0.24,False,False,True,True,False
+FAA,17,2014-10-06 20:10:15+00:00,2015-06-05 10:25:11+00:00,ER Registration,Return ER,65.0,C,True,True,5798.25,241.59,True,False,True,True,True
+FB,8,2014-05-21 15:02:23+00:00,2014-05-21 15:34:00+00:00,ER Registration,LacticAcid,85.0,Unrecorded,True,True,0.53,0.02,False,False,True,True,False
+FBA,10,2014-02-23 23:40:52+00:00,2014-11-20 05:23:24+00:00,ER Registration,Return ER,80.0,WC,False,False,6461.71,269.24,True,False,False,False,True
+FC,7,2014-03-11 12:36:01+00:00,2014-03-13 09:00:00+00:00,ER Registration,Release A,80.0,S,False,False,44.4,1.85,True,False,False,False,False
+FCA,15,2013-12-07 00:11:08+00:00,2014-01-15 20:02:25+00:00,ER Registration,Return ER,90.0,C,True,True,955.85,39.83,True,False,True,True,True
+FD,11,2014-05-10 20:26:10+00:00,2014-05-11 05:00:00+00:00,ER Registration,LacticAcid,65.0,Unrecorded,True,True,8.56,0.36,False,False,True,True,False
+FDA,18,2014-05-13 21:00:14+00:00,2014-05-29 11:27:22+00:00,ER Registration,Return ER,55.0,C,True,True,374.45,15.6,True,False,True,True,True
+FE,17,2015-01-24 15:45:54+00:00,2015-02-20 09:34:07+00:00,ER Registration,Return ER,80.0,GA,True,True,641.8,26.74,True,False,False,False,True
+FEA,10,2014-03-07 19:36:08+00:00,2014-03-09 09:30:00+00:00,ER Registration,Release A,20.0,Z,True,True,37.9,1.58,True,False,True,True,False
+FF,8,2014-08-06 09:50:31+00:00,2014-08-06 15:39:14+00:00,ER Registration,IV Antibiotics,40.0,Unrecorded,True,True,5.81,0.24,False,False,True,True,False
+FFA,3,2015-01-20 23:14:49+00:00,2015-01-20 23:21:17+00:00,ER Registration,ER Sepsis Triage,25.0,Unrecorded,False,False,0.11,0.0,False,False,False,False,False
+FG,11,2014-12-08 09:56:58+00:00,2014-12-13 11:00:00+00:00,ER Registration,Release A,85.0,H,True,True,121.05,5.04,True,False,True,True,False
+FGA,11,2014-10-05 18:51:36+00:00,2014-10-06 19:00:47+00:00,ER Registration,IV Liquid,90.0,H,True,True,24.15,1.01,True,False,True,True,False
+FH,13,2014-11-22 09:48:10+00:00,2015-01-08 17:32:02+00:00,ER Registration,Return ER,70.0,K,True,True,1135.73,47.32,True,False,True,False,True
+FHA,13,2013-11-20 14:16:15+00:00,2014-07-11 19:07:05+00:00,ER Registration,Return ER,75.0,H,True,True,5596.85,233.2,True,False,True,False,True
+FI,8,2014-04-21 08:38:12+00:00,2014-04-21 11:47:51+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,3.16,0.13,False,False,True,True,False
+FIA,13,2014-03-02 14:44:37+00:00,2014-03-23 10:00:00+00:00,ER Registration,Release C,60.0,MD,False,False,499.26,20.8,True,False,False,False,False
+FJ,13,2014-04-01 09:10:14+00:00,2014-08-02 11:30:00+00:00,ER Registration,Return ER,80.0,BB,True,True,2954.33,123.1,True,False,True,True,True
+FJA,16,2014-05-02 18:47:21+00:00,2014-05-13 08:30:00+00:00,ER Registration,Release A,55.0,KA,True,True,253.71,10.57,True,False,True,True,False
+FK,17,2014-11-04 19:19:40+00:00,2014-11-16 09:00:00+00:00,ER Registration,Release A,75.0,H,True,True,277.67,11.57,True,False,True,True,False
+FKA,11,2014-04-14 18:51:37+00:00,2014-04-19 07:19:09+00:00,ER Registration,Release A,70.0,IC,False,False,108.46,4.52,True,False,False,False,False
+FL,9,2014-07-05 18:15:59+00:00,2014-07-06 21:17:59+00:00,ER Registration,IV Antibiotics,90.0,C,True,True,27.03,1.13,True,False,True,True,False
+FLA,5,2014-04-10 09:41:13+00:00,2014-04-10 10:49:09+00:00,ER Registration,ER Sepsis Triage,50.0,Unrecorded,False,False,1.13,0.05,False,False,False,False,False
+FM,16,2014-07-21 10:24:06+00:00,2014-08-23 08:45:00+00:00,ER Registration,Release A,85.0,BA,True,True,790.35,32.93,True,False,True,True,False
+FMA,13,2014-08-20 20:58:06+00:00,2014-08-25 19:42:34+00:00,ER Registration,Return ER,80.0,C,True,True,118.74,4.95,True,False,True,True,True
+FN,23,2014-03-26 10:20:08+00:00,2014-03-31 02:20:55+00:00,ER Registration,Release B,85.0,PB,True,True,112.01,4.67,True,False,True,True,False
+FNA,9,2014-09-08 18:49:40+00:00,2014-09-09 20:05:30+00:00,ER Registration,IV Liquid,80.0,PE,True,True,25.26,1.05,True,False,True,True,False
+FO,28,2014-11-05 01:05:12+00:00,2014-11-11 09:00:00+00:00,ER Registration,Release A,60.0,B,True,True,151.91,6.33,True,True,True,True,False
+FP,6,2014-05-31 13:07:00+00:00,2014-05-31 15:28:33+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,2.36,0.1,False,False,True,False,False
+FQ,8,2014-03-08 07:40:34+00:00,2014-03-08 10:55:00+00:00,ER Registration,Release B,65.0,Unrecorded,True,True,3.24,0.14,True,False,False,False,False
+FR,9,2014-12-16 19:41:04+00:00,2014-12-16 23:08:21+00:00,ER Registration,Admission NC,65.0,C,True,True,3.45,0.14,True,False,True,True,False
+FS,6,2014-10-16 14:37:21+00:00,2014-10-16 14:44:00+00:00,ER Registration,LacticAcid,75.0,Unrecorded,False,False,0.11,0.0,False,False,False,False,False
+FT,37,2014-05-08 11:26:19+00:00,2014-05-26 11:45:00+00:00,ER Registration,Release A,65.0,SC,True,True,432.31,18.01,True,True,True,False,False
+FU,12,2014-06-21 15:08:52+00:00,2014-06-27 18:00:00+00:00,ER Registration,Release A,60.0,AA,True,True,146.85,6.12,True,False,False,False,False
+FV,8,2013-12-04 15:35:19+00:00,2013-12-04 15:56:00+00:00,ER Registration,CRP,75.0,Unrecorded,True,True,0.34,0.01,False,False,True,True,False
+FW,20,2014-10-09 09:16:42+00:00,2015-01-09 21:32:17+00:00,ER Registration,Return ER,40.0,B,True,True,2220.26,92.51,True,False,True,True,True
+FX,17,2014-01-02 16:17:25+00:00,2014-01-22 19:36:30+00:00,ER Registration,Return ER,30.0,C,True,True,483.32,20.14,True,False,True,False,True
+FY,17,2014-03-19 13:54:15+00:00,2014-04-04 10:32:51+00:00,ER Registration,Return ER,60.0,D,True,True,380.64,15.86,True,False,True,True,True
+FZ,18,2015-02-08 18:51:33+00:00,2015-02-25 20:05:22+00:00,ER Registration,Return ER,85.0,H,True,True,409.23,17.05,True,False,True,True,True
+G,12,2014-09-05 12:40:47+00:00,2014-09-12 08:00:00+00:00,ER Registration,Release A,60.0,F,True,True,163.32,6.8,True,False,True,True,False
+GA,12,2014-05-03 06:37:18+00:00,2014-05-07 09:00:00+00:00,ER Registration,Release A,85.0,E,True,True,98.38,4.1,True,False,True,True,False
+GAA,16,2014-08-15 07:06:19+00:00,2014-08-20 11:00:00+00:00,ER Registration,Release A,50.0,E,True,True,123.89,5.16,True,False,True,True,False
+GB,13,2014-08-27 00:15:42+00:00,2015-04-29 13:32:06+00:00,ER Registration,Return ER,85.0,C,True,True,5893.27,245.55,True,False,True,True,True
+GBA,11,2014-05-09 17:12:49+00:00,2014-10-17 21:12:07+00:00,ER Registration,Return ER,70.0,K,True,True,3867.99,161.17,True,False,True,True,True
+GC,12,2014-08-25 04:18:21+00:00,2014-08-31 08:00:00+00:00,ER Registration,Release A,85.0,S,True,True,147.69,6.15,True,False,True,True,False
+GCA,14,2014-08-10 21:07:44+00:00,2015-01-22 22:11:20+00:00,ER Registration,Return ER,85.0,C,True,True,3961.06,165.04,True,False,True,True,True
+GD,14,2014-07-06 13:19:13+00:00,2014-07-12 08:30:00+00:00,ER Registration,Release C,90.0,C,True,True,139.18,5.8,True,False,True,True,False
+GDA,9,2014-03-05 07:45:59+00:00,2014-09-28 18:13:13+00:00,ER Registration,Return ER,85.0,S,False,False,4978.45,207.44,True,False,False,False,True
+GE,15,2014-08-01 08:35:00+00:00,2014-08-08 08:05:00+00:00,ER Registration,Release A,80.0,R,True,True,167.5,6.98,True,False,True,True,False
+GEA,14,2014-07-02 21:37:45+00:00,2014-07-06 16:30:00+00:00,ER Registration,Release A,70.0,C,True,True,90.87,3.79,True,False,True,True,False
+GF,59,2014-05-29 01:22:48+00:00,2014-07-12 20:51:19+00:00,ER Registration,Return ER,40.0,G,True,True,1075.48,44.81,True,True,True,True,True
+GFA,10,2014-05-02 20:39:29+00:00,2014-05-04 11:00:00+00:00,ER Registration,Release A,25.0,YD,True,True,38.34,1.6,True,False,True,True,False
+GG,18,2015-01-18 16:28:17+00:00,2015-02-23 20:43:23+00:00,ER Registration,Return ER,70.0,PA,False,False,868.25,36.18,True,False,False,False,True
+GGA,8,2014-01-11 06:03:42+00:00,2014-01-11 08:00:00+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,1.94,0.08,False,False,True,True,False
+GH,8,2014-03-18 15:50:43+00:00,2014-03-18 17:45:00+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,1.9,0.08,False,False,True,True,False
+GHA,14,2014-06-07 13:22:23+00:00,2014-06-12 08:00:00+00:00,ER Registration,Release A,70.0,C,True,True,114.63,4.78,True,False,True,True,False
+GI,12,2014-09-11 07:38:00+00:00,2014-09-20 13:00:00+00:00,Leucocytes,Release A,60.0,C,True,True,221.37,9.22,True,False,True,False,False
+GIA,7,2014-02-14 08:27:11+00:00,2014-02-14 09:02:46+00:00,ER Registration,IV Antibiotics,35.0,Unrecorded,True,True,0.59,0.02,False,False,True,False,False
+GJ,21,2014-02-19 18:50:19+00:00,2014-05-17 09:28:57+00:00,ER Registration,Return ER,80.0,G,True,True,2078.64,86.61,True,True,True,True,True
+GJA,19,2014-06-26 20:47:43+00:00,2014-07-21 14:32:02+00:00,ER Registration,Return ER,90.0,B,True,True,593.74,24.74,True,False,True,True,True
+GK,88,2014-12-24 08:34:00+00:00,2015-02-04 12:20:00+00:00,Leucocytes,Release D,50.0,EB,True,True,1011.77,42.16,True,True,True,True,False
+GKA,6,2014-03-03 19:46:23+00:00,2014-03-03 20:13:00+00:00,ER Registration,Leucocytes,30.0,Unrecorded,False,False,0.44,0.02,False,False,False,False,False
+GL,15,2014-03-16 03:24:14+00:00,2014-03-23 14:46:59+00:00,ER Registration,Return ER,90.0,E,True,True,179.38,7.47,True,False,True,False,True
+GLA,14,2014-10-05 04:55:02+00:00,2014-10-10 18:00:00+00:00,ER Registration,Release A,55.0,C,True,True,133.08,5.55,True,False,True,False,False
+GM,13,2015-02-11 12:24:15+00:00,2015-02-18 08:55:00+00:00,ER Registration,Release C,90.0,Q,True,True,164.51,6.85,True,False,True,True,False
+GMA,13,2015-02-18 16:04:38+00:00,2015-02-27 17:00:00+00:00,ER Registration,Release A,70.0,B,False,False,216.92,9.04,True,False,False,False,False
+GN,41,2014-07-21 13:19:09+00:00,2014-08-26 11:35:19+00:00,ER Registration,Return ER,85.0,LB,True,True,862.27,35.93,True,True,True,True,True
+GNA,25,2014-07-30 22:25:29+00:00,2014-08-06 14:00:00+00:00,ER Registration,Release A,55.0,G,True,True,159.58,6.65,True,True,True,True,False
+GO,20,2015-01-26 16:22:03+00:00,2015-02-01 13:30:00+00:00,ER Registration,Release A,55.0,B,True,True,141.13,5.88,True,True,True,True,False
+GP,10,2014-12-18 08:47:59+00:00,2014-12-22 08:00:00+00:00,ER Registration,Release A,70.0,E,True,True,95.2,3.97,True,False,True,True,False
+GQ,10,2014-06-25 10:22:33+00:00,2014-06-29 11:00:00+00:00,ER Registration,Release A,85.0,B,True,True,96.62,4.03,True,False,True,False,False
+GR,5,2014-11-14 10:22:26+00:00,2014-11-14 10:32:00+00:00,ER Registration,CRP,60.0,Unrecorded,False,False,0.16,0.01,False,False,False,False,False
+GS,16,2015-01-14 14:04:34+00:00,2015-01-28 10:20:00+00:00,ER Registration,Release B,90.0,LC,True,True,332.26,13.84,True,False,False,False,False
+GT,22,2014-04-17 13:19:30+00:00,2014-05-10 15:27:33+00:00,ER Registration,Return ER,90.0,Q,False,False,554.13,23.09,True,False,False,False,True
+GU,15,2014-07-16 07:44:44+00:00,2014-10-24 10:16:53+00:00,ER Registration,Return ER,70.0,TB,True,True,2402.54,100.11,True,False,True,True,True
+GV,14,2014-02-14 18:28:29+00:00,2014-02-24 23:30:00+00:00,ER Registration,Release B,75.0,E,True,True,245.03,10.21,True,False,True,True,False
+GW,11,2014-03-30 08:10:59+00:00,2014-03-30 10:57:00+00:00,ER Sepsis Triage,Leucocytes,75.0,Unrecorded,True,True,2.77,0.12,False,False,True,True,False
+GX,15,2014-11-04 22:30:00+00:00,2014-11-08 05:30:00+00:00,ER Sepsis Triage,Release B,90.0,N,True,True,79.0,3.29,True,False,True,True,False
+GY,13,2014-08-23 10:47:37+00:00,2014-09-03 07:15:00+00:00,ER Registration,Release A,75.0,C,True,True,260.46,10.85,True,False,True,True,False
+GZ,5,2014-11-28 02:19:01+00:00,2014-11-28 02:37:00+00:00,ER Registration,CRP,85.0,Unrecorded,False,False,0.3,0.01,False,False,False,False,False
+H,13,2014-03-11 08:50:02+00:00,2014-03-16 00:00:00+00:00,ER Registration,Release B,80.0,G,False,False,111.17,4.63,True,True,False,False,False
+HA,11,2013-11-16 10:38:41+00:00,2013-11-22 09:00:00+00:00,ER Registration,Release A,90.0,N,False,False,142.36,5.93,True,False,False,False,False
+HAA,21,2013-12-12 07:49:26+00:00,2013-12-22 05:00:00+00:00,ER Registration,Release A,80.0,B,True,True,237.18,9.88,True,True,True,False,False
+HB,15,2014-04-17 12:28:36+00:00,2014-04-22 09:39:58+00:00,ER Registration,Release A,80.0,T,True,True,117.19,4.88,True,False,True,True,False
+HBA,15,2014-07-27 17:29:38+00:00,2014-12-05 11:05:28+00:00,ER Registration,Return ER,65.0,LC,True,True,3137.6,130.73,True,False,True,True,True
+HC,5,2014-04-29 18:06:23+00:00,2014-04-29 18:41:00+00:00,ER Registration,CRP,35.0,Unrecorded,True,True,0.58,0.02,False,False,False,False,False
+HCA,8,2014-05-10 13:56:58+00:00,2014-05-10 14:15:00+00:00,ER Registration,IV Antibiotics,70.0,Unrecorded,True,True,0.3,0.01,False,False,True,True,False
+HD,32,2014-12-08 11:12:19+00:00,2014-12-14 18:00:00+00:00,ER Registration,Release A,85.0,G,True,True,150.79,6.28,True,True,True,True,False
+HDA,12,2014-01-04 19:49:48+00:00,2015-01-04 18:28:24+00:00,ER Registration,Return ER,90.0,C,True,True,8758.64,364.94,True,False,True,True,True
+HE,17,2014-03-06 14:30:48+00:00,2014-03-13 16:00:00+00:00,ER Registration,Release A,60.0,B,True,True,169.49,7.06,True,False,True,True,False
+HEA,19,2014-05-27 01:52:46+00:00,2014-06-01 19:26:00+00:00,ER Registration,Leucocytes,70.0,GB,True,True,137.55,5.73,True,False,True,True,True
+HF,13,2014-10-25 18:30:31+00:00,2014-10-31 09:00:00+00:00,ER Registration,Release A,45.0,LA,True,True,134.49,5.6,True,False,True,True,False
+HFA,8,2014-12-17 16:49:12+00:00,2014-12-17 21:44:19+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,4.92,0.2,False,False,True,True,False
+HG,15,2013-12-13 10:58:49+00:00,2015-02-08 18:45:18+00:00,ER Registration,Return ER,80.0,H,True,True,10135.77,422.32,True,False,True,False,True
+HGA,16,2014-11-30 05:58:43+00:00,2014-12-11 08:45:00+00:00,ER Registration,Release A,75.0,C,True,True,266.77,11.12,True,False,True,True,False
+HH,12,2014-11-03 16:39:47+00:00,2014-11-07 13:15:00+00:00,ER Registration,Release A,90.0,UA,True,True,92.59,3.86,True,False,True,True,False
+HHA,16,2014-06-27 17:26:16+00:00,2014-07-02 12:00:00+00:00,ER Registration,Release A,40.0,CA,True,True,114.56,4.77,True,True,True,True,False
+HI,9,2014-05-06 14:44:48+00:00,2014-05-27 18:35:37+00:00,ER Registration,Return ER,60.0,C,False,True,507.85,21.16,True,False,False,False,True
+HIA,16,2014-11-01 16:34:14+00:00,2014-12-23 18:08:31+00:00,ER Registration,Return ER,70.0,HD,True,True,1249.57,52.07,True,False,True,True,True
+HJ,15,2014-07-12 15:09:24+00:00,2014-07-17 11:30:00+00:00,ER Registration,Release A,85.0,U,True,True,116.34,4.85,True,False,True,True,False
+HJA,13,2014-12-06 13:54:36+00:00,2014-12-13 12:00:00+00:00,ER Registration,Release A,75.0,C,True,True,166.09,6.92,True,False,True,True,False
+HK,10,2014-04-09 15:01:24+00:00,2014-04-25 11:00:00+00:00,ER Registration,Release C,90.0,FB,True,True,379.98,15.83,True,False,True,True,False
+HKA,19,2014-12-12 14:09:12+00:00,2014-12-22 10:00:00+00:00,ER Registration,Release D,85.0,C,True,True,235.85,9.83,True,False,True,True,False
+HL,15,2015-01-28 07:33:50+00:00,2015-05-07 17:35:42+00:00,ER Registration,Return ER,60.0,B,True,True,2386.03,99.42,True,False,True,True,True
+HLA,16,2014-08-30 06:50:24+00:00,2014-09-05 12:15:00+00:00,ER Registration,Release A,80.0,G,True,True,149.41,6.23,True,True,True,True,False
+HM,15,2014-01-27 12:40:00+00:00,2014-02-08 12:20:00+00:00,Leucocytes,Release C,85.0,B,False,False,287.67,11.99,True,False,False,False,False
+HMA,3,2014-02-19 07:39:43+00:00,2014-02-19 07:51:21+00:00,ER Registration,ER Sepsis Triage,30.0,Unrecorded,False,False,0.19,0.01,False,False,False,False,False
+HN,18,2015-02-12 14:18:22+00:00,2015-02-25 12:47:53+00:00,ER Registration,Return ER,80.0,B,True,True,310.49,12.94,True,False,True,True,True
+HNA,30,2014-08-01 08:26:51+00:00,2014-08-13 08:30:00+00:00,ER Registration,Release A,75.0,G,True,True,288.05,12.0,True,True,True,False,False
+HO,25,2014-11-27 08:26:16+00:00,2014-12-13 11:00:00+00:00,ER Registration,Release A,50.0,UB,True,True,386.56,16.11,True,False,True,True,False
+HP,11,2014-10-22 04:34:40+00:00,2014-10-25 13:00:00+00:00,ER Registration,Release A,65.0,C,False,False,80.42,3.35,True,False,False,False,False
+HQ,13,2015-01-28 14:24:44+00:00,2015-01-31 17:00:00+00:00,ER Registration,Release A,65.0,E,True,True,74.59,3.11,True,False,True,True,False
+HR,10,2014-12-19 20:35:27+00:00,2014-12-21 12:00:00+00:00,ER Registration,Release A,85.0,B,True,True,39.41,1.64,True,False,True,True,False
+HS,45,2014-10-25 11:17:04+00:00,2014-11-12 14:58:21+00:00,ER Registration,Return ER,80.0,CA,True,True,435.69,18.15,True,True,True,True,True
+HT,14,2014-03-31 06:21:47+00:00,2014-04-07 14:00:00+00:00,ER Registration,Release A,90.0,R,True,True,175.64,7.32,True,False,True,True,False
+HU,3,2014-02-01 20:08:54+00:00,2014-02-01 20:20:30+00:00,ER Registration,ER Sepsis Triage,50.0,Unrecorded,False,False,0.19,0.01,False,False,False,False,False
+HV,16,2014-02-17 08:25:50+00:00,2014-02-23 14:00:00+00:00,ER Registration,Release A,80.0,ZC,True,True,149.57,6.23,True,False,True,True,False
+HW,6,2014-07-01 12:58:06+00:00,2014-07-01 13:54:26+00:00,ER Registration,ER Triage,75.0,Unrecorded,False,False,0.94,0.04,False,False,False,False,False
+HX,10,2014-11-29 07:01:38+00:00,2014-12-02 16:00:00+00:00,ER Registration,Release A,30.0,Z,True,True,80.97,3.37,True,False,True,True,False
+HY,15,2014-03-09 21:41:06+00:00,2014-05-07 10:47:37+00:00,ER Registration,Return ER,75.0,Y,True,True,1405.11,58.55,True,False,True,True,True
+HZ,22,2014-09-16 18:03:03+00:00,2014-09-21 08:00:00+00:00,ER Registration,Release A,80.0,C,True,True,109.95,4.58,True,True,True,True,False
+I,11,2013-11-09 08:21:03+00:00,2013-11-16 12:05:00+00:00,ER Registration,Release A,80.0,H,True,True,171.73,7.16,True,False,True,False,False
+IA,8,2014-07-11 07:32:24+00:00,2014-07-11 08:02:24+00:00,IV Liquid,IV Antibiotics,75.0,Unrecorded,True,True,0.5,0.02,False,False,True,True,False
+IAA,9,2014-12-09 12:00:02+00:00,2015-02-15 17:33:09+00:00,ER Registration,Return ER,70.0,ZA,False,False,1637.55,68.23,True,False,False,False,True
+IB,14,2014-03-24 23:14:37+00:00,2014-03-28 10:00:00+00:00,ER Registration,Release A,80.0,U,True,True,82.76,3.45,True,False,True,True,False
+IBA,12,2014-02-10 10:36:11+00:00,2014-02-15 13:00:00+00:00,ER Registration,Release A,60.0,B,True,True,122.4,5.1,True,False,True,True,False
+IC,12,2014-04-10 00:09:50+00:00,2014-06-12 14:35:29+00:00,ER Triage,Return ER,75.0,S,True,True,1526.43,63.6,True,False,True,True,True
+ICA,5,2013-12-21 10:27:15+00:00,2013-12-21 10:42:00+00:00,ER Registration,Leucocytes,80.0,Unrecorded,False,False,0.25,0.01,False,False,False,False,False
+ID,3,2014-08-25 10:20:55+00:00,2014-08-25 10:59:02+00:00,ER Registration,ER Sepsis Triage,70.0,Unrecorded,False,False,0.64,0.03,False,False,False,False,False
+IDA,13,2013-11-28 13:27:01+00:00,2014-01-06 19:49:48+00:00,ER Registration,Return ER,90.0,K,True,True,942.38,39.27,True,False,True,True,True
+IE,7,2014-07-28 16:02:48+00:00,2014-07-31 08:20:00+00:00,ER Registration,Release A,55.0,HA,False,False,64.29,2.68,True,False,False,False,False
+IEA,13,2014-01-06 19:11:24+00:00,2014-03-01 01:52:46+00:00,ER Registration,Return ER,70.0,GB,True,True,1278.69,53.28,True,False,True,True,True
+IF,17,2014-11-12 12:41:00+00:00,2014-11-18 09:00:00+00:00,Leucocytes,Release A,90.0,A,True,True,140.32,5.85,True,False,True,True,False
+IFA,8,2014-11-10 14:24:36+00:00,2014-11-10 17:15:20+00:00,ER Registration,IV Antibiotics,50.0,Unrecorded,True,True,2.85,0.12,False,False,True,True,False
+IG,18,2014-08-01 18:07:48+00:00,2014-08-13 08:00:00+00:00,ER Registration,Release A,90.0,QA,False,False,277.87,11.58,True,False,False,False,False
+IGA,16,2014-03-06 00:22:26+00:00,2014-03-26 09:24:17+00:00,ER Registration,Return ER,75.0,C,True,True,489.03,20.38,True,False,True,True,True
+IH,17,2014-03-09 20:22:21+00:00,2014-03-29 08:43:43+00:00,ER Registration,Return ER,60.0,VA,True,True,468.36,19.52,True,False,True,True,True
+IHA,16,2014-06-07 15:25:26+00:00,2014-06-11 12:45:00+00:00,ER Registration,Release A,35.0,CE,True,True,93.33,3.89,True,False,True,True,False
+II,13,2014-07-25 15:59:02+00:00,2014-07-30 14:44:48+00:00,ER Registration,Return ER,60.0,C,True,True,118.76,4.95,True,False,True,True,True
+IIA,13,2014-03-25 12:20:52+00:00,2014-03-29 09:00:00+00:00,ER Registration,Release A,75.0,C,True,True,92.65,3.86,True,False,True,True,False
+IJ,16,2014-05-24 17:40:09+00:00,2014-05-31 08:30:00+00:00,ER Registration,Release A,85.0,C,True,True,158.83,6.62,True,False,True,True,False
+IJA,11,2014-05-06 18:28:44+00:00,2014-05-07 06:00:00+00:00,ER Registration,CRP,35.0,IE,True,True,11.52,0.48,True,False,True,True,False
+IK,6,2015-02-20 10:10:31+00:00,2015-02-20 10:45:00+00:00,ER Registration,LacticAcid,65.0,Unrecorded,True,True,0.57,0.02,False,False,False,False,False
+IKA,8,2014-01-22 12:58:27+00:00,2014-01-22 14:03:42+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,1.09,0.05,False,False,True,True,False
+IL,13,2014-11-25 13:45:07+00:00,2014-11-29 09:00:00+00:00,ER Registration,Release A,90.0,C,True,True,91.25,3.8,True,False,True,True,False
+ILA,12,2014-09-16 07:08:46+00:00,2014-10-07 06:15:46+00:00,ER Registration,Return ER,55.0,Y,True,True,503.12,20.96,True,False,True,True,True
+IM,37,2014-10-31 08:04:50+00:00,2014-12-01 11:30:00+00:00,ER Registration,Release A,75.0,G,True,True,747.42,31.14,True,True,True,True,False
+IMA,5,2015-01-21 16:46:05+00:00,2015-01-21 19:07:22+00:00,ER Registration,ER Sepsis Triage,20.0,Unrecorded,False,False,2.35,0.1,False,False,False,False,False
+IN,11,2014-03-25 18:04:46+00:00,2014-03-26 12:00:00+00:00,ER Registration,CRP,90.0,W,True,True,17.92,0.75,True,False,True,True,False
+INA,3,2014-11-03 08:43:47+00:00,2014-11-03 09:45:51+00:00,ER Registration,ER Sepsis Triage,25.0,Unrecorded,False,False,1.03,0.04,False,False,False,False,False
+IO,17,2014-11-03 10:04:03+00:00,2015-01-02 09:20:09+00:00,ER Registration,Return ER,85.0,VB,True,True,1439.27,59.97,True,False,True,True,True
+IP,16,2014-01-12 08:04:20+00:00,2014-01-24 15:23:39+00:00,ER Registration,Return ER,80.0,H,True,False,295.32,12.3,True,False,True,True,True
+IQ,13,2015-02-12 14:43:06+00:00,2015-02-17 11:54:11+00:00,ER Registration,Return ER,75.0,DC,True,True,117.18,4.88,True,False,True,True,True
+IR,9,2014-05-19 13:21:17+00:00,2014-05-19 14:09:13+00:00,ER Registration,ER Triage,60.0,Unrecorded,True,True,0.8,0.03,False,False,True,True,False
+IS,23,2014-08-20 09:58:02+00:00,2014-09-02 10:00:00+00:00,ER Registration,Release A,50.0,RB,True,True,312.03,13.0,True,False,True,True,False
+IT,16,2014-03-26 02:07:35+00:00,2014-07-05 06:21:47+00:00,ER Registration,Return ER,90.0,TC,True,True,2428.24,101.18,True,False,True,True,True
+IU,15,2014-11-17 21:11:54+00:00,2014-11-24 12:00:00+00:00,ER Registration,Release A,85.0,E,True,True,158.8,6.62,True,False,True,True,False
+IV,8,2014-06-06 13:37:50+00:00,2014-06-06 17:10:08+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,3.54,0.15,False,False,True,True,False
+IW,13,2014-02-27 08:18:00+00:00,2014-03-01 13:00:00+00:00,Leucocytes,Release A,70.0,B,True,True,52.7,2.2,True,False,True,True,False
+IX,8,2014-08-27 08:03:23+00:00,2014-08-27 12:14:22+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,4.18,0.17,False,False,True,True,False
+IY,18,2014-05-03 16:19:41+00:00,2014-06-16 21:41:06+00:00,ER Registration,Return ER,75.0,C,True,True,1061.36,44.22,True,False,True,True,True
+IZ,7,2014-06-07 04:29:56+00:00,2014-06-09 16:30:00+00:00,ER Registration,Release A,85.0,KD,False,False,60.0,2.5,True,False,False,False,False
+J,11,2014-01-02 15:45:45+00:00,2014-01-06 10:00:00+00:00,ER Registration,Release A,80.0,B,True,True,90.24,3.76,True,False,True,True,False
+JA,14,2014-04-24 08:19:51+00:00,2014-07-03 20:59:38+00:00,ER Registration,Return ER,65.0,H,True,True,1692.66,70.53,True,False,True,False,True
+JAA,23,2014-03-02 05:35:09+00:00,2014-03-31 07:30:00+00:00,ER Registration,Release E,65.0,ND,True,True,697.91,29.08,True,False,False,False,False
+JB,8,2014-02-23 14:55:06+00:00,2014-02-23 16:43:39+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,1.81,0.08,False,False,True,True,False
+JBA,8,2014-08-18 15:31:24+00:00,2014-08-18 17:32:55+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,2.03,0.08,False,False,True,True,False
+JC,15,2014-02-28 15:31:31+00:00,2014-05-20 18:46:05+00:00,ER Registration,Return ER,85.0,C,True,True,1947.24,81.14,True,False,True,True,True
+JCA,18,2014-10-28 12:24:21+00:00,2015-01-15 15:40:23+00:00,ER Registration,Return ER,90.0,JC,True,True,1899.27,79.14,True,False,True,True,True
+JD,14,2014-07-16 06:54:39+00:00,2015-02-20 09:19:11+00:00,ER Registration,Return ER,70.0,B,True,True,5258.41,219.1,True,False,True,True,True
+JDA,8,2014-03-09 12:06:52+00:00,2014-03-09 19:06:13+00:00,ER Registration,IV Antibiotics,55.0,Unrecorded,True,True,6.99,0.29,False,False,True,True,False
+JE,16,2014-02-25 16:33:52+00:00,2014-03-14 12:23:38+00:00,ER Registration,Return ER,90.0,C,True,True,403.83,16.83,True,False,True,True,True
+JEA,9,2014-01-08 19:39:11+00:00,2014-01-08 21:43:20+00:00,ER Registration,Admission NC,70.0,C,True,True,2.07,0.09,True,False,True,True,False
+JF,8,2014-10-20 15:55:21+00:00,2014-10-20 19:22:20+00:00,ER Registration,IV Antibiotics,70.0,Unrecorded,True,True,3.45,0.14,False,False,True,True,False
+JFA,8,2013-12-24 11:45:04+00:00,2014-07-16 11:35:39+00:00,ER Registration,Return ER,90.0,OB,False,False,4895.84,203.99,True,False,False,False,True
+JG,13,2014-02-15 14:56:02+00:00,2014-02-23 12:00:00+00:00,ER Registration,Release A,80.0,RA,True,True,189.07,7.88,True,False,True,True,False
+JGA,8,2014-03-06 13:23:54+00:00,2014-03-07 17:00:00+00:00,ER Registration,Release A,50.0,MA,False,False,27.6,1.15,True,False,False,False,False
+JH,12,2014-02-27 12:57:37+00:00,2014-03-11 20:22:21+00:00,ER Registration,Return ER,60.0,VA,True,True,295.41,12.31,True,False,True,True,True
+JHA,7,2014-06-04 14:39:57+00:00,2014-06-07 16:00:00+00:00,ER Registration,Release A,80.0,DE,False,False,73.33,3.06,True,False,False,False,False
+JI,8,2014-10-17 14:37:46+00:00,2014-10-17 15:11:00+00:00,ER Registration,CRP,80.0,Unrecorded,True,True,0.55,0.02,False,False,True,True,False
+JIA,9,2014-05-24 10:14:00+00:00,2014-05-24 17:15:30+00:00,CRP,IV Antibiotics,80.0,Unrecorded,True,True,7.02,0.29,False,False,True,True,False
+JJ,12,2014-10-12 12:37:47+00:00,2014-10-16 14:45:00+00:00,ER Registration,Release A,85.0,N,True,True,98.12,4.09,True,False,True,True,False
+JJA,9,2014-05-05 08:56:00+00:00,2014-05-09 15:00:00+00:00,ER Registration,Release A,70.0,MD,False,False,102.07,4.25,True,False,False,False,False
+JK,31,2014-10-18 06:43:05+00:00,2014-10-23 09:00:00+00:00,ER Registration,Release A,60.0,B,True,True,122.28,5.1,True,True,True,True,False
+JKA,13,2014-07-29 20:10:01+00:00,2014-08-04 15:00:00+00:00,ER Registration,Release B,80.0,B,True,True,138.83,5.78,True,False,True,True,False
+JL,10,2014-03-25 11:54:19+00:00,2014-03-26 08:00:00+00:00,ER Registration,Release A,90.0,M,True,True,20.09,0.84,True,False,True,True,False
+JLA,25,2014-05-04 04:15:14+00:00,2014-05-19 12:00:00+00:00,ER Registration,Release A,90.0,Unrecorded,True,True,367.75,15.32,True,False,True,True,False
+JM,13,2014-09-15 12:16:02+00:00,2014-10-05 11:00:00+00:00,ER Registration,Release E,60.0,HA,False,False,478.73,19.95,True,False,False,False,False
+JMA,17,2014-02-02 19:00:58+00:00,2014-02-11 10:00:00+00:00,ER Sepsis Triage,Release A,80.0,JC,True,True,206.98,8.62,True,False,True,True,False
+JN,12,2013-11-25 11:56:29+00:00,2013-11-29 04:10:00+00:00,ER Registration,Release A,85.0,QB,True,True,88.23,3.68,True,False,True,True,False
+JNA,3,2014-11-12 16:40:19+00:00,2014-11-12 16:47:39+00:00,ER Registration,ER Sepsis Triage,40.0,Unrecorded,False,False,0.12,0.0,False,False,False,False,False
+JO,12,2015-01-30 11:47:20+00:00,2015-02-12 12:43:02+00:00,ER Registration,Return ER,85.0,B,True,True,312.93,13.04,True,False,True,True,True
+JP,5,2014-05-03 18:14:32+00:00,2014-05-03 18:26:00+00:00,ER Registration,CRP,35.0,Unrecorded,False,False,0.19,0.01,False,False,False,False,False
+JQ,18,2013-12-03 09:41:53+00:00,2013-12-07 18:00:00+00:00,ER Registration,Release B,65.0,D,True,False,104.3,4.35,True,False,True,True,False
+JR,16,2013-11-18 12:02:28+00:00,2014-01-12 16:16:20+00:00,ER Registration,Return ER,80.0,C,True,True,1324.23,55.18,True,False,True,True,True
+JS,39,2014-03-27 16:12:12+00:00,2014-05-02 09:45:00+00:00,ER Registration,Release A,85.0,MC,True,True,857.55,35.73,True,False,True,True,False
+JT,14,2014-06-13 19:10:26+00:00,2014-06-25 17:00:00+00:00,ER Registration,Release A,55.0,UC,True,True,285.83,11.91,True,False,True,False,False
+JU,16,2014-06-26 21:18:30+00:00,2014-07-01 08:40:00+00:00,ER Registration,Release A,85.0,C,True,True,107.36,4.47,True,False,True,True,False
+JV,15,2014-12-03 00:25:29+00:00,2014-12-08 12:00:00+00:00,ER Registration,Release A,80.0,C,True,True,131.58,5.48,True,False,True,True,False
+JW,16,2014-06-13 10:59:20+00:00,2014-06-23 17:35:01+00:00,ER Registration,Return ER,80.0,E,True,True,246.59,10.27,True,False,True,True,True
+JX,17,2014-12-24 10:47:15+00:00,2014-12-29 09:00:00+00:00,ER Registration,Release A,60.0,G,True,True,118.21,4.93,True,True,True,True,False
+JY,18,2014-03-31 22:08:15+00:00,2014-04-30 16:19:41+00:00,ER Registration,Return ER,75.0,Y,True,True,714.19,29.76,True,False,True,True,True
+JZ,10,2014-12-18 17:34:00+00:00,2014-12-19 06:00:00+00:00,ER Registration,Leucocytes,90.0,Unrecorded,True,True,12.43,0.52,False,False,True,True,False
+K,16,2014-02-23 20:43:13+00:00,2014-06-10 20:27:24+00:00,ER Registration,Return ER,50.0,I,True,True,2567.74,106.99,True,False,True,True,True
+KA,16,2013-12-26 06:50:57+00:00,2013-12-31 11:09:34+00:00,ER Registration,Release A,55.0,O,True,True,124.31,5.18,True,False,True,True,False
+KAA,5,2014-08-28 08:40:39+00:00,2014-08-29 08:00:00+00:00,ER Registration,Release A,60.0,OD,False,False,23.32,0.97,True,False,False,False,False
+KB,11,2014-06-17 09:02:28+00:00,2014-11-08 21:04:52+00:00,ER Registration,Return ER,70.0,H,True,True,3468.04,144.5,True,False,True,True,True
+KBA,15,2014-07-29 15:11:20+00:00,2014-08-01 15:00:00+00:00,ER Registration,Release A,25.0,BB,True,True,71.81,2.99,True,False,True,True,False
+KC,13,2014-06-05 06:25:58+00:00,2014-06-22 09:00:00+00:00,ER Registration,Release A,75.0,H,True,True,410.57,17.11,True,False,True,True,False
+KCA,11,2014-10-11 15:55:10+00:00,2014-10-15 12:00:00+00:00,ER Registration,Release A,75.0,C,True,True,92.08,3.84,True,False,True,True,False
+KD,17,2014-02-24 20:00:00+00:00,2014-06-26 06:54:39+00:00,ER Sepsis Triage,Return ER,70.0,CA,True,True,2914.91,121.45,True,True,True,True,True
+KDA,3,2014-05-11 12:09:29+00:00,2014-05-11 12:21:21+00:00,ER Registration,ER Sepsis Triage,75.0,Unrecorded,False,False,0.2,0.01,False,False,False,False,False
+KE,16,2013-12-16 14:30:19+00:00,2014-11-17 14:54:09+00:00,ER Registration,Return ER,80.0,C,True,True,8064.4,336.02,True,False,True,True,True
+KEA,8,2014-11-06 15:29:26+00:00,2014-11-06 16:49:02+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,1.33,0.06,False,False,True,True,False
+KF,15,2014-03-31 18:38:07+00:00,2014-04-05 09:00:00+00:00,ER Registration,Release A,75.0,E,True,True,110.36,4.6,True,False,True,True,False
+KFA,15,2014-03-06 13:41:30+00:00,2014-04-02 13:07:59+00:00,ER Registration,Return ER,65.0,BB,True,True,647.44,26.98,True,False,True,True,True
+KG,16,2014-05-20 10:52:00+00:00,2014-05-24 13:15:00+00:00,Leucocytes,Release A,40.0,K,True,True,98.38,4.1,True,False,True,True,False
+KGA,6,2014-06-29 06:49:47+00:00,2014-06-29 10:03:49+00:00,ER Registration,Admission NC,80.0,Unrecorded,False,False,3.23,0.13,True,False,False,False,False
+KH,12,2014-05-31 06:12:01+00:00,2014-06-03 11:40:00+00:00,ER Registration,Release A,55.0,WA,True,True,77.47,3.23,True,False,True,True,False
+KHA,10,2014-09-11 13:33:49+00:00,2014-09-20 11:46:42+00:00,ER Registration,Release A,90.0,TB,True,True,214.21,8.93,True,False,True,True,False
+KI,16,2014-11-16 00:52:30+00:00,2015-01-02 14:37:46+00:00,ER Registration,Return ER,80.0,ZA,True,True,1141.75,47.57,True,False,True,True,True
+KIA,13,2015-01-19 05:06:52+00:00,2015-01-23 12:15:00+00:00,ER Registration,Release A,55.0,B,True,True,103.14,4.3,True,False,True,True,False
+KJ,10,2014-08-27 08:34:14+00:00,2014-08-31 11:30:00+00:00,ER Registration,Release A,90.0,C,True,True,98.93,4.12,True,False,True,False,False
+KJA,5,2014-02-18 07:05:00+00:00,2014-02-18 13:39:40+00:00,Leucocytes,ER Sepsis Triage,45.0,Unrecorded,False,False,6.58,0.27,False,False,False,False,False
+KK,14,2014-08-20 23:07:35+00:00,2014-08-24 07:45:00+00:00,ER Registration,Release A,90.0,W,False,False,80.62,3.36,True,False,True,True,False
+KKA,14,2014-09-14 18:16:04+00:00,2014-09-27 08:00:00+00:00,ER Registration,Release A,55.0,H,True,True,301.73,12.57,True,True,True,True,False
+KL,5,2014-11-13 07:43:17+00:00,2014-11-13 08:22:43+00:00,ER Registration,ER Sepsis Triage,65.0,Unrecorded,False,False,0.66,0.03,False,False,False,False,False
+KLA,14,2014-09-23 08:58:03+00:00,2014-09-28 14:00:00+00:00,ER Registration,Release A,70.0,C,True,True,125.03,5.21,True,False,True,True,False
+KM,170,2014-08-25 00:09:42+00:00,2014-11-02 12:29:18+00:00,ER Registration,Return ER,70.0,LB,True,True,1668.33,69.51,True,True,True,True,True
+KMA,20,2013-12-23 23:38:29+00:00,2014-01-01 09:00:00+00:00,ER Registration,Release D,90.0,Q,True,True,201.36,8.39,True,False,True,True,False
+KN,14,2014-07-11 13:28:35+00:00,2014-07-18 20:00:00+00:00,ER Registration,Release A,80.0,C,True,True,174.52,7.27,True,False,True,True,False
+KNA,15,2014-12-11 22:28:38+00:00,2014-12-16 16:00:00+00:00,ER Registration,Release A,35.0,QE,True,True,113.52,4.73,True,False,True,True,False
+KO,16,2014-05-03 19:14:35+00:00,2014-08-20 05:34:50+00:00,ER Registration,Return ER,85.0,H,True,True,2602.34,108.43,True,False,True,True,True
+KP,10,2014-05-12 19:24:12+00:00,2014-05-15 18:00:00+00:00,ER Registration,Release A,45.0,ZB,True,True,70.6,2.94,True,False,True,True,False
+KQ,11,2014-06-29 08:30:52+00:00,2014-12-07 07:30:15+00:00,ER Registration,Return ER,90.0,S,False,False,3862.99,160.96,True,False,False,False,True
+KR,9,2015-01-05 18:09:49+00:00,2015-01-05 22:11:45+00:00,ER Registration,Admission NC,85.0,W,True,True,4.03,0.17,True,False,True,True,False
+KS,22,2014-08-08 10:08:12+00:00,2014-09-28 01:24:02+00:00,ER Registration,Return ER,65.0,R,True,True,1215.26,50.64,True,False,True,True,True
+KT,13,2014-12-26 04:24:53+00:00,2014-12-29 19:00:00+00:00,ER Registration,Release A,85.0,B,True,True,86.59,3.61,True,False,True,True,False
+KU,8,2014-08-04 09:25:50+00:00,2014-08-04 09:45:31+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,0.33,0.01,False,False,True,True,False
+KV,8,2014-08-07 15:49:36+00:00,2014-08-13 19:29:21+00:00,ER Registration,Return ER,65.0,KA,False,False,147.66,6.15,True,False,False,False,True
+KW,13,2014-03-11 10:47:39+00:00,2014-03-19 10:59:20+00:00,ER Registration,Return ER,80.0,E,True,True,192.19,8.01,True,False,True,True,True
+KX,30,2014-11-11 10:40:02+00:00,2014-12-02 15:49:55+00:00,ER Triage,Return ER,65.0,G,True,True,509.16,21.22,True,True,False,False,True
+KY,5,2014-11-12 20:27:21+00:00,2014-11-12 20:46:00+00:00,ER Registration,Leucocytes,40.0,Unrecorded,True,True,0.31,0.01,False,False,False,False,False
+KZ,17,2014-11-11 10:25:42+00:00,2014-11-14 08:52:00+00:00,ER Registration,Release A,75.0,E,True,True,70.44,2.94,True,False,True,True,False
+L,15,2014-08-31 16:47:15+00:00,2014-09-11 22:40:27+00:00,ER Registration,Return ER,85.0,J,True,True,269.89,11.25,True,False,True,True,True
+LA,5,2014-11-20 11:11:27+00:00,2014-11-20 11:28:00+00:00,ER Registration,CRP,85.0,Unrecorded,False,False,0.28,0.01,False,False,False,False,False
+LAA,8,2013-12-03 20:44:47+00:00,2013-12-03 21:43:26+00:00,ER Registration,IV Antibiotics,25.0,Unrecorded,True,True,0.98,0.04,False,False,True,True,False
+LB,19,2013-12-02 09:51:22+00:00,2013-12-12 05:45:00+00:00,ER Registration,Release B,85.0,J,True,True,235.89,9.83,True,False,True,True,False
+LBA,19,2014-11-17 19:29:46+00:00,2014-12-02 08:00:00+00:00,ER Registration,Release C,90.0,QD,True,True,348.5,14.52,True,False,True,True,False
+LC,21,2014-05-02 04:09:01+00:00,2014-05-26 06:25:58+00:00,ER Registration,Return ER,75.0,H,True,True,578.28,24.1,True,False,True,False,True
+LCA,8,2014-05-22 10:44:41+00:00,2014-05-22 14:01:56+00:00,ER Registration,IV Antibiotics,25.0,Unrecorded,True,True,3.29,0.14,False,False,True,True,False
+LD,14,2015-01-25 14:08:46+00:00,2015-02-01 19:00:00+00:00,ER Registration,Release A,75.0,R,True,True,172.85,7.2,True,False,True,True,False
+LDA,15,2014-10-15 19:24:44+00:00,2014-10-20 13:00:00+00:00,ER Registration,Release A,90.0,C,True,True,113.59,4.73,True,False,True,True,False
+LE,12,2014-03-14 10:00:15+00:00,2014-03-17 17:30:00+00:00,ER Registration,Release B,85.0,B,True,True,79.5,3.31,True,False,True,True,False
+LEA,30,2014-04-19 16:39:23+00:00,2014-04-26 04:27:00+00:00,ER Registration,Release B,60.0,C,True,True,155.79,6.49,True,True,True,True,False
+LF,5,2014-03-07 20:49:45+00:00,2014-03-07 21:42:00+00:00,ER Registration,CRP,65.0,Unrecorded,False,False,0.87,0.04,False,False,False,False,False
+LFA,10,2014-08-27 13:38:05+00:00,2014-08-31 10:00:00+00:00,ER Registration,Release A,90.0,E,True,True,92.37,3.85,True,False,True,True,False
+LG,41,2014-11-27 09:41:23+00:00,2015-03-29 15:53:20+00:00,ER Registration,Return ER,75.0,C,True,True,2934.2,122.26,True,True,True,True,True
+LGA,9,2014-08-10 09:39:14+00:00,2014-08-10 14:50:42+00:00,ER Triage,IV Antibiotics,90.0,Unrecorded,True,True,5.19,0.22,True,False,True,True,False
+LH,17,2015-01-17 08:50:23+00:00,2015-01-28 10:30:00+00:00,ER Registration,Release A,85.0,Q,True,True,265.66,11.07,True,False,False,False,False
+LHA,13,2014-09-09 07:38:25+00:00,2014-09-13 08:00:00+00:00,ER Registration,Release A,70.0,C,True,True,96.36,4.01,True,False,True,True,False
+LI,14,2014-03-20 09:06:50+00:00,2014-08-25 00:52:30+00:00,ER Registration,Return ER,80.0,ZA,True,True,3783.76,157.66,True,False,True,True,True
+LIA,31,2014-11-30 01:57:44+00:00,2015-01-17 05:06:52+00:00,ER Registration,Return ER,55.0,B,True,True,1155.15,48.13,True,True,True,True,True
+LJ,31,2014-10-26 19:21:00+00:00,2014-12-14 08:30:00+00:00,ER Registration,Release D,90.0,CB,True,True,1165.15,48.55,True,False,True,True,False
+LJA,8,2014-06-13 15:57:35+00:00,2014-06-13 18:14:31+00:00,ER Registration,IV Antibiotics,70.0,Unrecorded,True,True,2.28,0.09,False,False,True,True,False
+LK,12,2015-02-15 20:39:55+00:00,2015-02-19 12:40:00+00:00,ER Registration,Release A,75.0,C,True,True,88.0,3.67,True,False,True,True,False
+LKA,24,2014-03-22 19:22:31+00:00,2014-04-29 14:52:39+00:00,ER Registration,Return ER,80.0,C,True,True,907.5,37.81,True,False,True,True,True
+LL,22,2014-06-08 10:46:50+00:00,2014-06-20 08:00:00+00:00,ER Registration,Release A,75.0,F,True,True,285.22,11.88,True,False,True,True,False
+LLA,5,2014-08-15 12:25:35+00:00,2014-08-15 12:43:00+00:00,ER Registration,Leucocytes,75.0,Unrecorded,False,False,0.29,0.01,False,False,False,False,False
+LM,35,2014-12-06 07:30:47+00:00,2014-12-29 17:00:00+00:00,ER Registration,Release A,80.0,MB,True,True,561.49,23.4,True,True,True,True,False
+LMA,6,2014-09-12 08:50:45+00:00,2014-09-13 13:30:00+00:00,ER Registration,Release A,70.0,OB,False,False,28.65,1.19,True,False,False,False,False
+LN,15,2014-02-18 21:28:35+00:00,2015-01-27 12:12:50+00:00,ER Registration,Return ER,70.0,B,True,True,8222.74,342.61,True,False,True,True,True
+LNA,3,2014-12-03 09:50:28+00:00,2014-12-03 09:54:39+00:00,ER Registration,ER Sepsis Triage,50.0,Unrecorded,False,False,0.07,0.0,False,False,False,False,False
+LO,8,2014-10-13 13:14:34+00:00,2014-10-13 16:00:26+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,2.76,0.12,False,False,True,True,False
+LP,19,2014-09-01 10:51:27+00:00,2014-09-13 19:30:00+00:00,ER Registration,Release B,80.0,C,True,True,296.64,12.36,True,False,True,True,False
+LQ,21,2014-09-18 20:24:34+00:00,2014-09-28 08:30:52+00:00,ER Registration,Return ER,90.0,EC,True,True,228.1,9.5,True,False,True,True,True
+LR,12,2014-10-04 11:37:43+00:00,2014-10-10 10:00:00+00:00,ER Registration,Release A,55.0,H,True,True,142.37,5.93,True,False,True,True,False
+LS,15,2013-11-18 16:24:56+00:00,2014-12-20 15:39:26+00:00,ER Registration,Return ER,75.0,Y,True,True,9527.24,396.97,True,False,True,True,True
+LT,29,2014-04-05 12:01:25+00:00,2014-04-20 08:00:44+00:00,ER Registration,Release A,60.0,XA,True,True,355.99,14.83,True,True,True,False,False
+LU,13,2014-12-22 21:36:58+00:00,2015-01-01 14:33:58+00:00,ER Registration,Return ER,80.0,KC,True,True,232.95,9.71,True,False,True,True,True
+LV,19,2014-10-02 11:47:38+00:00,2014-10-23 09:30:00+00:00,ER Registration,Release D,90.0,Q,False,False,501.71,20.9,True,False,False,False,False
+LW,15,2014-11-21 08:10:00+00:00,2014-11-27 09:15:00+00:00,Leucocytes,Release A,75.0,R,True,True,145.08,6.05,True,False,True,True,False
+LX,13,2014-06-18 06:15:00+00:00,2014-06-22 09:00:00+00:00,Leucocytes,Release A,65.0,UA,True,True,98.75,4.11,True,False,True,True,False
+LY,3,2014-04-14 18:24:37+00:00,2014-04-14 18:40:40+00:00,ER Registration,ER Sepsis Triage,60.0,Unrecorded,False,False,0.27,0.01,False,False,False,False,False
+LZ,21,2013-11-27 23:00:01+00:00,2014-01-27 12:57:44+00:00,ER Sepsis Triage,Return ER,80.0,LD,True,True,1453.96,60.58,True,False,True,True,True
+M,3,2014-10-10 01:08:37+00:00,2014-10-10 01:10:54+00:00,ER Registration,ER Sepsis Triage,90.0,Unrecorded,False,False,0.04,0.0,False,False,False,False,False
+MA,14,2014-04-07 14:15:09+00:00,2014-04-10 15:00:00+00:00,ER Registration,Release A,55.0,P,True,True,72.75,3.03,True,False,True,True,False
+MAA,14,2014-02-12 15:56:15+00:00,2014-02-15 14:00:00+00:00,ER Registration,Release A,75.0,T,False,False,70.06,2.92,True,False,False,False,False
+MB,3,2014-11-04 12:55:37+00:00,2014-11-04 13:03:10+00:00,ER Registration,ER Sepsis Triage,75.0,Unrecorded,False,False,0.13,0.01,False,False,False,False,False
+MBA,11,2014-01-19 16:29:13+00:00,2014-01-23 17:00:00+00:00,ER Registration,Release A,80.0,H,True,True,96.51,4.02,True,False,True,True,False
+MC,14,2013-12-27 15:14:54+00:00,2014-01-06 11:15:26+00:00,ER Registration,Return ER,75.0,H,True,True,236.01,9.83,True,False,True,True,True
+MCA,5,2015-01-14 21:14:36+00:00,2015-01-14 21:43:00+00:00,ER Registration,CRP,85.0,Unrecorded,True,True,0.47,0.02,False,False,False,False,False
+MD,15,2014-09-22 21:48:47+00:00,2014-10-06 14:08:46+00:00,ER Registration,Return ER,75.0,R,True,True,328.33,13.68,True,False,True,True,True
+MDA,12,2014-10-07 18:00:31+00:00,2014-10-08 05:00:00+00:00,IV Liquid,Leucocytes,90.0,G,True,True,10.99,0.46,False,True,True,True,False
+ME,15,2014-05-17 22:24:21+00:00,2014-09-09 07:23:41+00:00,ER Registration,Return ER,85.0,H,True,True,2744.99,114.37,True,False,True,True,True
+MEA,21,2014-04-15 15:04:11+00:00,2014-04-23 15:00:00+00:00,ER Registration,Release A,60.0,C,True,True,191.93,8.0,True,False,True,True,False
+MF,3,2014-12-18 17:53:10+00:00,2014-12-18 18:34:21+00:00,ER Registration,ER Sepsis Triage,30.0,Unrecorded,False,False,0.69,0.03,False,False,False,False,False
+MFA,13,2014-05-29 19:08:41+00:00,2014-07-10 11:30:40+00:00,ER Registration,Return ER,85.0,B,True,True,1000.37,41.68,True,False,True,True,True
+MG,6,2014-02-20 04:21:59+00:00,2014-02-20 10:00:00+00:00,ER Registration,Leucocytes,30.0,Unrecorded,False,False,5.63,0.23,False,False,False,False,False
+MGA,12,2014-03-30 11:04:20+00:00,2014-04-03 21:00:00+00:00,ER Registration,Release B,85.0,E,True,True,105.93,4.41,True,False,True,True,False
+MH,5,2014-06-16 19:05:04+00:00,2014-06-16 19:48:00+00:00,ER Registration,Leucocytes,90.0,Unrecorded,False,False,0.72,0.03,False,False,False,False,False
+MHA,13,2014-09-26 09:24:42+00:00,2015-04-22 20:30:51+00:00,ER Registration,Return ER,50.0,YA,True,True,5003.1,208.46,True,False,True,True,True
+MI,8,2013-12-22 07:11:25+00:00,2013-12-22 08:39:01+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,1.46,0.06,False,False,True,True,False
+MIA,13,2014-10-11 07:32:36+00:00,2014-12-02 01:57:44+00:00,ER Registration,Return ER,55.0,B,True,True,1242.42,51.77,True,False,True,True,True
+MJ,13,2014-09-04 19:10:31+00:00,2014-09-09 07:44:30+00:00,ER Registration,Release A,55.0,F,True,True,108.57,4.52,True,False,True,True,False
+MJA,8,2014-05-04 18:55:44+00:00,2014-05-05 05:00:00+00:00,ER Registration,CRP,70.0,Unrecorded,False,False,10.07,0.42,False,False,True,False,False
+MK,27,2014-08-27 19:46:25+00:00,2015-04-18 12:02:11+00:00,ER Registration,Return ER,75.0,CA,True,True,5608.26,233.68,True,True,True,True,True
+MKA,52,2015-01-30 08:53:07+00:00,2015-02-15 09:00:00+00:00,ER Registration,Release A,35.0,B,True,True,384.11,16.0,True,True,True,True,False
+ML,29,2014-01-14 08:00:46+00:00,2014-07-31 15:05:19+00:00,ER Registration,Return ER,65.0,B,True,True,4759.08,198.3,True,True,True,True,True
+MLA,5,2014-02-11 20:48:17+00:00,2014-02-11 21:13:00+00:00,ER Registration,CRP,35.0,Unrecorded,False,False,0.41,0.02,False,False,False,False,False
+MM,20,2014-03-30 10:17:19+00:00,2014-04-10 11:30:00+00:00,ER Registration,Release A,85.0,NB,False,False,265.21,11.05,True,False,False,False,False
+MMA,8,2014-12-14 15:14:48+00:00,2014-12-14 16:21:28+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,False,1.11,0.05,False,False,True,True,False
+MN,33,2014-04-29 13:08:00+00:00,2014-05-09 09:16:43+00:00,CRP,Return ER,55.0,P,False,False,236.15,9.84,True,True,False,False,True
+MO,10,2014-12-03 15:47:39+00:00,2014-12-09 09:15:00+00:00,ER Registration,Release A,90.0,M,True,True,137.46,5.73,True,False,True,True,False
+MP,22,2013-12-10 04:40:54+00:00,2013-12-19 20:21:50+00:00,ER Registration,Return ER,90.0,AC,True,True,231.68,9.65,True,False,True,True,True
+MQ,16,2014-02-22 17:37:22+00:00,2014-10-01 20:24:34+00:00,ER Registration,Return ER,90.0,B,True,True,5306.79,221.12,True,False,True,False,True
+MR,12,2014-01-29 16:35:14+00:00,2014-02-02 08:30:00+00:00,ER Registration,Release A,70.0,GC,True,True,87.91,3.66,True,False,True,True,False
+MS,15,2014-11-28 15:40:19+00:00,2015-03-01 13:35:00+00:00,IV Liquid,Return ER,85.0,NC,True,True,2229.91,92.91,True,False,True,True,True
+MT,12,2014-05-17 17:17:28+00:00,2014-08-08 19:14:40+00:00,ER Registration,Return ER,65.0,H,True,True,1993.95,83.08,True,False,True,True,True
+MU,14,2014-03-05 09:43:33+00:00,2014-03-12 11:00:00+00:00,ER Registration,Release A,85.0,RB,True,True,169.27,7.05,True,False,True,True,False
+MV,16,2015-01-17 19:30:00+00:00,2015-01-21 15:00:00+00:00,ER Registration,Release A,85.0,B,True,True,91.5,3.81,True,False,True,True,False
+MW,30,2014-10-30 10:52:00+00:00,2014-11-15 10:30:00+00:00,ER Registration,Release B,85.0,BD,True,True,383.63,15.98,True,False,True,True,False
+MX,12,2014-05-07 13:45:11+00:00,2014-05-16 12:00:00+00:00,ER Registration,Release A,55.0,RB,True,True,214.25,8.93,True,False,True,True,False
+MY,6,2013-11-13 13:23:53+00:00,2013-11-13 14:12:00+00:00,ER Registration,Leucocytes,35.0,Unrecorded,True,True,0.8,0.03,False,False,False,False,False
+MZ,14,2014-09-05 10:22:37+00:00,2014-09-26 15:57:44+00:00,ER Registration,Return ER,80.0,F,True,True,509.59,21.23,True,False,True,False,True
+N,12,2014-06-16 08:34:58+00:00,2014-06-21 12:30:00+00:00,ER Registration,Release A,55.0,K,True,True,123.92,5.16,True,False,True,True,False
+NA,24,2014-11-10 00:45:19+00:00,2014-11-22 13:30:00+00:00,ER Registration,Release C,90.0,C,True,True,300.74,12.53,True,False,True,True,False
+NAA,3,2014-12-06 09:32:35+00:00,2014-12-06 09:51:24+00:00,ER Registration,ER Sepsis Triage,65.0,Unrecorded,False,False,0.31,0.01,False,False,False,False,False
+NB,21,2014-10-10 16:16:35+00:00,2014-10-19 11:00:00+00:00,ER Registration,Release A,65.0,E,True,True,210.72,8.78,True,False,True,True,False
+NBA,5,2014-06-01 22:34:13+00:00,2014-06-01 22:43:00+00:00,ER Registration,CRP,45.0,Unrecorded,False,False,0.15,0.01,False,False,False,False,False
+NC,7,2014-09-11 09:51:28+00:00,2014-09-11 14:58:59+00:00,ER Registration,IV Liquid,35.0,Unrecorded,True,True,5.13,0.21,False,False,True,True,False
+NCA,17,2014-03-17 19:20:31+00:00,2015-01-28 14:37:56+00:00,IV Liquid,Return ER,70.0,B,True,True,7603.29,316.8,True,False,True,True,True
+ND,16,2013-12-02 20:33:43+00:00,2013-12-08 12:00:00+00:00,ER Registration,Release A,70.0,Y,True,True,135.44,5.64,True,False,True,True,False
+NDA,15,2014-01-30 11:06:08+00:00,2014-02-02 18:00:00+00:00,ER Registration,Release A,20.0,G,True,True,78.9,3.29,True,True,True,True,False
+NE,5,2014-10-23 15:23:57+00:00,2014-10-23 15:39:00+00:00,ER Registration,Leucocytes,75.0,Unrecorded,False,False,0.25,0.01,False,False,False,False,False
+NEA,51,2014-03-15 07:41:08+00:00,2014-04-23 10:00:00+00:00,ER Registration,Release A,80.0,CA,True,True,938.31,39.1,True,True,True,False,False
+NF,28,2014-04-08 21:33:14+00:00,2014-04-27 10:15:00+00:00,ER Registration,Release A,90.0,MA,True,True,444.7,18.53,True,False,True,True,False
+NFA,8,2013-12-13 12:47:56+00:00,2013-12-13 14:01:51+00:00,ER Registration,IV Antibiotics,50.0,Unrecorded,True,True,1.23,0.05,False,False,True,True,False
+NG,6,2014-11-30 09:26:08+00:00,2014-11-30 10:29:00+00:00,ER Registration,LacticAcid,25.0,Unrecorded,False,False,1.05,0.04,False,False,False,False,False
+NGA,185,2014-06-16 23:17:11+00:00,2014-10-09 08:00:00+00:00,ER Registration,Release C,80.0,ZD,True,True,2744.71,114.36,True,True,True,True,False
+NH,13,2014-05-15 10:06:35+00:00,2014-11-16 11:54:24+00:00,ER Registration,Return ER,80.0,H,True,True,4441.8,185.08,True,False,True,True,True
+NHA,11,2014-09-14 11:19:00+00:00,2014-09-18 09:36:49+00:00,ER Registration,Release A,90.0,RC,True,True,94.3,3.93,True,False,True,True,False
+NI,15,2014-05-31 16:15:05+00:00,2014-07-06 01:03:10+00:00,ER Registration,Return ER,85.0,C,True,True,848.8,35.37,True,False,True,True,True
+NIA,13,2014-06-29 11:29:14+00:00,2014-07-14 08:33:21+00:00,ER Registration,Return ER,55.0,B,True,True,357.07,14.88,True,False,True,True,True
+NJ,14,2014-03-10 13:20:18+00:00,2014-06-15 10:16:41+00:00,ER Registration,Return ER,65.0,E,True,True,2324.94,96.87,True,False,True,True,True
+NJA,16,2014-05-25 13:21:48+00:00,2014-05-29 13:30:00+00:00,ER Registration,Release A,40.0,JE,True,True,96.14,4.01,True,False,True,True,False
+NK,18,2014-06-17 16:57:55+00:00,2014-06-24 11:30:00+00:00,ER Registration,Release A,85.0,U,True,True,162.53,6.77,True,False,True,True,False
+NKA,10,2014-06-06 00:13:13+00:00,2014-06-10 10:00:00+00:00,ER Registration,Release A,75.0,H,True,True,105.78,4.41,True,False,True,True,False
+NL,6,2014-09-19 10:44:39+00:00,2014-09-19 10:58:00+00:00,ER Registration,LacticAcid,90.0,Unrecorded,False,False,0.22,0.01,False,False,False,False,False
+NLA,5,2014-11-20 19:33:53+00:00,2014-11-20 20:16:00+00:00,ER Registration,Leucocytes,30.0,Unrecorded,True,True,0.7,0.03,False,False,False,False,False
+NM,15,2014-09-18 18:39:45+00:00,2014-12-31 21:01:03+00:00,ER Registration,Return ER,80.0,C,True,True,2498.36,104.1,True,False,True,True,True
+NMA,21,2014-03-15 15:29:31+00:00,2014-03-26 18:00:00+00:00,ER Registration,Release A,35.0,C,True,True,266.51,11.1,True,False,True,True,False
+NN,13,2014-08-09 21:33:30+00:00,2014-08-13 09:00:00+00:00,ER Registration,Release A,35.0,RB,True,True,83.44,3.48,True,False,True,True,False
+NO,13,2014-05-14 16:29:12+00:00,2014-05-17 08:00:00+00:00,ER Registration,Release A,35.0,B,True,True,63.51,2.65,True,False,True,True,False
+NP,16,2014-11-05 13:30:30+00:00,2015-02-06 06:48:44+00:00,ER Registration,Return ER,80.0,B,True,True,2225.3,92.72,True,False,True,True,True
+NQ,5,2014-06-03 15:36:30+00:00,2014-06-03 16:07:00+00:00,ER Registration,Leucocytes,60.0,Unrecorded,False,False,0.51,0.02,False,False,False,False,False
+NR,19,2014-02-28 09:15:57+00:00,2014-03-06 19:10:10+00:00,ER Registration,Release B,90.0,HC,True,True,153.9,6.41,True,False,True,True,False
+NS,6,2014-11-02 15:20:22+00:00,2014-11-02 15:51:00+00:00,ER Registration,LacticAcid,90.0,Unrecorded,True,True,0.51,0.02,False,False,False,False,False
+NT,17,2014-09-09 10:47:54+00:00,2014-09-16 17:30:00+00:00,ER Registration,Release A,75.0,K,True,True,174.7,7.28,True,False,True,True,False
+NU,20,2014-12-14 00:28:40+00:00,2014-12-25 10:00:00+00:00,ER Registration,Release A,90.0,Q,True,True,273.52,11.4,True,False,True,True,False
+NV,11,2015-02-22 23:17:41+00:00,2015-02-26 09:15:00+00:00,ER Registration,Release A,65.0,AA,True,True,81.96,3.41,True,False,True,True,False
+NW,18,2014-06-28 16:04:05+00:00,2014-07-06 08:30:00+00:00,ER Registration,Release A,80.0,C,True,True,184.43,7.68,True,False,True,True,False
+NX,12,2014-10-06 16:16:13+00:00,2014-10-13 12:30:00+00:00,ER Registration,Release A,35.0,E,True,True,164.23,6.84,True,False,True,False,False
+NY,8,2014-02-04 14:26:22+00:00,2014-02-04 17:41:48+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,3.26,0.14,False,False,True,True,False
+NZ,61,2014-06-29 12:48:22+00:00,2014-09-05 14:55:20+00:00,ER Registration,Return ER,75.0,MD,True,True,1634.12,68.09,True,True,True,True,True
+O,11,2014-10-11 20:29:02+00:00,2014-10-17 16:40:42+00:00,ER Registration,Return ER,30.0,C,True,True,140.19,5.84,True,False,True,True,True
+OA,11,2013-12-20 21:42:14+00:00,2013-12-21 13:00:00+00:00,ER Registration,LacticAcid,85.0,Unrecorded,True,True,15.3,0.64,False,False,True,True,False
+OAA,37,2014-08-24 16:44:24+00:00,2014-09-07 09:00:00+00:00,ER Registration,Release A,45.0,M,True,True,328.26,13.68,True,True,True,False,False
+OB,16,2014-12-05 08:39:50+00:00,2014-12-13 09:45:00+00:00,ER Registration,Release A,80.0,E,True,True,193.09,8.05,True,False,True,True,False
+OBA,13,2014-10-07 13:32:12+00:00,2014-10-12 08:31:49+00:00,ER Registration,Release A,60.0,IC,False,False,114.99,4.79,True,False,False,False,False
+OC,22,2013-12-21 11:19:23+00:00,2014-08-30 11:58:30+00:00,ER Registration,Return ER,75.0,CA,True,True,6048.65,252.03,True,True,True,True,True
+OCA,5,2014-03-09 12:18:07+00:00,2014-03-09 13:04:00+00:00,ER Registration,CRP,55.0,Unrecorded,False,False,0.76,0.03,False,False,False,False,False
+OD,118,2014-05-27 01:53:13+00:00,2014-07-01 19:00:00+00:00,ER Registration,Release B,75.0,CA,True,True,857.11,35.71,False,True,True,True,False
+ODA,23,2014-06-02 08:13:38+00:00,2014-06-12 08:15:00+00:00,ER Registration,Release D,90.0,N,True,True,240.02,10.0,True,False,True,True,False
+OE,3,2014-06-10 16:34:30+00:00,2014-06-10 16:58:20+00:00,ER Registration,ER Sepsis Triage,55.0,Unrecorded,False,False,0.4,0.02,False,False,False,False,False
+OEA,20,2014-02-04 16:05:22+00:00,2014-08-09 14:41:48+00:00,ER Registration,Return ER,90.0,JC,True,True,4462.61,185.94,True,False,True,True,True
+OF,3,2014-04-09 09:43:42+00:00,2014-04-09 09:46:15+00:00,ER Registration,ER Sepsis Triage,50.0,Unrecorded,False,False,0.04,0.0,False,False,False,False,False
+OFA,7,2014-06-19 09:48:14+00:00,2014-06-19 14:54:50+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,5.11,0.21,False,False,True,False,False
+OG,9,2014-07-13 11:00:23+00:00,2014-07-16 16:00:00+00:00,ER Registration,Release A,75.0,H,False,False,76.99,3.21,True,False,False,False,False
+OGA,13,2014-11-09 11:47:42+00:00,2014-11-15 08:00:00+00:00,ER Registration,Release A,85.0,LC,True,True,140.21,5.84,True,False,True,True,False
+OH,16,2014-03-16 12:22:39+00:00,2014-05-09 17:50:00+00:00,ER Registration,Return ER,80.0,H,True,True,1301.46,54.23,True,False,True,True,True
+OHA,13,2014-01-04 11:36:41+00:00,2014-01-10 10:00:00+00:00,ER Registration,Release A,60.0,B,True,True,142.39,5.93,True,False,True,True,False
+OI,6,2014-11-23 15:46:30+00:00,2014-11-23 16:29:00+00:00,ER Registration,Leucocytes,90.0,Unrecorded,False,False,0.71,0.03,False,False,False,False,False
+OIA,15,2014-04-21 13:16:39+00:00,2014-04-25 09:00:00+00:00,ER Registration,Release A,70.0,FE,True,True,91.72,3.82,True,False,True,True,False
+OJ,23,2014-04-06 19:45:42+00:00,2014-04-14 09:00:00+00:00,ER Registration,Release A,50.0,H,True,True,181.24,7.55,True,True,True,False,False
+OJA,3,2014-07-30 08:42:26+00:00,2014-07-30 09:57:43+00:00,ER Registration,ER Sepsis Triage,20.0,Unrecorded,False,False,1.25,0.05,False,False,False,False,False
+OK,19,2014-02-28 12:21:10+00:00,2014-03-12 19:36:23+00:00,ER Registration,Return ER,65.0,GB,True,True,295.25,12.3,True,False,True,True,True
+OKA,12,2014-08-21 20:25:18+00:00,2014-08-25 09:27:18+00:00,ER Registration,Release A,85.0,U,True,True,85.03,3.54,True,False,True,True,False
+OL,12,2014-01-01 15:00:59+00:00,2014-01-23 23:19:33+00:00,ER Registration,Return ER,70.0,R,True,True,536.31,22.35,True,False,False,False,True
+OLA,12,2014-09-10 14:08:09+00:00,2014-09-27 14:41:35+00:00,ER Registration,Return ER,75.0,ME,True,True,408.56,17.02,True,False,True,True,True
+OM,19,2014-02-25 15:54:39+00:00,2014-05-08 08:44:13+00:00,ER Registration,Return ER,80.0,C,True,True,1720.83,71.7,True,False,True,True,True
+OMA,26,2014-08-13 09:10:23+00:00,2014-11-18 06:54:36+00:00,ER Sepsis Triage,Return ER,60.0,G,True,True,2325.74,96.91,True,True,True,True,True
+ON,15,2014-03-12 14:08:34+00:00,2014-03-17 10:30:00+00:00,ER Registration,Release A,85.0,SB,True,True,116.36,4.85,True,False,True,True,False
+OO,11,2014-11-22 16:24:12+00:00,2014-11-27 08:00:00+00:00,ER Registration,Release A,60.0,R,True,True,111.6,4.65,True,False,True,False,False
+OP,8,2014-04-03 20:14:21+00:00,2014-04-03 21:32:21+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,1.3,0.05,False,False,True,True,False
+OQ,12,2014-10-26 11:01:08+00:00,2014-10-28 13:00:00+00:00,ER Registration,Release A,75.0,E,True,True,49.98,2.08,True,False,True,False,False
+OR,22,2014-04-12 12:53:43+00:00,2014-11-12 14:26:05+00:00,ER Registration,Return ER,85.0,G,True,True,5137.54,214.06,True,True,True,True,True
+OS,12,2014-09-02 06:21:21+00:00,2014-12-14 08:00:02+00:00,ER Registration,Return ER,90.0,C,True,True,2473.64,103.07,True,False,True,True,True
+OT,16,2013-11-11 11:48:21+00:00,2013-11-22 13:25:53+00:00,ER Registration,Return ER,75.0,B,True,True,265.63,11.07,True,False,True,True,True
+OU,14,2014-11-17 15:41:16+00:00,2014-11-30 09:32:25+00:00,ER Registration,Return ER,90.0,RC,True,True,305.85,12.74,True,False,True,True,True
+OV,9,2014-10-04 20:38:43+00:00,2014-10-05 22:55:18+00:00,ER Registration,IV Liquid,70.0,R,True,True,26.28,1.1,True,False,True,True,False
+OW,16,2014-05-03 14:07:46+00:00,2014-05-10 10:00:00+00:00,ER Registration,Release A,65.0,CD,True,True,163.87,6.83,True,False,True,True,False
+OX,14,2014-04-29 08:54:06+00:00,2014-05-27 15:09:10+00:00,ER Registration,Return ER,90.0,E,True,True,678.25,28.26,True,False,True,True,True
+OY,16,2014-12-12 09:37:36+00:00,2014-12-19 17:30:00+00:00,ER Registration,Release A,70.0,ED,False,False,175.87,7.33,True,False,False,False,False
+OZ,10,2014-11-24 20:22:56+00:00,2014-11-25 05:00:00+00:00,ER Registration,CRP,65.0,Unrecorded,True,True,8.62,0.36,False,False,True,True,False
+P,3,2014-04-22 07:39:36+00:00,2014-04-22 09:01:16+00:00,ER Registration,ER Sepsis Triage,20.0,Unrecorded,False,False,1.36,0.06,False,False,False,False,False
+PA,6,2014-11-03 11:01:35+00:00,2014-11-03 11:20:00+00:00,ER Registration,LacticAcid,70.0,Unrecorded,False,False,0.31,0.01,False,False,False,False,False
+PAA,8,2014-09-13 01:12:19+00:00,2014-09-13 03:22:51+00:00,ER Registration,IV Antibiotics,65.0,Unrecorded,True,True,2.18,0.09,False,False,True,True,False
+PB,16,2015-01-17 18:51:42+00:00,2015-02-05 08:15:08+00:00,ER Registration,Return ER,80.0,V,True,True,445.39,18.56,True,False,True,True,True
+PBA,11,2014-04-27 13:01:49+00:00,2014-04-27 20:55:00+00:00,ER Registration,Release B,60.0,Unrecorded,True,True,7.89,0.33,False,True,True,True,False
+PC,5,2013-11-28 13:27:20+00:00,2013-11-28 14:34:00+00:00,ER Registration,CRP,80.0,Unrecorded,False,False,1.11,0.05,False,False,False,False,False
+PCA,10,2013-11-21 17:39:52+00:00,2013-11-22 07:00:00+00:00,ER Registration,LacticAcid,90.0,UD,False,False,13.34,0.56,True,False,False,False,False
+PD,9,2014-06-03 12:28:01+00:00,2014-06-03 14:45:00+00:00,ER Registration,Leucocytes,75.0,Unrecorded,True,True,2.28,0.09,False,False,True,True,False
+PDA,16,2014-09-22 13:53:41+00:00,2014-09-28 16:00:00+00:00,ER Registration,Release A,85.0,Z,True,True,146.11,6.09,True,False,True,True,False
+PE,8,2014-12-01 14:19:31+00:00,2014-12-01 15:45:00+00:00,ER Registration,LacticAcid,70.0,Unrecorded,True,True,1.42,0.06,False,False,True,True,False
+PEA,10,2014-07-05 12:30:34+00:00,2014-07-08 12:44:00+00:00,ER Registration,Release A,45.0,AA,True,True,72.22,3.01,True,False,True,True,False
+PF,15,2014-10-04 12:42:23+00:00,2014-10-10 19:00:00+00:00,ER Registration,Release A,85.0,C,True,True,150.29,6.26,True,False,True,True,False
+PFA,20,2014-05-01 13:53:56+00:00,2014-05-07 11:00:00+00:00,ER Registration,Release A,85.0,G,True,True,141.1,5.88,True,True,True,True,False
+PG,13,2014-10-13 09:34:02+00:00,2014-11-08 21:07:32+00:00,ER Registration,Return ER,55.0,C,True,True,635.56,26.48,True,False,True,True,True
+PGA,23,2014-08-26 23:15:11+00:00,2014-09-19 22:09:57+00:00,ER Registration,Return ER,55.0,C,True,True,574.91,23.95,True,True,True,True,True
+PH,8,2013-12-13 05:44:57+00:00,2013-12-13 06:36:35+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,0.86,0.04,False,False,True,True,False
+PHA,8,2014-03-21 14:14:58+00:00,2014-03-21 17:30:20+00:00,ER Registration,IV Antibiotics,70.0,Unrecorded,True,True,3.26,0.14,False,False,True,True,False
+PI,11,2014-05-03 20:44:44+00:00,2014-05-06 15:00:00+00:00,ER Registration,Release A,70.0,K,True,True,66.25,2.76,True,False,True,True,False
+PIA,45,2014-03-28 20:34:09+00:00,2014-08-20 11:56:05+00:00,ER Registration,Return ER,75.0,GE,True,True,3471.37,144.64,True,True,True,True,True
+PJ,19,2014-03-02 19:48:23+00:00,2014-03-08 15:20:00+00:00,ER Registration,Release B,85.0,B,True,True,139.53,5.81,True,False,True,True,False
+PJA,8,2014-02-16 09:01:12+00:00,2014-02-16 09:45:00+00:00,ER Registration,Leucocytes,70.0,Unrecorded,True,True,0.73,0.03,False,False,True,True,False
+PK,23,2014-12-25 19:04:56+00:00,2015-03-21 20:00:41+00:00,ER Registration,Return ER,65.0,D,True,True,2064.93,86.04,True,False,True,True,True
+PKA,15,2014-05-07 00:37:26+00:00,2014-11-03 06:03:00+00:00,ER Registration,Return ER,85.0,VB,True,True,4325.43,180.23,True,False,True,False,True
+PL,6,2014-05-08 10:14:59+00:00,2014-05-08 10:42:37+00:00,ER Registration,ER Sepsis Triage,55.0,Unrecorded,True,True,0.46,0.02,False,False,False,False,False
+PLA,25,2014-04-10 16:44:36+00:00,2014-04-26 08:29:07+00:00,ER Registration,Return ER,80.0,D,True,True,375.74,15.66,True,False,True,True,True
+PM,8,2014-07-27 08:07:07+00:00,2014-07-27 09:03:41+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,0.94,0.04,False,False,True,True,False
+PMA,14,2013-11-21 15:47:34+00:00,2013-11-25 10:00:00+00:00,ER Registration,Release A,70.0,C,True,True,90.21,3.76,True,False,True,True,False
+PN,6,2014-03-08 07:00:00+00:00,2014-03-08 13:48:00+00:00,Leucocytes,CRP,85.0,Unrecorded,False,False,6.8,0.28,False,False,False,False,False
+PO,13,2014-09-30 14:17:14+00:00,2014-10-04 09:15:00+00:00,ER Registration,Release A,65.0,C,True,True,90.96,3.79,True,False,True,False,False
+PP,5,2014-03-06 22:29:07+00:00,2014-03-06 22:37:00+00:00,ER Registration,CRP,80.0,Unrecorded,False,False,0.13,0.01,False,False,False,False,False
+PQ,5,2014-02-26 08:26:08+00:00,2014-02-28 18:30:00+00:00,ER Registration,Release A,45.0,FC,False,False,58.06,2.42,True,False,False,False,False
+PR,14,2015-01-10 23:32:15+00:00,2015-02-06 09:00:00+00:00,ER Registration,Release C,90.0,Q,True,True,633.46,26.39,True,False,False,False,False
+PS,10,2014-06-17 07:46:27+00:00,2014-06-20 08:00:00+00:00,ER Registration,Release A,90.0,C,True,True,72.23,3.01,True,False,True,True,False
+PT,13,2014-06-26 04:41:38+00:00,2014-06-30 12:00:00+00:00,ER Registration,Release A,65.0,B,True,True,103.31,4.3,True,False,True,True,False
+PU,38,2014-12-14 10:28:39+00:00,2015-01-19 08:39:00+00:00,ER Registration,Release B,70.0,B,True,True,862.17,35.92,True,False,True,True,False
+PV,14,2015-02-14 04:11:11+00:00,2015-04-01 12:51:36+00:00,ER Registration,Return ER,70.0,LA,True,True,1112.67,46.36,True,False,True,True,True
+PW,12,2014-10-12 18:32:12+00:00,2014-10-19 13:00:00+00:00,ER Registration,Release A,85.0,MA,True,True,162.46,6.77,True,False,True,True,False
+PX,5,2014-06-18 20:03:49+00:00,2014-06-18 20:57:00+00:00,ER Registration,CRP,25.0,Unrecorded,False,False,0.89,0.04,False,False,False,False,False
+PY,8,2014-05-10 13:47:28+00:00,2014-05-10 17:18:37+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,3.52,0.15,False,False,True,True,False
+PZ,15,2014-04-28 09:46:09+00:00,2014-05-19 09:06:45+00:00,ER Registration,Return ER,90.0,H,True,True,503.34,20.97,True,False,True,False,True
+Q,3,2013-12-15 13:17:05+00:00,2013-12-15 13:19:07+00:00,ER Registration,ER Sepsis Triage,45.0,Unrecorded,False,False,0.03,0.0,False,False,False,False,False
+QA,14,2014-12-23 18:53:47+00:00,2014-12-30 09:10:00+00:00,ER Registration,Release D,90.0,Q,True,True,158.27,6.59,True,False,True,True,False
+QAA,14,2014-09-01 13:31:42+00:00,2014-09-08 10:00:00+00:00,ER Registration,Release C,55.0,R,True,True,164.47,6.85,True,False,True,True,False
+QB,16,2014-10-24 08:23:20+00:00,2014-11-12 12:20:15+00:00,ER Registration,Return ER,85.0,W,True,True,459.95,19.16,True,False,True,True,True
+QBA,33,2014-05-25 18:18:33+00:00,2014-06-03 08:00:00+00:00,ER Registration,Release A,70.0,G,True,True,205.69,8.57,True,True,True,True,False
+QC,15,2015-01-21 16:57:22+00:00,2015-02-01 12:00:00+00:00,ER Registration,Release A,70.0,R,True,True,259.04,10.79,True,False,True,True,False
+QCA,15,2014-08-01 15:48:47+00:00,2014-08-05 11:00:00+00:00,ER Registration,Release A,75.0,C,True,True,91.19,3.8,True,False,True,True,False
+QD,12,2014-10-11 20:29:47+00:00,2014-10-16 19:30:00+00:00,ER Registration,Release B,65.0,C,True,True,119.0,4.96,True,False,True,False,False
+QDA,9,2014-07-13 09:56:47+00:00,2014-11-07 07:07:33+00:00,ER Registration,Return ER,85.0,KA,False,False,2805.18,116.88,True,False,False,False,True
+QE,21,2014-10-08 10:06:40+00:00,2014-12-25 14:44:03+00:00,ER Registration,Return ER,60.0,G,True,True,1876.62,78.19,True,True,True,True,True
+QEA,7,2014-06-22 22:04:11+00:00,2014-06-22 23:21:00+00:00,ER Registration,IV Antibiotics,70.0,Unrecorded,True,True,1.28,0.05,False,False,True,True,False
+QF,16,2014-08-24 13:39:41+00:00,2015-01-17 09:03:53+00:00,ER Registration,Return ER,60.0,F,True,True,3499.4,145.81,True,False,True,True,True
+QFA,8,2014-01-16 15:31:27+00:00,2014-01-17 04:50:00+00:00,ER Registration,Release B,90.0,EA,False,False,13.31,0.55,True,False,False,False,False
+QG,13,2014-12-02 22:32:42+00:00,2014-12-16 09:31:39+00:00,ER Registration,Return ER,80.0,H,True,True,322.98,13.46,True,False,True,True,True
+QGA,7,2014-10-08 11:34:29+00:00,2014-10-08 17:28:35+00:00,ER Registration,IV Antibiotics,60.0,Unrecorded,True,True,5.9,0.25,False,False,True,False,False
+QH,23,2015-02-10 09:20:34+00:00,2015-02-11 23:47:00+00:00,ER Registration,Release B,75.0,G,False,False,38.44,1.6,False,True,False,False,False
+QHA,14,2014-04-09 06:27:13+00:00,2014-04-13 08:30:00+00:00,ER Registration,Release A,60.0,AA,True,True,98.05,4.09,True,False,True,True,False
+QI,9,2014-11-22 01:37:20+00:00,2014-11-25 11:45:00+00:00,ER Registration,Release A,35.0,Z,False,False,82.13,3.42,True,False,False,False,False
+QIA,16,2014-06-22 08:47:48+00:00,2014-07-09 09:12:56+00:00,ER Registration,Return ER,85.0,B,True,True,408.42,17.02,True,False,True,True,True
+QJ,14,2014-02-14 11:43:08+00:00,2014-02-20 09:30:00+00:00,ER Registration,Release A,85.0,E,True,True,141.78,5.91,True,False,True,True,False
+QJA,9,2014-05-10 00:35:56+00:00,2014-05-10 10:00:00+00:00,ER Registration,Leucocytes,25.0,Unrecorded,True,True,9.4,0.39,False,False,True,True,False
+QK,16,2015-02-26 08:00:00+00:00,2015-03-07 10:00:00+00:00,Leucocytes,Release A,75.0,D,False,True,218.0,9.08,True,False,True,False,False
+QKA,14,2013-11-16 08:13:30+00:00,2014-01-29 00:37:26+00:00,ER Registration,Return ER,85.0,LE,True,True,1768.4,73.68,True,False,True,True,True
+QL,6,2014-11-15 09:56:38+00:00,2014-11-15 10:05:00+00:00,ER Registration,Leucocytes,80.0,Unrecorded,False,False,0.14,0.01,False,False,False,False,False
+QLA,7,2014-04-22 08:14:07+00:00,2014-04-22 09:46:05+00:00,ER Triage,IV Antibiotics,70.0,Unrecorded,True,True,1.53,0.06,False,False,True,False,False
+QM,12,2014-01-06 15:21:55+00:00,2014-01-10 11:00:00+00:00,ER Registration,Release A,85.0,C,True,True,91.63,3.82,True,False,True,True,False
+QMA,18,2014-08-21 17:51:04+00:00,2014-08-31 08:30:00+00:00,ER Registration,Release A,70.0,C,True,True,230.65,9.61,True,False,True,True,False
+QN,16,2014-01-15 17:21:38+00:00,2014-01-24 09:00:00+00:00,ER Registration,Release A,75.0,R,True,True,207.64,8.65,True,False,True,True,False
+QO,13,2014-06-27 12:15:01+00:00,2014-10-24 14:17:14+00:00,ER Registration,Return ER,65.0,GB,False,False,2858.04,119.08,True,False,True,True,True
+QP,17,2014-12-17 19:45:37+00:00,2015-01-02 09:15:00+00:00,ER Registration,Release A,90.0,KA,True,True,373.49,15.56,True,False,True,True,False
+QQ,10,2014-07-07 15:08:31+00:00,2014-07-11 08:00:00+00:00,ER Registration,Release A,70.0,E,True,True,88.86,3.7,True,False,True,False,False
+QR,5,2014-08-27 13:20:09+00:00,2014-08-27 13:33:00+00:00,ER Registration,Leucocytes,70.0,Unrecorded,False,False,0.21,0.01,False,False,False,False,False
+QS,12,2014-11-10 15:42:41+00:00,2014-11-11 17:00:00+00:00,ER Registration,Release A,55.0,E,True,True,25.29,1.05,True,False,True,True,False
+QT,11,2014-05-29 17:57:27+00:00,2014-05-30 06:00:00+00:00,ER Registration,CRP,85.0,E,True,True,12.04,0.5,True,False,True,True,False
+QU,19,2015-02-05 23:39:42+00:00,2015-04-09 11:08:07+00:00,ER Registration,Return ER,85.0,WC,True,True,1499.47,62.48,True,False,True,True,True
+QV,9,2014-11-27 19:01:45+00:00,2014-11-27 23:45:34+00:00,ER Registration,Admission NC,80.0,E,True,True,4.73,0.2,True,False,True,True,False
+QW,14,2014-08-12 23:58:09+00:00,2015-05-09 21:01:47+00:00,ER Registration,Return ER,90.0,M,True,True,6477.06,269.88,True,False,True,True,True
+QX,29,2014-08-27 11:24:10+00:00,2014-09-08 08:45:00+00:00,ER Registration,Release B,85.0,D,True,True,285.35,11.89,True,False,True,True,False
+QY,12,2014-09-08 13:26:08+00:00,2014-09-16 08:30:00+00:00,ER Registration,Release A,30.0,FD,False,False,187.06,7.79,True,False,False,False,False
+QZ,10,2014-04-07 15:14:33+00:00,2014-04-13 10:45:00+00:00,ER Registration,Release A,80.0,C,True,True,139.51,5.81,True,False,True,False,False
+R,5,2014-11-30 11:38:16+00:00,2014-11-30 11:45:00+00:00,ER Registration,Leucocytes,45.0,Unrecorded,False,False,0.11,0.0,False,False,False,False,False
+RA,3,2014-10-07 12:52:25+00:00,2014-10-07 13:38:32+00:00,ER Registration,ER Sepsis Triage,45.0,Unrecorded,False,False,0.77,0.03,False,False,False,False,False
+RAA,17,2014-11-24 10:11:07+00:00,2014-12-04 08:30:00+00:00,ER Registration,Release D,60.0,G,True,True,238.31,9.93,True,True,True,True,False
+RB,7,2014-04-22 08:21:51+00:00,2014-04-25 12:30:00+00:00,ER Registration,Release A,90.0,X,False,False,76.14,3.17,True,False,False,False,False
+RBA,13,2014-08-04 06:19:22+00:00,2014-08-07 10:15:00+00:00,ER Registration,Release A,75.0,RD,True,True,75.93,3.16,True,False,True,False,False
+RC,13,2014-10-30 14:57:15+00:00,2014-11-08 13:57:00+00:00,ER Registration,Return ER,65.0,C,True,True,215.0,8.96,True,False,True,True,True
+RCA,15,2014-06-25 19:48:49+00:00,2015-03-08 10:09:52+00:00,ER Registration,Return ER,75.0,C,True,True,6134.35,255.6,True,False,True,True,True
+RD,7,2014-04-07 19:23:26+00:00,2014-04-07 23:36:24+00:00,ER Registration,IV Antibiotics,65.0,Unrecorded,True,True,4.22,0.18,False,False,True,True,False
+RDA,8,2013-12-24 16:45:59+00:00,2013-12-24 18:23:29+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,1.62,0.07,False,False,True,True,False
+RE,8,2014-01-06 10:18:20+00:00,2014-01-06 10:45:41+00:00,ER Registration,IV Antibiotics,50.0,Unrecorded,True,True,0.46,0.02,False,False,True,True,False
+REA,6,2014-09-07 13:00:07+00:00,2014-09-07 13:26:00+00:00,ER Registration,LacticAcid,90.0,Unrecorded,False,False,0.43,0.02,False,False,False,False,False
+RF,9,2014-06-19 17:33:32+00:00,2014-06-19 21:27:50+00:00,ER Registration,Admission NC,85.0,M,True,True,3.9,0.16,True,False,True,True,False
+RFA,10,2014-05-09 03:50:20+00:00,2014-05-10 07:15:00+00:00,ER Registration,Release B,90.0,C,True,True,27.41,1.14,True,False,True,True,False
+RG,33,2014-10-14 13:29:38+00:00,2015-01-12 18:35:57+00:00,ER Registration,Return ER,80.0,M,False,False,2165.11,90.21,True,False,False,False,True
+RGA,14,2014-06-18 17:35:37+00:00,2014-06-23 08:00:00+00:00,ER Registration,Release A,85.0,M,True,True,110.41,4.6,True,False,True,True,False
+RH,5,2014-09-01 22:47:44+00:00,2014-09-02 10:00:00+00:00,ER Registration,Leucocytes,80.0,Unrecorded,False,False,11.2,0.47,False,False,False,False,False
+RHA,9,2014-04-04 14:14:41+00:00,2014-04-06 09:00:00+00:00,ER Registration,Release A,40.0,EE,False,False,42.76,1.78,True,False,False,False,False
+RI,16,2014-09-20 22:37:57+00:00,2014-10-01 07:46:43+00:00,ER Registration,Return ER,70.0,E,True,True,249.15,10.38,True,False,True,True,True
+RIA,13,2015-02-03 19:26:28+00:00,2015-02-05 14:30:00+00:00,ER Registration,Release A,40.0,E,True,True,43.06,1.79,True,False,True,True,False
+RJ,7,2014-08-09 04:12:38+00:00,2014-08-09 09:00:00+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,4.79,0.2,False,False,True,False,False
+RJA,8,2014-06-26 15:25:46+00:00,2014-06-26 19:03:39+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,3.63,0.15,False,False,True,True,False
+RK,15,2014-08-06 12:08:20+00:00,2014-08-13 08:00:00+00:00,ER Registration,Release A,80.0,K,True,True,163.86,6.83,True,False,True,True,False
+RKA,10,2014-09-24 19:27:33+00:00,2014-09-25 18:00:00+00:00,ER Registration,Release A,35.0,P,True,True,22.54,0.94,True,False,False,False,False
+RL,7,2013-12-02 14:31:26+00:00,2013-12-06 14:15:00+00:00,ER Registration,Release A,80.0,S,False,False,95.73,3.99,True,False,False,False,False
+RLA,22,2014-05-27 07:44:26+00:00,2014-06-24 09:42:16+00:00,ER Registration,Return ER,85.0,C,True,True,673.96,28.08,True,False,True,False,True
+RM,7,2014-04-16 13:34:56+00:00,2014-04-17 17:00:00+00:00,ER Registration,Release A,70.0,OB,False,False,27.42,1.14,True,False,False,False,False
+RN,20,2014-08-25 11:59:52+00:00,2014-09-10 03:00:00+00:00,ER Registration,Release B,75.0,D,True,True,375.0,15.62,True,False,True,True,False
+RO,17,2015-01-16 22:13:40+00:00,2015-01-17 19:07:00+00:00,ER Registration,Leucocytes,80.0,Unrecorded,True,True,20.89,0.87,False,True,True,True,False
+RP,14,2014-05-15 17:12:10+00:00,2014-05-19 09:00:00+00:00,ER Registration,Release A,40.0,GA,False,False,87.8,3.66,True,False,False,False,False
+RQ,8,2014-01-01 09:21:13+00:00,2014-01-01 09:44:00+00:00,ER Registration,Leucocytes,85.0,Unrecorded,True,True,0.38,0.02,False,False,True,True,False
+RR,11,2014-01-26 09:30:00+00:00,2014-02-07 15:54:05+00:00,IV Liquid,Return ER,35.0,IC,True,True,294.4,12.27,True,False,True,True,True
+RS,10,2014-05-05 14:34:45+00:00,2014-05-06 06:35:00+00:00,ER Registration,Release A,70.0,H,True,True,16.0,0.67,True,False,True,True,False
+RT,11,2014-08-27 18:36:23+00:00,2014-12-04 17:43:34+00:00,ER Registration,Return ER,60.0,K,True,True,2375.12,98.96,True,False,True,True,True
+RU,34,2014-06-16 13:02:00+00:00,2014-06-29 08:30:00+00:00,Leucocytes,Release A,40.0,E,True,True,307.47,12.81,True,True,True,False,False
+RV,3,2014-10-14 21:06:51+00:00,2014-10-14 21:28:35+00:00,ER Registration,ER Sepsis Triage,80.0,Unrecorded,False,False,0.36,0.02,False,False,False,False,False
+RW,15,2014-11-15 15:48:51+00:00,2014-11-24 11:00:00+00:00,ER Registration,Release A,70.0,DD,True,True,211.19,8.8,True,False,True,True,False
+RX,5,2014-07-24 06:49:49+00:00,2014-07-24 07:09:00+00:00,ER Registration,Leucocytes,70.0,Unrecorded,False,False,0.32,0.01,False,False,False,False,False
+RY,23,2014-01-12 08:34:00+00:00,2014-01-17 13:00:00+00:00,CRP,Release A,50.0,GA,True,True,124.43,5.18,True,True,True,True,False
+RZ,14,2014-08-08 10:59:25+00:00,2014-08-14 12:35:00+00:00,ER Registration,Release A,90.0,C,True,True,145.59,6.07,True,False,True,True,False
+S,19,2014-01-21 11:16:14+00:00,2014-08-30 12:54:18+00:00,ER Registration,Return ER,60.0,B,True,True,5305.63,221.07,True,True,True,True,True
+SA,14,2014-01-17 14:17:50+00:00,2014-04-11 16:34:31+00:00,ER Registration,Return ER,45.0,R,True,True,2018.28,84.1,True,False,True,True,True
+SAA,11,2014-01-15 07:43:50+00:00,2014-02-06 09:00:00+00:00,ER Registration,Release E,90.0,S,True,False,529.27,22.05,True,False,False,False,False
+SB,14,2014-05-01 08:17:37+00:00,2014-08-16 04:04:26+00:00,ER Registration,Return ER,80.0,B,True,True,2563.78,106.82,True,False,True,True,True
+SBA,14,2014-10-07 21:13:44+00:00,2014-10-13 08:30:00+00:00,ER Registration,Release A,55.0,Y,True,True,131.27,5.47,True,False,True,True,False
+SC,9,2014-09-13 22:01:52+00:00,2014-09-14 06:00:00+00:00,ER Registration,LacticAcid,65.0,Unrecorded,True,True,7.97,0.33,False,False,True,True,False
+SCA,17,2014-01-27 19:51:17+00:00,2014-02-23 09:41:36+00:00,ER Registration,Return ER,75.0,G,True,True,637.84,26.58,True,True,True,True,True
+SD,14,2014-10-27 09:09:46+00:00,2014-11-01 13:00:00+00:00,ER Registration,Release A,90.0,K,True,True,123.84,5.16,True,False,True,True,False
+SDA,14,2014-09-01 11:45:33+00:00,2014-09-09 12:00:00+00:00,ER Registration,Release A,45.0,WD,True,True,192.24,8.01,True,False,True,True,False
+SE,10,2014-10-11 18:15:50+00:00,2014-10-16 09:50:00+00:00,ER Registration,Release A,85.0,R,True,True,111.57,4.65,True,False,True,True,False
+SEA,10,2013-12-07 17:57:27+00:00,2014-01-26 00:05:26+00:00,ER Registration,Return ER,75.0,RC,True,True,1182.13,49.26,True,False,True,False,True
+SF,12,2014-12-31 00:55:56+00:00,2015-02-18 21:05:56+00:00,ER Registration,Return ER,75.0,B,True,True,1196.17,49.84,True,False,True,True,True
+SFA,16,2014-02-25 12:03:05+00:00,2014-05-04 03:50:20+00:00,ER Registration,Return ER,90.0,E,True,True,1623.79,67.66,True,False,True,True,True
+SG,5,2014-03-09 12:13:42+00:00,2014-03-09 13:52:53+00:00,ER Registration,ER Sepsis Triage,25.0,Unrecorded,False,False,1.65,0.07,False,False,False,False,False
+SGA,16,2013-11-16 03:07:53+00:00,2013-11-17 01:00:00+00:00,ER Registration,Release B,70.0,G,True,True,21.87,0.91,False,True,True,True,False
+SH,12,2014-08-12 14:49:08+00:00,2014-09-18 12:29:07+00:00,ER Registration,Return ER,55.0,C,True,True,885.67,36.9,True,False,True,False,True
+SHA,17,2014-01-30 21:51:14+00:00,2014-02-04 15:20:00+00:00,ER Registration,Release A,60.0,G,True,True,113.48,4.73,True,True,True,True,False
+SI,18,2014-04-10 21:41:04+00:00,2014-04-18 18:00:00+00:00,ER Registration,Release A,60.0,B,True,True,188.32,7.85,True,False,True,True,False
+SIA,8,2014-05-20 08:26:31+00:00,2014-05-20 09:05:00+00:00,ER Registration,IV Antibiotics,25.0,Unrecorded,True,True,0.64,0.03,False,False,True,True,False
+SJ,16,2014-08-27 10:07:52+00:00,2014-10-17 12:33:00+00:00,ER Registration,Return ER,60.0,DB,True,True,1226.42,51.1,True,False,True,True,True
+SJA,12,2014-05-25 17:02:22+00:00,2014-06-05 09:08:57+00:00,ER Registration,Return ER,60.0,B,True,True,256.11,10.67,True,False,True,False,True
+SK,32,2014-02-17 10:20:51+00:00,2014-03-20 16:49:33+00:00,ER Registration,Return ER,80.0,C,True,True,750.48,31.27,True,False,True,True,True
+SKA,3,2014-01-27 16:09:40+00:00,2014-01-27 16:27:03+00:00,ER Registration,ER Sepsis Triage,30.0,Unrecorded,False,False,0.29,0.01,False,False,False,False,False
+SL,16,2014-05-02 09:31:21+00:00,2014-08-03 05:57:26+00:00,ER Registration,Return ER,90.0,H,True,True,2228.43,92.85,True,False,True,True,True
+SLA,24,2014-11-05 15:10:19+00:00,2014-11-19 09:30:00+00:00,ER Registration,Release A,70.0,JC,True,True,330.33,13.76,True,False,True,True,False
+SM,40,2013-12-23 00:38:08+00:00,2014-01-29 10:03:20+00:00,ER Registration,Return ER,70.0,G,True,True,897.42,37.39,True,True,True,True,True
+SMA,16,2014-03-31 09:30:49+00:00,2014-04-06 14:00:00+00:00,ER Registration,Release A,45.0,G,True,True,148.49,6.19,True,True,True,True,False
+SN,8,2014-07-13 13:09:48+00:00,2014-07-13 18:01:35+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,4.86,0.2,False,False,True,True,False
+SO,16,2014-09-16 03:05:55+00:00,2014-10-02 15:05:16+00:00,ER Registration,Return ER,85.0,B,True,True,395.99,16.5,True,False,True,True,True
+SP,3,2014-06-03 12:14:49+00:00,2014-06-03 12:33:04+00:00,ER Registration,ER Sepsis Triage,65.0,Unrecorded,False,False,0.3,0.01,False,False,False,False,False
+SQ,12,2014-03-12 07:45:10+00:00,2014-03-13 20:45:00+00:00,ER Registration,Release B,90.0,G,False,False,37.0,1.54,False,True,False,False,False
+SR,13,2014-02-05 22:30:03+00:00,2014-02-11 09:00:00+00:00,ER Registration,Release A,80.0,B,True,True,130.5,5.44,True,False,True,True,False
+SS,13,2013-11-30 17:07:22+00:00,2014-01-15 14:34:45+00:00,ER Registration,Return ER,85.0,C,True,True,1101.46,45.89,True,False,True,True,True
+ST,17,2014-07-31 12:13:23+00:00,2014-11-23 18:36:23+00:00,ER Registration,Return ER,60.0,C,True,True,2766.38,115.27,True,False,True,True,True
+SU,9,2014-09-02 16:49:35+00:00,2014-09-02 21:08:14+00:00,ER Registration,Admission NC,85.0,N,True,True,4.31,0.18,True,False,True,True,False
+SV,10,2014-08-17 07:25:13+00:00,2014-08-18 08:30:00+00:00,ER Registration,Release B,75.0,C,True,True,25.08,1.04,True,False,True,True,False
+SW,19,2014-08-26 12:49:17+00:00,2014-09-01 17:00:00+00:00,ER Registration,Release A,90.0,M,True,True,148.18,6.17,True,False,True,True,False
+SX,20,2014-08-18 17:29:33+00:00,2014-08-25 11:15:00+00:00,ER Registration,Release A,70.0,C,True,True,161.76,6.74,True,False,True,True,False
+SY,14,2014-05-13 16:14:11+00:00,2014-06-21 23:25:11+00:00,ER Registration,Return ER,80.0,TB,True,True,943.18,39.3,True,False,True,True,True
+SZ,8,2015-01-23 16:20:06+00:00,2015-01-24 17:02:07+00:00,ER Registration,IV Liquid,85.0,Unrecorded,True,True,24.7,1.03,False,False,True,True,False
+T,10,2014-10-06 20:24:16+00:00,2014-10-09 02:00:00+00:00,ER Registration,Release B,70.0,C,True,True,53.6,2.23,True,False,True,True,False
+TA,10,2014-08-09 20:23:04+00:00,2014-08-12 18:00:00+00:00,ER Registration,Release A,80.0,C,False,False,69.62,2.9,True,False,False,False,False
+TAA,18,2014-08-01 19:44:05+00:00,2014-08-13 11:00:00+00:00,ER Registration,Release A,60.0,PD,True,True,279.27,11.64,True,False,True,True,False
+TB,9,2014-09-11 07:33:19+00:00,2015-02-24 11:54:09+00:00,ER Registration,Return ER,70.0,Y,False,False,3988.35,166.18,True,False,False,False,True
+TBA,12,2014-05-08 02:31:11+00:00,2014-05-11 08:00:00+00:00,ER Registration,Release A,60.0,C,True,True,77.48,3.23,True,False,True,True,False
+TC,24,2014-01-17 09:50:43+00:00,2014-06-27 22:01:52+00:00,ER Registration,Return ER,65.0,C,True,True,3876.19,161.51,True,True,True,True,True
+TCA,21,2014-10-10 17:06:34+00:00,2014-11-12 16:40:10+00:00,ER Registration,Return ER,75.0,ED,True,True,791.56,32.98,True,False,True,True,True
+TD,16,2014-11-09 19:47:29+00:00,2014-11-19 18:15:00+00:00,ER Registration,Release B,85.0,C,True,True,238.46,9.94,True,False,True,True,False
+TDA,10,2014-05-11 19:45:46+00:00,2014-05-14 14:00:00+00:00,ER Registration,Release A,40.0,C,True,True,66.24,2.76,True,False,True,True,False
+TE,5,2015-01-06 07:39:52+00:00,2015-01-06 07:56:15+00:00,ER Registration,ER Sepsis Triage,30.0,Unrecorded,False,False,0.27,0.01,False,False,False,False,False
+TEA,13,2014-07-05 14:59:31+00:00,2014-07-09 16:00:00+00:00,ER Registration,Release A,65.0,C,True,True,97.01,4.04,True,False,True,True,False
+TF,16,2014-01-26 19:10:11+00:00,2014-02-05 09:11:00+00:00,ER Registration,Leucocytes,45.0,NA,False,False,230.01,9.58,True,False,False,False,False
+TFA,6,2014-02-16 01:39:13+00:00,2014-02-16 01:45:07+00:00,ER Registration,ER Sepsis Triage,90.0,Unrecorded,False,False,0.1,0.0,False,False,False,False,False
+TG,11,2015-01-14 17:14:21+00:00,2015-01-17 08:30:00+00:00,ER Registration,Release A,40.0,H,True,True,63.26,2.64,True,False,True,False,False
+TGA,15,2014-03-14 07:18:19+00:00,2014-03-25 15:59:00+00:00,ER Registration,Release A,80.0,AE,True,True,272.68,11.36,True,False,True,True,False
+TH,13,2014-09-07 01:23:50+00:00,2014-09-09 12:00:00+00:00,ER Registration,Release A,20.0,R,True,True,58.6,2.44,True,False,True,True,False
+THA,12,2014-01-09 15:24:38+00:00,2014-01-14 10:30:00+00:00,ER Registration,Release A,90.0,N,True,True,115.09,4.8,True,False,True,True,False
+TI,21,2015-01-29 13:34:58+00:00,2015-02-27 09:30:00+00:00,ER Registration,Release C,90.0,N,True,True,691.92,28.83,True,False,False,False,False
+TIA,15,2014-05-29 11:16:57+00:00,2014-06-07 09:00:00+00:00,ER Registration,Release A,85.0,D,False,False,213.72,8.9,True,False,False,False,False
+TJ,15,2014-03-02 11:00:00+00:00,2014-03-19 23:48:32+00:00,IV Liquid,Return ER,80.0,C,True,True,420.81,17.53,True,False,True,True,True
+TJA,27,2014-07-23 07:34:41+00:00,2014-08-09 08:00:00+00:00,ER Registration,Release A,70.0,GB,True,True,408.42,17.02,True,False,True,True,False
+TK,5,2014-09-07 12:28:58+00:00,2014-09-07 13:45:00+00:00,ER Registration,Leucocytes,75.0,Unrecorded,False,False,1.27,0.05,False,False,False,False,False
+TKA,13,2014-06-11 19:00:18+00:00,2014-06-15 18:00:00+00:00,ER Registration,Release A,70.0,C,True,True,95.0,3.96,True,False,True,True,False
+TL,17,2014-07-17 09:53:32+00:00,2014-07-22 14:00:00+00:00,ER Registration,Release A,70.0,KB,True,True,124.11,5.17,True,False,True,True,False
+TLA,8,2014-07-26 13:25:25+00:00,2014-07-26 17:20:58+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,3.93,0.16,False,False,True,True,False
+TM,7,2014-01-31 22:28:40+00:00,2014-02-01 22:44:23+00:00,ER Registration,IV Liquid,75.0,Unrecorded,True,True,24.26,1.01,False,False,True,True,False
+TMA,10,2014-01-15 08:52:19+00:00,2014-01-17 16:30:00+00:00,ER Registration,Release A,40.0,B,True,True,55.63,2.32,True,False,True,True,False
+TN,27,2014-10-27 21:24:49+00:00,2014-11-14 09:00:00+00:00,ER Registration,Release A,75.0,B,True,True,419.59,17.48,True,True,True,True,False
+TO,34,2014-02-23 10:42:49+00:00,2014-04-12 17:26:10+00:00,ER Registration,Return ER,85.0,G,True,True,1158.72,48.28,True,True,True,True,True
+TP,15,2014-06-04 11:37:32+00:00,2014-06-09 08:00:00+00:00,ER Registration,Release A,75.0,C,True,True,116.37,4.85,True,False,True,True,False
+TQ,15,2014-03-13 18:57:13+00:00,2014-04-08 13:57:34+00:00,ER Registration,Return ER,90.0,B,True,True,619.01,25.79,True,False,True,True,True
+TR,8,2014-04-02 06:03:30+00:00,2014-04-02 14:15:00+00:00,ER Registration,Release B,80.0,Unrecorded,True,True,8.19,0.34,True,False,False,False,False
+TS,20,2014-04-22 22:29:35+00:00,2014-05-01 09:00:00+00:00,ER Registration,Release C,90.0,OC,True,True,202.51,8.44,True,False,True,True,False
+TT,5,2014-08-05 15:03:03+00:00,2014-08-05 15:34:00+00:00,ER Registration,CRP,60.0,Unrecorded,False,False,0.52,0.02,False,False,False,False,False
+TU,20,2014-01-04 13:45:49+00:00,2014-01-22 12:30:00+00:00,ER Registration,Release D,90.0,S,False,False,430.74,17.95,True,False,False,False,False
+TV,17,2014-07-23 05:48:02+00:00,2014-08-18 07:25:13+00:00,ER Registration,Return ER,75.0,AD,True,True,625.62,26.07,True,False,True,True,True
+TW,22,2014-07-07 18:30:35+00:00,2014-09-27 10:54:30+00:00,ER Registration,Return ER,80.0,D,True,True,1960.4,81.68,True,False,True,True,True
+TX,15,2014-11-27 18:23:59+00:00,2015-04-02 09:33:25+00:00,ER Registration,Return ER,85.0,W,True,True,3015.16,125.63,True,False,True,True,True
+TY,3,2014-10-04 16:52:39+00:00,2014-10-04 17:37:26+00:00,ER Registration,ER Sepsis Triage,65.0,Unrecorded,False,False,0.75,0.03,False,False,False,False,False
+TZ,8,2014-07-03 08:42:50+00:00,2014-07-03 10:57:00+00:00,ER Registration,LacticAcid,80.0,Unrecorded,True,True,2.24,0.09,False,False,True,True,False
+U,11,2014-04-29 18:38:23+00:00,2014-05-01 17:10:00+00:00,ER Registration,Release B,90.0,L,False,False,46.53,1.94,True,False,False,False,False
+UA,11,2014-03-23 07:19:14+00:00,2014-03-28 08:00:00+00:00,ER Registration,Release A,85.0,E,True,True,120.68,5.03,True,False,True,True,False
+UAA,5,2015-02-19 23:01:01+00:00,2015-02-19 23:33:00+00:00,ER Registration,Leucocytes,35.0,Unrecorded,False,False,0.53,0.02,False,False,False,False,False
+UB,9,2014-07-20 10:27:47+00:00,2014-07-20 13:43:53+00:00,ER Registration,Admission NC,90.0,Unrecorded,True,True,3.27,0.14,True,False,True,True,False
+UBA,15,2014-05-08 09:58:15+00:00,2015-05-30 09:14:55+00:00,ER Registration,Return ER,65.0,LA,True,True,9287.28,386.97,True,False,True,True,True
+UC,32,2014-02-26 14:04:17+00:00,2014-04-26 09:50:43+00:00,ER Registration,Return ER,65.0,C,True,True,1411.77,58.82,True,True,True,True,True
+UCA,5,2014-08-11 07:46:45+00:00,2014-08-11 08:31:00+00:00,ER Registration,CRP,70.0,Unrecorded,False,False,0.74,0.03,False,False,False,False,False
+UD,31,2014-08-01 13:56:11+00:00,2014-09-24 13:11:02+00:00,ER Registration,Return ER,85.0,U,True,True,1295.25,53.97,True,False,True,True,True
+UDA,30,2014-06-22 08:53:00+00:00,2014-07-04 12:30:00+00:00,Leucocytes,Release A,60.0,XD,True,True,291.62,12.15,True,False,True,True,False
+UE,19,2014-05-23 18:22:19+00:00,2014-05-30 08:20:00+00:00,ER Registration,Release A,90.0,N,True,True,157.96,6.58,True,False,True,True,False
+UEA,3,2014-09-07 15:23:45+00:00,2014-09-07 15:43:03+00:00,ER Registration,ER Sepsis Triage,20.0,Unrecorded,False,False,0.32,0.01,False,False,False,False,False
+UF,29,2014-11-02 15:15:46+00:00,2014-11-12 09:00:00+00:00,ER Registration,Release A,70.0,G,True,True,233.74,9.74,True,True,True,True,False
+UFA,8,2014-02-04 07:59:25+00:00,2014-02-04 11:31:20+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,3.53,0.15,False,False,True,True,False
+UG,8,2013-12-09 15:46:01+00:00,2013-12-09 18:25:23+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,2.66,0.11,False,False,True,True,False
+UGA,15,2015-02-07 12:18:16+00:00,2015-02-13 19:00:00+00:00,ER Registration,Release A,75.0,D,True,True,150.7,6.28,True,False,True,False,False
+UH,3,2014-12-14 21:41:23+00:00,2014-12-14 21:50:30+00:00,ER Registration,ER Sepsis Triage,20.0,Unrecorded,False,False,0.15,0.01,False,False,False,False,False
+UHA,5,2014-08-15 10:26:01+00:00,2014-08-15 10:44:00+00:00,ER Registration,CRP,65.0,Unrecorded,False,False,0.3,0.01,False,False,False,False,False
+UI,14,2015-01-16 21:24:35+00:00,2015-01-20 11:38:00+00:00,ER Registration,Release A,50.0,E,True,True,86.22,3.59,True,False,True,True,False
+UIA,13,2014-08-30 15:57:10+00:00,2014-09-03 07:00:00+00:00,ER Registration,Release A,50.0,E,True,True,87.05,3.63,True,False,True,True,False
+UJ,16,2014-10-16 17:48:50+00:00,2014-12-18 22:42:59+00:00,ER Registration,Return ER,80.0,U,True,True,1516.9,63.2,True,False,True,True,True
+UJA,8,2014-09-22 07:51:14+00:00,2014-09-22 08:16:00+00:00,ER Registration,CRP,70.0,Unrecorded,True,True,0.41,0.02,False,False,True,True,False
+UK,18,2014-06-24 17:58:16+00:00,2014-10-25 13:51:44+00:00,ER Registration,Return ER,80.0,C,False,False,2947.89,122.83,True,False,False,False,True
+UKA,17,2014-09-15 12:04:09+00:00,2014-09-24 09:00:00+00:00,ER Registration,Release A,45.0,BB,True,True,212.93,8.87,True,False,True,True,False
+UL,7,2014-03-20 12:42:34+00:00,2014-03-20 13:07:16+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,0.41,0.02,False,False,True,False,False
+ULA,15,2013-11-12 17:52:04+00:00,2013-11-20 10:00:00+00:00,ER Registration,Release A,70.0,H,True,True,184.13,7.67,True,False,True,True,False
+UM,9,2014-09-25 08:28:26+00:00,2014-09-25 09:38:51+00:00,ER Registration,IV Antibiotics,45.0,Unrecorded,True,True,1.17,0.05,False,False,True,True,False
+UMA,14,2014-06-08 10:06:00+00:00,2014-06-12 12:00:00+00:00,CRP,Release A,25.0,E,True,True,97.9,4.08,True,False,True,True,False
+UN,5,2014-06-29 11:28:45+00:00,2014-06-29 11:53:00+00:00,ER Registration,CRP,80.0,Unrecorded,False,False,0.4,0.02,False,False,False,False,False
+UO,7,2015-02-19 17:15:45+00:00,2015-02-19 19:15:43+00:00,ER Registration,Admission NC,90.0,WB,False,False,2.0,0.08,True,False,False,False,False
+UP,11,2014-05-16 08:01:26+00:00,2014-05-18 17:00:00+00:00,ER Registration,Release A,70.0,C,True,True,56.98,2.37,True,False,True,True,False
+UQ,12,2013-11-27 19:32:23+00:00,2014-03-25 13:28:59+00:00,ER Registration,Return ER,65.0,BB,False,False,2825.94,117.75,True,False,False,False,True
+UR,15,2014-04-03 14:25:22+00:00,2014-04-11 07:30:00+00:00,ER Registration,Release C,85.0,JC,True,True,185.08,7.71,True,False,True,True,False
+US,15,2014-02-01 18:10:09+00:00,2014-02-06 13:30:00+00:00,ER Registration,Release A,75.0,E,True,True,115.33,4.81,True,False,True,True,False
+UT,12,2014-08-03 00:34:33+00:00,2014-08-06 08:00:00+00:00,ER Registration,Release A,55.0,C,True,True,79.42,3.31,True,False,True,True,False
+UU,6,2014-05-07 08:51:00+00:00,2014-05-10 14:00:00+00:00,ER Registration,Release A,90.0,XC,False,False,77.15,3.21,True,False,False,False,False
+UV,15,2014-04-09 16:57:47+00:00,2014-06-26 22:00:47+00:00,ER Registration,Return ER,75.0,C,True,True,1877.05,78.21,True,False,True,True,True
+UW,14,2014-11-17 05:31:00+00:00,2015-06-04 05:43:36+00:00,Leucocytes,Return ER,55.0,VA,True,True,4776.21,199.01,True,False,True,True,True
+UX,8,2013-12-21 12:41:21+00:00,2013-12-21 13:04:03+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,0.38,0.02,False,False,True,True,False
+UY,9,2014-10-16 13:12:24+00:00,2014-10-16 18:26:00+00:00,ER Registration,Admission NC,85.0,Unrecorded,True,True,5.23,0.22,True,False,True,True,False
+UZ,12,2014-01-23 15:31:51+00:00,2014-01-29 19:15:00+00:00,ER Registration,Release B,80.0,E,True,True,147.72,6.16,True,False,True,True,False
+V,21,2014-10-28 19:44:26+00:00,2015-01-19 07:55:06+00:00,ER Registration,Return ER,60.0,G,True,True,1980.18,82.51,True,True,True,True,True
+VA,13,2014-10-09 17:00:29+00:00,2014-10-15 08:30:00+00:00,ER Registration,Release A,90.0,C,True,True,135.49,5.65,True,False,True,True,False
+VAA,20,2014-02-05 13:09:05+00:00,2015-04-03 08:55:52+00:00,ER Registration,Return ER,85.0,B,True,True,10123.78,421.82,True,True,True,True,True
+VB,13,2015-02-15 16:07:29+00:00,2015-05-05 14:12:17+00:00,ER Registration,Return ER,75.0,Z,True,True,1894.08,78.92,True,False,True,False,True
+VBA,5,2014-05-20 11:53:55+00:00,2014-05-20 12:28:56+00:00,ER Registration,ER Sepsis Triage,85.0,Unrecorded,False,False,0.58,0.02,False,False,False,False,False
+VC,13,2014-12-15 07:31:52+00:00,2014-12-19 11:00:00+00:00,ER Registration,Release A,60.0,B,True,True,99.47,4.14,True,False,True,True,False
+VCA,15,2014-05-14 21:42:35+00:00,2014-11-18 14:09:22+00:00,ER Registration,Return ER,70.0,C,True,True,4504.45,187.69,True,False,True,True,True
+VD,11,2015-01-05 21:09:57+00:00,2015-01-08 09:00:00+00:00,ER Registration,Release A,50.0,H,True,True,59.83,2.49,True,False,True,True,False
+VDA,13,2014-09-08 16:10:39+00:00,2014-10-12 09:09:57+00:00,ER Registration,Return ER,55.0,K,True,True,808.99,33.71,True,False,True,True,True
+VE,19,2014-11-11 18:48:42+00:00,2014-11-15 12:00:00+00:00,ER Registration,Release A,55.0,G,True,True,89.19,3.72,False,True,True,True,False
+VEA,8,2014-09-10 14:42:37+00:00,2014-09-10 17:37:30+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,2.91,0.12,False,False,True,True,False
+VF,13,2014-05-26 19:12:31+00:00,2014-05-30 08:00:00+00:00,ER Registration,Release A,80.0,D,True,True,84.79,3.53,True,False,True,True,False
+VFA,16,2014-10-31 09:54:45+00:00,2014-11-11 08:45:00+00:00,ER Registration,Release A,70.0,K,True,True,262.84,10.95,True,False,True,True,False
+VG,16,2013-11-24 13:56:22+00:00,2013-12-11 14:35:26+00:00,ER Registration,Return ER,80.0,D,True,False,408.65,17.03,True,False,False,False,True
+VGA,8,2014-02-21 10:29:36+00:00,2014-02-21 12:28:26+00:00,ER Registration,IV Antibiotics,40.0,Unrecorded,True,True,1.98,0.08,False,False,True,True,False
+VH,5,2014-07-11 18:51:00+00:00,2014-07-11 19:21:00+00:00,ER Registration,CRP,20.0,Unrecorded,False,False,0.5,0.02,False,False,False,False,False
+VHA,5,2014-02-01 16:00:00+00:00,2014-02-01 16:21:00+00:00,ER Registration,CRP,65.0,Unrecorded,False,False,0.35,0.01,False,False,False,False,False
+VI,18,2014-09-29 22:48:57+00:00,2014-11-13 15:24:22+00:00,ER Registration,Return ER,85.0,E,True,True,1072.59,44.69,True,False,True,True,True
+VIA,36,2013-11-17 00:36:12+00:00,2013-12-13 13:00:00+00:00,ER Registration,Release A,65.0,G,True,True,636.4,26.52,True,True,True,True,False
+VJ,13,2014-03-22 20:41:37+00:00,2014-03-28 09:00:00+00:00,ER Registration,Release A,75.0,H,True,True,132.31,5.51,True,False,True,True,False
+VJA,3,2014-10-21 14:36:58+00:00,2014-10-21 14:54:55+00:00,ER Registration,ER Sepsis Triage,30.0,Unrecorded,False,False,0.3,0.01,False,False,False,False,False
+VK,20,2014-10-29 12:04:12+00:00,2014-11-13 09:30:00+00:00,ER Registration,Release A,85.0,E,True,True,357.43,14.89,True,False,True,True,False
+VKA,14,2014-12-26 21:53:09+00:00,2015-01-03 14:59:01+00:00,ER Registration,Release D,90.0,RC,True,True,185.1,7.71,True,False,True,True,False
+VL,14,2014-05-30 03:09:54+00:00,2014-06-02 17:00:00+00:00,ER Registration,Release A,70.0,D,True,True,85.84,3.58,True,False,True,True,False
+VLA,8,2014-01-07 10:14:54+00:00,2014-01-07 11:11:00+00:00,ER Registration,LacticAcid,80.0,Unrecorded,True,True,0.94,0.04,False,False,True,True,False
+VM,15,2014-08-07 12:53:07+00:00,2014-08-11 10:00:00+00:00,ER Registration,Release A,55.0,T,True,True,93.11,3.88,True,False,True,True,False
+VMA,3,2014-06-20 16:19:57+00:00,2014-06-20 16:28:18+00:00,ER Registration,ER Sepsis Triage,25.0,Unrecorded,False,False,0.14,0.01,False,False,False,False,False
+VN,28,2014-07-01 11:06:37+00:00,2015-04-06 18:41:35+00:00,ER Registration,Return ER,85.0,TB,True,True,6703.58,279.32,True,True,True,True,True
+VO,22,2014-02-23 15:48:37+00:00,2014-03-11 13:57:26+00:00,ER Registration,Return ER,60.0,D,True,True,382.15,15.92,True,False,True,True,True
+VP,15,2014-01-09 12:37:53+00:00,2014-01-12 12:00:00+00:00,ER Registration,Release B,80.0,C,True,True,71.37,2.97,True,False,True,True,False
+VQ,12,2014-04-11 11:50:54+00:00,2014-04-17 09:00:00+00:00,ER Registration,Release D,90.0,E,True,True,141.15,5.88,True,False,True,True,False
+VR,16,2013-12-07 13:11:35+00:00,2014-03-27 14:25:22+00:00,ER Triage,Return ER,85.0,Q,False,False,2641.23,110.05,True,False,True,True,True
+VS,16,2013-11-23 08:15:19+00:00,2013-11-28 13:00:00+00:00,ER Registration,Release A,70.0,K,True,True,124.74,5.2,True,False,True,True,False
+VT,16,2014-03-30 16:14:53+00:00,2014-04-15 08:00:00+00:00,ER Registration,Release A,80.0,E,True,True,375.75,15.66,True,False,True,True,False
+VU,14,2014-01-05 02:50:12+00:00,2014-01-09 09:00:00+00:00,ER Registration,Release A,60.0,B,True,True,102.16,4.26,True,False,True,True,False
+VV,5,2014-10-23 13:33:17+00:00,2014-10-23 14:41:00+00:00,ER Registration,Leucocytes,80.0,Unrecorded,False,False,1.13,0.05,False,False,False,False,False
+VW,14,2014-09-05 03:38:03+00:00,2014-11-02 17:51:44+00:00,ER Triage,Return ER,55.0,B,True,True,1406.23,58.59,True,False,True,True,True
+VX,5,2014-01-29 15:19:33+00:00,2014-01-29 15:35:00+00:00,ER Registration,Leucocytes,30.0,Unrecorded,False,False,0.26,0.01,False,False,False,False,False
+VY,17,2014-09-12 21:10:39+00:00,2014-09-21 11:30:00+00:00,ER Registration,Release A,70.0,Y,True,True,206.32,8.6,True,False,True,True,False
+VZ,6,2014-06-07 13:53:30+00:00,2014-06-07 18:10:00+00:00,ER Registration,CRP,25.0,Unrecorded,False,False,4.28,0.18,False,False,False,False,False
+W,11,2014-11-11 15:52:36+00:00,2014-11-15 10:00:00+00:00,ER Registration,Release A,85.0,M,True,True,90.12,3.76,True,False,True,True,False
+WA,8,2014-09-28 14:35:41+00:00,2014-10-11 14:13:13+00:00,ER Registration,Return ER,85.0,S,False,False,311.63,12.98,True,False,False,False,True
+WAA,12,2014-08-09 14:06:47+00:00,2014-08-13 17:00:00+00:00,ER Registration,Release A,65.0,C,True,True,98.89,4.12,True,False,True,True,False
+WB,5,2014-11-01 13:32:49+00:00,2014-11-01 14:22:00+00:00,ER Registration,Leucocytes,50.0,Unrecorded,False,False,0.82,0.03,False,False,False,False,False
+WBA,12,2015-02-09 17:38:57+00:00,2015-02-14 11:15:00+00:00,ER Registration,Release A,65.0,E,True,True,113.6,4.73,True,False,False,False,False
+WC,12,2014-04-28 09:20:41+00:00,2014-05-08 17:20:37+00:00,IV Liquid,Return ER,80.0,H,True,True,248.0,10.33,True,False,True,True,True
+WCA,20,2014-04-24 08:02:14+00:00,2014-04-28 13:00:00+00:00,ER Registration,Release A,60.0,B,True,True,100.96,4.21,True,True,True,True,False
+WD,3,2014-11-11 14:26:44+00:00,2014-11-11 16:12:29+00:00,ER Registration,ER Sepsis Triage,75.0,Unrecorded,False,False,1.76,0.07,False,False,False,False,False
+WDA,31,2014-08-21 05:26:45+00:00,2014-09-02 11:00:00+00:00,IV Liquid,Release A,55.0,G,True,True,293.55,12.23,True,True,True,True,False
+WE,17,2014-04-21 10:35:46+00:00,2014-09-30 19:59:52+00:00,ER Registration,Return ER,90.0,IA,False,False,3897.4,162.39,True,True,False,False,True
+WEA,7,2013-11-09 11:04:54+00:00,2013-11-09 14:04:41+00:00,ER Registration,IV Antibiotics,70.0,Unrecorded,True,True,3.0,0.12,False,False,True,True,False
+WF,21,2013-12-27 17:20:00+00:00,2014-02-14 19:12:31+00:00,ER Registration,Return ER,80.0,D,True,True,1177.88,49.08,True,False,True,True,True
+WFA,13,2014-10-25 21:18:17+00:00,2014-12-04 10:23:05+00:00,ER Registration,Return ER,65.0,Y,True,True,949.08,39.54,True,False,True,True,True
+WG,14,2014-12-24 05:12:18+00:00,2014-12-29 17:00:00+00:00,ER Registration,Release A,55.0,U,True,True,131.79,5.49,True,False,True,True,False
+WGA,36,2014-08-14 16:17:48+00:00,2014-11-30 23:19:04+00:00,ER Registration,Return ER,85.0,C,True,True,2599.02,108.29,True,True,True,True,True
+WH,5,2014-04-01 09:50:17+00:00,2014-04-01 10:01:00+00:00,ER Registration,Leucocytes,75.0,Unrecorded,False,False,0.18,0.01,False,False,False,False,False
+WHA,12,2014-06-29 17:32:05+00:00,2014-07-03 12:00:00+00:00,ER Registration,Release A,70.0,GB,True,True,90.47,3.77,True,False,True,True,False
+WI,9,2014-12-01 09:06:49+00:00,2015-03-30 11:32:16+00:00,ER Registration,Return ER,65.0,S,False,False,2858.42,119.1,True,False,False,False,True
+WIA,5,2014-12-06 13:23:28+00:00,2014-12-06 13:48:03+00:00,ER Registration,ER Sepsis Triage,90.0,Unrecorded,False,False,0.41,0.02,False,False,False,False,False
+WJA,18,2014-06-21 14:23:11+00:00,2014-07-05 08:30:00+00:00,IV Liquid,Release C,90.0,W,True,True,330.11,13.75,True,False,True,True,False
+WK,8,2014-10-07 08:20:00+00:00,2014-10-12 12:00:00+00:00,Leucocytes,Release A,65.0,B,True,True,123.67,5.15,True,False,True,False,False
+WKA,18,2015-02-18 22:34:04+00:00,2015-02-21 06:50:00+00:00,ER Registration,Release B,55.0,H,True,True,56.27,2.34,True,True,True,True,False
+WL,9,2014-06-16 09:46:00+00:00,2014-06-23 12:00:00+00:00,CRP,Release A,65.0,K,True,True,170.23,7.09,True,False,False,False,False
+WLA,14,2014-01-04 10:47:14+00:00,2014-02-23 10:33:00+00:00,ER Registration,Return ER,90.0,FA,False,False,1199.76,49.99,True,False,False,False,True
+WM,16,2014-11-26 20:18:25+00:00,2014-12-12 10:13:48+00:00,ER Registration,Return ER,85.0,B,True,True,373.92,15.58,True,False,True,True,True
+WMA,5,2014-04-17 13:29:26+00:00,2014-04-17 14:46:00+00:00,ER Registration,CRP,20.0,Unrecorded,True,False,1.28,0.05,False,False,False,False,False
+WN,23,2014-06-13 08:02:28+00:00,2014-12-12 12:48:23+00:00,ER Registration,Return ER,80.0,SB,True,True,4372.77,182.2,True,False,True,True,True
+WO,18,2014-10-14 09:10:02+00:00,2015-01-19 12:28:01+00:00,IV Liquid,Return ER,85.0,N,True,True,2331.3,97.14,True,False,True,True,True
+WP,16,2014-08-01 11:27:23+00:00,2014-08-05 12:00:00+00:00,ER Registration,Release A,60.0,H,True,True,96.54,4.02,True,True,True,True,False
+WQ,13,2014-10-23 21:51:07+00:00,2014-12-02 10:45:37+00:00,ER Registration,Return ER,70.0,H,True,True,948.91,39.54,True,False,True,True,True
+WR,18,2014-08-28 15:41:00+00:00,2014-09-05 09:15:00+00:00,CRP,Release C,90.0,Q,True,True,185.57,7.73,True,False,True,True,False
+WS,6,2015-01-23 11:57:03+00:00,2015-01-23 12:27:00+00:00,ER Registration,LacticAcid,90.0,Unrecorded,True,True,0.5,0.02,False,False,False,False,False
+WT,18,2014-08-11 01:46:56+00:00,2014-08-26 13:58:28+00:00,ER Registration,Return ER,80.0,E,True,True,372.19,15.51,True,False,True,True,True
+WU,17,2014-10-01 18:31:26+00:00,2014-10-12 12:10:00+00:00,ER Registration,Release A,90.0,C,True,True,257.64,10.74,True,False,True,True,False
+WV,14,2014-02-07 11:08:34+00:00,2014-02-11 06:30:00+00:00,ER Registration,Release A,75.0,B,True,True,91.36,3.81,True,False,True,True,False
+WW,18,2014-04-17 11:42:21+00:00,2014-04-27 06:49:23+00:00,ER Registration,Return ER,55.0,CA,True,True,235.12,9.8,True,True,True,True,True
+WX,8,2014-05-10 20:41:42+00:00,2014-05-11 21:25:21+00:00,ER Registration,IV Liquid,85.0,Unrecorded,True,True,24.73,1.03,False,False,True,True,False
+WY,3,2014-09-13 20:32:57+00:00,2014-09-13 21:06:50+00:00,ER Registration,ER Sepsis Triage,55.0,Unrecorded,False,False,0.56,0.02,False,False,False,False,False
+WZ,24,2014-09-15 17:19:43+00:00,2014-11-17 16:07:00+00:00,ER Registration,Return ER,90.0,N,True,True,1510.79,62.95,True,False,True,True,True
+X,13,2014-10-04 01:41:22+00:00,2015-05-09 08:52:02+00:00,ER Registration,Return ER,85.0,C,False,False,5215.18,217.3,True,False,False,False,True
+XA,3,2014-04-12 13:18:52+00:00,2014-04-12 13:28:16+00:00,ER Registration,ER Sepsis Triage,70.0,Unrecorded,False,False,0.16,0.01,False,False,False,False,False
+XAA,13,2014-04-12 09:08:02+00:00,2014-04-16 13:30:00+00:00,ER Registration,Release A,85.0,C,True,True,100.37,4.18,True,False,True,True,False
+XB,11,2014-10-21 09:34:38+00:00,2014-10-22 22:30:00+00:00,ER Registration,Release B,60.0,B,True,True,36.92,1.54,True,False,True,True,False
+XBA,27,2014-04-28 19:27:56+00:00,2014-06-26 16:10:41+00:00,ER Registration,Return ER,55.0,SD,True,True,1412.71,58.86,True,True,True,True,True
+XC,8,2014-02-23 14:42:28+00:00,2014-02-23 15:03:00+00:00,ER Registration,CRP,90.0,Unrecorded,True,True,0.34,0.01,False,False,True,True,False
+XCA,35,2014-09-16 04:17:55+00:00,2014-10-07 13:51:11+00:00,ER Registration,Return ER,70.0,VD,True,True,513.55,21.4,True,True,True,True,True
+XD,10,2014-08-20 11:28:09+00:00,2014-08-25 12:30:00+00:00,ER Registration,Release A,90.0,E,True,True,121.03,5.04,True,False,True,True,False
+XDA,6,2015-01-11 14:42:30+00:00,2015-01-11 15:25:00+00:00,ER Registration,CRP,50.0,Unrecorded,True,True,0.71,0.03,False,False,False,False,False
+XE,8,2014-04-03 09:27:25+00:00,2014-04-03 09:48:00+00:00,ER Registration,CRP,85.0,Unrecorded,True,True,0.34,0.01,False,False,True,True,False
+XEA,12,2014-10-30 22:44:52+00:00,2014-11-02 16:00:00+00:00,ER Registration,Release A,65.0,C,True,True,65.25,2.72,True,False,True,True,False
+XF,12,2015-01-09 17:27:18+00:00,2015-01-13 08:30:00+00:00,ER Registration,Release A,60.0,C,True,True,87.04,3.63,True,False,True,True,False
+XFA,19,2013-12-02 17:27:53+00:00,2014-06-29 06:38:32+00:00,ER Registration,Return ER,40.0,PC,False,False,5005.18,208.55,True,True,False,False,True
+XG,8,2014-03-03 22:30:42+00:00,2014-03-04 01:00:00+00:00,ER Registration,IV Antibiotics,45.0,Unrecorded,True,True,2.49,0.1,False,False,True,True,False
+XGA,15,2014-03-12 02:02:41+00:00,2014-04-26 10:45:31+00:00,ER Registration,Return ER,90.0,Z,True,True,1088.71,45.36,True,False,True,True,True
+XH,22,2014-03-17 11:51:43+00:00,2014-03-28 08:30:00+00:00,ER Registration,Release A,90.0,C,True,True,260.64,10.86,True,False,True,True,False
+XHA,12,2014-05-16 20:25:01+00:00,2014-05-17 05:00:00+00:00,ER Registration,LacticAcid,70.0,G,True,True,8.58,0.36,False,True,True,True,False
+XI,39,2013-12-29 11:28:10+00:00,2014-01-21 20:02:44+00:00,ER Registration,Return ER,55.0,C,True,True,560.58,23.36,True,True,True,True,True
+XIA,5,2014-05-24 16:37:14+00:00,2014-05-24 17:05:00+00:00,ER Registration,Leucocytes,35.0,Unrecorded,False,False,0.46,0.02,False,False,False,False,False
+XJ,13,2013-11-07 07:18:29+00:00,2013-12-11 10:02:20+00:00,ER Registration,Return ER,90.0,C,True,True,818.73,34.11,True,False,True,True,True
+XJA,20,2013-12-25 17:45:10+00:00,2014-01-07 09:00:00+00:00,ER Registration,Release A,75.0,KA,True,True,303.25,12.64,True,False,True,True,False
+XK,6,2014-05-15 08:41:55+00:00,2014-05-15 09:16:00+00:00,ER Registration,CRP,85.0,Unrecorded,False,False,0.57,0.02,False,False,False,False,False
+XKA,13,2014-05-25 13:41:21+00:00,2014-11-10 22:34:04+00:00,ER Registration,Return ER,50.0,H,True,True,4064.88,169.37,True,False,True,True,True
+XL,14,2014-11-23 10:00:05+00:00,2015-02-01 08:45:17+00:00,ER Registration,Return ER,85.0,E,True,True,1678.75,69.95,True,False,True,True,True
+XLA,8,2015-01-03 10:53:29+00:00,2015-01-03 13:47:21+00:00,ER Registration,IV Antibiotics,40.0,Unrecorded,True,True,2.9,0.12,False,False,True,True,False
+XM,18,2014-10-21 16:28:08+00:00,2014-11-13 20:18:25+00:00,ER Registration,Return ER,85.0,B,True,True,555.84,23.16,True,False,True,True,True
+XMA,3,2014-05-17 22:13:33+00:00,2014-05-17 22:26:56+00:00,ER Registration,ER Sepsis Triage,40.0,Unrecorded,False,False,0.22,0.01,False,False,False,False,False
+XN,16,2014-01-13 23:18:41+00:00,2014-01-18 09:58:31+00:00,ER Registration,Return ER,40.0,AA,True,True,106.66,4.44,True,False,True,True,True
+XO,9,2014-10-05 15:02:37+00:00,2014-10-07 04:30:00+00:00,ER Registration,Release B,85.0,C,True,True,37.46,1.56,True,False,True,False,False
+XP,13,2014-03-29 15:34:08+00:00,2014-04-01 09:00:00+00:00,ER Registration,Release A,60.0,BC,True,True,65.43,2.73,True,False,True,True,False
+XQ,14,2014-12-29 14:18:06+00:00,2015-03-15 14:40:57+00:00,ER Registration,Return ER,85.0,B,True,True,1824.38,76.02,True,False,True,True,True
+XR,6,2014-12-28 14:29:32+00:00,2014-12-28 16:45:03+00:00,ER Registration,IV Antibiotics,55.0,Unrecorded,True,True,2.26,0.09,False,False,True,False,False
+XS,21,2014-08-30 09:59:23+00:00,2015-01-15 11:57:03+00:00,ER Registration,Return ER,90.0,W,True,True,3313.96,138.08,True,False,True,True,True
+XT,18,2014-07-08 21:19:10+00:00,2014-07-18 20:42:25+00:00,ER Registration,Return ER,80.0,BB,True,True,239.39,9.97,True,False,True,True,True
+XU,8,2014-05-10 08:04:12+00:00,2014-05-10 10:00:54+00:00,ER Registration,IV Liquid,85.0,Unrecorded,True,True,1.94,0.08,False,False,True,True,False
+XV,8,2014-04-16 10:23:42+00:00,2014-04-16 13:45:09+00:00,ER Registration,IV Antibiotics,80.0,Unrecorded,True,True,3.36,0.14,False,False,True,True,False
+XW,16,2014-05-02 17:51:52+00:00,2014-05-09 11:08:49+00:00,ER Registration,Release A,55.0,K,True,True,161.28,6.72,True,False,True,True,False
+XX,12,2014-05-20 08:00:00+00:00,2014-05-20 13:00:00+00:00,CRP,Release B,85.0,Unrecorded,True,True,5.0,0.21,True,False,True,True,False
+XY,13,2014-02-16 21:19:34+00:00,2014-08-09 21:17:48+00:00,ER Registration,Return ER,55.0,GD,True,True,4175.97,174.0,True,False,True,True,True
+XZ,16,2014-09-24 05:30:00+00:00,2014-10-02 01:00:00+00:00,IV Liquid,Release B,65.0,C,True,True,187.5,7.81,True,False,True,True,False
+Y,8,2015-02-25 09:06:20+00:00,2015-02-25 10:00:19+00:00,ER Registration,IV Liquid,75.0,Unrecorded,True,True,0.9,0.04,False,False,True,True,False
+YA,6,2014-07-10 10:33:44+00:00,2014-07-10 10:54:00+00:00,ER Registration,LacticAcid,90.0,Unrecorded,True,True,0.34,0.01,False,False,False,False,False
+YAA,12,2014-04-13 08:27:43+00:00,2014-04-15 09:30:00+00:00,ER Registration,Release A,75.0,F,False,False,49.04,2.04,True,False,True,True,False
+YB,15,2014-11-09 19:21:38+00:00,2014-11-13 19:00:00+00:00,ER Registration,Release A,85.0,B,True,True,95.64,3.98,True,False,True,True,False
+YBA,14,2014-05-19 16:49:59+00:00,2014-05-26 09:00:00+00:00,ER Registration,Release A,90.0,C,True,True,160.17,6.67,True,False,True,True,False
+YC,9,2014-07-16 09:47:00+00:00,2014-07-16 20:45:51+00:00,CRP,IV Antibiotics,35.0,Unrecorded,True,True,10.98,0.46,False,False,True,True,False
+YCA,11,2014-03-01 17:35:34+00:00,2014-03-02 06:00:00+00:00,ER Registration,CRP,90.0,E,True,True,12.41,0.52,True,False,True,True,False
+YD,8,2014-05-07 10:46:40+00:00,2014-05-07 12:21:48+00:00,ER Registration,IV Antibiotics,75.0,Unrecorded,True,True,1.59,0.07,False,False,True,True,False
+YDA,13,2014-04-06 17:43:20+00:00,2014-06-22 12:04:18+00:00,ER Registration,Return ER,70.0,UC,True,True,1842.35,76.76,True,False,True,True,True
+YE,13,2014-08-25 12:06:46+00:00,2014-08-29 12:00:00+00:00,ER Registration,Release A,65.0,H,True,True,95.89,4.0,True,False,True,True,False
+YEA,10,2013-11-24 12:43:50+00:00,2013-11-29 12:00:00+00:00,ER Registration,Release A,70.0,H,True,True,119.27,4.97,True,False,True,True,False
+YF,29,2014-07-08 16:15:07+00:00,2014-07-21 07:50:00+00:00,ER Registration,Release A,90.0,E,True,True,303.58,12.65,True,True,True,True,False
+YFA,12,2015-01-14 14:36:47+00:00,2015-01-17 09:20:00+00:00,ER Registration,Release A,75.0,B,True,True,66.72,2.78,True,False,True,True,False
+YG,29,2014-03-16 23:57:07+00:00,2014-04-13 11:00:00+00:00,ER Registration,Release D,70.0,SA,True,True,659.05,27.46,True,False,True,True,False
+YGA,14,2014-05-25 15:28:21+00:00,2014-06-16 02:34:03+00:00,ER Registration,Return ER,65.0,H,True,True,515.1,21.46,True,False,True,True,True
+YH,7,2014-03-20 22:25:38+00:00,2014-03-25 09:00:00+00:00,ER Registration,Release A,70.0,XA,False,False,106.57,4.44,True,False,False,False,False
+YHA,16,2014-12-22 08:22:47+00:00,2014-12-28 09:02:16+00:00,ER Registration,Release A,70.0,IC,True,True,144.66,6.03,True,False,True,True,False
+YI,14,2014-05-01 16:40:48+00:00,2014-05-08 13:50:00+00:00,ER Registration,Release A,75.0,C,True,True,165.15,6.88,True,False,True,True,False
+YIA,52,2013-12-11 22:32:45+00:00,2014-01-12 01:10:25+00:00,ER Registration,Return ER,55.0,HE,True,True,746.63,31.11,True,True,True,True,True
+YJ,12,2014-10-12 22:04:17+00:00,2014-10-21 08:00:00+00:00,ER Registration,Release A,40.0,T,False,False,201.93,8.41,True,False,False,False,False
+YJA,12,2014-03-20 02:06:58+00:00,2014-03-30 16:00:00+00:00,ER Registration,Release A,70.0,E,True,True,253.88,10.58,True,False,True,True,False
+YK,17,2014-04-17 18:00:20+00:00,2014-04-29 02:51:22+00:00,ER Registration,Return ER,85.0,HB,True,True,272.85,11.37,True,False,True,True,True
+YKA,43,2014-08-11 12:54:03+00:00,2014-08-30 12:45:00+00:00,ER Registration,Release A,75.0,G,True,True,455.85,18.99,True,True,True,True,False
+YL,18,2014-01-21 13:14:20+00:00,2014-02-03 10:34:33+00:00,ER Registration,Return ER,85.0,B,True,True,309.34,12.89,True,False,True,True,True
+YLA,61,2014-03-31 09:31:22+00:00,2014-08-17 11:51:18+00:00,ER Registration,Return ER,80.0,G,False,False,3338.33,139.1,True,True,False,False,True
+YM,13,2014-05-08 10:34:25+00:00,2015-01-17 16:28:08+00:00,ER Registration,Return ER,85.0,C,True,True,6101.9,254.25,True,False,True,True,True
+YMA,10,2014-09-01 20:26:13+00:00,2014-09-26 20:09:59+00:00,ER Registration,Return ER,90.0,OE,False,False,599.73,24.99,True,False,False,False,True
+YN,7,2014-04-13 06:40:00+00:00,2014-04-13 19:32:33+00:00,CRP,ER Sepsis Triage,45.0,Unrecorded,False,False,12.88,0.54,False,False,False,False,False
+YO,27,2014-05-26 09:54:55+00:00,2014-06-09 15:00:00+00:00,ER Registration,Release A,80.0,XB,True,True,341.08,14.21,True,False,True,True,False
+YP,30,2013-11-18 13:18:15+00:00,2013-12-03 04:30:00+00:00,ER Registration,Release B,90.0,CC,True,True,351.2,14.63,True,False,True,True,False
+YQ,12,2014-11-16 19:24:28+00:00,2014-11-18 13:00:00+00:00,ER Registration,Release A,75.0,K,True,True,41.59,1.73,True,False,True,True,False
+YR,17,2014-05-25 12:20:50+00:00,2014-06-01 14:00:00+00:00,ER Registration,Release A,80.0,Q,True,True,169.65,7.07,True,False,True,True,False
+YS,23,2014-03-15 09:10:06+00:00,2014-07-08 22:52:05+00:00,ER Registration,Return ER,60.0,G,True,True,2773.7,115.57,True,True,True,True,True
+YT,17,2014-02-13 22:34:19+00:00,2014-03-05 23:27:16+00:00,ER Registration,Return ER,80.0,E,True,True,480.88,20.04,True,False,True,True,True
+YU,3,2014-02-05 06:49:49+00:00,2014-02-05 06:58:54+00:00,ER Registration,ER Sepsis Triage,60.0,Unrecorded,False,False,0.15,0.01,False,False,False,False,False
+YV,21,2014-07-19 16:43:56+00:00,2014-10-13 18:29:46+00:00,ER Registration,Return ER,90.0,B,True,True,2065.76,86.07,True,False,True,True,True
+YW,10,2014-10-31 09:10:03+00:00,2014-11-10 09:00:00+00:00,ER Registration,Release A,85.0,Z,False,False,239.83,9.99,True,False,False,False,False
+YX,84,2014-04-29 17:24:22+00:00,2014-05-29 11:15:00+00:00,ER Registration,Release A,65.0,E,True,True,713.84,29.74,True,True,True,True,False
+YY,21,2014-11-03 20:59:04+00:00,2014-11-13 19:00:00+00:00,ER Registration,Release A,65.0,HD,True,True,238.02,9.92,True,False,True,True,False
+YZ,15,2014-04-11 06:08:23+00:00,2014-08-25 06:53:01+00:00,ER Registration,Return ER,65.0,D,True,True,3264.74,136.03,True,False,True,True,True
+Z,10,2014-04-03 06:49:53+00:00,2014-04-07 08:00:00+00:00,ER Registration,Release A,80.0,G,True,True,97.17,4.05,True,True,False,False,False
+ZA,8,2014-05-24 09:32:26+00:00,2014-05-24 10:40:56+00:00,ER Registration,IV Antibiotics,90.0,Unrecorded,True,True,1.14,0.05,False,False,True,True,False
+ZAA,15,2014-12-26 08:17:46+00:00,2015-01-01 15:15:00+00:00,ER Registration,Release A,90.0,C,True,True,150.95,6.29,True,False,True,True,False
+ZB,16,2014-04-26 18:35:33+00:00,2015-01-03 11:34:52+00:00,ER Registration,Return ER,75.0,AA,True,True,6040.99,251.71,True,False,True,True,True
+ZBA,11,2014-10-30 15:29:10+00:00,2014-11-02 09:30:00+00:00,ER Registration,Release A,45.0,R,True,True,66.01,2.75,True,False,True,True,False
+ZC,10,2014-07-14 16:34:00+00:00,2014-07-14 22:56:24+00:00,ER Registration,IV Antibiotics,70.0,Unrecorded,True,True,6.37,0.27,False,False,True,True,False
+ZCA,9,2015-02-05 13:33:02+00:00,2015-02-05 19:34:00+00:00,ER Registration,LacticAcid,75.0,Unrecorded,True,True,6.02,0.25,False,False,True,True,False
+ZD,7,2014-04-07 08:15:33+00:00,2014-04-12 09:00:00+00:00,ER Registration,Release A,90.0,FA,False,False,120.74,5.03,True,False,False,False,False
+ZDA,18,2014-09-10 17:02:55+00:00,2014-11-24 09:12:02+00:00,ER Registration,Return ER,85.0,G,True,True,1792.15,74.67,True,True,True,True,True
+ZE,16,2014-07-02 12:35:50+00:00,2014-07-12 16:15:00+00:00,ER Registration,Release B,75.0,D,True,True,243.65,10.15,True,False,True,True,False
+ZEA,18,2014-07-20 22:57:24+00:00,2014-08-17 14:28:24+00:00,ER Registration,Return ER,65.0,H,True,True,663.52,27.65,True,True,True,True,True
+ZF,14,2014-06-05 19:14:36+00:00,2014-06-09 08:00:00+00:00,ER Registration,Release A,45.0,R,True,True,84.76,3.53,True,False,True,True,False
+ZFA,13,2014-01-18 14:42:16+00:00,2014-08-13 08:11:46+00:00,ER Registration,Return ER,75.0,H,True,True,4961.49,206.73,True,False,True,True,True
+ZG,10,2014-10-14 21:18:15+00:00,2014-10-16 15:00:00+00:00,ER Registration,Release B,60.0,B,True,True,41.7,1.74,True,False,True,True,False
+ZGA,29,2015-01-29 18:28:36+00:00,2015-03-23 09:59:34+00:00,ER Registration,Return ER,75.0,ZA,True,True,1263.52,52.65,True,False,True,True,True
+ZH,13,2014-07-27 15:26:54+00:00,2014-08-05 12:00:00+00:00,ER Registration,Release A,75.0,AA,True,True,212.55,8.86,True,False,True,True,False
+ZHA,26,2014-09-05 17:27:33+00:00,2014-10-26 15:12:03+00:00,ER Registration,Return ER,50.0,F,True,True,1221.74,50.91,True,True,True,True,True
+ZI,18,2014-10-15 20:24:54+00:00,2014-10-22 09:15:00+00:00,ER Registration,Release A,85.0,HA,True,True,156.84,6.54,True,False,True,True,False
+ZIA,8,2014-05-08 15:53:22+00:00,2014-05-08 18:46:30+00:00,ER Registration,IV Antibiotics,35.0,Unrecorded,True,True,2.89,0.12,False,False,True,True,False
+ZJ,16,2014-10-13 18:24:46+00:00,2014-10-22 08:00:00+00:00,ER Registration,Release A,85.0,BB,True,True,205.59,8.57,True,False,True,True,False
+ZJA,23,2014-09-24 14:38:28+00:00,2014-10-12 10:15:00+00:00,ER Registration,Release A,50.0,C,True,True,427.61,17.82,True,False,True,True,False
+ZK,11,2014-11-30 12:57:54+00:00,2014-12-02 14:30:00+00:00,ER Registration,Release A,65.0,B,True,True,49.54,2.06,True,False,True,True,False
+ZKA,16,2014-03-15 14:33:42+00:00,2014-06-13 13:09:24+00:00,ER Registration,Return ER,35.0,C,True,True,2158.59,89.94,True,False,True,True,True
+ZL,13,2014-10-15 08:14:51+00:00,2014-11-20 13:57:24+00:00,ER Registration,Return ER,75.0,B,True,True,869.71,36.24,True,False,True,True,True
+ZLA,11,2013-12-15 19:30:43+00:00,2014-08-30 14:04:43+00:00,ER Registration,Return ER,25.0,C,True,True,6186.57,257.77,True,False,True,True,True
+ZM,28,2014-04-08 15:50:18+00:00,2014-04-23 10:00:00+00:00,ER Registration,Release A,80.0,E,True,True,354.16,14.76,True,False,True,True,False
+ZMA,66,2014-10-19 08:45:58+00:00,2014-12-03 14:00:00+00:00,IV Liquid,Release B,70.0,G,True,True,1085.23,45.22,True,True,True,True,False
+ZN,5,2014-04-08 11:41:15+00:00,2014-04-08 12:07:00+00:00,ER Registration,CRP,55.0,Unrecorded,False,False,0.43,0.02,False,False,False,False,False
+ZO,12,2014-02-03 22:01:08+00:00,2014-02-11 11:00:00+00:00,ER Registration,Release A,90.0,H,True,True,180.98,7.54,True,False,True,True,False
+ZP,12,2014-02-13 14:01:53+00:00,2014-02-16 12:45:00+00:00,ER Registration,Release A,55.0,C,True,True,70.72,2.95,True,False,True,True,False
+ZQ,21,2014-10-07 09:30:53+00:00,2014-10-16 20:56:00+00:00,ER Registration,Leucocytes,90.0,W,True,True,227.42,9.48,True,False,True,True,True
+ZR,13,2013-11-26 10:11:34+00:00,2013-11-30 14:00:00+00:00,ER Registration,Release A,75.0,E,True,True,99.81,4.16,True,False,True,True,False
+ZS,14,2013-11-14 10:58:51+00:00,2014-12-18 09:08:54+00:00,ER Registration,Return ER,75.0,PC,True,True,9574.17,398.92,True,False,True,True,True
+ZT,13,2015-01-07 11:47:40+00:00,2015-01-12 10:00:00+00:00,ER Registration,Release D,90.0,C,True,True,118.21,4.93,True,False,True,True,False
+ZU,10,2014-12-12 12:12:41+00:00,2014-12-15 11:16:00+00:00,ER Registration,Release A,90.0,YC,True,True,71.06,2.96,True,False,True,True,False
+ZV,12,2014-11-27 13:37:18+00:00,2014-12-02 12:50:00+00:00,ER Registration,Release A,75.0,E,True,True,119.21,4.97,True,False,True,True,False
+ZW,13,2014-10-03 04:07:59+00:00,2014-10-07 13:00:00+00:00,ER Registration,Release A,85.0,B,True,True,104.87,4.37,True,False,True,True,False
+ZX,10,2013-12-31 19:55:37+00:00,2014-01-05 09:00:00+00:00,ER Registration,Release A,85.0,H,True,True,109.07,4.54,True,False,True,True,False
+ZY,8,2014-12-13 10:09:37+00:00,2014-12-13 16:22:57+00:00,ER Registration,IV Antibiotics,85.0,Unrecorded,True,True,6.22,0.26,False,False,True,True,False
+ZZ,14,2014-11-12 15:34:30+00:00,2014-11-17 17:00:00+00:00,ER Registration,Release A,70.0,K,True,True,121.42,5.06,True,False,True,True,False

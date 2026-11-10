@@ -1,0 +1,17 @@
+Activity,Clinical_Stage,Total_Occurrences,Unique_Cases,Case_Reach_Pct,Repeated_Cases_Count,Rework_Rate_Pct,Max_Repetitions_In_Single_Case,Mean_Occurrences_Per_Case
+Leucocytes,2. Diagnostic Laboratory,3383,1012,96.38,677,66.9,74,3.34
+CRP,2. Diagnostic Laboratory,3262,1007,95.9,692,68.72,69,3.24
+LacticAcid,2. Diagnostic Laboratory,1466,860,81.9,172,20.0,51,1.7
+Admission NC,4. Inpatient Ward,1182,800,76.19,313,39.12,5,1.48
+ER Triage,1. Intake & Triage,1053,1050,100.0,3,0.29,2,1.0
+ER Registration,1. Intake & Triage,1050,1050,100.0,0,0.0,1,1.0
+ER Sepsis Triage,1. Intake & Triage,1049,1049,99.9,0,0.0,1,1.0
+IV Antibiotics,3. Acute Treatments,823,823,78.38,0,0.0,1,1.0
+IV Liquid,3. Acute Treatments,753,753,71.71,0,0.0,1,1.0
+Release A,5. Hospital Disposition,671,671,63.9,0,0.0,1,1.0
+Return ER,5. Hospital Disposition (Follow-up),294,294,28.0,0,0.0,1,1.0
+Admission IC,4. Inpatient Ward (ICU),117,110,10.48,7,6.36,2,1.06
+Release B,5. Hospital Disposition,56,56,5.33,0,0.0,1,1.0
+Release C,5. Hospital Disposition,25,25,2.38,0,0.0,1,1.0
+Release D,5. Hospital Disposition,24,24,2.29,0,0.0,1,1.0
+Release E,5. Hospital Disposition,6,6,0.57,0,0.0,1,1.0

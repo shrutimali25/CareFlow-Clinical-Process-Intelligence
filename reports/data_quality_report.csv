@@ -1,0 +1,15 @@
+Metric,Value
+Total rows,15214
+Total columns,36
+Unique patient cases,1050
+Unique activities,16
+Missing case IDs,0
+Missing activities,0
+Missing timestamps,0
+Exact duplicate rows,0
+Repeated events at same timestamp,14
+Cases in chronological order,1050
+Cases out of chronological order,0
+Negative elapsed times,0
+Case 'NA' verified present,1
+Case 'NA' event count,24

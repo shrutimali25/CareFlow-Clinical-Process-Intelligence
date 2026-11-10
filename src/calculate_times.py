@@ -1,0 +1,26 @@
+"""
+Calculate Elapsed Times and Sequence Features
+Enriches cleaned Sepsis event log with elapsed minutes and sequential order.
+Author: Shruti (Member 1 - Data Engineering)
+"""
+
+from pathlib import Path
+import sys
+
+project_root = Path(__file__).resolve().parent.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+from src.data.time_features import compute_time_features
+
+
+def main():
+    input_file = project_root / "data" / "processed" / "sepsis_cleaned.csv"
+    output_file = project_root / "data" / "processed" / "sepsis_with_times.csv"
+
+    print("Running Time Features & Transition Calculation...")
+    compute_time_features(input_file, output_file)
+
+
+if __name__ == "__main__":
+    main()

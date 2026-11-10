@@ -1,0 +1,10 @@
+Metric,Value
+Eligible Patient Cases Analyzed,823
+Mean Triage-to-Antibiotics Interval (Hours),2.02
+Median Triage-to-Antibiotics Interval (Hours),1.73
+Std Dev Interval (Hours),2.23
+Min Interval (Hours),0.00
+Max Interval (Hours),26.81
+Golden Hour Target (<= 1 hour) Cases,304 (36.9%)
+Surviving Sepsis Bundle (<= 3 hours) Cases,616 (74.8%)
+Delayed Administration (> 3 hours) Cases,207 (25.2%)

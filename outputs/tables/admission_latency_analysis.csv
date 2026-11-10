@@ -1,0 +1,9 @@
+Metric,Value
+Admitted Patient Cases Analyzed,810
+Mean ER-to-Admission Interval (Hours),3.38
+Median ER-to-Admission Interval (Hours),3.22
+Min Interval (Hours),0.59
+Max Interval (Hours),9.67
+Admissions Under 4 Hours,598 (73.8%)
+Admissions 4 to 8 Hours,208 (25.7%)
+Admissions Over 8 Hours,4 (0.5%)

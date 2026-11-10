@@ -1,0 +1,11 @@
+Metric,Value
+XES total events,15214
+CSV total events,15214
+XES unique cases,1050
+CSV unique cases,1050
+XES unique activities,16
+CSV unique activities,16
+Different event combinations,0
+Missing event occurrences,0
+Extra event occurrences,0
+Reconciliation Match %,100.0%

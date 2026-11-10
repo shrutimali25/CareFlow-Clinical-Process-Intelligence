@@ -1,0 +1,1051 @@
+Case_ID,Total_Events,First_Event_Time,Last_Event_Time,Observation_Duration_Hours,Observation_Duration_Days,Duration_Cohort,Entry_Activity,Exit_Activity,Age,Age_Cohort,Diagnose,SIRSCriteria2OrMore,InfectionSuspected,Admitted_Normal_Care,Admitted_Intensive_Care,Received_Antibiotics,Received_IV_Liquid,Had_Return_ER,Variant_ID
+A,22,2014-10-22 09:15:41,2014-11-02 14:15:00,268.99,11.21,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,A,True,True,True,False,True,True,False,V063
+AA,8,2014-12-03 08:06:44,2014-12-03 13:28:01,5.35,0.22,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V007
+AAA,11,2014-11-19 02:16:21,2014-11-28 15:15:17,228.98,9.54,3. 1 - 4 Weeks,ER Registration,Return ER,60.0,2. 45 - 64,C,True,False,True,False,True,True,True,V064
+AB,8,2014-02-16 08:55:43,2014-02-16 12:52:06,3.94,0.16,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V004
+ABA,17,2014-10-12 09:22:24,2014-10-18 14:15:00,148.88,6.2,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,UC,True,True,True,False,True,True,False,V065
+AC,13,2014-09-24 13:39:13,2014-12-02 17:47:17,1660.13,69.17,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V066
+ACA,8,2014-09-22 08:00:00,2014-09-22 08:45:56,0.77,0.03,1. < 24 Hours,ER Registration,IV Antibiotics,55.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V004
+AD,29,2013-12-19 08:04:38,2014-05-04 16:34:00,3272.49,136.35,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,B,True,True,True,True,True,True,True,V067
+ADA,24,2014-06-21 05:14:16,2014-07-06 18:58:00,373.73,15.57,3. 1 - 4 Weeks,ER Registration,LacticAcid,85.0,4. 80 and Over,S,True,True,True,False,True,False,True,V068
+AE,18,2014-03-11 07:41:47,2014-07-23 15:38:24,3223.94,134.33,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,D,True,True,True,True,True,True,True,V069
+AEA,9,2014-02-26 09:15:03,2014-02-26 13:28:44,4.23,0.18,1. < 24 Hours,ER Registration,Admission NC,85.0,4. 80 and Over,Unrecorded,True,True,True,False,True,True,False,V070
+AF,17,2014-04-06 14:03:24,2014-04-20 00:58:15,322.91,13.45,3. 1 - 4 Weeks,ER Registration,Return ER,50.0,2. 45 - 64,JA,True,True,True,False,True,True,True,V071
+AFA,13,2014-04-16 10:21:27,2014-07-13 11:18:24,2112.95,88.04,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,E,True,True,True,False,True,False,True,V072
+AG,5,2014-05-09 23:00:00,2014-05-10 09:24:00,10.4,0.43,1. < 24 Hours,ER Sepsis Triage,CRP,50.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V073
+AGA,15,2014-08-06 15:06:19,2014-08-09 11:30:00,68.39,2.85,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,H,True,True,True,False,True,True,False,V074
+AH,11,2013-11-20 07:34:52,2013-11-24 09:00:00,97.42,4.06,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,LA,True,True,True,False,True,False,False,V075
+AHA,12,2014-05-20 19:53:19,2014-05-23 10:41:00,62.79,2.62,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,C,True,True,True,False,True,True,False,V076
+AI,15,2013-12-19 18:47:57,2014-12-19 01:38:36,8742.84,364.28,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,C,True,True,True,False,True,True,True,V077
+AIA,17,2014-05-25 16:20:51,2014-06-09 14:49:06,358.47,14.94,3. 1 - 4 Weeks,ER Registration,Return ER,70.0,3. 65 - 79,AB,True,True,True,False,True,True,True,V078
+AJ,25,2014-07-24 07:37:32,2014-08-09 09:00:00,385.37,16.06,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V079
+AJA,5,2014-05-17 22:07:04,2014-05-18 09:46:11,11.65,0.49,1. < 24 Hours,ER Registration,ER Sepsis Triage,60.0,2. 45 - 64,Unrecorded,True,True,False,False,False,False,False,V080
+AK,11,2014-10-08 19:41:35,2014-10-09 06:00:00,10.31,0.43,1. < 24 Hours,ER Registration,Leucocytes,60.0,2. 45 - 64,U,True,True,True,False,True,True,False,V081
+AKA,3,2014-08-02 13:20:57,2014-08-02 13:48:09,0.45,0.02,1. < 24 Hours,ER Registration,ER Sepsis Triage,35.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+AL,19,2014-04-07 16:13:06,2015-02-22 05:16:14,7693.05,320.54,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,IB,True,True,True,False,True,True,True,V082
+ALA,11,2014-10-02 15:31:45,2014-10-05 15:00:00,71.47,2.98,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,AA,True,True,True,False,True,True,False,V083
+AM,5,2014-02-17 13:29:57,2014-02-17 13:50:00,0.33,0.01,1. < 24 Hours,ER Registration,CRP,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V002
+AMA,9,2014-07-23 09:18:49,2014-08-01 16:00:00,222.69,9.28,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,KA,False,False,True,False,False,False,False,V084
+AN,8,2014-05-20 17:22:09,2014-05-21 20:32:29,27.17,1.13,2. 1 - 7 Days,ER Registration,IV Liquid,55.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V085
+ANA,9,2014-05-16 15:11:45,2014-05-17 14:00:00,22.8,0.95,1. < 24 Hours,ER Registration,Release A,75.0,3. 65 - 79,ZB,False,False,True,False,False,False,False,V086
+AO,7,2014-08-27 07:18:56,2015-01-04 20:06:48,3132.8,130.53,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,OB,False,False,True,False,False,False,True,V087
+AP,11,2014-10-29 17:36:01,2014-10-30 06:00:00,12.4,0.52,1. < 24 Hours,ER Registration,Leucocytes,60.0,2. 45 - 64,U,True,True,True,False,True,True,False,V088
+AQ,14,2014-06-05 17:43:42,2014-06-12 12:20:00,162.6,6.78,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V089
+AR,23,2014-04-04 10:36:40,2014-05-16 13:37:49,1011.02,42.13,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,N,True,True,True,False,True,True,True,V090
+AS,22,2013-11-23 16:32:23,2013-11-24 17:16:00,24.73,1.03,2. 1 - 7 Days,ER Registration,Release B,75.0,3. 65 - 79,G,True,True,False,True,True,True,False,V091
+AT,8,2014-06-10 14:00:33,2014-06-10 14:45:01,0.74,0.03,1. < 24 Hours,ER Registration,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V004
+AU,12,2013-12-05 21:13:04,2013-12-09 09:15:00,84.03,3.5,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,E,True,True,True,False,True,True,False,V092
+AV,10,2014-11-10 02:21:46,2014-11-15 12:00:00,129.64,5.4,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V093
+AW,7,2013-12-22 21:16:04,2013-12-22 22:56:58,1.68,0.07,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,False,False,V094
+AX,6,2014-02-26 20:41:19,2014-02-26 20:52:00,0.18,0.01,1. < 24 Hours,ER Registration,LacticAcid,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V005
+AY,22,2014-01-04 11:08:23,2014-01-12 15:15:00,196.11,8.17,3. 1 - 4 Weeks,ER Registration,Release B,85.0,4. 80 and Over,Q,False,False,True,False,False,False,False,V095
+AZ,15,2014-02-23 02:21:21,2014-02-28 10:30:00,128.14,5.34,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,ID,True,True,True,False,True,True,False,V096
+B,12,2014-12-21 10:04:24,2014-12-26 17:00:00,126.93,5.29,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,B,True,True,True,False,True,True,False,V097
+BA,13,2014-05-07 15:36:23,2014-08-01 06:58:21,2055.37,85.64,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,D,True,True,True,False,True,True,True,V098
+BAA,12,2014-12-17 19:21:03,2014-12-20 11:00:00,63.65,2.65,2. 1 - 7 Days,ER Registration,Release A,25.0,1. Under 45,C,True,True,True,False,True,True,False,V028
+BB,6,2014-03-10 11:13:21,2014-03-10 12:07:00,0.89,0.04,1. < 24 Hours,ER Registration,Leucocytes,35.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V012
+BBA,14,2014-04-23 08:08:21,2014-04-28 11:00:00,122.86,5.12,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,C,True,True,True,False,True,True,False,V099
+BC,5,2015-02-07 14:14:13,2015-02-07 15:23:00,1.15,0.05,1. < 24 Hours,ER Registration,CRP,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V002
+BCA,19,2015-01-01 10:37:39,2015-01-03 11:00:00,48.37,2.02,2. 1 - 7 Days,ER Registration,Release E,60.0,2. 45 - 64,TD,True,True,True,False,True,True,False,V100
+BD,12,2015-02-02 01:03:30,2015-02-05 09:00:00,79.94,3.33,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,DA,True,True,True,False,True,True,False,V101
+BDA,12,2014-10-15 06:59:57,2014-10-20 09:00:00,122.0,5.08,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V102
+BE,15,2014-02-21 10:37:38,2014-10-31 14:35:09,6051.96,252.16,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,GA,True,True,True,False,True,True,True,V103
+BEA,8,2014-05-29 11:01:00,2014-05-29 11:53:10,0.87,0.04,1. < 24 Hours,CRP,IV Liquid,60.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V104
+BF,13,2014-08-07 08:15:51,2014-08-11 11:38:32,99.38,4.14,2. 1 - 7 Days,ER Registration,Return ER,65.0,3. 65 - 79,B,True,True,True,False,True,True,True,V019
+BFA,21,2014-10-21 06:52:00,2014-10-25 13:30:00,102.63,4.28,2. 1 - 7 Days,Leucocytes,Release B,60.0,2. 45 - 64,B,True,True,True,True,True,True,False,V105
+BG,10,2014-03-06 08:30:52,2014-03-09 09:00:00,72.49,3.02,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,HA,False,False,True,False,False,False,False,V106
+BGA,12,2014-08-10 00:45:02,2014-08-13 13:45:00,85.0,3.54,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,K,True,True,True,False,True,True,False,V107
+BH,20,2014-03-01 20:48:52,2014-03-06 10:30:00,109.69,4.57,2. 1 - 7 Days,ER Registration,Release A,35.0,1. Under 45,P,True,True,True,False,True,True,False,V108
+BHA,15,2014-05-02 04:59:42,2014-05-07 13:20:00,128.34,5.35,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V109
+BI,10,2014-02-06 13:57:26,2014-02-08 01:05:00,35.13,1.46,2. 1 - 7 Days,ER Registration,Release B,90.0,4. 80 and Over,S,True,True,True,False,True,False,False,V110
+BIA,36,2014-09-04 18:00:00,2014-12-13 23:05:21,2405.09,100.21,4. > 4 Weeks (Includes Return ER),IV Liquid,Return ER,80.0,4. 80 and Over,G,True,True,True,True,True,True,True,V111
+BJ,21,2014-11-22 04:43:13,2014-11-28 11:45:00,151.03,6.29,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,H,True,True,True,True,True,True,False,V112
+BJA,17,2013-12-15 20:17:27,2014-08-05 08:57:36,5580.67,232.53,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V113
+BK,13,2014-11-24 09:14:01,2015-03-27 09:29:21,2952.26,123.01,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,45.0,2. 45 - 64,B,True,True,True,False,True,True,True,V114
+BKA,19,2014-05-27 14:43:10,2014-06-20 14:09:03,575.43,23.98,3. 1 - 4 Weeks,ER Registration,Return ER,35.0,1. Under 45,BB,True,True,True,False,True,True,True,V115
+BL,11,2014-05-06 20:37:39,2014-05-08 09:00:00,36.37,1.52,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,VA,True,True,True,False,True,False,False,V116
+BLA,20,2014-06-25 06:44:52,2014-08-19 09:50:36,1323.1,55.13,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,C,True,True,True,False,True,True,True,V117
+BM,9,2014-09-21 15:05:30,2014-09-21 17:58:30,2.88,0.12,1. < 24 Hours,ER Registration,Admission NC,80.0,4. 80 and Over,Unrecorded,True,True,True,False,True,True,False,V118
+BMA,12,2014-07-28 14:24:15,2014-12-02 08:47:57,3042.4,126.77,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,55.0,2. 45 - 64,VB,True,True,True,False,True,True,True,V119
+BN,26,2014-02-27 09:52:15,2014-03-22 08:30:00,550.63,22.94,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,B,True,True,True,False,True,True,False,V120
+BNA,7,2014-09-06 13:22:52,2014-09-09 10:35:00,69.2,2.88,2. 1 - 7 Days,ER Registration,Release A,30.0,1. Under 45,Z,False,False,True,False,False,False,False,V013
+BO,6,2014-05-30 14:45:52,2014-05-30 15:10:00,0.4,0.02,1. < 24 Hours,ER Registration,CRP,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V029
+BP,22,2015-01-31 08:50:31,2015-02-14 09:30:00,336.66,14.03,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,YB,False,False,True,True,False,False,False,V121
+BQ,12,2014-03-24 17:09:11,2014-03-30 12:00:00,138.85,5.79,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,EB,True,True,True,False,True,True,False,V122
+BR,11,2014-03-26 11:20:45,2014-10-14 12:59:49,4849.65,202.07,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,H,True,True,True,False,True,True,True,V123
+BS,13,2014-08-02 12:17:41,2014-08-15 11:00:00,310.71,12.95,3. 1 - 4 Weeks,ER Registration,Release C,90.0,4. 80 and Over,KC,True,True,True,False,True,True,False,V124
+BT,13,2014-07-19 12:09:40,2014-10-12 14:01:01,2041.86,85.08,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,VB,True,True,True,False,True,True,True,V019
+BU,14,2014-03-10 08:57:48,2014-03-14 10:00:00,97.04,4.04,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,WA,True,True,True,False,True,True,False,V125
+BV,16,2013-11-13 13:11:53,2013-11-18 10:30:00,117.3,4.89,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V126
+BW,21,2014-04-02 14:39:39,2014-04-21 12:00:00,453.34,18.89,3. 1 - 4 Weeks,ER Registration,Release A,50.0,2. 45 - 64,E,True,True,True,False,True,True,False,V127
+BX,17,2014-08-19 18:04:00,2014-11-28 08:00:33,2413.94,100.58,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,GB,True,True,True,False,True,True,True,V128
+BY,6,2014-05-25 10:30:39,2014-05-25 11:24:00,0.89,0.04,1. < 24 Hours,ER Registration,LacticAcid,30.0,1. Under 45,Unrecorded,True,True,False,False,False,False,False,V005
+BZ,24,2014-01-15 18:56:31,2014-01-28 13:00:00,306.06,12.75,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,JD,False,False,True,False,True,False,False,V129
+C,14,2014-02-09 18:29:29,2014-02-15 09:00:00,134.51,5.6,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,C,True,True,True,False,True,True,False,V130
+CA,8,2013-12-23 18:11:35,2013-12-23 18:57:00,0.76,0.03,1. < 24 Hours,ER Registration,Leucocytes,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V030
+CAA,8,2015-01-10 09:11:59,2015-01-10 10:13:10,1.02,0.04,1. < 24 Hours,ER Registration,IV Antibiotics,35.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V131
+CB,14,2014-02-11 11:36:56,2014-02-18 08:00:00,164.38,6.85,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,E,True,True,True,False,True,True,False,V132
+CBA,21,2015-02-01 21:20:15,2015-02-16 13:00:00,351.66,14.65,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,LA,True,True,True,False,True,True,False,V133
+CC,14,2015-02-22 23:50:05,2015-02-26 13:18:29,85.47,3.56,2. 1 - 7 Days,ER Registration,Return ER,75.0,3. 65 - 79,E,True,True,True,False,True,True,True,V134
+CCA,8,2014-06-05 09:40:54,2014-06-05 13:00:53,3.33,0.14,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V008
+CD,8,2014-09-22 12:38:49,2014-09-22 18:15:38,5.61,0.23,1. < 24 Hours,ER Registration,IV Antibiotics,55.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V007
+CDA,3,2014-02-16 00:58:26,2014-02-16 01:00:31,0.03,0.0,1. < 24 Hours,ER Registration,ER Sepsis Triage,20.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+CE,11,2014-10-11 14:40:44,2014-10-21 06:00:00,231.32,9.64,3. 1 - 4 Weeks,ER Registration,Release A,50.0,2. 45 - 64,C,True,True,True,False,True,True,False,V135
+CEA,14,2013-12-25 09:26:40,2014-01-02 09:00:00,191.56,7.98,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,R,True,True,True,False,True,True,False,V136
+CF,27,2014-05-12 11:10:14,2014-06-05 10:56:16,575.77,23.99,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,KA,True,True,True,False,True,False,True,V137
+CFA,18,2014-07-01 22:05:48,2014-07-16 11:30:00,349.4,14.56,3. 1 - 4 Weeks,ER Registration,Release A,50.0,2. 45 - 64,C,True,True,True,False,True,False,False,V138
+CG,15,2013-11-24 08:56:15,2013-11-29 07:45:00,118.81,4.95,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,OA,True,True,True,False,True,True,False,V139
+CGA,10,2014-11-17 21:34:16,2014-11-20 10:10:00,60.6,2.52,2. 1 - 7 Days,ER Registration,Release B,90.0,4. 80 and Over,R,True,True,True,False,True,True,False,V140
+CH,9,2014-12-22 04:25:48,2014-12-24 12:30:00,56.07,2.34,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,M,True,True,True,False,True,False,False,V141
+CHA,13,2014-07-18 14:37:59,2014-07-27 04:59:42,206.36,8.6,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,C,True,True,True,False,True,True,True,V142
+CI,13,2015-01-06 17:29:49,2015-01-10 13:00:00,91.5,3.81,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,R,True,True,True,False,True,True,False,V143
+CIA,5,2014-04-26 18:23:08,2014-04-26 19:34:00,1.18,0.05,1. < 24 Hours,ER Registration,CRP,55.0,2. 45 - 64,Unrecorded,True,True,False,False,False,False,False,V002
+CJ,25,2014-08-09 13:19:00,2014-08-20 03:45:00,254.43,10.6,3. 1 - 4 Weeks,Leucocytes,Release B,90.0,4. 80 and Over,AB,True,True,True,False,True,True,False,V144
+CJA,8,2015-01-06 23:55:03,2015-01-10 11:30:00,83.58,3.48,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,H,False,False,True,False,False,False,False,V145
+CK,5,2014-01-29 01:42:25,2014-01-29 02:09:00,0.44,0.02,1. < 24 Hours,ER Registration,Leucocytes,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V003
+CKA,17,2014-10-03 07:22:45,2014-10-12 08:30:00,217.12,9.05,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V146
+CL,4,2014-02-06 00:17:00,2014-02-06 00:26:00,0.15,0.01,1. < 24 Hours,ER Registration,Leucocytes,70.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V147
+CLA,8,2014-10-26 23:00:42,2014-10-27 02:00:00,2.99,0.12,1. < 24 Hours,ER Registration,IV Antibiotics,40.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V020
+CM,15,2015-01-25 14:00:04,2015-01-30 12:00:00,118.0,4.92,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,E,True,True,True,False,True,False,False,V148
+CMA,8,2014-09-01 06:40:16,2014-09-01 15:43:18,9.05,0.38,1. < 24 Hours,ER Registration,Admission NC,90.0,4. 80 and Over,Unrecorded,True,True,True,False,True,False,False,V149
+CN,11,2014-01-01 16:06:57,2014-01-02 08:00:00,15.88,0.66,1. < 24 Hours,ER Registration,Release B,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V150
+CNA,17,2014-09-19 06:14:18,2014-10-06 08:36:47,410.37,17.1,3. 1 - 4 Weeks,ER Registration,Return ER,65.0,3. 65 - 79,BA,False,False,True,False,False,False,True,V151
+CO,8,2014-01-17 15:44:42,2014-01-21 10:00:00,90.26,3.76,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,K,True,True,True,False,True,False,False,V152
+CP,15,2014-04-09 11:21:46,2014-04-28 09:15:00,453.89,18.91,3. 1 - 4 Weeks,ER Registration,Release C,90.0,4. 80 and Over,Q,True,True,True,False,True,True,False,V153
+CQ,13,2014-02-24 20:43:57,2014-02-28 09:30:00,84.77,3.53,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V154
+CR,17,2014-04-18 16:44:51,2014-05-27 12:03:53,931.32,38.8,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,C,True,True,True,False,True,True,True,V155
+CS,7,2013-11-28 15:06:15,2013-11-28 16:48:05,1.7,0.07,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,False,False,V031
+CT,12,2014-05-31 19:46:45,2014-06-06 12:00:00,136.22,5.68,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,AA,True,True,True,False,True,True,False,V156
+CU,11,2014-12-26 18:45:40,2015-01-04 15:32:50,212.79,8.87,3. 1 - 4 Weeks,ER Registration,Return ER,30.0,1. Under 45,VC,False,False,True,False,False,False,True,V157
+CV,12,2014-04-17 19:30:41,2014-04-21 07:45:00,84.24,3.51,2. 1 - 7 Days,ER Registration,Release A,30.0,1. Under 45,E,True,True,True,False,True,True,False,V158
+CW,15,2015-01-11 14:59:46,2015-01-15 14:30:00,95.5,3.98,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V159
+CX,14,2014-03-01 20:28:17,2014-03-06 09:00:00,108.53,4.52,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,R,True,True,True,False,True,False,False,V160
+CY,33,2014-06-04 18:02:57,2014-07-03 07:00:00,684.95,28.54,4. > 4 Weeks (Includes Return ER),ER Registration,Release E,70.0,3. 65 - 79,B,True,True,True,True,True,True,False,V161
+CZ,40,2014-09-18 11:46:43,2014-10-02 22:59:00,347.2,14.47,3. 1 - 4 Weeks,ER Registration,Release B,50.0,2. 45 - 64,CA,True,True,True,True,True,True,False,V162
+D,13,2014-07-10 09:52:00,2014-07-28 15:36:41,437.74,18.24,3. 1 - 4 Weeks,ER Registration,Return ER,70.0,3. 65 - 79,D,True,True,True,False,True,True,True,V032
+DA,12,2014-02-16 20:57:06,2014-02-22 12:50:00,135.88,5.66,2. 1 - 7 Days,ER Registration,Release C,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V163
+DAA,16,2014-07-13 23:15:16,2014-07-22 12:00:00,204.75,8.53,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,C,True,True,True,False,True,True,False,V164
+DB,12,2014-06-04 09:56:17,2014-06-09 09:30:00,119.56,4.98,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V165
+DBA,14,2014-10-31 10:25:27,2014-11-04 09:00:00,94.58,3.94,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V166
+DC,12,2014-03-08 02:44:37,2014-11-26 02:05:34,6311.35,262.97,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,45.0,2. 45 - 64,BA,True,True,True,False,True,True,True,V033
+DCA,13,2014-05-20 10:31:49,2014-07-01 09:40:54,1007.15,41.96,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,D,True,True,True,False,True,True,True,V034
+DD,8,2014-02-13 12:14:23,2014-02-18 18:30:00,126.26,5.26,2. 1 - 7 Days,ER Registration,Release B,90.0,4. 80 and Over,EA,True,True,True,False,False,False,False,V035
+DDA,17,2014-02-11 16:12:08,2014-02-22 07:55:00,255.71,10.65,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,AC,True,True,True,False,True,True,False,V167
+DE,5,2014-02-19 23:02:34,2014-02-19 23:26:00,0.39,0.02,1. < 24 Hours,ER Registration,Leucocytes,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V003
+DEA,14,2014-03-05 02:36:26,2014-03-07 10:00:00,55.39,2.31,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,ZB,True,True,True,False,True,True,False,V168
+DF,5,2014-03-21 13:38:19,2014-03-21 15:50:54,2.21,0.09,1. < 24 Hours,ER Registration,ER Sepsis Triage,85.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V009
+DFA,10,2014-10-05 13:28:27,2014-10-12 13:00:00,167.53,6.98,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,S,True,True,True,False,False,False,False,V169
+DG,12,2014-09-19 06:51:17,2014-09-22 14:00:00,79.15,3.3,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,Y,True,True,True,False,True,True,False,V036
+DGA,18,2014-08-19 17:41:58,2014-09-01 08:00:00,302.3,12.6,3. 1 - 4 Weeks,ER Registration,Release C,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V170
+DH,15,2014-06-30 16:04:08,2014-10-18 09:17:01,2633.21,109.72,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,25.0,1. Under 45,AA,True,True,True,False,True,True,True,V171
+DHA,8,2014-09-20 14:26:51,2014-09-25 09:14:39,114.8,4.78,2. 1 - 7 Days,ER Registration,Release D,65.0,3. 65 - 79,BE,False,False,True,False,False,False,False,V172
+DI,12,2014-08-29 20:54:03,2014-09-01 07:30:00,58.6,2.44,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V037
+DIA,5,2014-09-13 19:00:25,2014-09-13 19:16:00,0.26,0.01,1. < 24 Hours,ER Registration,Leucocytes,45.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V003
+DJ,23,2014-12-26 14:44:53,2015-05-04 10:21:42,3091.61,128.82,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,G,True,True,True,True,True,True,True,V173
+DJA,9,2014-02-09 12:39:54,2014-04-05 01:40:50,1309.02,54.54,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,H,False,False,True,False,False,False,True,V174
+DK,13,2014-06-21 04:33:03,2014-09-25 14:04:57,2313.53,96.4,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,E,True,True,True,False,True,True,True,V175
+DKA,14,2014-03-29 17:23:51,2014-04-28 19:05:08,721.69,30.07,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,LA,True,True,True,False,True,True,True,V176
+DL,11,2015-01-07 19:39:25,2015-01-11 09:00:00,85.34,3.56,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,JB,True,True,True,False,True,True,False,V177
+DLA,8,2015-01-04 09:44:28,2015-01-04 13:18:23,3.57,0.15,1. < 24 Hours,ER Registration,IV Antibiotics,35.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V021
+DM,8,2014-02-13 14:51:08,2014-02-13 16:38:56,1.8,0.08,1. < 24 Hours,ER Registration,IV Antibiotics,45.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V022
+DMA,3,2014-05-02 15:08:18,2014-05-02 15:28:02,0.33,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,55.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+DN,5,2013-11-19 17:19:38,2013-11-19 17:29:00,0.16,0.01,1. < 24 Hours,ER Registration,Leucocytes,70.0,3. 65 - 79,Unrecorded,True,True,False,False,False,False,False,V003
+DNA,8,2014-11-10 03:25:25,2014-11-10 06:04:51,2.66,0.11,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V006
+DO,16,2013-12-11 12:16:08,2014-01-11 11:57:22,743.69,30.99,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,False,True,True,True,V178
+DP,14,2014-07-13 08:57:07,2014-07-18 08:00:00,119.05,4.96,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,E,True,True,True,False,True,True,False,V179
+DQ,8,2014-07-27 20:02:28,2014-07-27 21:20:55,1.31,0.05,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V004
+DR,15,2014-04-20 16:21:54,2014-04-25 16:00:00,119.64,4.99,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,B,True,True,True,False,True,True,False,V038
+DS,15,2014-10-28 20:08:11,2014-11-06 09:45:00,205.61,8.57,3. 1 - 4 Weeks,IV Liquid,Release A,85.0,4. 80 and Over,KA,True,True,True,False,True,True,False,V180
+DT,9,2014-03-27 10:05:24,2014-04-02 14:00:00,147.91,6.16,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,QC,True,True,True,False,False,False,False,V181
+DU,9,2013-11-28 18:08:21,2013-11-28 20:37:05,2.48,0.1,1. < 24 Hours,ER Registration,Admission NC,65.0,3. 65 - 79,H,True,True,True,False,True,True,False,V023
+DV,8,2014-03-16 21:55:04,2014-03-16 23:38:14,1.72,0.07,1. < 24 Hours,ER Registration,IV Antibiotics,55.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V004
+DW,13,2014-11-07 14:08:45,2014-11-10 15:00:00,72.85,3.04,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,Z,True,True,True,False,True,True,False,V182
+DX,13,2014-09-18 15:41:00,2014-09-22 12:00:00,92.32,3.85,2. 1 - 7 Days,Leucocytes,Release A,55.0,2. 45 - 64,E,True,True,True,False,True,True,False,V183
+DY,14,2014-10-17 20:14:45,2014-10-24 09:00:00,156.75,6.53,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,K,True,True,True,False,True,True,False,V184
+DZ,32,2014-07-26 16:22:41,2014-08-16 08:35:00,496.21,20.68,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,G,True,True,True,True,True,True,False,V185
+E,8,2015-01-15 19:14:58,2015-01-15 19:35:59,0.35,0.01,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V014
+EA,15,2014-06-08 10:28:37,2014-11-20 09:58:55,3959.5,164.98,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,D,True,True,True,False,True,True,True,V186
+EAA,15,2014-06-23 12:19:50,2014-06-26 02:00:00,61.67,2.57,2. 1 - 7 Days,ER Registration,Release B,70.0,3. 65 - 79,C,False,False,True,False,False,False,False,V187
+EB,8,2014-10-17 08:02:44,2014-10-17 12:07:37,4.08,0.17,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V006
+EBA,12,2015-02-02 14:30:18,2015-02-05 12:30:00,70.0,2.92,2. 1 - 7 Days,ER Registration,Release A,25.0,1. Under 45,C,True,True,True,False,True,True,False,V188
+EC,17,2014-02-27 07:58:20,2014-03-16 08:30:00,408.53,17.02,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,B,True,True,True,False,True,True,False,V189
+ECA,19,2014-04-25 14:42:42,2014-04-30 07:04:38,112.37,4.68,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,IC,True,True,True,True,True,True,False,V190
+ED,33,2014-02-19 08:26:10,2014-08-05 20:02:37,4019.61,167.48,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,C,True,True,True,False,True,True,True,V191
+EDA,12,2015-02-02 09:35:49,2015-02-08 23:14:34,157.65,6.57,2. 1 - 7 Days,ER Registration,Return ER,70.0,3. 65 - 79,C,True,True,True,False,True,True,True,V024
+EE,7,2014-07-18 03:04:02,2014-07-23 08:00:00,124.93,5.21,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,P,False,False,True,False,False,False,False,V010
+EEA,13,2014-02-12 13:18:20,2014-07-04 15:09:34,3409.85,142.08,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,VB,True,True,True,False,True,True,True,V192
+EF,14,2014-05-02 16:36:15,2014-05-06 13:00:00,92.4,3.85,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,K,True,True,True,False,True,True,False,V193
+EFA,6,2014-06-10 11:08:33,2014-06-10 11:33:00,0.41,0.02,1. < 24 Hours,ER Registration,LacticAcid,85.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V005
+EG,5,2014-10-26 18:22:19,2014-10-26 19:25:22,1.05,0.04,1. < 24 Hours,ER Registration,ER Sepsis Triage,45.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V009
+EGA,13,2014-03-10 14:53:54,2014-03-17 12:00:00,165.1,6.88,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,ZC,True,True,True,False,True,True,False,V194
+EH,10,2014-05-12 10:27:58,2014-05-17 08:00:00,117.53,4.9,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,TA,True,True,True,False,True,True,False,V025
+EHA,30,2014-03-30 15:57:58,2014-04-10 11:30:00,259.53,10.81,3. 1 - 4 Weeks,ER Registration,Release A,60.0,2. 45 - 64,G,True,True,True,True,True,True,False,V195
+EI,14,2014-08-18 12:10:03,2014-09-07 09:07:45,476.96,19.87,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,YA,True,True,True,False,True,False,True,V196
+EIA,12,2014-05-09 08:55:38,2014-11-18 09:23:28,4632.46,193.02,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,E,True,True,True,False,True,True,True,V024
+EJ,11,2014-10-25 11:30:00,2014-10-27 12:00:00,48.5,2.02,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,B,True,True,True,False,True,False,False,V197
+EJA,9,2014-03-10 11:45:15,2014-03-15 09:00:00,117.25,4.89,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,B,True,True,True,False,True,False,False,V198
+EK,20,2014-05-11 10:18:51,2014-05-18 12:00:00,169.69,7.07,3. 1 - 4 Weeks,ER Registration,Release B,65.0,3. 65 - 79,H,True,True,True,True,True,True,False,V199
+EKA,14,2013-12-08 09:50:16,2013-12-12 13:20:00,99.5,4.15,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,KE,True,True,True,False,True,True,False,V200
+EL,14,2014-07-29 00:57:58,2014-08-04 08:35:00,151.62,6.32,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,R,True,True,True,False,True,True,False,V201
+ELA,20,2014-06-19 20:46:46,2014-07-01 11:30:00,278.72,11.61,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,AC,True,True,True,False,True,True,False,V202
+EM,29,2014-03-02 13:16:17,2014-06-02 12:08:19,2206.87,91.95,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,G,True,True,True,True,True,True,True,V203
+EMA,17,2014-09-09 19:42:34,2014-10-12 19:17:11,791.58,32.98,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V204
+EN,8,2014-11-01 08:56:02,2014-11-01 15:18:06,6.37,0.27,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V004
+ENA,5,2014-11-20 08:25:52,2014-11-20 08:57:00,0.52,0.02,1. < 24 Hours,ER Registration,Leucocytes,80.0,4. 80 and Over,Unrecorded,True,True,False,False,False,False,False,V003
+EO,15,2014-07-02 02:39:23,2015-01-02 09:14:22,4422.58,184.27,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,K,True,True,True,False,True,True,True,V205
+EP,8,2014-08-05 11:49:12,2014-08-05 15:17:55,3.48,0.14,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V206
+EQ,30,2014-02-10 20:51:26,2014-03-05 13:48:59,544.96,22.71,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,D,True,True,True,False,True,True,True,V207
+ER,8,2014-10-07 16:47:11,2014-10-07 17:50:27,1.05,0.04,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V007
+ES,48,2014-11-04 13:02:09,2014-12-05 11:13:23,742.19,30.92,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,B,True,True,True,True,True,True,True,V208
+ET,10,2015-01-26 11:06:00,2015-01-29 09:00:00,69.9,2.91,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,RC,True,True,True,False,True,True,False,V039
+EU,14,2014-05-27 15:50:50,2014-11-22 12:38:12,4292.79,178.87,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,F,True,True,True,False,True,True,True,V209
+EV,10,2014-07-22 21:28:12,2014-07-23 21:45:54,24.3,1.01,2. 1 - 7 Days,ER Registration,IV Liquid,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V210
+EW,23,2015-01-07 21:32:17,2015-01-22 11:00:00,349.46,14.56,3. 1 - 4 Weeks,ER Registration,Release A,40.0,1. Under 45,B,True,True,True,False,True,True,False,V211
+EX,24,2014-01-05 19:36:30,2014-01-23 15:29:00,427.88,17.83,3. 1 - 4 Weeks,ER Registration,Release A,30.0,1. Under 45,C,True,True,True,False,True,True,False,V212
+EY,12,2014-06-02 11:01:57,2014-06-07 18:00:00,126.97,5.29,2. 1 - 7 Days,ER Registration,Release B,80.0,4. 80 and Over,LA,True,True,True,False,True,True,False,V213
+EZ,6,2014-11-08 13:46:59,2014-11-08 15:05:00,1.3,0.05,1. < 24 Hours,ER Registration,LacticAcid,25.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V005
+F,10,2014-05-07 16:56:57,2014-05-09 09:00:00,40.05,1.67,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,E,True,True,True,False,True,True,False,V214
+FA,8,2014-05-12 14:30:57,2014-05-12 20:17:45,5.78,0.24,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V022
+FAA,17,2014-10-06 20:10:15,2015-06-05 10:25:11,5798.25,241.59,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,C,True,True,True,False,True,True,True,V215
+FB,8,2014-05-21 15:02:23,2014-05-21 15:34:00,0.53,0.02,1. < 24 Hours,ER Registration,LacticAcid,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V040
+FBA,10,2014-02-23 23:40:52,2014-11-20 05:23:24,6461.71,269.24,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,WC,False,False,True,False,False,False,True,V041
+FC,7,2014-03-11 12:36:01,2014-03-13 09:00:00,44.4,1.85,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,S,False,False,True,False,False,False,False,V010
+FCA,15,2013-12-07 00:11:08,2014-01-15 20:02:25,955.85,39.83,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,C,True,True,True,False,True,True,True,V216
+FD,11,2014-05-10 20:26:10,2014-05-11 05:00:00,8.56,0.36,1. < 24 Hours,ER Registration,LacticAcid,65.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V217
+FDA,18,2014-05-13 21:00:14,2014-05-29 11:27:22,374.45,15.6,3. 1 - 4 Weeks,ER Registration,Return ER,55.0,2. 45 - 64,C,True,True,True,False,True,True,True,V218
+FE,17,2015-01-24 15:45:54,2015-02-20 09:34:07,641.8,26.74,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,GA,True,True,True,False,False,False,True,V219
+FEA,10,2014-03-07 19:36:08,2014-03-09 09:30:00,37.9,1.58,2. 1 - 7 Days,ER Registration,Release A,20.0,1. Under 45,Z,True,True,True,False,True,True,False,V220
+FF,8,2014-08-06 09:50:31,2014-08-06 15:39:14,5.81,0.24,1. < 24 Hours,ER Registration,IV Antibiotics,40.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V008
+FFA,3,2015-01-20 23:14:49,2015-01-20 23:21:17,0.11,0.0,1. < 24 Hours,ER Registration,ER Sepsis Triage,25.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+FG,11,2014-12-08 09:56:58,2014-12-13 11:00:00,121.05,5.04,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,H,True,True,True,False,True,True,False,V221
+FGA,11,2014-10-05 18:51:36,2014-10-06 19:00:47,24.15,1.01,2. 1 - 7 Days,ER Registration,IV Liquid,90.0,4. 80 and Over,H,True,True,True,False,True,True,False,V222
+FH,13,2014-11-22 09:48:10,2015-01-08 17:32:02,1135.73,47.32,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,K,True,True,True,False,True,False,True,V223
+FHA,13,2013-11-20 14:16:15,2014-07-11 19:07:05,5596.85,233.2,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,H,True,True,True,False,True,False,True,V224
+FI,8,2014-04-21 08:38:12,2014-04-21 11:47:51,3.16,0.13,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V004
+FIA,13,2014-03-02 14:44:37,2014-03-23 10:00:00,499.26,20.8,3. 1 - 4 Weeks,ER Registration,Release C,60.0,2. 45 - 64,MD,False,False,True,False,False,False,False,V225
+FJ,13,2014-04-01 09:10:14,2014-08-02 11:30:00,2954.33,123.1,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,BB,True,True,True,False,True,True,True,V226
+FJA,16,2014-05-02 18:47:21,2014-05-13 08:30:00,253.71,10.57,3. 1 - 4 Weeks,ER Registration,Release A,55.0,2. 45 - 64,KA,True,True,True,False,True,True,False,V227
+FK,17,2014-11-04 19:19:40,2014-11-16 09:00:00,277.67,11.57,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,H,True,True,True,False,True,True,False,V228
+FKA,11,2014-04-14 18:51:37,2014-04-19 07:19:09,108.46,4.52,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,IC,False,False,True,False,False,False,False,V229
+FL,9,2014-07-05 18:15:59,2014-07-06 21:17:59,27.03,1.13,2. 1 - 7 Days,ER Registration,IV Antibiotics,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V230
+FLA,5,2014-04-10 09:41:13,2014-04-10 10:49:09,1.13,0.05,1. < 24 Hours,ER Registration,ER Sepsis Triage,50.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V015
+FM,16,2014-07-21 10:24:06,2014-08-23 08:45:00,790.35,32.93,4. > 4 Weeks (Includes Return ER),ER Registration,Release A,85.0,4. 80 and Over,BA,True,True,True,False,True,True,False,V231
+FMA,13,2014-08-20 20:58:06,2014-08-25 19:42:34,118.74,4.95,2. 1 - 7 Days,ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V232
+FN,23,2014-03-26 10:20:08,2014-03-31 02:20:55,112.01,4.67,2. 1 - 7 Days,ER Registration,Release B,85.0,4. 80 and Over,PB,True,True,True,False,True,True,False,V233
+FNA,9,2014-09-08 18:49:40,2014-09-09 20:05:30,25.26,1.05,2. 1 - 7 Days,ER Registration,IV Liquid,80.0,4. 80 and Over,PE,True,True,True,False,True,True,False,V234
+FO,28,2014-11-05 01:05:12,2014-11-11 09:00:00,151.91,6.33,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,True,True,True,False,V235
+FP,6,2014-05-31 13:07:00,2014-05-31 15:28:33,2.36,0.1,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,False,False,V236
+FQ,8,2014-03-08 07:40:34,2014-03-08 10:55:00,3.24,0.14,1. < 24 Hours,ER Registration,Release B,65.0,3. 65 - 79,Unrecorded,True,True,True,False,False,False,False,V237
+FR,9,2014-12-16 19:41:04,2014-12-16 23:08:21,3.45,0.14,1. < 24 Hours,ER Registration,Admission NC,65.0,3. 65 - 79,C,True,True,True,False,True,True,False,V238
+FS,6,2014-10-16 14:37:21,2014-10-16 14:44:00,0.11,0.0,1. < 24 Hours,ER Registration,LacticAcid,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V005
+FT,37,2014-05-08 11:26:19,2014-05-26 11:45:00,432.31,18.01,3. 1 - 4 Weeks,ER Registration,Release A,65.0,3. 65 - 79,SC,True,True,True,True,True,False,False,V239
+FU,12,2014-06-21 15:08:52,2014-06-27 18:00:00,146.85,6.12,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,AA,True,True,True,False,False,False,False,V240
+FV,8,2013-12-04 15:35:19,2013-12-04 15:56:00,0.34,0.01,1. < 24 Hours,ER Registration,CRP,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V042
+FW,20,2014-10-09 09:16:42,2015-01-09 21:32:17,2220.26,92.51,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,40.0,1. Under 45,B,True,True,True,False,True,True,True,V241
+FX,17,2014-01-02 16:17:25,2014-01-22 19:36:30,483.32,20.14,3. 1 - 4 Weeks,ER Registration,Return ER,30.0,1. Under 45,C,True,True,True,False,True,False,True,V242
+FY,17,2014-03-19 13:54:15,2014-04-04 10:32:51,380.64,15.86,3. 1 - 4 Weeks,ER Registration,Return ER,60.0,2. 45 - 64,D,True,True,True,False,True,True,True,V243
+FZ,18,2015-02-08 18:51:33,2015-02-25 20:05:22,409.23,17.05,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,H,True,True,True,False,True,True,True,V244
+G,12,2014-09-05 12:40:47,2014-09-12 08:00:00,163.32,6.8,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,F,True,True,True,False,True,True,False,V245
+GA,12,2014-05-03 06:37:18,2014-05-07 09:00:00,98.38,4.1,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,E,True,True,True,False,True,True,False,V246
+GAA,16,2014-08-15 07:06:19,2014-08-20 11:00:00,123.89,5.16,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,E,True,True,True,False,True,True,False,V247
+GB,13,2014-08-27 00:15:42,2015-04-29 13:32:06,5893.27,245.55,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,False,True,True,True,V248
+GBA,11,2014-05-09 17:12:49,2014-10-17 21:12:07,3867.99,161.17,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,K,True,True,True,False,True,True,True,V249
+GC,12,2014-08-25 04:18:21,2014-08-31 08:00:00,147.69,6.15,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,S,True,True,True,False,True,True,False,V250
+GCA,14,2014-08-10 21:07:44,2015-01-22 22:11:20,3961.06,165.04,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,False,True,True,True,V251
+GD,14,2014-07-06 13:19:13,2014-07-12 08:30:00,139.18,5.8,2. 1 - 7 Days,ER Registration,Release C,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V252
+GDA,9,2014-03-05 07:45:59,2014-09-28 18:13:13,4978.45,207.44,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,S,False,False,True,False,False,False,True,V253
+GE,15,2014-08-01 08:35:00,2014-08-08 08:05:00,167.5,6.98,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,R,True,True,True,False,True,True,False,V254
+GEA,14,2014-07-02 21:37:45,2014-07-06 16:30:00,90.87,3.79,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V255
+GF,59,2014-05-29 01:22:48,2014-07-12 20:51:19,1075.48,44.81,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,40.0,1. Under 45,G,True,True,True,True,True,True,True,V256
+GFA,10,2014-05-02 20:39:29,2014-05-04 11:00:00,38.34,1.6,2. 1 - 7 Days,ER Registration,Release A,25.0,1. Under 45,YD,True,True,True,False,True,True,False,V016
+GG,18,2015-01-18 16:28:17,2015-02-23 20:43:23,868.25,36.18,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,PA,False,False,True,False,False,False,True,V257
+GGA,8,2014-01-11 06:03:42,2014-01-11 08:00:00,1.94,0.08,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V011
+GH,8,2014-03-18 15:50:43,2014-03-18 17:45:00,1.9,0.08,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V022
+GHA,14,2014-06-07 13:22:23,2014-06-12 08:00:00,114.63,4.78,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V258
+GI,12,2014-09-11 07:38:00,2014-09-20 13:00:00,221.37,9.22,3. 1 - 4 Weeks,Leucocytes,Release A,60.0,2. 45 - 64,C,True,True,True,False,True,False,False,V259
+GIA,7,2014-02-14 08:27:11,2014-02-14 09:02:46,0.59,0.02,1. < 24 Hours,ER Registration,IV Antibiotics,35.0,1. Under 45,Unrecorded,True,True,False,False,True,False,False,V031
+GJ,21,2014-02-19 18:50:19,2014-05-17 09:28:57,2078.64,86.61,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,G,True,True,True,True,True,True,True,V260
+GJA,19,2014-06-26 20:47:43,2014-07-21 14:32:02,593.74,24.74,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,B,True,True,True,False,True,True,True,V261
+GK,88,2014-12-24 08:34:00,2015-02-04 12:20:00,1011.77,42.16,4. > 4 Weeks (Includes Return ER),Leucocytes,Release D,50.0,2. 45 - 64,EB,True,True,True,True,True,True,False,V262
+GKA,6,2014-03-03 19:46:23,2014-03-03 20:13:00,0.44,0.02,1. < 24 Hours,ER Registration,Leucocytes,30.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V012
+GL,15,2014-03-16 03:24:14,2014-03-23 14:46:59,179.38,7.47,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,E,True,True,True,False,True,False,True,V263
+GLA,14,2014-10-05 04:55:02,2014-10-10 18:00:00,133.08,5.55,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,C,True,True,True,False,True,False,False,V264
+GM,13,2015-02-11 12:24:15,2015-02-18 08:55:00,164.51,6.85,2. 1 - 7 Days,ER Registration,Release C,90.0,4. 80 and Over,Q,True,True,True,False,True,True,False,V265
+GMA,13,2015-02-18 16:04:38,2015-02-27 17:00:00,216.92,9.04,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,B,False,False,True,False,False,False,False,V266
+GN,41,2014-07-21 13:19:09,2014-08-26 11:35:19,862.27,35.93,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,LB,True,True,True,True,True,True,True,V267
+GNA,25,2014-07-30 22:25:29,2014-08-06 14:00:00,159.58,6.65,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,G,True,True,True,True,True,True,False,V268
+GO,20,2015-01-26 16:22:03,2015-02-01 13:30:00,141.13,5.88,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,B,True,True,True,True,True,True,False,V269
+GP,10,2014-12-18 08:47:59,2014-12-22 08:00:00,95.2,3.97,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,E,True,True,True,False,True,True,False,V270
+GQ,10,2014-06-25 10:22:33,2014-06-29 11:00:00,96.62,4.03,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,B,True,True,True,False,True,False,False,V271
+GR,5,2014-11-14 10:22:26,2014-11-14 10:32:00,0.16,0.01,1. < 24 Hours,ER Registration,CRP,60.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V002
+GS,16,2015-01-14 14:04:34,2015-01-28 10:20:00,332.26,13.84,3. 1 - 4 Weeks,ER Registration,Release B,90.0,4. 80 and Over,LC,True,True,True,False,False,False,False,V272
+GT,22,2014-04-17 13:19:30,2014-05-10 15:27:33,554.13,23.09,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,Q,False,False,True,False,False,False,True,V273
+GU,15,2014-07-16 07:44:44,2014-10-24 10:16:53,2402.54,100.11,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,TB,True,True,True,False,True,True,True,V274
+GV,14,2014-02-14 18:28:29,2014-02-24 23:30:00,245.03,10.21,3. 1 - 4 Weeks,ER Registration,Release B,75.0,3. 65 - 79,E,True,True,True,False,True,True,False,V275
+GW,11,2014-03-30 08:10:59,2014-03-30 10:57:00,2.77,0.12,1. < 24 Hours,ER Sepsis Triage,Leucocytes,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V276
+GX,15,2014-11-04 22:30:00,2014-11-08 05:30:00,79.0,3.29,2. 1 - 7 Days,ER Sepsis Triage,Release B,90.0,4. 80 and Over,N,True,True,True,False,True,True,False,V277
+GY,13,2014-08-23 10:47:37,2014-09-03 07:15:00,260.46,10.85,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V278
+GZ,5,2014-11-28 02:19:01,2014-11-28 02:37:00,0.3,0.01,1. < 24 Hours,ER Registration,CRP,85.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V002
+H,13,2014-03-11 08:50:02,2014-03-16 00:00:00,111.17,4.63,2. 1 - 7 Days,ER Registration,Release B,80.0,4. 80 and Over,G,False,False,True,True,False,False,False,V279
+HA,11,2013-11-16 10:38:41,2013-11-22 09:00:00,142.36,5.93,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,N,False,False,True,False,False,False,False,V280
+HAA,21,2013-12-12 07:49:26,2013-12-22 05:00:00,237.18,9.88,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,B,True,True,True,True,True,False,False,V281
+HB,15,2014-04-17 12:28:36,2014-04-22 09:39:58,117.19,4.88,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,T,True,True,True,False,True,True,False,V282
+HBA,15,2014-07-27 17:29:38,2014-12-05 11:05:28,3137.6,130.73,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,LC,True,True,True,False,True,True,True,V283
+HC,5,2014-04-29 18:06:23,2014-04-29 18:41:00,0.58,0.02,1. < 24 Hours,ER Registration,CRP,35.0,1. Under 45,Unrecorded,True,True,False,False,False,False,False,V002
+HCA,8,2014-05-10 13:56:58,2014-05-10 14:15:00,0.3,0.01,1. < 24 Hours,ER Registration,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V014
+HD,32,2014-12-08 11:12:19,2014-12-14 18:00:00,150.79,6.28,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,G,True,True,True,True,True,True,False,V284
+HDA,12,2014-01-04 19:49:48,2015-01-04 18:28:24,8758.64,364.94,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,C,True,True,True,False,True,True,True,V285
+HE,17,2014-03-06 14:30:48,2014-03-13 16:00:00,169.49,7.06,3. 1 - 4 Weeks,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,False,True,True,False,V286
+HEA,19,2014-05-27 01:52:46,2014-06-01 19:26:00,137.55,5.73,2. 1 - 7 Days,ER Registration,Leucocytes,70.0,3. 65 - 79,GB,True,True,True,False,True,True,True,V287
+HF,13,2014-10-25 18:30:31,2014-10-31 09:00:00,134.49,5.6,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,LA,True,True,True,False,True,True,False,V288
+HFA,8,2014-12-17 16:49:12,2014-12-17 21:44:19,4.92,0.2,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V289
+HG,15,2013-12-13 10:58:49,2015-02-08 18:45:18,10135.77,422.32,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,H,True,True,True,False,True,False,True,V290
+HGA,16,2014-11-30 05:58:43,2014-12-11 08:45:00,266.77,11.12,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V291
+HH,12,2014-11-03 16:39:47,2014-11-07 13:15:00,92.59,3.86,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,UA,True,True,True,False,True,True,False,V017
+HHA,16,2014-06-27 17:26:16,2014-07-02 12:00:00,114.56,4.77,2. 1 - 7 Days,ER Registration,Release A,40.0,1. Under 45,CA,True,True,True,True,True,True,False,V292
+HI,9,2014-05-06 14:44:48,2014-05-27 18:35:37,507.85,21.16,3. 1 - 4 Weeks,ER Registration,Return ER,60.0,2. 45 - 64,C,False,True,True,False,False,False,True,V043
+HIA,16,2014-11-01 16:34:14,2014-12-23 18:08:31,1249.57,52.07,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,HD,True,True,True,False,True,True,True,V293
+HJ,15,2014-07-12 15:09:24,2014-07-17 11:30:00,116.34,4.85,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,U,True,True,True,False,True,True,False,V044
+HJA,13,2014-12-06 13:54:36,2014-12-13 12:00:00,166.09,6.92,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V294
+HK,10,2014-04-09 15:01:24,2014-04-25 11:00:00,379.98,15.83,3. 1 - 4 Weeks,ER Registration,Release C,90.0,4. 80 and Over,FB,True,True,True,False,True,True,False,V295
+HKA,19,2014-12-12 14:09:12,2014-12-22 10:00:00,235.85,9.83,3. 1 - 4 Weeks,ER Registration,Release D,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V296
+HL,15,2015-01-28 07:33:50,2015-05-07 17:35:42,2386.03,99.42,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,B,True,True,True,False,True,True,True,V297
+HLA,16,2014-08-30 06:50:24,2014-09-05 12:15:00,149.41,6.23,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,G,True,True,True,True,True,True,False,V298
+HM,15,2014-01-27 12:40:00,2014-02-08 12:20:00,287.67,11.99,3. 1 - 4 Weeks,Leucocytes,Release C,85.0,4. 80 and Over,B,False,False,True,False,False,False,False,V299
+HMA,3,2014-02-19 07:39:43,2014-02-19 07:51:21,0.19,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,30.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+HN,18,2015-02-12 14:18:22,2015-02-25 12:47:53,310.49,12.94,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,B,True,True,True,False,True,True,True,V300
+HNA,30,2014-08-01 08:26:51,2014-08-13 08:30:00,288.05,12.0,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,G,True,True,True,True,True,False,False,V301
+HO,25,2014-11-27 08:26:16,2014-12-13 11:00:00,386.56,16.11,3. 1 - 4 Weeks,ER Registration,Release A,50.0,2. 45 - 64,UB,True,True,True,False,True,True,False,V302
+HP,11,2014-10-22 04:34:40,2014-10-25 13:00:00,80.42,3.35,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,C,False,False,True,False,False,False,False,V303
+HQ,13,2015-01-28 14:24:44,2015-01-31 17:00:00,74.59,3.11,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,E,True,True,True,False,True,True,False,V045
+HR,10,2014-12-19 20:35:27,2014-12-21 12:00:00,39.41,1.64,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,B,True,True,True,False,True,True,False,V304
+HS,45,2014-10-25 11:17:04,2014-11-12 14:58:21,435.69,18.15,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,CA,True,True,True,True,True,True,True,V305
+HT,14,2014-03-31 06:21:47,2014-04-07 14:00:00,175.64,7.32,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,R,True,True,True,False,True,True,False,V046
+HU,3,2014-02-01 20:08:54,2014-02-01 20:20:30,0.19,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,50.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+HV,16,2014-02-17 08:25:50,2014-02-23 14:00:00,149.57,6.23,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,ZC,True,True,True,False,True,True,False,V306
+HW,6,2014-07-01 12:58:06,2014-07-01 13:54:26,0.94,0.04,1. < 24 Hours,ER Registration,ER Triage,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V307
+HX,10,2014-11-29 07:01:38,2014-12-02 16:00:00,80.97,3.37,2. 1 - 7 Days,ER Registration,Release A,30.0,1. Under 45,Z,True,True,True,False,True,True,False,V308
+HY,15,2014-03-09 21:41:06,2014-05-07 10:47:37,1405.11,58.55,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,Y,True,True,True,False,True,True,True,V309
+HZ,22,2014-09-16 18:03:03,2014-09-21 08:00:00,109.95,4.58,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,C,True,True,True,True,True,True,False,V310
+I,11,2013-11-09 08:21:03,2013-11-16 12:05:00,171.73,7.16,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,H,True,True,True,False,True,False,False,V311
+IA,8,2014-07-11 07:32:24,2014-07-11 08:02:24,0.5,0.02,1. < 24 Hours,IV Liquid,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V312
+IAA,9,2014-12-09 12:00:02,2015-02-15 17:33:09,1637.55,68.23,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,ZA,False,False,True,False,False,False,True,V043
+IB,14,2014-03-24 23:14:37,2014-03-28 10:00:00,82.76,3.45,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,U,True,True,True,False,True,True,False,V313
+IBA,12,2014-02-10 10:36:11,2014-02-15 13:00:00,122.4,5.1,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,False,True,True,False,V314
+IC,12,2014-04-10 00:09:50,2014-06-12 14:35:29,1526.43,63.6,4. > 4 Weeks (Includes Return ER),ER Triage,Return ER,75.0,3. 65 - 79,S,True,True,True,False,True,True,True,V315
+ICA,5,2013-12-21 10:27:15,2013-12-21 10:42:00,0.25,0.01,1. < 24 Hours,ER Registration,Leucocytes,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V003
+ID,3,2014-08-25 10:20:55,2014-08-25 10:59:02,0.64,0.03,1. < 24 Hours,ER Registration,ER Sepsis Triage,70.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V001
+IDA,13,2013-11-28 13:27:01,2014-01-06 19:49:48,942.38,39.27,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,K,True,True,True,False,True,True,True,V316
+IE,7,2014-07-28 16:02:48,2014-07-31 08:20:00,64.29,2.68,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,HA,False,False,True,False,False,False,False,V010
+IEA,13,2014-01-06 19:11:24,2014-03-01 01:52:46,1278.69,53.28,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,GB,True,True,True,False,True,True,True,V317
+IF,17,2014-11-12 12:41:00,2014-11-18 09:00:00,140.32,5.85,2. 1 - 7 Days,Leucocytes,Release A,90.0,4. 80 and Over,A,True,True,True,False,True,True,False,V318
+IFA,8,2014-11-10 14:24:36,2014-11-10 17:15:20,2.85,0.12,1. < 24 Hours,ER Registration,IV Antibiotics,50.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V006
+IG,18,2014-08-01 18:07:48,2014-08-13 08:00:00,277.87,11.58,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,QA,False,False,True,False,False,False,False,V319
+IGA,16,2014-03-06 00:22:26,2014-03-26 09:24:17,489.03,20.38,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,C,True,True,True,False,True,True,True,V320
+IH,17,2014-03-09 20:22:21,2014-03-29 08:43:43,468.36,19.52,3. 1 - 4 Weeks,ER Registration,Return ER,60.0,2. 45 - 64,VA,True,True,True,False,True,True,True,V321
+IHA,16,2014-06-07 15:25:26,2014-06-11 12:45:00,93.33,3.89,2. 1 - 7 Days,ER Registration,Release A,35.0,1. Under 45,CE,True,True,True,False,True,True,False,V322
+II,13,2014-07-25 15:59:02,2014-07-30 14:44:48,118.76,4.95,2. 1 - 7 Days,ER Registration,Return ER,60.0,2. 45 - 64,C,True,True,True,False,True,True,True,V323
+IIA,13,2014-03-25 12:20:52,2014-03-29 09:00:00,92.65,3.86,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V324
+IJ,16,2014-05-24 17:40:09,2014-05-31 08:30:00,158.83,6.62,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V325
+IJA,11,2014-05-06 18:28:44,2014-05-07 06:00:00,11.52,0.48,1. < 24 Hours,ER Registration,CRP,35.0,1. Under 45,IE,True,True,True,False,True,True,False,V326
+IK,6,2015-02-20 10:10:31,2015-02-20 10:45:00,0.57,0.02,1. < 24 Hours,ER Registration,LacticAcid,65.0,3. 65 - 79,Unrecorded,True,True,False,False,False,False,False,V005
+IKA,8,2014-01-22 12:58:27,2014-01-22 14:03:42,1.09,0.05,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V327
+IL,13,2014-11-25 13:45:07,2014-11-29 09:00:00,91.25,3.8,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V328
+ILA,12,2014-09-16 07:08:46,2014-10-07 06:15:46,503.12,20.96,3. 1 - 4 Weeks,ER Registration,Return ER,55.0,2. 45 - 64,Y,True,True,True,False,True,True,True,V329
+IM,37,2014-10-31 08:04:50,2014-12-01 11:30:00,747.42,31.14,4. > 4 Weeks (Includes Return ER),ER Registration,Release A,75.0,3. 65 - 79,G,True,True,True,True,True,True,False,V330
+IMA,5,2015-01-21 16:46:05,2015-01-21 19:07:22,2.35,0.1,1. < 24 Hours,ER Registration,ER Sepsis Triage,20.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V009
+IN,11,2014-03-25 18:04:46,2014-03-26 12:00:00,17.92,0.75,1. < 24 Hours,ER Registration,CRP,90.0,4. 80 and Over,W,True,True,True,False,True,True,False,V331
+INA,3,2014-11-03 08:43:47,2014-11-03 09:45:51,1.03,0.04,1. < 24 Hours,ER Registration,ER Sepsis Triage,25.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+IO,17,2014-11-03 10:04:03,2015-01-02 09:20:09,1439.27,59.97,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,VB,True,True,True,False,True,True,True,V332
+IP,16,2014-01-12 08:04:20,2014-01-24 15:23:39,295.32,12.3,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,H,True,False,True,False,True,True,True,V333
+IQ,13,2015-02-12 14:43:06,2015-02-17 11:54:11,117.18,4.88,2. 1 - 7 Days,ER Registration,Return ER,75.0,3. 65 - 79,DC,True,True,True,False,True,True,True,V047
+IR,9,2014-05-19 13:21:17,2014-05-19 14:09:13,0.8,0.03,1. < 24 Hours,ER Registration,ER Triage,60.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V334
+IS,23,2014-08-20 09:58:02,2014-09-02 10:00:00,312.03,13.0,3. 1 - 4 Weeks,ER Registration,Release A,50.0,2. 45 - 64,RB,True,True,True,False,True,True,False,V335
+IT,16,2014-03-26 02:07:35,2014-07-05 06:21:47,2428.24,101.18,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,TC,True,True,True,False,True,True,True,V336
+IU,15,2014-11-17 21:11:54,2014-11-24 12:00:00,158.8,6.62,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,E,True,True,True,False,True,True,False,V337
+IV,8,2014-06-06 13:37:50,2014-06-06 17:10:08,3.54,0.15,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V338
+IW,13,2014-02-27 08:18:00,2014-03-01 13:00:00,52.7,2.2,2. 1 - 7 Days,Leucocytes,Release A,70.0,3. 65 - 79,B,True,True,True,False,True,True,False,V339
+IX,8,2014-08-27 08:03:23,2014-08-27 12:14:22,4.18,0.17,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V007
+IY,18,2014-05-03 16:19:41,2014-06-16 21:41:06,1061.36,44.22,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,C,True,True,True,False,True,True,True,V340
+IZ,7,2014-06-07 04:29:56,2014-06-09 16:30:00,60.0,2.5,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,KD,False,False,True,False,False,False,False,V013
+J,11,2014-01-02 15:45:45,2014-01-06 10:00:00,90.24,3.76,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,B,True,True,True,False,True,True,False,V341
+JA,14,2014-04-24 08:19:51,2014-07-03 20:59:38,1692.66,70.53,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,H,True,True,True,False,True,False,True,V342
+JAA,23,2014-03-02 05:35:09,2014-03-31 07:30:00,697.91,29.08,4. > 4 Weeks (Includes Return ER),ER Registration,Release E,65.0,3. 65 - 79,ND,True,True,True,False,False,False,False,V343
+JB,8,2014-02-23 14:55:06,2014-02-23 16:43:39,1.81,0.08,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V004
+JBA,8,2014-08-18 15:31:24,2014-08-18 17:32:55,2.03,0.08,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V020
+JC,15,2014-02-28 15:31:31,2014-05-20 18:46:05,1947.24,81.14,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,False,True,True,True,V344
+JCA,18,2014-10-28 12:24:21,2015-01-15 15:40:23,1899.27,79.14,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,JC,True,True,True,False,True,True,True,V345
+JD,14,2014-07-16 06:54:39,2015-02-20 09:19:11,5258.41,219.1,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,B,True,True,True,False,True,True,True,V346
+JDA,8,2014-03-09 12:06:52,2014-03-09 19:06:13,6.99,0.29,1. < 24 Hours,ER Registration,IV Antibiotics,55.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V020
+JE,16,2014-02-25 16:33:52,2014-03-14 12:23:38,403.83,16.83,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,C,True,True,True,False,True,True,True,V347
+JEA,9,2014-01-08 19:39:11,2014-01-08 21:43:20,2.07,0.09,1. < 24 Hours,ER Registration,Admission NC,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V023
+JF,8,2014-10-20 15:55:21,2014-10-20 19:22:20,3.45,0.14,1. < 24 Hours,ER Registration,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V048
+JFA,8,2013-12-24 11:45:04,2014-07-16 11:35:39,4895.84,203.99,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,OB,False,False,True,False,False,False,True,V348
+JG,13,2014-02-15 14:56:02,2014-02-23 12:00:00,189.07,7.88,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,RA,True,True,True,False,True,True,False,V349
+JGA,8,2014-03-06 13:23:54,2014-03-07 17:00:00,27.6,1.15,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,MA,False,False,True,False,False,False,False,V350
+JH,12,2014-02-27 12:57:37,2014-03-11 20:22:21,295.41,12.31,3. 1 - 4 Weeks,ER Registration,Return ER,60.0,2. 45 - 64,VA,True,True,True,False,True,True,True,V351
+JHA,7,2014-06-04 14:39:57,2014-06-07 16:00:00,73.33,3.06,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,DE,False,False,True,False,False,False,False,V352
+JI,8,2014-10-17 14:37:46,2014-10-17 15:11:00,0.55,0.02,1. < 24 Hours,ER Registration,CRP,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V026
+JIA,9,2014-05-24 10:14:00,2014-05-24 17:15:30,7.02,0.29,1. < 24 Hours,CRP,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V353
+JJ,12,2014-10-12 12:37:47,2014-10-16 14:45:00,98.12,4.09,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,N,True,True,True,False,True,True,False,V018
+JJA,9,2014-05-05 08:56:00,2014-05-09 15:00:00,102.07,4.25,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,MD,False,False,True,False,False,False,False,V354
+JK,31,2014-10-18 06:43:05,2014-10-23 09:00:00,122.28,5.1,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,True,True,True,False,V355
+JKA,13,2014-07-29 20:10:01,2014-08-04 15:00:00,138.83,5.78,2. 1 - 7 Days,ER Registration,Release B,80.0,4. 80 and Over,B,True,True,True,False,True,True,False,V356
+JL,10,2014-03-25 11:54:19,2014-03-26 08:00:00,20.09,0.84,1. < 24 Hours,ER Registration,Release A,90.0,4. 80 and Over,M,True,True,True,False,True,True,False,V039
+JLA,25,2014-05-04 04:15:14,2014-05-19 12:00:00,367.75,15.32,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,Unrecorded,True,True,True,False,True,True,False,V357
+JM,13,2014-09-15 12:16:02,2014-10-05 11:00:00,478.73,19.95,3. 1 - 4 Weeks,ER Registration,Release E,60.0,2. 45 - 64,HA,False,False,True,False,False,False,False,V358
+JMA,17,2014-02-02 19:00:58,2014-02-11 10:00:00,206.98,8.62,3. 1 - 4 Weeks,ER Sepsis Triage,Release A,80.0,4. 80 and Over,JC,True,True,True,False,True,True,False,V359
+JN,12,2013-11-25 11:56:29,2013-11-29 04:10:00,88.23,3.68,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,QB,True,True,True,False,True,True,False,V360
+JNA,3,2014-11-12 16:40:19,2014-11-12 16:47:39,0.12,0.0,1. < 24 Hours,ER Registration,ER Sepsis Triage,40.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+JO,12,2015-01-30 11:47:20,2015-02-12 12:43:02,312.93,13.04,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,False,True,True,True,V361
+JP,5,2014-05-03 18:14:32,2014-05-03 18:26:00,0.19,0.01,1. < 24 Hours,ER Registration,CRP,35.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V002
+JQ,18,2013-12-03 09:41:53,2013-12-07 18:00:00,104.3,4.35,2. 1 - 7 Days,ER Registration,Release B,65.0,3. 65 - 79,D,True,False,True,False,True,True,False,V362
+JR,16,2013-11-18 12:02:28,2014-01-12 16:16:20,1324.23,55.18,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V363
+JS,39,2014-03-27 16:12:12,2014-05-02 09:45:00,857.55,35.73,4. > 4 Weeks (Includes Return ER),ER Registration,Release A,85.0,4. 80 and Over,MC,True,True,True,False,True,True,False,V364
+JT,14,2014-06-13 19:10:26,2014-06-25 17:00:00,285.83,11.91,3. 1 - 4 Weeks,ER Registration,Release A,55.0,2. 45 - 64,UC,True,True,True,False,True,False,False,V365
+JU,16,2014-06-26 21:18:30,2014-07-01 08:40:00,107.36,4.47,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V366
+JV,15,2014-12-03 00:25:29,2014-12-08 12:00:00,131.58,5.48,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,C,True,True,True,False,True,True,False,V367
+JW,16,2014-06-13 10:59:20,2014-06-23 17:35:01,246.59,10.27,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,E,True,True,True,False,True,True,True,V368
+JX,17,2014-12-24 10:47:15,2014-12-29 09:00:00,118.21,4.93,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,G,True,True,True,True,True,True,False,V369
+JY,18,2014-03-31 22:08:15,2014-04-30 16:19:41,714.19,29.76,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,Y,True,True,True,False,True,True,True,V370
+JZ,10,2014-12-18 17:34:00,2014-12-19 06:00:00,12.43,0.52,1. < 24 Hours,ER Registration,Leucocytes,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V371
+K,16,2014-02-23 20:43:13,2014-06-10 20:27:24,2567.74,106.99,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,50.0,2. 45 - 64,I,True,True,True,False,True,True,True,V372
+KA,16,2013-12-26 06:50:57,2013-12-31 11:09:34,124.31,5.18,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,O,True,True,True,False,True,True,False,V373
+KAA,5,2014-08-28 08:40:39,2014-08-29 08:00:00,23.32,0.97,1. < 24 Hours,ER Registration,Release A,60.0,2. 45 - 64,OD,False,False,True,False,False,False,False,V049
+KB,11,2014-06-17 09:02:28,2014-11-08 21:04:52,3468.04,144.5,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,H,True,True,True,False,True,True,True,V374
+KBA,15,2014-07-29 15:11:20,2014-08-01 15:00:00,71.81,2.99,2. 1 - 7 Days,ER Registration,Release A,25.0,1. Under 45,BB,True,True,True,False,True,True,False,V375
+KC,13,2014-06-05 06:25:58,2014-06-22 09:00:00,410.57,17.11,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,H,True,True,True,False,True,True,False,V376
+KCA,11,2014-10-11 15:55:10,2014-10-15 12:00:00,92.08,3.84,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V377
+KD,17,2014-02-24 20:00:00,2014-06-26 06:54:39,2914.91,121.45,4. > 4 Weeks (Includes Return ER),ER Sepsis Triage,Return ER,70.0,3. 65 - 79,CA,True,True,True,True,True,True,True,V378
+KDA,3,2014-05-11 12:09:29,2014-05-11 12:21:21,0.2,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V001
+KE,16,2013-12-16 14:30:19,2014-11-17 14:54:09,8064.4,336.02,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V379
+KEA,8,2014-11-06 15:29:26,2014-11-06 16:49:02,1.33,0.06,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V007
+KF,15,2014-03-31 18:38:07,2014-04-05 09:00:00,110.36,4.6,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,E,True,True,True,False,True,True,False,V380
+KFA,15,2014-03-06 13:41:30,2014-04-02 13:07:59,647.44,26.98,3. 1 - 4 Weeks,ER Registration,Return ER,65.0,3. 65 - 79,BB,True,True,True,False,True,True,True,V381
+KG,16,2014-05-20 10:52:00,2014-05-24 13:15:00,98.38,4.1,2. 1 - 7 Days,Leucocytes,Release A,40.0,1. Under 45,K,True,True,True,False,True,True,False,V382
+KGA,6,2014-06-29 06:49:47,2014-06-29 10:03:49,3.23,0.13,1. < 24 Hours,ER Registration,Admission NC,80.0,4. 80 and Over,Unrecorded,False,False,True,False,False,False,False,V383
+KH,12,2014-05-31 06:12:01,2014-06-03 11:40:00,77.47,3.23,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,WA,True,True,True,False,True,True,False,V384
+KHA,10,2014-09-11 13:33:49,2014-09-20 11:46:42,214.21,8.93,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,TB,True,True,True,False,True,True,False,V385
+KI,16,2014-11-16 00:52:30,2015-01-02 14:37:46,1141.75,47.57,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,ZA,True,True,True,False,True,True,True,V386
+KIA,13,2015-01-19 05:06:52,2015-01-23 12:15:00,103.14,4.3,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,B,True,True,True,False,True,True,False,V387
+KJ,10,2014-08-27 08:34:14,2014-08-31 11:30:00,98.93,4.12,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,False,False,V388
+KJA,5,2014-02-18 07:05:00,2014-02-18 13:39:40,6.58,0.27,1. < 24 Hours,Leucocytes,ER Sepsis Triage,45.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V389
+KK,14,2014-08-20 23:07:35,2014-08-24 07:45:00,80.62,3.36,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,W,False,False,True,False,True,True,False,V390
+KKA,14,2014-09-14 18:16:04,2014-09-27 08:00:00,301.73,12.57,3. 1 - 4 Weeks,ER Registration,Release A,55.0,2. 45 - 64,H,True,True,True,True,True,True,False,V391
+KL,5,2014-11-13 07:43:17,2014-11-13 08:22:43,0.66,0.03,1. < 24 Hours,ER Registration,ER Sepsis Triage,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V015
+KLA,14,2014-09-23 08:58:03,2014-09-28 14:00:00,125.03,5.21,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V392
+KM,170,2014-08-25 00:09:42,2014-11-02 12:29:18,1668.33,69.51,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,LB,True,True,True,True,True,True,True,V393
+KMA,20,2013-12-23 23:38:29,2014-01-01 09:00:00,201.36,8.39,3. 1 - 4 Weeks,ER Registration,Release D,90.0,4. 80 and Over,Q,True,True,True,False,True,True,False,V394
+KN,14,2014-07-11 13:28:35,2014-07-18 20:00:00,174.52,7.27,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,C,True,True,True,False,True,True,False,V395
+KNA,15,2014-12-11 22:28:38,2014-12-16 16:00:00,113.52,4.73,2. 1 - 7 Days,ER Registration,Release A,35.0,1. Under 45,QE,True,True,True,False,True,True,False,V396
+KO,16,2014-05-03 19:14:35,2014-08-20 05:34:50,2602.34,108.43,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,H,True,True,True,False,True,True,True,V397
+KP,10,2014-05-12 19:24:12,2014-05-15 18:00:00,70.6,2.94,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,ZB,True,True,True,False,True,True,False,V398
+KQ,11,2014-06-29 08:30:52,2014-12-07 07:30:15,3862.99,160.96,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,S,False,False,True,False,False,False,True,V399
+KR,9,2015-01-05 18:09:49,2015-01-05 22:11:45,4.03,0.17,1. < 24 Hours,ER Registration,Admission NC,85.0,4. 80 and Over,W,True,True,True,False,True,True,False,V050
+KS,22,2014-08-08 10:08:12,2014-09-28 01:24:02,1215.26,50.64,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,R,True,True,True,False,True,True,True,V400
+KT,13,2014-12-26 04:24:53,2014-12-29 19:00:00,86.59,3.61,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,B,True,True,True,False,True,True,False,V401
+KU,8,2014-08-04 09:25:50,2014-08-04 09:45:31,0.33,0.01,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V004
+KV,8,2014-08-07 15:49:36,2014-08-13 19:29:21,147.66,6.15,2. 1 - 7 Days,ER Registration,Return ER,65.0,3. 65 - 79,KA,False,False,True,False,False,False,True,V402
+KW,13,2014-03-11 10:47:39,2014-03-19 10:59:20,192.19,8.01,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,E,True,True,True,False,True,True,True,V403
+KX,30,2014-11-11 10:40:02,2014-12-02 15:49:55,509.16,21.22,3. 1 - 4 Weeks,ER Triage,Return ER,65.0,3. 65 - 79,G,True,True,True,True,False,False,True,V404
+KY,5,2014-11-12 20:27:21,2014-11-12 20:46:00,0.31,0.01,1. < 24 Hours,ER Registration,Leucocytes,40.0,1. Under 45,Unrecorded,True,True,False,False,False,False,False,V003
+KZ,17,2014-11-11 10:25:42,2014-11-14 08:52:00,70.44,2.94,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,E,True,True,True,False,True,True,False,V405
+L,15,2014-08-31 16:47:15,2014-09-11 22:40:27,269.89,11.25,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,J,True,True,True,False,True,True,True,V406
+LA,5,2014-11-20 11:11:27,2014-11-20 11:28:00,0.28,0.01,1. < 24 Hours,ER Registration,CRP,85.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V002
+LAA,8,2013-12-03 20:44:47,2013-12-03 21:43:26,0.98,0.04,1. < 24 Hours,ER Registration,IV Antibiotics,25.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V011
+LB,19,2013-12-02 09:51:22,2013-12-12 05:45:00,235.89,9.83,3. 1 - 4 Weeks,ER Registration,Release B,85.0,4. 80 and Over,J,True,True,True,False,True,True,False,V407
+LBA,19,2014-11-17 19:29:46,2014-12-02 08:00:00,348.5,14.52,3. 1 - 4 Weeks,ER Registration,Release C,90.0,4. 80 and Over,QD,True,True,True,False,True,True,False,V408
+LC,21,2014-05-02 04:09:01,2014-05-26 06:25:58,578.28,24.1,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,H,True,True,True,False,True,False,True,V409
+LCA,8,2014-05-22 10:44:41,2014-05-22 14:01:56,3.29,0.14,1. < 24 Hours,ER Registration,IV Antibiotics,25.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V048
+LD,14,2015-01-25 14:08:46,2015-02-01 19:00:00,172.85,7.2,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,R,True,True,True,False,True,True,False,V410
+LDA,15,2014-10-15 19:24:44,2014-10-20 13:00:00,113.59,4.73,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V411
+LE,12,2014-03-14 10:00:15,2014-03-17 17:30:00,79.5,3.31,2. 1 - 7 Days,ER Registration,Release B,85.0,4. 80 and Over,B,True,True,True,False,True,True,False,V412
+LEA,30,2014-04-19 16:39:23,2014-04-26 04:27:00,155.79,6.49,2. 1 - 7 Days,ER Registration,Release B,60.0,2. 45 - 64,C,True,True,True,True,True,True,False,V413
+LF,5,2014-03-07 20:49:45,2014-03-07 21:42:00,0.87,0.04,1. < 24 Hours,ER Registration,CRP,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V002
+LFA,10,2014-08-27 13:38:05,2014-08-31 10:00:00,92.37,3.85,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V025
+LG,41,2014-11-27 09:41:23,2015-03-29 15:53:20,2934.2,122.26,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,C,True,True,True,True,True,True,True,V414
+LGA,9,2014-08-10 09:39:14,2014-08-10 14:50:42,5.19,0.22,1. < 24 Hours,ER Triage,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,True,False,True,True,False,V415
+LH,17,2015-01-17 08:50:23,2015-01-28 10:30:00,265.66,11.07,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,Q,True,True,True,False,False,False,False,V416
+LHA,13,2014-09-09 07:38:25,2014-09-13 08:00:00,96.36,4.01,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V417
+LI,14,2014-03-20 09:06:50,2014-08-25 00:52:30,3783.76,157.66,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,ZA,True,True,True,False,True,True,True,V418
+LIA,31,2014-11-30 01:57:44,2015-01-17 05:06:52,1155.15,48.13,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,55.0,2. 45 - 64,B,True,True,True,True,True,True,True,V419
+LJ,31,2014-10-26 19:21:00,2014-12-14 08:30:00,1165.15,48.55,4. > 4 Weeks (Includes Return ER),ER Registration,Release D,90.0,4. 80 and Over,CB,True,True,True,False,True,True,False,V420
+LJA,8,2014-06-13 15:57:35,2014-06-13 18:14:31,2.28,0.09,1. < 24 Hours,ER Registration,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V051
+LK,12,2015-02-15 20:39:55,2015-02-19 12:40:00,88.0,3.67,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V036
+LKA,24,2014-03-22 19:22:31,2014-04-29 14:52:39,907.5,37.81,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V421
+LL,22,2014-06-08 10:46:50,2014-06-20 08:00:00,285.22,11.88,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,F,True,True,True,False,True,True,False,V422
+LLA,5,2014-08-15 12:25:35,2014-08-15 12:43:00,0.29,0.01,1. < 24 Hours,ER Registration,Leucocytes,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V003
+LM,35,2014-12-06 07:30:47,2014-12-29 17:00:00,561.49,23.4,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,MB,True,True,True,True,True,True,False,V423
+LMA,6,2014-09-12 08:50:45,2014-09-13 13:30:00,28.65,1.19,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,OB,False,False,True,False,False,False,False,V052
+LN,15,2014-02-18 21:28:35,2015-01-27 12:12:50,8222.74,342.61,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,B,True,True,True,False,True,True,True,V053
+LNA,3,2014-12-03 09:50:28,2014-12-03 09:54:39,0.07,0.0,1. < 24 Hours,ER Registration,ER Sepsis Triage,50.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+LO,8,2014-10-13 13:14:34,2014-10-13 16:00:26,2.76,0.12,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V006
+LP,19,2014-09-01 10:51:27,2014-09-13 19:30:00,296.64,12.36,3. 1 - 4 Weeks,ER Registration,Release B,80.0,4. 80 and Over,C,True,True,True,False,True,True,False,V424
+LQ,21,2014-09-18 20:24:34,2014-09-28 08:30:52,228.1,9.5,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,EC,True,True,True,False,True,True,True,V425
+LR,12,2014-10-04 11:37:43,2014-10-10 10:00:00,142.37,5.93,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,H,True,True,True,False,True,True,False,V426
+LS,15,2013-11-18 16:24:56,2014-12-20 15:39:26,9527.24,396.97,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,Y,True,True,True,False,True,True,True,V427
+LT,29,2014-04-05 12:01:25,2014-04-20 08:00:44,355.99,14.83,3. 1 - 4 Weeks,ER Registration,Release A,60.0,2. 45 - 64,XA,True,True,True,True,True,False,False,V428
+LU,13,2014-12-22 21:36:58,2015-01-01 14:33:58,232.95,9.71,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,KC,True,True,True,False,True,True,True,V429
+LV,19,2014-10-02 11:47:38,2014-10-23 09:30:00,501.71,20.9,3. 1 - 4 Weeks,ER Registration,Release D,90.0,4. 80 and Over,Q,False,False,True,False,False,False,False,V430
+LW,15,2014-11-21 08:10:00,2014-11-27 09:15:00,145.08,6.05,2. 1 - 7 Days,Leucocytes,Release A,75.0,3. 65 - 79,R,True,True,True,False,True,True,False,V431
+LX,13,2014-06-18 06:15:00,2014-06-22 09:00:00,98.75,4.11,2. 1 - 7 Days,Leucocytes,Release A,65.0,3. 65 - 79,UA,True,True,True,False,True,True,False,V432
+LY,3,2014-04-14 18:24:37,2014-04-14 18:40:40,0.27,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,60.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+LZ,21,2013-11-27 23:00:01,2014-01-27 12:57:44,1453.96,60.58,4. > 4 Weeks (Includes Return ER),ER Sepsis Triage,Return ER,80.0,4. 80 and Over,LD,True,True,True,False,True,True,True,V433
+M,3,2014-10-10 01:08:37,2014-10-10 01:10:54,0.04,0.0,1. < 24 Hours,ER Registration,ER Sepsis Triage,90.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V001
+MA,14,2014-04-07 14:15:09,2014-04-10 15:00:00,72.75,3.03,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,P,True,True,True,False,True,True,False,V054
+MAA,14,2014-02-12 15:56:15,2014-02-15 14:00:00,70.06,2.92,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,T,False,False,True,False,False,False,False,V434
+MB,3,2014-11-04 12:55:37,2014-11-04 13:03:10,0.13,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V001
+MBA,11,2014-01-19 16:29:13,2014-01-23 17:00:00,96.51,4.02,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,H,True,True,True,False,True,True,False,V435
+MC,14,2013-12-27 15:14:54,2014-01-06 11:15:26,236.01,9.83,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,H,True,True,True,False,True,True,True,V436
+MCA,5,2015-01-14 21:14:36,2015-01-14 21:43:00,0.47,0.02,1. < 24 Hours,ER Registration,CRP,85.0,4. 80 and Over,Unrecorded,True,True,False,False,False,False,False,V002
+MD,15,2014-09-22 21:48:47,2014-10-06 14:08:46,328.33,13.68,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,R,True,True,True,False,True,True,True,V437
+MDA,12,2014-10-07 18:00:31,2014-10-08 05:00:00,10.99,0.46,1. < 24 Hours,IV Liquid,Leucocytes,90.0,4. 80 and Over,G,True,True,False,True,True,True,False,V438
+ME,15,2014-05-17 22:24:21,2014-09-09 07:23:41,2744.99,114.37,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,H,True,True,True,False,True,True,True,V439
+MEA,21,2014-04-15 15:04:11,2014-04-23 15:00:00,191.93,8.0,3. 1 - 4 Weeks,ER Registration,Release A,60.0,2. 45 - 64,C,True,True,True,False,True,True,False,V440
+MF,3,2014-12-18 17:53:10,2014-12-18 18:34:21,0.69,0.03,1. < 24 Hours,ER Registration,ER Sepsis Triage,30.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+MFA,13,2014-05-29 19:08:41,2014-07-10 11:30:40,1000.37,41.68,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,False,True,True,True,V441
+MG,6,2014-02-20 04:21:59,2014-02-20 10:00:00,5.63,0.23,1. < 24 Hours,ER Registration,Leucocytes,30.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V442
+MGA,12,2014-03-30 11:04:20,2014-04-03 21:00:00,105.93,4.41,2. 1 - 7 Days,ER Registration,Release B,85.0,4. 80 and Over,E,True,True,True,False,True,True,False,V443
+MH,5,2014-06-16 19:05:04,2014-06-16 19:48:00,0.72,0.03,1. < 24 Hours,ER Registration,Leucocytes,90.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V003
+MHA,13,2014-09-26 09:24:42,2015-04-22 20:30:51,5003.1,208.46,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,50.0,2. 45 - 64,YA,True,True,True,False,True,True,True,V444
+MI,8,2013-12-22 07:11:25,2013-12-22 08:39:01,1.46,0.06,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V445
+MIA,13,2014-10-11 07:32:36,2014-12-02 01:57:44,1242.42,51.77,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,55.0,2. 45 - 64,B,True,True,True,False,True,True,True,V446
+MJ,13,2014-09-04 19:10:31,2014-09-09 07:44:30,108.57,4.52,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,F,True,True,True,False,True,True,False,V447
+MJA,8,2014-05-04 18:55:44,2014-05-05 05:00:00,10.07,0.42,1. < 24 Hours,ER Registration,CRP,70.0,3. 65 - 79,Unrecorded,False,False,False,False,True,False,False,V448
+MK,27,2014-08-27 19:46:25,2015-04-18 12:02:11,5608.26,233.68,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,CA,True,True,True,True,True,True,True,V449
+MKA,52,2015-01-30 08:53:07,2015-02-15 09:00:00,384.11,16.0,3. 1 - 4 Weeks,ER Registration,Release A,35.0,1. Under 45,B,True,True,True,True,True,True,False,V450
+ML,29,2014-01-14 08:00:46,2014-07-31 15:05:19,4759.08,198.3,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,B,True,True,True,True,True,True,True,V451
+MLA,5,2014-02-11 20:48:17,2014-02-11 21:13:00,0.41,0.02,1. < 24 Hours,ER Registration,CRP,35.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V002
+MM,20,2014-03-30 10:17:19,2014-04-10 11:30:00,265.21,11.05,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,NB,False,False,True,False,False,False,False,V452
+MMA,8,2014-12-14 15:14:48,2014-12-14 16:21:28,1.11,0.05,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,False,False,False,True,True,False,V453
+MN,33,2014-04-29 13:08:00,2014-05-09 09:16:43,236.15,9.84,3. 1 - 4 Weeks,CRP,Return ER,55.0,2. 45 - 64,P,False,False,True,True,False,False,True,V454
+MO,10,2014-12-03 15:47:39,2014-12-09 09:15:00,137.46,5.73,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,M,True,True,True,False,True,True,False,V455
+MP,22,2013-12-10 04:40:54,2013-12-19 20:21:50,231.68,9.65,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,AC,True,True,True,False,True,True,True,V456
+MQ,16,2014-02-22 17:37:22,2014-10-01 20:24:34,5306.79,221.12,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,B,True,True,True,False,True,False,True,V457
+MR,12,2014-01-29 16:35:14,2014-02-02 08:30:00,87.91,3.66,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,GC,True,True,True,False,True,True,False,V458
+MS,15,2014-11-28 15:40:19,2015-03-01 13:35:00,2229.91,92.91,4. > 4 Weeks (Includes Return ER),IV Liquid,Return ER,85.0,4. 80 and Over,NC,True,True,True,False,True,True,True,V459
+MT,12,2014-05-17 17:17:28,2014-08-08 19:14:40,1993.95,83.08,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,H,True,True,True,False,True,True,True,V460
+MU,14,2014-03-05 09:43:33,2014-03-12 11:00:00,169.27,7.05,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,RB,True,True,True,False,True,True,False,V461
+MV,16,2015-01-17 19:30:00,2015-01-21 15:00:00,91.5,3.81,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,B,True,True,True,False,True,True,False,V462
+MW,30,2014-10-30 10:52:00,2014-11-15 10:30:00,383.63,15.98,3. 1 - 4 Weeks,ER Registration,Release B,85.0,4. 80 and Over,BD,True,True,True,False,True,True,False,V463
+MX,12,2014-05-07 13:45:11,2014-05-16 12:00:00,214.25,8.93,3. 1 - 4 Weeks,ER Registration,Release A,55.0,2. 45 - 64,RB,True,True,True,False,True,True,False,V018
+MY,6,2013-11-13 13:23:53,2013-11-13 14:12:00,0.8,0.03,1. < 24 Hours,ER Registration,Leucocytes,35.0,1. Under 45,Unrecorded,True,True,False,False,False,False,False,V012
+MZ,14,2014-09-05 10:22:37,2014-09-26 15:57:44,509.59,21.23,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,F,True,True,True,False,True,False,True,V464
+N,12,2014-06-16 08:34:58,2014-06-21 12:30:00,123.92,5.16,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,K,True,True,True,False,True,True,False,V465
+NA,24,2014-11-10 00:45:19,2014-11-22 13:30:00,300.74,12.53,3. 1 - 4 Weeks,ER Registration,Release C,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V466
+NAA,3,2014-12-06 09:32:35,2014-12-06 09:51:24,0.31,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V001
+NB,21,2014-10-10 16:16:35,2014-10-19 11:00:00,210.72,8.78,3. 1 - 4 Weeks,ER Registration,Release A,65.0,3. 65 - 79,E,True,True,True,False,True,True,False,V467
+NBA,5,2014-06-01 22:34:13,2014-06-01 22:43:00,0.15,0.01,1. < 24 Hours,ER Registration,CRP,45.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V002
+NC,7,2014-09-11 09:51:28,2014-09-11 14:58:59,5.13,0.21,1. < 24 Hours,ER Registration,IV Liquid,35.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V055
+NCA,17,2014-03-17 19:20:31,2015-01-28 14:37:56,7603.29,316.8,4. > 4 Weeks (Includes Return ER),IV Liquid,Return ER,70.0,3. 65 - 79,B,True,True,True,False,True,True,True,V468
+ND,16,2013-12-02 20:33:43,2013-12-08 12:00:00,135.44,5.64,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,Y,True,True,True,False,True,True,False,V469
+NDA,15,2014-01-30 11:06:08,2014-02-02 18:00:00,78.9,3.29,2. 1 - 7 Days,ER Registration,Release A,20.0,1. Under 45,G,True,True,True,True,True,True,False,V470
+NE,5,2014-10-23 15:23:57,2014-10-23 15:39:00,0.25,0.01,1. < 24 Hours,ER Registration,Leucocytes,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V003
+NEA,51,2014-03-15 07:41:08,2014-04-23 10:00:00,938.31,39.1,4. > 4 Weeks (Includes Return ER),ER Registration,Release A,80.0,4. 80 and Over,CA,True,True,True,True,True,False,False,V471
+NF,28,2014-04-08 21:33:14,2014-04-27 10:15:00,444.7,18.53,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,MA,True,True,True,False,True,True,False,V472
+NFA,8,2013-12-13 12:47:56,2013-12-13 14:01:51,1.23,0.05,1. < 24 Hours,ER Registration,IV Antibiotics,50.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V008
+NG,6,2014-11-30 09:26:08,2014-11-30 10:29:00,1.05,0.04,1. < 24 Hours,ER Registration,LacticAcid,25.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V056
+NGA,185,2014-06-16 23:17:11,2014-10-09 08:00:00,2744.71,114.36,4. > 4 Weeks (Includes Return ER),ER Registration,Release C,80.0,4. 80 and Over,ZD,True,True,True,True,True,True,False,V473
+NH,13,2014-05-15 10:06:35,2014-11-16 11:54:24,4441.8,185.08,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,H,True,True,True,False,True,True,True,V032
+NHA,11,2014-09-14 11:19:00,2014-09-18 09:36:49,94.3,3.93,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,RC,True,True,True,False,True,True,False,V474
+NI,15,2014-05-31 16:15:05,2014-07-06 01:03:10,848.8,35.37,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,False,True,True,True,V475
+NIA,13,2014-06-29 11:29:14,2014-07-14 08:33:21,357.07,14.88,3. 1 - 4 Weeks,ER Registration,Return ER,55.0,2. 45 - 64,B,True,True,True,False,True,True,True,V476
+NJ,14,2014-03-10 13:20:18,2014-06-15 10:16:41,2324.94,96.87,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,E,True,True,True,False,True,True,True,V477
+NJA,16,2014-05-25 13:21:48,2014-05-29 13:30:00,96.14,4.01,2. 1 - 7 Days,ER Registration,Release A,40.0,1. Under 45,JE,True,True,True,False,True,True,False,V478
+NK,18,2014-06-17 16:57:55,2014-06-24 11:30:00,162.53,6.77,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,U,True,True,True,False,True,True,False,V479
+NKA,10,2014-06-06 00:13:13,2014-06-10 10:00:00,105.78,4.41,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,H,True,True,True,False,True,True,False,V480
+NL,6,2014-09-19 10:44:39,2014-09-19 10:58:00,0.22,0.01,1. < 24 Hours,ER Registration,LacticAcid,90.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V056
+NLA,5,2014-11-20 19:33:53,2014-11-20 20:16:00,0.7,0.03,1. < 24 Hours,ER Registration,Leucocytes,30.0,1. Under 45,Unrecorded,True,True,False,False,False,False,False,V003
+NM,15,2014-09-18 18:39:45,2014-12-31 21:01:03,2498.36,104.1,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V481
+NMA,21,2014-03-15 15:29:31,2014-03-26 18:00:00,266.51,11.1,3. 1 - 4 Weeks,ER Registration,Release A,35.0,1. Under 45,C,True,True,True,False,True,True,False,V482
+NN,13,2014-08-09 21:33:30,2014-08-13 09:00:00,83.44,3.48,2. 1 - 7 Days,ER Registration,Release A,35.0,1. Under 45,RB,True,True,True,False,True,True,False,V483
+NO,13,2014-05-14 16:29:12,2014-05-17 08:00:00,63.51,2.65,2. 1 - 7 Days,ER Registration,Release A,35.0,1. Under 45,B,True,True,True,False,True,True,False,V484
+NP,16,2014-11-05 13:30:30,2015-02-06 06:48:44,2225.3,92.72,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,B,True,True,True,False,True,True,True,V485
+NQ,5,2014-06-03 15:36:30,2014-06-03 16:07:00,0.51,0.02,1. < 24 Hours,ER Registration,Leucocytes,60.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V003
+NR,19,2014-02-28 09:15:57,2014-03-06 19:10:10,153.9,6.41,2. 1 - 7 Days,ER Registration,Release B,90.0,4. 80 and Over,HC,True,True,True,False,True,True,False,V486
+NS,6,2014-11-02 15:20:22,2014-11-02 15:51:00,0.51,0.02,1. < 24 Hours,ER Registration,LacticAcid,90.0,4. 80 and Over,Unrecorded,True,True,False,False,False,False,False,V005
+NT,17,2014-09-09 10:47:54,2014-09-16 17:30:00,174.7,7.28,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,K,True,True,True,False,True,True,False,V487
+NU,20,2014-12-14 00:28:40,2014-12-25 10:00:00,273.52,11.4,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,Q,True,True,True,False,True,True,False,V488
+NV,11,2015-02-22 23:17:41,2015-02-26 09:15:00,81.96,3.41,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,AA,True,True,True,False,True,True,False,V489
+NW,18,2014-06-28 16:04:05,2014-07-06 08:30:00,184.43,7.68,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,C,True,True,True,False,True,True,False,V490
+NX,12,2014-10-06 16:16:13,2014-10-13 12:30:00,164.23,6.84,2. 1 - 7 Days,ER Registration,Release A,35.0,1. Under 45,E,True,True,True,False,True,False,False,V491
+NY,8,2014-02-04 14:26:22,2014-02-04 17:41:48,3.26,0.14,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V011
+NZ,61,2014-06-29 12:48:22,2014-09-05 14:55:20,1634.12,68.09,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,MD,True,True,True,True,True,True,True,V492
+O,11,2014-10-11 20:29:02,2014-10-17 16:40:42,140.19,5.84,2. 1 - 7 Days,ER Registration,Return ER,30.0,1. Under 45,C,True,True,True,False,True,True,True,V493
+OA,11,2013-12-20 21:42:14,2013-12-21 13:00:00,15.3,0.64,1. < 24 Hours,ER Registration,LacticAcid,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V494
+OAA,37,2014-08-24 16:44:24,2014-09-07 09:00:00,328.26,13.68,3. 1 - 4 Weeks,ER Registration,Release A,45.0,2. 45 - 64,M,True,True,True,True,True,False,False,V495
+OB,16,2014-12-05 08:39:50,2014-12-13 09:45:00,193.09,8.05,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,E,True,True,True,False,True,True,False,V496
+OBA,13,2014-10-07 13:32:12,2014-10-12 08:31:49,114.99,4.79,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,IC,False,False,True,False,False,False,False,V497
+OC,22,2013-12-21 11:19:23,2014-08-30 11:58:30,6048.65,252.03,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,CA,True,True,True,True,True,True,True,V498
+OCA,5,2014-03-09 12:18:07,2014-03-09 13:04:00,0.76,0.03,1. < 24 Hours,ER Registration,CRP,55.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V002
+OD,118,2014-05-27 01:53:13,2014-07-01 19:00:00,857.11,35.71,4. > 4 Weeks (Includes Return ER),ER Registration,Release B,75.0,3. 65 - 79,CA,True,True,False,True,True,True,False,V499
+ODA,23,2014-06-02 08:13:38,2014-06-12 08:15:00,240.02,10.0,3. 1 - 4 Weeks,ER Registration,Release D,90.0,4. 80 and Over,N,True,True,True,False,True,True,False,V500
+OE,3,2014-06-10 16:34:30,2014-06-10 16:58:20,0.4,0.02,1. < 24 Hours,ER Registration,ER Sepsis Triage,55.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+OEA,20,2014-02-04 16:05:22,2014-08-09 14:41:48,4462.61,185.94,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,JC,True,True,True,False,True,True,True,V501
+OF,3,2014-04-09 09:43:42,2014-04-09 09:46:15,0.04,0.0,1. < 24 Hours,ER Registration,ER Sepsis Triage,50.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+OFA,7,2014-06-19 09:48:14,2014-06-19 14:54:50,5.11,0.21,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,False,False,V502
+OG,9,2014-07-13 11:00:23,2014-07-16 16:00:00,76.99,3.21,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,H,False,False,True,False,False,False,False,V503
+OGA,13,2014-11-09 11:47:42,2014-11-15 08:00:00,140.21,5.84,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,LC,True,True,True,False,True,True,False,V504
+OH,16,2014-03-16 12:22:39,2014-05-09 17:50:00,1301.46,54.23,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,H,True,True,True,False,True,True,True,V505
+OHA,13,2014-01-04 11:36:41,2014-01-10 10:00:00,142.39,5.93,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,False,True,True,False,V506
+OI,6,2014-11-23 15:46:30,2014-11-23 16:29:00,0.71,0.03,1. < 24 Hours,ER Registration,Leucocytes,90.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V507
+OIA,15,2014-04-21 13:16:39,2014-04-25 09:00:00,91.72,3.82,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,FE,True,True,True,False,True,True,False,V508
+OJ,23,2014-04-06 19:45:42,2014-04-14 09:00:00,181.24,7.55,3. 1 - 4 Weeks,ER Registration,Release A,50.0,2. 45 - 64,H,True,True,True,True,True,False,False,V509
+OJA,3,2014-07-30 08:42:26,2014-07-30 09:57:43,1.25,0.05,1. < 24 Hours,ER Registration,ER Sepsis Triage,20.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+OK,19,2014-02-28 12:21:10,2014-03-12 19:36:23,295.25,12.3,3. 1 - 4 Weeks,ER Registration,Return ER,65.0,3. 65 - 79,GB,True,True,True,False,True,True,True,V510
+OKA,12,2014-08-21 20:25:18,2014-08-25 09:27:18,85.03,3.54,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,U,True,True,True,False,True,True,False,V018
+OL,12,2014-01-01 15:00:59,2014-01-23 23:19:33,536.31,22.35,3. 1 - 4 Weeks,ER Registration,Return ER,70.0,3. 65 - 79,R,True,True,True,False,False,False,True,V511
+OLA,12,2014-09-10 14:08:09,2014-09-27 14:41:35,408.56,17.02,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,ME,True,True,True,False,True,True,True,V024
+OM,19,2014-02-25 15:54:39,2014-05-08 08:44:13,1720.83,71.7,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V512
+OMA,26,2014-08-13 09:10:23,2014-11-18 06:54:36,2325.74,96.91,4. > 4 Weeks (Includes Return ER),ER Sepsis Triage,Return ER,60.0,2. 45 - 64,G,True,True,True,True,True,True,True,V513
+ON,15,2014-03-12 14:08:34,2014-03-17 10:30:00,116.36,4.85,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,SB,True,True,True,False,True,True,False,V514
+OO,11,2014-11-22 16:24:12,2014-11-27 08:00:00,111.6,4.65,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,R,True,True,True,False,True,False,False,V515
+OP,8,2014-04-03 20:14:21,2014-04-03 21:32:21,1.3,0.05,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V004
+OQ,12,2014-10-26 11:01:08,2014-10-28 13:00:00,49.98,2.08,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,E,True,True,True,False,True,False,False,V516
+OR,22,2014-04-12 12:53:43,2014-11-12 14:26:05,5137.54,214.06,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,G,True,True,True,True,True,True,True,V517
+OS,12,2014-09-02 06:21:21,2014-12-14 08:00:02,2473.64,103.07,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,C,True,True,True,False,True,True,True,V033
+OT,16,2013-11-11 11:48:21,2013-11-22 13:25:53,265.63,11.07,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,B,True,True,True,False,True,True,True,V518
+OU,14,2014-11-17 15:41:16,2014-11-30 09:32:25,305.85,12.74,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,RC,True,True,True,False,True,True,True,V519
+OV,9,2014-10-04 20:38:43,2014-10-05 22:55:18,26.28,1.1,2. 1 - 7 Days,ER Registration,IV Liquid,70.0,3. 65 - 79,R,True,True,True,False,True,True,False,V520
+OW,16,2014-05-03 14:07:46,2014-05-10 10:00:00,163.87,6.83,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,CD,True,True,True,False,True,True,False,V521
+OX,14,2014-04-29 08:54:06,2014-05-27 15:09:10,678.25,28.26,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,E,True,True,True,False,True,True,True,V522
+OY,16,2014-12-12 09:37:36,2014-12-19 17:30:00,175.87,7.33,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,ED,False,False,True,False,False,False,False,V523
+OZ,10,2014-11-24 20:22:56,2014-11-25 05:00:00,8.62,0.36,1. < 24 Hours,ER Registration,CRP,65.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V524
+P,3,2014-04-22 07:39:36,2014-04-22 09:01:16,1.36,0.06,1. < 24 Hours,ER Registration,ER Sepsis Triage,20.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+PA,6,2014-11-03 11:01:35,2014-11-03 11:20:00,0.31,0.01,1. < 24 Hours,ER Registration,LacticAcid,70.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V005
+PAA,8,2014-09-13 01:12:19,2014-09-13 03:22:51,2.18,0.09,1. < 24 Hours,ER Registration,IV Antibiotics,65.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V006
+PB,16,2015-01-17 18:51:42,2015-02-05 08:15:08,445.39,18.56,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,V,True,True,True,False,True,True,True,V057
+PBA,11,2014-04-27 13:01:49,2014-04-27 20:55:00,7.89,0.33,1. < 24 Hours,ER Registration,Release B,60.0,2. 45 - 64,Unrecorded,True,True,False,True,True,True,False,V525
+PC,5,2013-11-28 13:27:20,2013-11-28 14:34:00,1.11,0.05,1. < 24 Hours,ER Registration,CRP,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V002
+PCA,10,2013-11-21 17:39:52,2013-11-22 07:00:00,13.34,0.56,1. < 24 Hours,ER Registration,LacticAcid,90.0,4. 80 and Over,UD,False,False,True,False,False,False,False,V526
+PD,9,2014-06-03 12:28:01,2014-06-03 14:45:00,2.28,0.09,1. < 24 Hours,ER Registration,Leucocytes,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V527
+PDA,16,2014-09-22 13:53:41,2014-09-28 16:00:00,146.11,6.09,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,Z,True,True,True,False,True,True,False,V528
+PE,8,2014-12-01 14:19:31,2014-12-01 15:45:00,1.42,0.06,1. < 24 Hours,ER Registration,LacticAcid,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V040
+PEA,10,2014-07-05 12:30:34,2014-07-08 12:44:00,72.22,3.01,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,AA,True,True,True,False,True,True,False,V016
+PF,15,2014-10-04 12:42:23,2014-10-10 19:00:00,150.29,6.26,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V058
+PFA,20,2014-05-01 13:53:56,2014-05-07 11:00:00,141.1,5.88,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,G,True,True,True,True,True,True,False,V529
+PG,13,2014-10-13 09:34:02,2014-11-08 21:07:32,635.56,26.48,3. 1 - 4 Weeks,ER Registration,Return ER,55.0,2. 45 - 64,C,True,True,True,False,True,True,True,V530
+PGA,23,2014-08-26 23:15:11,2014-09-19 22:09:57,574.91,23.95,3. 1 - 4 Weeks,ER Registration,Return ER,55.0,2. 45 - 64,C,True,True,True,True,True,True,True,V531
+PH,8,2013-12-13 05:44:57,2013-12-13 06:36:35,0.86,0.04,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V532
+PHA,8,2014-03-21 14:14:58,2014-03-21 17:30:20,3.26,0.14,1. < 24 Hours,ER Registration,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V008
+PI,11,2014-05-03 20:44:44,2014-05-06 15:00:00,66.25,2.76,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,K,True,True,True,False,True,True,False,V533
+PIA,45,2014-03-28 20:34:09,2014-08-20 11:56:05,3471.37,144.64,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,GE,True,True,True,True,True,True,True,V534
+PJ,19,2014-03-02 19:48:23,2014-03-08 15:20:00,139.53,5.81,2. 1 - 7 Days,ER Registration,Release B,85.0,4. 80 and Over,B,True,True,True,False,True,True,False,V535
+PJA,8,2014-02-16 09:01:12,2014-02-16 09:45:00,0.73,0.03,1. < 24 Hours,ER Registration,Leucocytes,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V536
+PK,23,2014-12-25 19:04:56,2015-03-21 20:00:41,2064.93,86.04,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,D,True,True,True,False,True,True,True,V537
+PKA,15,2014-05-07 00:37:26,2014-11-03 06:03:00,4325.43,180.23,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,VB,True,True,True,False,True,False,True,V538
+PL,6,2014-05-08 10:14:59,2014-05-08 10:42:37,0.46,0.02,1. < 24 Hours,ER Registration,ER Sepsis Triage,55.0,2. 45 - 64,Unrecorded,True,True,False,False,False,False,False,V539
+PLA,25,2014-04-10 16:44:36,2014-04-26 08:29:07,375.74,15.66,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,D,True,True,True,False,True,True,True,V540
+PM,8,2014-07-27 08:07:07,2014-07-27 09:03:41,0.94,0.04,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V541
+PMA,14,2013-11-21 15:47:34,2013-11-25 10:00:00,90.21,3.76,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V542
+PN,6,2014-03-08 07:00:00,2014-03-08 13:48:00,6.8,0.28,1. < 24 Hours,Leucocytes,CRP,85.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V543
+PO,13,2014-09-30 14:17:14,2014-10-04 09:15:00,90.96,3.79,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,C,True,True,True,False,True,False,False,V544
+PP,5,2014-03-06 22:29:07,2014-03-06 22:37:00,0.13,0.01,1. < 24 Hours,ER Registration,CRP,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V002
+PQ,5,2014-02-26 08:26:08,2014-02-28 18:30:00,58.06,2.42,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,FC,False,False,True,False,False,False,False,V049
+PR,14,2015-01-10 23:32:15,2015-02-06 09:00:00,633.46,26.39,3. 1 - 4 Weeks,ER Registration,Release C,90.0,4. 80 and Over,Q,True,True,True,False,False,False,False,V545
+PS,10,2014-06-17 07:46:27,2014-06-20 08:00:00,72.23,3.01,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V059
+PT,13,2014-06-26 04:41:38,2014-06-30 12:00:00,103.31,4.3,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,B,True,True,True,False,True,True,False,V546
+PU,38,2014-12-14 10:28:39,2015-01-19 08:39:00,862.17,35.92,4. > 4 Weeks (Includes Return ER),ER Registration,Release B,70.0,3. 65 - 79,B,True,True,True,False,True,True,False,V547
+PV,14,2015-02-14 04:11:11,2015-04-01 12:51:36,1112.67,46.36,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,LA,True,True,True,False,True,True,True,V060
+PW,12,2014-10-12 18:32:12,2014-10-19 13:00:00,162.46,6.77,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,MA,True,True,True,False,True,True,False,V548
+PX,5,2014-06-18 20:03:49,2014-06-18 20:57:00,0.89,0.04,1. < 24 Hours,ER Registration,CRP,25.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V002
+PY,8,2014-05-10 13:47:28,2014-05-10 17:18:37,3.52,0.15,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V004
+PZ,15,2014-04-28 09:46:09,2014-05-19 09:06:45,503.34,20.97,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,H,True,True,True,False,True,False,True,V549
+Q,3,2013-12-15 13:17:05,2013-12-15 13:19:07,0.03,0.0,1. < 24 Hours,ER Registration,ER Sepsis Triage,45.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+QA,14,2014-12-23 18:53:47,2014-12-30 09:10:00,158.27,6.59,2. 1 - 7 Days,ER Registration,Release D,90.0,4. 80 and Over,Q,True,True,True,False,True,True,False,V550
+QAA,14,2014-09-01 13:31:42,2014-09-08 10:00:00,164.47,6.85,2. 1 - 7 Days,ER Registration,Release C,55.0,2. 45 - 64,R,True,True,True,False,True,True,False,V551
+QB,16,2014-10-24 08:23:20,2014-11-12 12:20:15,459.95,19.16,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,W,True,True,True,False,True,True,True,V552
+QBA,33,2014-05-25 18:18:33,2014-06-03 08:00:00,205.69,8.57,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,G,True,True,True,True,True,True,False,V553
+QC,15,2015-01-21 16:57:22,2015-02-01 12:00:00,259.04,10.79,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,R,True,True,True,False,True,True,False,V044
+QCA,15,2014-08-01 15:48:47,2014-08-05 11:00:00,91.19,3.8,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V554
+QD,12,2014-10-11 20:29:47,2014-10-16 19:30:00,119.0,4.96,2. 1 - 7 Days,ER Registration,Release B,65.0,3. 65 - 79,C,True,True,True,False,True,False,False,V555
+QDA,9,2014-07-13 09:56:47,2014-11-07 07:07:33,2805.18,116.88,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,KA,False,False,True,False,False,False,True,V556
+QE,21,2014-10-08 10:06:40,2014-12-25 14:44:03,1876.62,78.19,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,G,True,True,True,True,True,True,True,V557
+QEA,7,2014-06-22 22:04:11,2014-06-22 23:21:00,1.28,0.05,1. < 24 Hours,ER Registration,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V558
+QF,16,2014-08-24 13:39:41,2015-01-17 09:03:53,3499.4,145.81,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,F,True,True,True,False,True,True,True,V559
+QFA,8,2014-01-16 15:31:27,2014-01-17 04:50:00,13.31,0.55,1. < 24 Hours,ER Registration,Release B,90.0,4. 80 and Over,EA,False,False,True,False,False,False,False,V560
+QG,13,2014-12-02 22:32:42,2014-12-16 09:31:39,322.98,13.46,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,H,True,True,True,False,True,True,True,V561
+QGA,7,2014-10-08 11:34:29,2014-10-08 17:28:35,5.9,0.25,1. < 24 Hours,ER Registration,IV Antibiotics,60.0,2. 45 - 64,Unrecorded,True,True,False,False,True,False,False,V562
+QH,23,2015-02-10 09:20:34,2015-02-11 23:47:00,38.44,1.6,2. 1 - 7 Days,ER Registration,Release B,75.0,3. 65 - 79,G,False,False,False,True,False,False,False,V563
+QHA,14,2014-04-09 06:27:13,2014-04-13 08:30:00,98.05,4.09,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,AA,True,True,True,False,True,True,False,V564
+QI,9,2014-11-22 01:37:20,2014-11-25 11:45:00,82.13,3.42,2. 1 - 7 Days,ER Registration,Release A,35.0,1. Under 45,Z,False,False,True,False,False,False,False,V565
+QIA,16,2014-06-22 08:47:48,2014-07-09 09:12:56,408.42,17.02,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,False,True,True,True,V566
+QJ,14,2014-02-14 11:43:08,2014-02-20 09:30:00,141.78,5.91,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,E,True,True,True,False,True,True,False,V567
+QJA,9,2014-05-10 00:35:56,2014-05-10 10:00:00,9.4,0.39,1. < 24 Hours,ER Registration,Leucocytes,25.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V568
+QK,16,2015-02-26 08:00:00,2015-03-07 10:00:00,218.0,9.08,3. 1 - 4 Weeks,Leucocytes,Release A,75.0,3. 65 - 79,D,False,True,True,False,True,False,False,V569
+QKA,14,2013-11-16 08:13:30,2014-01-29 00:37:26,1768.4,73.68,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,LE,True,True,True,False,True,True,True,V570
+QL,6,2014-11-15 09:56:38,2014-11-15 10:05:00,0.14,0.01,1. < 24 Hours,ER Registration,Leucocytes,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V012
+QLA,7,2014-04-22 08:14:07,2014-04-22 09:46:05,1.53,0.06,1. < 24 Hours,ER Triage,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,False,False,V571
+QM,12,2014-01-06 15:21:55,2014-01-10 11:00:00,91.63,3.82,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V037
+QMA,18,2014-08-21 17:51:04,2014-08-31 08:30:00,230.65,9.61,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V572
+QN,16,2014-01-15 17:21:38,2014-01-24 09:00:00,207.64,8.65,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,R,True,True,True,False,True,True,False,V573
+QO,13,2014-06-27 12:15:01,2014-10-24 14:17:14,2858.04,119.08,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,GB,False,False,True,False,True,True,True,V574
+QP,17,2014-12-17 19:45:37,2015-01-02 09:15:00,373.49,15.56,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,KA,True,True,True,False,True,True,False,V575
+QQ,10,2014-07-07 15:08:31,2014-07-11 08:00:00,88.86,3.7,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,E,True,True,True,False,True,False,False,V576
+QR,5,2014-08-27 13:20:09,2014-08-27 13:33:00,0.21,0.01,1. < 24 Hours,ER Registration,Leucocytes,70.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V003
+QS,12,2014-11-10 15:42:41,2014-11-11 17:00:00,25.29,1.05,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,E,True,True,True,False,True,True,False,V017
+QT,11,2014-05-29 17:57:27,2014-05-30 06:00:00,12.04,0.5,1. < 24 Hours,ER Registration,CRP,85.0,4. 80 and Over,E,True,True,True,False,True,True,False,V577
+QU,19,2015-02-05 23:39:42,2015-04-09 11:08:07,1499.47,62.48,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,WC,True,True,True,False,True,True,True,V578
+QV,9,2014-11-27 19:01:45,2014-11-27 23:45:34,4.73,0.2,1. < 24 Hours,ER Registration,Admission NC,80.0,4. 80 and Over,E,True,True,True,False,True,True,False,V579
+QW,14,2014-08-12 23:58:09,2015-05-09 21:01:47,6477.06,269.88,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,M,True,True,True,False,True,True,True,V580
+QX,29,2014-08-27 11:24:10,2014-09-08 08:45:00,285.35,11.89,3. 1 - 4 Weeks,ER Registration,Release B,85.0,4. 80 and Over,D,True,True,True,False,True,True,False,V581
+QY,12,2014-09-08 13:26:08,2014-09-16 08:30:00,187.06,7.79,3. 1 - 4 Weeks,ER Registration,Release A,30.0,1. Under 45,FD,False,False,True,False,False,False,False,V582
+QZ,10,2014-04-07 15:14:33,2014-04-13 10:45:00,139.51,5.81,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,C,True,True,True,False,True,False,False,V583
+R,5,2014-11-30 11:38:16,2014-11-30 11:45:00,0.11,0.0,1. < 24 Hours,ER Registration,Leucocytes,45.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V003
+RA,3,2014-10-07 12:52:25,2014-10-07 13:38:32,0.77,0.03,1. < 24 Hours,ER Registration,ER Sepsis Triage,45.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+RAA,17,2014-11-24 10:11:07,2014-12-04 08:30:00,238.31,9.93,3. 1 - 4 Weeks,ER Registration,Release D,60.0,2. 45 - 64,G,True,True,True,True,True,True,False,V584
+RB,7,2014-04-22 08:21:51,2014-04-25 12:30:00,76.14,3.17,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,X,False,False,True,False,False,False,False,V010
+RBA,13,2014-08-04 06:19:22,2014-08-07 10:15:00,75.93,3.16,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,RD,True,True,True,False,True,False,False,V585
+RC,13,2014-10-30 14:57:15,2014-11-08 13:57:00,215.0,8.96,3. 1 - 4 Weeks,ER Registration,Return ER,65.0,3. 65 - 79,C,True,True,True,False,True,True,True,V586
+RCA,15,2014-06-25 19:48:49,2015-03-08 10:09:52,6134.35,255.6,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,C,True,True,True,False,True,True,True,V587
+RD,7,2014-04-07 19:23:26,2014-04-07 23:36:24,4.22,0.18,1. < 24 Hours,ER Registration,IV Antibiotics,65.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V588
+RDA,8,2013-12-24 16:45:59,2013-12-24 18:23:29,1.62,0.07,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V014
+RE,8,2014-01-06 10:18:20,2014-01-06 10:45:41,0.46,0.02,1. < 24 Hours,ER Registration,IV Antibiotics,50.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V014
+REA,6,2014-09-07 13:00:07,2014-09-07 13:26:00,0.43,0.02,1. < 24 Hours,ER Registration,LacticAcid,90.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V005
+RF,9,2014-06-19 17:33:32,2014-06-19 21:27:50,3.9,0.16,1. < 24 Hours,ER Registration,Admission NC,85.0,4. 80 and Over,M,True,True,True,False,True,True,False,V050
+RFA,10,2014-05-09 03:50:20,2014-05-10 07:15:00,27.41,1.14,2. 1 - 7 Days,ER Registration,Release B,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V589
+RG,33,2014-10-14 13:29:38,2015-01-12 18:35:57,2165.11,90.21,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,M,False,False,True,False,False,False,True,V590
+RGA,14,2014-06-18 17:35:37,2014-06-23 08:00:00,110.41,4.6,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,M,True,True,True,False,True,True,False,V591
+RH,5,2014-09-01 22:47:44,2014-09-02 10:00:00,11.2,0.47,1. < 24 Hours,ER Registration,Leucocytes,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V592
+RHA,9,2014-04-04 14:14:41,2014-04-06 09:00:00,42.76,1.78,2. 1 - 7 Days,ER Registration,Release A,40.0,1. Under 45,EE,False,False,True,False,False,False,False,V593
+RI,16,2014-09-20 22:37:57,2014-10-01 07:46:43,249.15,10.38,3. 1 - 4 Weeks,ER Registration,Return ER,70.0,3. 65 - 79,E,True,True,True,False,True,True,True,V594
+RIA,13,2015-02-03 19:26:28,2015-02-05 14:30:00,43.06,1.79,2. 1 - 7 Days,ER Registration,Release A,40.0,1. Under 45,E,True,True,True,False,True,True,False,V595
+RJ,7,2014-08-09 04:12:38,2014-08-09 09:00:00,4.79,0.2,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,False,False,V596
+RJA,8,2014-06-26 15:25:46,2014-06-26 19:03:39,3.63,0.15,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V007
+RK,15,2014-08-06 12:08:20,2014-08-13 08:00:00,163.86,6.83,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,K,True,True,True,False,True,True,False,V597
+RKA,10,2014-09-24 19:27:33,2014-09-25 18:00:00,22.54,0.94,1. < 24 Hours,ER Registration,Release A,35.0,1. Under 45,P,True,True,True,False,False,False,False,V598
+RL,7,2013-12-02 14:31:26,2013-12-06 14:15:00,95.73,3.99,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,S,False,False,True,False,False,False,False,V010
+RLA,22,2014-05-27 07:44:26,2014-06-24 09:42:16,673.96,28.08,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,False,True,False,True,V599
+RM,7,2014-04-16 13:34:56,2014-04-17 17:00:00,27.42,1.14,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,OB,False,False,True,False,False,False,False,V600
+RN,20,2014-08-25 11:59:52,2014-09-10 03:00:00,375.0,15.62,3. 1 - 4 Weeks,ER Registration,Release B,75.0,3. 65 - 79,D,True,True,True,False,True,True,False,V601
+RO,17,2015-01-16 22:13:40,2015-01-17 19:07:00,20.89,0.87,1. < 24 Hours,ER Registration,Leucocytes,80.0,4. 80 and Over,Unrecorded,True,True,False,True,True,True,False,V602
+RP,14,2014-05-15 17:12:10,2014-05-19 09:00:00,87.8,3.66,2. 1 - 7 Days,ER Registration,Release A,40.0,1. Under 45,GA,False,False,True,False,False,False,False,V603
+RQ,8,2014-01-01 09:21:13,2014-01-01 09:44:00,0.38,0.02,1. < 24 Hours,ER Registration,Leucocytes,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V030
+RR,11,2014-01-26 09:30:00,2014-02-07 15:54:05,294.4,12.27,3. 1 - 4 Weeks,IV Liquid,Return ER,35.0,1. Under 45,IC,True,True,True,False,True,True,True,V604
+RS,10,2014-05-05 14:34:45,2014-05-06 06:35:00,16.0,0.67,1. < 24 Hours,ER Registration,Release A,70.0,3. 65 - 79,H,True,True,True,False,True,True,False,V059
+RT,11,2014-08-27 18:36:23,2014-12-04 17:43:34,2375.12,98.96,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,K,True,True,True,False,True,True,True,V605
+RU,34,2014-06-16 13:02:00,2014-06-29 08:30:00,307.47,12.81,3. 1 - 4 Weeks,Leucocytes,Release A,40.0,1. Under 45,E,True,True,True,True,True,False,False,V606
+RV,3,2014-10-14 21:06:51,2014-10-14 21:28:35,0.36,0.02,1. < 24 Hours,ER Registration,ER Sepsis Triage,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V001
+RW,15,2014-11-15 15:48:51,2014-11-24 11:00:00,211.19,8.8,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,DD,True,True,True,False,True,True,False,V058
+RX,5,2014-07-24 06:49:49,2014-07-24 07:09:00,0.32,0.01,1. < 24 Hours,ER Registration,Leucocytes,70.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V003
+RY,23,2014-01-12 08:34:00,2014-01-17 13:00:00,124.43,5.18,2. 1 - 7 Days,CRP,Release A,50.0,2. 45 - 64,GA,True,True,True,True,True,True,False,V607
+RZ,14,2014-08-08 10:59:25,2014-08-14 12:35:00,145.59,6.07,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V608
+S,19,2014-01-21 11:16:14,2014-08-30 12:54:18,5305.63,221.07,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,B,True,True,True,True,True,True,True,V609
+SA,14,2014-01-17 14:17:50,2014-04-11 16:34:31,2018.28,84.1,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,45.0,2. 45 - 64,R,True,True,True,False,True,True,True,V610
+SAA,11,2014-01-15 07:43:50,2014-02-06 09:00:00,529.27,22.05,3. 1 - 4 Weeks,ER Registration,Release E,90.0,4. 80 and Over,S,True,False,True,False,False,False,False,V611
+SB,14,2014-05-01 08:17:37,2014-08-16 04:04:26,2563.78,106.82,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,B,True,True,True,False,True,True,True,V612
+SBA,14,2014-10-07 21:13:44,2014-10-13 08:30:00,131.27,5.47,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,Y,True,True,True,False,True,True,False,V613
+SC,9,2014-09-13 22:01:52,2014-09-14 06:00:00,7.97,0.33,1. < 24 Hours,ER Registration,LacticAcid,65.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V614
+SCA,17,2014-01-27 19:51:17,2014-02-23 09:41:36,637.84,26.58,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,G,True,True,True,True,True,True,True,V615
+SD,14,2014-10-27 09:09:46,2014-11-01 13:00:00,123.84,5.16,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,K,True,True,True,False,True,True,False,V616
+SDA,14,2014-09-01 11:45:33,2014-09-09 12:00:00,192.24,8.01,3. 1 - 4 Weeks,ER Registration,Release A,45.0,2. 45 - 64,WD,True,True,True,False,True,True,False,V061
+SE,10,2014-10-11 18:15:50,2014-10-16 09:50:00,111.57,4.65,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,R,True,True,True,False,True,True,False,V617
+SEA,10,2013-12-07 17:57:27,2014-01-26 00:05:26,1182.13,49.26,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,RC,True,True,True,False,True,False,True,V618
+SF,12,2014-12-31 00:55:56,2015-02-18 21:05:56,1196.17,49.84,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,B,True,True,True,False,True,True,True,V619
+SFA,16,2014-02-25 12:03:05,2014-05-04 03:50:20,1623.79,67.66,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,E,True,True,True,False,True,True,True,V620
+SG,5,2014-03-09 12:13:42,2014-03-09 13:52:53,1.65,0.07,1. < 24 Hours,ER Registration,ER Sepsis Triage,25.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V009
+SGA,16,2013-11-16 03:07:53,2013-11-17 01:00:00,21.87,0.91,1. < 24 Hours,ER Registration,Release B,70.0,3. 65 - 79,G,True,True,False,True,True,True,False,V621
+SH,12,2014-08-12 14:49:08,2014-09-18 12:29:07,885.67,36.9,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,55.0,2. 45 - 64,C,True,True,True,False,True,False,True,V622
+SHA,17,2014-01-30 21:51:14,2014-02-04 15:20:00,113.48,4.73,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,G,True,True,True,True,True,True,False,V623
+SI,18,2014-04-10 21:41:04,2014-04-18 18:00:00,188.32,7.85,3. 1 - 4 Weeks,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,False,True,True,False,V624
+SIA,8,2014-05-20 08:26:31,2014-05-20 09:05:00,0.64,0.03,1. < 24 Hours,ER Registration,IV Antibiotics,25.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V625
+SJ,16,2014-08-27 10:07:52,2014-10-17 12:33:00,1226.42,51.1,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,DB,True,True,True,False,True,True,True,V626
+SJA,12,2014-05-25 17:02:22,2014-06-05 09:08:57,256.11,10.67,3. 1 - 4 Weeks,ER Registration,Return ER,60.0,2. 45 - 64,B,True,True,True,False,True,False,True,V627
+SK,32,2014-02-17 10:20:51,2014-03-20 16:49:33,750.48,31.27,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V628
+SKA,3,2014-01-27 16:09:40,2014-01-27 16:27:03,0.29,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,30.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+SL,16,2014-05-02 09:31:21,2014-08-03 05:57:26,2228.43,92.85,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,H,True,True,True,False,True,True,True,V629
+SLA,24,2014-11-05 15:10:19,2014-11-19 09:30:00,330.33,13.76,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,JC,True,True,True,False,True,True,False,V630
+SM,40,2013-12-23 00:38:08,2014-01-29 10:03:20,897.42,37.39,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,G,True,True,True,True,True,True,True,V631
+SMA,16,2014-03-31 09:30:49,2014-04-06 14:00:00,148.49,6.19,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,G,True,True,True,True,True,True,False,V632
+SN,8,2014-07-13 13:09:48,2014-07-13 18:01:35,4.86,0.2,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V006
+SO,16,2014-09-16 03:05:55,2014-10-02 15:05:16,395.99,16.5,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,False,True,True,True,V633
+SP,3,2014-06-03 12:14:49,2014-06-03 12:33:04,0.3,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V001
+SQ,12,2014-03-12 07:45:10,2014-03-13 20:45:00,37.0,1.54,2. 1 - 7 Days,ER Registration,Release B,90.0,4. 80 and Over,G,False,False,False,True,False,False,False,V634
+SR,13,2014-02-05 22:30:03,2014-02-11 09:00:00,130.5,5.44,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,B,True,True,True,False,True,True,False,V635
+SS,13,2013-11-30 17:07:22,2014-01-15 14:34:45,1101.46,45.89,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,False,True,True,True,V636
+ST,17,2014-07-31 12:13:23,2014-11-23 18:36:23,2766.38,115.27,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,C,True,True,True,False,True,True,True,V637
+SU,9,2014-09-02 16:49:35,2014-09-02 21:08:14,4.31,0.18,1. < 24 Hours,ER Registration,Admission NC,85.0,4. 80 and Over,N,True,True,True,False,True,True,False,V023
+SV,10,2014-08-17 07:25:13,2014-08-18 08:30:00,25.08,1.04,2. 1 - 7 Days,ER Registration,Release B,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V638
+SW,19,2014-08-26 12:49:17,2014-09-01 17:00:00,148.18,6.17,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,M,True,True,True,False,True,True,False,V639
+SX,20,2014-08-18 17:29:33,2014-08-25 11:15:00,161.76,6.74,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V640
+SY,14,2014-05-13 16:14:11,2014-06-21 23:25:11,943.18,39.3,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,TB,True,True,True,False,True,True,True,V641
+SZ,8,2015-01-23 16:20:06,2015-01-24 17:02:07,24.7,1.03,2. 1 - 7 Days,ER Registration,IV Liquid,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V642
+T,10,2014-10-06 20:24:16,2014-10-09 02:00:00,53.6,2.23,2. 1 - 7 Days,ER Registration,Release B,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V643
+TA,10,2014-08-09 20:23:04,2014-08-12 18:00:00,69.62,2.9,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,C,False,False,True,False,False,False,False,V644
+TAA,18,2014-08-01 19:44:05,2014-08-13 11:00:00,279.27,11.64,3. 1 - 4 Weeks,ER Registration,Release A,60.0,2. 45 - 64,PD,True,True,True,False,True,True,False,V645
+TB,9,2014-09-11 07:33:19,2015-02-24 11:54:09,3988.35,166.18,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,Y,False,False,True,False,False,False,True,V646
+TBA,12,2014-05-08 02:31:11,2014-05-11 08:00:00,77.48,3.23,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,C,True,True,True,False,True,True,False,V017
+TC,24,2014-01-17 09:50:43,2014-06-27 22:01:52,3876.19,161.51,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,C,True,True,True,True,True,True,True,V647
+TCA,21,2014-10-10 17:06:34,2014-11-12 16:40:10,791.56,32.98,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,ED,True,True,True,False,True,True,True,V648
+TD,16,2014-11-09 19:47:29,2014-11-19 18:15:00,238.46,9.94,3. 1 - 4 Weeks,ER Registration,Release B,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V649
+TDA,10,2014-05-11 19:45:46,2014-05-14 14:00:00,66.24,2.76,2. 1 - 7 Days,ER Registration,Release A,40.0,1. Under 45,C,True,True,True,False,True,True,False,V650
+TE,5,2015-01-06 07:39:52,2015-01-06 07:56:15,0.27,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,30.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V009
+TEA,13,2014-07-05 14:59:31,2014-07-09 16:00:00,97.01,4.04,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,C,True,True,True,False,True,True,False,V651
+TF,16,2014-01-26 19:10:11,2014-02-05 09:11:00,230.01,9.58,3. 1 - 4 Weeks,ER Registration,Leucocytes,45.0,2. 45 - 64,NA,False,False,True,False,False,False,False,V652
+TFA,6,2014-02-16 01:39:13,2014-02-16 01:45:07,0.1,0.0,1. < 24 Hours,ER Registration,ER Sepsis Triage,90.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V653
+TG,11,2015-01-14 17:14:21,2015-01-17 08:30:00,63.26,2.64,2. 1 - 7 Days,ER Registration,Release A,40.0,1. Under 45,H,True,True,True,False,True,False,False,V654
+TGA,15,2014-03-14 07:18:19,2014-03-25 15:59:00,272.68,11.36,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,AE,True,True,True,False,True,True,False,V655
+TH,13,2014-09-07 01:23:50,2014-09-09 12:00:00,58.6,2.44,2. 1 - 7 Days,ER Registration,Release A,20.0,1. Under 45,R,True,True,True,False,True,True,False,V656
+THA,12,2014-01-09 15:24:38,2014-01-14 10:30:00,115.09,4.8,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,N,True,True,True,False,True,True,False,V657
+TI,21,2015-01-29 13:34:58,2015-02-27 09:30:00,691.92,28.83,4. > 4 Weeks (Includes Return ER),ER Registration,Release C,90.0,4. 80 and Over,N,True,True,True,False,False,False,False,V658
+TIA,15,2014-05-29 11:16:57,2014-06-07 09:00:00,213.72,8.9,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,D,False,False,True,False,False,False,False,V659
+TJ,15,2014-03-02 11:00:00,2014-03-19 23:48:32,420.81,17.53,3. 1 - 4 Weeks,IV Liquid,Return ER,80.0,4. 80 and Over,C,True,True,True,False,True,True,True,V660
+TJA,27,2014-07-23 07:34:41,2014-08-09 08:00:00,408.42,17.02,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,GB,True,True,True,False,True,True,False,V661
+TK,5,2014-09-07 12:28:58,2014-09-07 13:45:00,1.27,0.05,1. < 24 Hours,ER Registration,Leucocytes,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V003
+TKA,13,2014-06-11 19:00:18,2014-06-15 18:00:00,95.0,3.96,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V662
+TL,17,2014-07-17 09:53:32,2014-07-22 14:00:00,124.11,5.17,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,KB,True,True,True,False,True,True,False,V663
+TLA,8,2014-07-26 13:25:25,2014-07-26 17:20:58,3.93,0.16,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V006
+TM,7,2014-01-31 22:28:40,2014-02-01 22:44:23,24.26,1.01,2. 1 - 7 Days,ER Registration,IV Liquid,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V055
+TMA,10,2014-01-15 08:52:19,2014-01-17 16:30:00,55.63,2.32,2. 1 - 7 Days,ER Registration,Release A,40.0,1. Under 45,B,True,True,True,False,True,True,False,V664
+TN,27,2014-10-27 21:24:49,2014-11-14 09:00:00,419.59,17.48,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,B,True,True,True,True,True,True,False,V665
+TO,34,2014-02-23 10:42:49,2014-04-12 17:26:10,1158.72,48.28,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,G,True,True,True,True,True,True,True,V666
+TP,15,2014-06-04 11:37:32,2014-06-09 08:00:00,116.37,4.85,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V038
+TQ,15,2014-03-13 18:57:13,2014-04-08 13:57:34,619.01,25.79,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,B,True,True,True,False,True,True,True,V667
+TR,8,2014-04-02 06:03:30,2014-04-02 14:15:00,8.19,0.34,1. < 24 Hours,ER Registration,Release B,80.0,4. 80 and Over,Unrecorded,True,True,True,False,False,False,False,V035
+TS,20,2014-04-22 22:29:35,2014-05-01 09:00:00,202.51,8.44,3. 1 - 4 Weeks,ER Registration,Release C,90.0,4. 80 and Over,OC,True,True,True,False,True,True,False,V668
+TT,5,2014-08-05 15:03:03,2014-08-05 15:34:00,0.52,0.02,1. < 24 Hours,ER Registration,CRP,60.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V002
+TU,20,2014-01-04 13:45:49,2014-01-22 12:30:00,430.74,17.95,3. 1 - 4 Weeks,ER Registration,Release D,90.0,4. 80 and Over,S,False,False,True,False,False,False,False,V669
+TV,17,2014-07-23 05:48:02,2014-08-18 07:25:13,625.62,26.07,3. 1 - 4 Weeks,ER Registration,Return ER,75.0,3. 65 - 79,AD,True,True,True,False,True,True,True,V670
+TW,22,2014-07-07 18:30:35,2014-09-27 10:54:30,1960.4,81.68,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,D,True,True,True,False,True,True,True,V671
+TX,15,2014-11-27 18:23:59,2015-04-02 09:33:25,3015.16,125.63,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,W,True,True,True,False,True,True,True,V053
+TY,3,2014-10-04 16:52:39,2014-10-04 17:37:26,0.75,0.03,1. < 24 Hours,ER Registration,ER Sepsis Triage,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V001
+TZ,8,2014-07-03 08:42:50,2014-07-03 10:57:00,2.24,0.09,1. < 24 Hours,ER Registration,LacticAcid,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V672
+U,11,2014-04-29 18:38:23,2014-05-01 17:10:00,46.53,1.94,2. 1 - 7 Days,ER Registration,Release B,90.0,4. 80 and Over,L,False,False,True,False,False,False,False,V673
+UA,11,2014-03-23 07:19:14,2014-03-28 08:00:00,120.68,5.03,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,E,True,True,True,False,True,True,False,V674
+UAA,5,2015-02-19 23:01:01,2015-02-19 23:33:00,0.53,0.02,1. < 24 Hours,ER Registration,Leucocytes,35.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V003
+UB,9,2014-07-20 10:27:47,2014-07-20 13:43:53,3.27,0.14,1. < 24 Hours,ER Registration,Admission NC,90.0,4. 80 and Over,Unrecorded,True,True,True,False,True,True,False,V675
+UBA,15,2014-05-08 09:58:15,2015-05-30 09:14:55,9287.28,386.97,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,LA,True,True,True,False,True,True,True,V676
+UC,32,2014-02-26 14:04:17,2014-04-26 09:50:43,1411.77,58.82,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,C,True,True,True,True,True,True,True,V677
+UCA,5,2014-08-11 07:46:45,2014-08-11 08:31:00,0.74,0.03,1. < 24 Hours,ER Registration,CRP,70.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V002
+UD,31,2014-08-01 13:56:11,2014-09-24 13:11:02,1295.25,53.97,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,U,True,True,True,False,True,True,True,V678
+UDA,30,2014-06-22 08:53:00,2014-07-04 12:30:00,291.62,12.15,3. 1 - 4 Weeks,Leucocytes,Release A,60.0,2. 45 - 64,XD,True,True,True,False,True,True,False,V679
+UE,19,2014-05-23 18:22:19,2014-05-30 08:20:00,157.96,6.58,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,N,True,True,True,False,True,True,False,V680
+UEA,3,2014-09-07 15:23:45,2014-09-07 15:43:03,0.32,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,20.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+UF,29,2014-11-02 15:15:46,2014-11-12 09:00:00,233.74,9.74,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,G,True,True,True,True,True,True,False,V681
+UFA,8,2014-02-04 07:59:25,2014-02-04 11:31:20,3.53,0.15,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V021
+UG,8,2013-12-09 15:46:01,2013-12-09 18:25:23,2.66,0.11,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V006
+UGA,15,2015-02-07 12:18:16,2015-02-13 19:00:00,150.7,6.28,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,D,True,True,True,False,True,False,False,V682
+UH,3,2014-12-14 21:41:23,2014-12-14 21:50:30,0.15,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,20.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+UHA,5,2014-08-15 10:26:01,2014-08-15 10:44:00,0.3,0.01,1. < 24 Hours,ER Registration,CRP,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V002
+UI,14,2015-01-16 21:24:35,2015-01-20 11:38:00,86.22,3.59,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,E,True,True,True,False,True,True,False,V683
+UIA,13,2014-08-30 15:57:10,2014-09-03 07:00:00,87.05,3.63,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,E,True,True,True,False,True,True,False,V684
+UJ,16,2014-10-16 17:48:50,2014-12-18 22:42:59,1516.9,63.2,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,U,True,True,True,False,True,True,True,V685
+UJA,8,2014-09-22 07:51:14,2014-09-22 08:16:00,0.41,0.02,1. < 24 Hours,ER Registration,CRP,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V026
+UK,18,2014-06-24 17:58:16,2014-10-25 13:51:44,2947.89,122.83,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,C,False,False,True,False,False,False,True,V686
+UKA,17,2014-09-15 12:04:09,2014-09-24 09:00:00,212.93,8.87,3. 1 - 4 Weeks,ER Registration,Release A,45.0,2. 45 - 64,BB,True,True,True,False,True,True,False,V687
+UL,7,2014-03-20 12:42:34,2014-03-20 13:07:16,0.41,0.02,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,False,False,V688
+ULA,15,2013-11-12 17:52:04,2013-11-20 10:00:00,184.13,7.67,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,H,True,True,True,False,True,True,False,V689
+UM,9,2014-09-25 08:28:26,2014-09-25 09:38:51,1.17,0.05,1. < 24 Hours,ER Registration,IV Antibiotics,45.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V690
+UMA,14,2014-06-08 10:06:00,2014-06-12 12:00:00,97.9,4.08,2. 1 - 7 Days,CRP,Release A,25.0,1. Under 45,E,True,True,True,False,True,True,False,V691
+UN,5,2014-06-29 11:28:45,2014-06-29 11:53:00,0.4,0.02,1. < 24 Hours,ER Registration,CRP,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V002
+UO,7,2015-02-19 17:15:45,2015-02-19 19:15:43,2.0,0.08,1. < 24 Hours,ER Registration,Admission NC,90.0,4. 80 and Over,WB,False,False,True,False,False,False,False,V692
+UP,11,2014-05-16 08:01:26,2014-05-18 17:00:00,56.98,2.37,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,C,True,True,True,False,True,True,False,V693
+UQ,12,2013-11-27 19:32:23,2014-03-25 13:28:59,2825.94,117.75,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,BB,False,False,True,False,False,False,True,V694
+UR,15,2014-04-03 14:25:22,2014-04-11 07:30:00,185.08,7.71,3. 1 - 4 Weeks,ER Registration,Release C,85.0,4. 80 and Over,JC,True,True,True,False,True,True,False,V695
+US,15,2014-02-01 18:10:09,2014-02-06 13:30:00,115.33,4.81,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,E,True,True,True,False,True,True,False,V696
+UT,12,2014-08-03 00:34:33,2014-08-06 08:00:00,79.42,3.31,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,C,True,True,True,False,True,True,False,V697
+UU,6,2014-05-07 08:51:00,2014-05-10 14:00:00,77.15,3.21,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,XC,False,False,True,False,False,False,False,V052
+UV,15,2014-04-09 16:57:47,2014-06-26 22:00:47,1877.05,78.21,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,C,True,True,True,False,True,True,True,V698
+UW,14,2014-11-17 05:31:00,2015-06-04 05:43:36,4776.21,199.01,4. > 4 Weeks (Includes Return ER),Leucocytes,Return ER,55.0,2. 45 - 64,VA,True,True,True,False,True,True,True,V699
+UX,8,2013-12-21 12:41:21,2013-12-21 13:04:03,0.38,0.02,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V004
+UY,9,2014-10-16 13:12:24,2014-10-16 18:26:00,5.23,0.22,1. < 24 Hours,ER Registration,Admission NC,85.0,4. 80 and Over,Unrecorded,True,True,True,False,True,True,False,V700
+UZ,12,2014-01-23 15:31:51,2014-01-29 19:15:00,147.72,6.16,2. 1 - 7 Days,ER Registration,Release B,80.0,4. 80 and Over,E,True,True,True,False,True,True,False,V701
+V,21,2014-10-28 19:44:26,2015-01-19 07:55:06,1980.18,82.51,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,G,True,True,True,True,True,True,True,V702
+VA,13,2014-10-09 17:00:29,2014-10-15 08:30:00,135.49,5.65,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V703
+VAA,20,2014-02-05 13:09:05,2015-04-03 08:55:52,10123.78,421.82,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,True,True,True,True,V704
+VB,13,2015-02-15 16:07:29,2015-05-05 14:12:17,1894.08,78.92,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,Z,True,True,True,False,True,False,True,V705
+VBA,5,2014-05-20 11:53:55,2014-05-20 12:28:56,0.58,0.02,1. < 24 Hours,ER Registration,ER Sepsis Triage,85.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V015
+VC,13,2014-12-15 07:31:52,2014-12-19 11:00:00,99.47,4.14,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,False,True,True,False,V706
+VCA,15,2014-05-14 21:42:35,2014-11-18 14:09:22,4504.45,187.69,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,C,True,True,True,False,True,True,True,V707
+VD,11,2015-01-05 21:09:57,2015-01-08 09:00:00,59.83,2.49,2. 1 - 7 Days,ER Registration,Release A,50.0,2. 45 - 64,H,True,True,True,False,True,True,False,V708
+VDA,13,2014-09-08 16:10:39,2014-10-12 09:09:57,808.99,33.71,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,55.0,2. 45 - 64,K,True,True,True,False,True,True,True,V019
+VE,19,2014-11-11 18:48:42,2014-11-15 12:00:00,89.19,3.72,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,G,True,True,False,True,True,True,False,V709
+VEA,8,2014-09-10 14:42:37,2014-09-10 17:37:30,2.91,0.12,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V051
+VF,13,2014-05-26 19:12:31,2014-05-30 08:00:00,84.79,3.53,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,D,True,True,True,False,True,True,False,V045
+VFA,16,2014-10-31 09:54:45,2014-11-11 08:45:00,262.84,10.95,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,K,True,True,True,False,True,True,False,V710
+VG,16,2013-11-24 13:56:22,2013-12-11 14:35:26,408.65,17.03,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,D,True,False,True,False,False,False,True,V711
+VGA,8,2014-02-21 10:29:36,2014-02-21 12:28:26,1.98,0.08,1. < 24 Hours,ER Registration,IV Antibiotics,40.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V021
+VH,5,2014-07-11 18:51:00,2014-07-11 19:21:00,0.5,0.02,1. < 24 Hours,ER Registration,CRP,20.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V002
+VHA,5,2014-02-01 16:00:00,2014-02-01 16:21:00,0.35,0.01,1. < 24 Hours,ER Registration,CRP,65.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V002
+VI,18,2014-09-29 22:48:57,2014-11-13 15:24:22,1072.59,44.69,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,E,True,True,True,False,True,True,True,V712
+VIA,36,2013-11-17 00:36:12,2013-12-13 13:00:00,636.4,26.52,3. 1 - 4 Weeks,ER Registration,Release A,65.0,3. 65 - 79,G,True,True,True,True,True,True,False,V713
+VJ,13,2014-03-22 20:41:37,2014-03-28 09:00:00,132.31,5.51,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,H,True,True,True,False,True,True,False,V714
+VJA,3,2014-10-21 14:36:58,2014-10-21 14:54:55,0.3,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,30.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+VK,20,2014-10-29 12:04:12,2014-11-13 09:30:00,357.43,14.89,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,E,True,True,True,False,True,True,False,V715
+VKA,14,2014-12-26 21:53:09,2015-01-03 14:59:01,185.1,7.71,3. 1 - 4 Weeks,ER Registration,Release D,90.0,4. 80 and Over,RC,True,True,True,False,True,True,False,V716
+VL,14,2014-05-30 03:09:54,2014-06-02 17:00:00,85.84,3.58,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,D,True,True,True,False,True,True,False,V046
+VLA,8,2014-01-07 10:14:54,2014-01-07 11:11:00,0.94,0.04,1. < 24 Hours,ER Registration,LacticAcid,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V717
+VM,15,2014-08-07 12:53:07,2014-08-11 10:00:00,93.11,3.88,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,T,True,True,True,False,True,True,False,V718
+VMA,3,2014-06-20 16:19:57,2014-06-20 16:28:18,0.14,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,25.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+VN,28,2014-07-01 11:06:37,2015-04-06 18:41:35,6703.58,279.32,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,TB,True,True,True,True,True,True,True,V719
+VO,22,2014-02-23 15:48:37,2014-03-11 13:57:26,382.15,15.92,3. 1 - 4 Weeks,ER Registration,Return ER,60.0,2. 45 - 64,D,True,True,True,False,True,True,True,V720
+VP,15,2014-01-09 12:37:53,2014-01-12 12:00:00,71.37,2.97,2. 1 - 7 Days,ER Registration,Release B,80.0,4. 80 and Over,C,True,True,True,False,True,True,False,V721
+VQ,12,2014-04-11 11:50:54,2014-04-17 09:00:00,141.15,5.88,2. 1 - 7 Days,ER Registration,Release D,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V722
+VR,16,2013-12-07 13:11:35,2014-03-27 14:25:22,2641.23,110.05,4. > 4 Weeks (Includes Return ER),ER Triage,Return ER,85.0,4. 80 and Over,Q,False,False,True,False,True,True,True,V723
+VS,16,2013-11-23 08:15:19,2013-11-28 13:00:00,124.74,5.2,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,K,True,True,True,False,True,True,False,V724
+VT,16,2014-03-30 16:14:53,2014-04-15 08:00:00,375.75,15.66,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,E,True,True,True,False,True,True,False,V725
+VU,14,2014-01-05 02:50:12,2014-01-09 09:00:00,102.16,4.26,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,False,True,True,False,V054
+VV,5,2014-10-23 13:33:17,2014-10-23 14:41:00,1.13,0.05,1. < 24 Hours,ER Registration,Leucocytes,80.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V003
+VW,14,2014-09-05 03:38:03,2014-11-02 17:51:44,1406.23,58.59,4. > 4 Weeks (Includes Return ER),ER Triage,Return ER,55.0,2. 45 - 64,B,True,True,True,False,True,True,True,V726
+VX,5,2014-01-29 15:19:33,2014-01-29 15:35:00,0.26,0.01,1. < 24 Hours,ER Registration,Leucocytes,30.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V003
+VY,17,2014-09-12 21:10:39,2014-09-21 11:30:00,206.32,8.6,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,Y,True,True,True,False,True,True,False,V727
+VZ,6,2014-06-07 13:53:30,2014-06-07 18:10:00,4.28,0.18,1. < 24 Hours,ER Registration,CRP,25.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V728
+W,11,2014-11-11 15:52:36,2014-11-15 10:00:00,90.12,3.76,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,M,True,True,True,False,True,True,False,V729
+WA,8,2014-09-28 14:35:41,2014-10-11 14:13:13,311.63,12.98,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,S,False,False,True,False,False,False,True,V730
+WAA,12,2014-08-09 14:06:47,2014-08-13 17:00:00,98.89,4.12,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,C,True,True,True,False,True,True,False,V731
+WB,5,2014-11-01 13:32:49,2014-11-01 14:22:00,0.82,0.03,1. < 24 Hours,ER Registration,Leucocytes,50.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V003
+WBA,12,2015-02-09 17:38:57,2015-02-14 11:15:00,113.6,4.73,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,E,True,True,True,False,False,False,False,V732
+WC,12,2014-04-28 09:20:41,2014-05-08 17:20:37,248.0,10.33,3. 1 - 4 Weeks,IV Liquid,Return ER,80.0,4. 80 and Over,H,True,True,True,False,True,True,True,V733
+WCA,20,2014-04-24 08:02:14,2014-04-28 13:00:00,100.96,4.21,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,B,True,True,True,True,True,True,False,V734
+WD,3,2014-11-11 14:26:44,2014-11-11 16:12:29,1.76,0.07,1. < 24 Hours,ER Registration,ER Sepsis Triage,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V001
+WDA,31,2014-08-21 05:26:45,2014-09-02 11:00:00,293.55,12.23,3. 1 - 4 Weeks,IV Liquid,Release A,55.0,2. 45 - 64,G,True,True,True,True,True,True,False,V735
+WE,17,2014-04-21 10:35:46,2014-09-30 19:59:52,3897.4,162.39,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,IA,False,False,True,True,False,False,True,V736
+WEA,7,2013-11-09 11:04:54,2013-11-09 14:04:41,3.0,0.12,1. < 24 Hours,ER Registration,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V737
+WF,21,2013-12-27 17:20:00,2014-02-14 19:12:31,1177.88,49.08,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,D,True,True,True,False,True,True,True,V738
+WFA,13,2014-10-25 21:18:17,2014-12-04 10:23:05,949.08,39.54,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,Y,True,True,True,False,True,True,True,V027
+WG,14,2014-12-24 05:12:18,2014-12-29 17:00:00,131.79,5.49,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,U,True,True,True,False,True,True,False,V739
+WGA,36,2014-08-14 16:17:48,2014-11-30 23:19:04,2599.02,108.29,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,True,True,True,True,V740
+WH,5,2014-04-01 09:50:17,2014-04-01 10:01:00,0.18,0.01,1. < 24 Hours,ER Registration,Leucocytes,75.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V003
+WHA,12,2014-06-29 17:32:05,2014-07-03 12:00:00,90.47,3.77,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,GB,True,True,True,False,True,True,False,V741
+WI,9,2014-12-01 09:06:49,2015-03-30 11:32:16,2858.42,119.1,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,S,False,False,True,False,False,False,True,V742
+WIA,5,2014-12-06 13:23:28,2014-12-06 13:48:03,0.41,0.02,1. < 24 Hours,ER Registration,ER Sepsis Triage,90.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V015
+WJA,18,2014-06-21 14:23:11,2014-07-05 08:30:00,330.11,13.75,3. 1 - 4 Weeks,IV Liquid,Release C,90.0,4. 80 and Over,W,True,True,True,False,True,True,False,V743
+WK,8,2014-10-07 08:20:00,2014-10-12 12:00:00,123.67,5.15,2. 1 - 7 Days,Leucocytes,Release A,65.0,3. 65 - 79,B,True,True,True,False,True,False,False,V744
+WKA,18,2015-02-18 22:34:04,2015-02-21 06:50:00,56.27,2.34,2. 1 - 7 Days,ER Registration,Release B,55.0,2. 45 - 64,H,True,True,True,True,True,True,False,V745
+WL,9,2014-06-16 09:46:00,2014-06-23 12:00:00,170.23,7.09,3. 1 - 4 Weeks,CRP,Release A,65.0,3. 65 - 79,K,True,True,True,False,False,False,False,V746
+WLA,14,2014-01-04 10:47:14,2014-02-23 10:33:00,1199.76,49.99,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,FA,False,False,True,False,False,False,True,V747
+WM,16,2014-11-26 20:18:25,2014-12-12 10:13:48,373.92,15.58,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,False,True,True,True,V057
+WMA,5,2014-04-17 13:29:26,2014-04-17 14:46:00,1.28,0.05,1. < 24 Hours,ER Registration,CRP,20.0,1. Under 45,Unrecorded,True,False,False,False,False,False,False,V002
+WN,23,2014-06-13 08:02:28,2014-12-12 12:48:23,4372.77,182.2,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,SB,True,True,True,False,True,True,True,V748
+WO,18,2014-10-14 09:10:02,2015-01-19 12:28:01,2331.3,97.14,4. > 4 Weeks (Includes Return ER),IV Liquid,Return ER,85.0,4. 80 and Over,N,True,True,True,False,True,True,True,V749
+WP,16,2014-08-01 11:27:23,2014-08-05 12:00:00,96.54,4.02,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,H,True,True,True,True,True,True,False,V750
+WQ,13,2014-10-23 21:51:07,2014-12-02 10:45:37,948.91,39.54,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,H,True,True,True,False,True,True,True,V034
+WR,18,2014-08-28 15:41:00,2014-09-05 09:15:00,185.57,7.73,3. 1 - 4 Weeks,CRP,Release C,90.0,4. 80 and Over,Q,True,True,True,False,True,True,False,V751
+WS,6,2015-01-23 11:57:03,2015-01-23 12:27:00,0.5,0.02,1. < 24 Hours,ER Registration,LacticAcid,90.0,4. 80 and Over,Unrecorded,True,True,False,False,False,False,False,V005
+WT,18,2014-08-11 01:46:56,2014-08-26 13:58:28,372.19,15.51,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,E,True,True,True,False,True,True,True,V752
+WU,17,2014-10-01 18:31:26,2014-10-12 12:10:00,257.64,10.74,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V753
+WV,14,2014-02-07 11:08:34,2014-02-11 06:30:00,91.36,3.81,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,B,True,True,True,False,True,True,False,V754
+WW,18,2014-04-17 11:42:21,2014-04-27 06:49:23,235.12,9.8,3. 1 - 4 Weeks,ER Registration,Return ER,55.0,2. 45 - 64,CA,True,True,True,True,True,True,True,V755
+WX,8,2014-05-10 20:41:42,2014-05-11 21:25:21,24.73,1.03,2. 1 - 7 Days,ER Registration,IV Liquid,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V756
+WY,3,2014-09-13 20:32:57,2014-09-13 21:06:50,0.56,0.02,1. < 24 Hours,ER Registration,ER Sepsis Triage,55.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+WZ,24,2014-09-15 17:19:43,2014-11-17 16:07:00,1510.79,62.95,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,N,True,True,True,False,True,True,True,V757
+X,13,2014-10-04 01:41:22,2015-05-09 08:52:02,5215.18,217.3,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,False,False,True,False,False,False,True,V758
+XA,3,2014-04-12 13:18:52,2014-04-12 13:28:16,0.16,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,70.0,3. 65 - 79,Unrecorded,False,False,False,False,False,False,False,V001
+XAA,13,2014-04-12 09:08:02,2014-04-16 13:30:00,100.37,4.18,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,C,True,True,True,False,True,True,False,V759
+XB,11,2014-10-21 09:34:38,2014-10-22 22:30:00,36.92,1.54,2. 1 - 7 Days,ER Registration,Release B,60.0,2. 45 - 64,B,True,True,True,False,True,True,False,V760
+XBA,27,2014-04-28 19:27:56,2014-06-26 16:10:41,1412.71,58.86,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,55.0,2. 45 - 64,SD,True,True,True,True,True,True,True,V761
+XC,8,2014-02-23 14:42:28,2014-02-23 15:03:00,0.34,0.01,1. < 24 Hours,ER Registration,CRP,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V042
+XCA,35,2014-09-16 04:17:55,2014-10-07 13:51:11,513.55,21.4,3. 1 - 4 Weeks,ER Registration,Return ER,70.0,3. 65 - 79,VD,True,True,True,True,True,True,True,V762
+XD,10,2014-08-20 11:28:09,2014-08-25 12:30:00,121.03,5.04,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V763
+XDA,6,2015-01-11 14:42:30,2015-01-11 15:25:00,0.71,0.03,1. < 24 Hours,ER Registration,CRP,50.0,2. 45 - 64,Unrecorded,True,True,False,False,False,False,False,V029
+XE,8,2014-04-03 09:27:25,2014-04-03 09:48:00,0.34,0.01,1. < 24 Hours,ER Registration,CRP,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V026
+XEA,12,2014-10-30 22:44:52,2014-11-02 16:00:00,65.25,2.72,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,C,True,True,True,False,True,True,False,V028
+XF,12,2015-01-09 17:27:18,2015-01-13 08:30:00,87.04,3.63,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,C,True,True,True,False,True,True,False,V764
+XFA,19,2013-12-02 17:27:53,2014-06-29 06:38:32,5005.18,208.55,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,40.0,1. Under 45,PC,False,False,True,True,False,False,True,V765
+XG,8,2014-03-03 22:30:42,2014-03-04 01:00:00,2.49,0.1,1. < 24 Hours,ER Registration,IV Antibiotics,45.0,2. 45 - 64,Unrecorded,True,True,False,False,True,True,False,V011
+XGA,15,2014-03-12 02:02:41,2014-04-26 10:45:31,1088.71,45.36,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,Z,True,True,True,False,True,True,True,V766
+XH,22,2014-03-17 11:51:43,2014-03-28 08:30:00,260.64,10.86,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V767
+XHA,12,2014-05-16 20:25:01,2014-05-17 05:00:00,8.58,0.36,1. < 24 Hours,ER Registration,LacticAcid,70.0,3. 65 - 79,G,True,True,False,True,True,True,False,V768
+XI,39,2013-12-29 11:28:10,2014-01-21 20:02:44,560.58,23.36,3. 1 - 4 Weeks,ER Registration,Return ER,55.0,2. 45 - 64,C,True,True,True,True,True,True,True,V769
+XIA,5,2014-05-24 16:37:14,2014-05-24 17:05:00,0.46,0.02,1. < 24 Hours,ER Registration,Leucocytes,35.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V003
+XJ,13,2013-11-07 07:18:29,2013-12-11 10:02:20,818.73,34.11,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,C,True,True,True,False,True,True,True,V770
+XJA,20,2013-12-25 17:45:10,2014-01-07 09:00:00,303.25,12.64,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,KA,True,True,True,False,True,True,False,V771
+XK,6,2014-05-15 08:41:55,2014-05-15 09:16:00,0.57,0.02,1. < 24 Hours,ER Registration,CRP,85.0,4. 80 and Over,Unrecorded,False,False,False,False,False,False,False,V772
+XKA,13,2014-05-25 13:41:21,2014-11-10 22:34:04,4064.88,169.37,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,50.0,2. 45 - 64,H,True,True,True,False,True,True,True,V773
+XL,14,2014-11-23 10:00:05,2015-02-01 08:45:17,1678.75,69.95,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,E,True,True,True,False,True,True,True,V774
+XLA,8,2015-01-03 10:53:29,2015-01-03 13:47:21,2.9,0.12,1. < 24 Hours,ER Registration,IV Antibiotics,40.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V007
+XM,18,2014-10-21 16:28:08,2014-11-13 20:18:25,555.84,23.16,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,False,True,True,True,V775
+XMA,3,2014-05-17 22:13:33,2014-05-17 22:26:56,0.22,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,40.0,1. Under 45,Unrecorded,False,False,False,False,False,False,False,V001
+XN,16,2014-01-13 23:18:41,2014-01-18 09:58:31,106.66,4.44,2. 1 - 7 Days,ER Registration,Return ER,40.0,1. Under 45,AA,True,True,True,False,True,True,True,V776
+XO,9,2014-10-05 15:02:37,2014-10-07 04:30:00,37.46,1.56,2. 1 - 7 Days,ER Registration,Release B,85.0,4. 80 and Over,C,True,True,True,False,True,False,False,V777
+XP,13,2014-03-29 15:34:08,2014-04-01 09:00:00,65.43,2.73,2. 1 - 7 Days,ER Registration,Release A,60.0,2. 45 - 64,BC,True,True,True,False,True,True,False,V778
+XQ,14,2014-12-29 14:18:06,2015-03-15 14:40:57,1824.38,76.02,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,False,True,True,True,V060
+XR,6,2014-12-28 14:29:32,2014-12-28 16:45:03,2.26,0.09,1. < 24 Hours,ER Registration,IV Antibiotics,55.0,2. 45 - 64,Unrecorded,True,True,False,False,True,False,False,V779
+XS,21,2014-08-30 09:59:23,2015-01-15 11:57:03,3313.96,138.08,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,W,True,True,True,False,True,True,True,V780
+XT,18,2014-07-08 21:19:10,2014-07-18 20:42:25,239.39,9.97,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,BB,True,True,True,False,True,True,True,V781
+XU,8,2014-05-10 08:04:12,2014-05-10 10:00:54,1.94,0.08,1. < 24 Hours,ER Registration,IV Liquid,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V782
+XV,8,2014-04-16 10:23:42,2014-04-16 13:45:09,3.36,0.14,1. < 24 Hours,ER Registration,IV Antibiotics,80.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V783
+XW,16,2014-05-02 17:51:52,2014-05-09 11:08:49,161.28,6.72,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,K,True,True,True,False,True,True,False,V784
+XX,12,2014-05-20 08:00:00,2014-05-20 13:00:00,5.0,0.21,1. < 24 Hours,CRP,Release B,85.0,4. 80 and Over,Unrecorded,True,True,True,False,True,True,False,V785
+XY,13,2014-02-16 21:19:34,2014-08-09 21:17:48,4175.97,174.0,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,55.0,2. 45 - 64,GD,True,True,True,False,True,True,True,V786
+XZ,16,2014-09-24 05:30:00,2014-10-02 01:00:00,187.5,7.81,3. 1 - 4 Weeks,IV Liquid,Release B,65.0,3. 65 - 79,C,True,True,True,False,True,True,False,V787
+Y,8,2015-02-25 09:06:20,2015-02-25 10:00:19,0.9,0.04,1. < 24 Hours,ER Registration,IV Liquid,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V788
+YA,6,2014-07-10 10:33:44,2014-07-10 10:54:00,0.34,0.01,1. < 24 Hours,ER Registration,LacticAcid,90.0,4. 80 and Over,Unrecorded,True,True,False,False,False,False,False,V005
+YAA,12,2014-04-13 08:27:43,2014-04-15 09:30:00,49.04,2.04,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,F,False,False,True,False,True,True,False,V018
+YB,15,2014-11-09 19:21:38,2014-11-13 19:00:00,95.64,3.98,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,B,True,True,True,False,True,True,False,V789
+YBA,14,2014-05-19 16:49:59,2014-05-26 09:00:00,160.17,6.67,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V061
+YC,9,2014-07-16 09:47:00,2014-07-16 20:45:51,10.98,0.46,1. < 24 Hours,CRP,IV Antibiotics,35.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V790
+YCA,11,2014-03-01 17:35:34,2014-03-02 06:00:00,12.41,0.52,1. < 24 Hours,ER Registration,CRP,90.0,4. 80 and Over,E,True,True,True,False,True,True,False,V791
+YD,8,2014-05-07 10:46:40,2014-05-07 12:21:48,1.59,0.07,1. < 24 Hours,ER Registration,IV Antibiotics,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V011
+YDA,13,2014-04-06 17:43:20,2014-06-22 12:04:18,1842.35,76.76,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,70.0,3. 65 - 79,UC,True,True,True,False,True,True,True,V027
+YE,13,2014-08-25 12:06:46,2014-08-29 12:00:00,95.89,4.0,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,H,True,True,True,False,True,True,False,V792
+YEA,10,2013-11-24 12:43:50,2013-11-29 12:00:00,119.27,4.97,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,H,True,True,True,False,True,True,False,V016
+YF,29,2014-07-08 16:15:07,2014-07-21 07:50:00,303.58,12.65,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,E,True,True,True,True,True,True,False,V793
+YFA,12,2015-01-14 14:36:47,2015-01-17 09:20:00,66.72,2.78,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,B,True,True,True,False,True,True,False,V794
+YG,29,2014-03-16 23:57:07,2014-04-13 11:00:00,659.05,27.46,3. 1 - 4 Weeks,ER Registration,Release D,70.0,3. 65 - 79,SA,True,True,True,False,True,True,False,V795
+YGA,14,2014-05-25 15:28:21,2014-06-16 02:34:03,515.1,21.46,3. 1 - 4 Weeks,ER Registration,Return ER,65.0,3. 65 - 79,H,True,True,True,False,True,True,True,V796
+YH,7,2014-03-20 22:25:38,2014-03-25 09:00:00,106.57,4.44,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,XA,False,False,True,False,False,False,False,V013
+YHA,16,2014-12-22 08:22:47,2014-12-28 09:02:16,144.66,6.03,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,IC,True,True,True,False,True,True,False,V797
+YI,14,2014-05-01 16:40:48,2014-05-08 13:50:00,165.15,6.88,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,C,True,True,True,False,True,True,False,V062
+YIA,52,2013-12-11 22:32:45,2014-01-12 01:10:25,746.63,31.11,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,55.0,2. 45 - 64,HE,True,True,True,True,True,True,True,V798
+YJ,12,2014-10-12 22:04:17,2014-10-21 08:00:00,201.93,8.41,3. 1 - 4 Weeks,ER Registration,Release A,40.0,1. Under 45,T,False,False,True,False,False,False,False,V799
+YJA,12,2014-03-20 02:06:58,2014-03-30 16:00:00,253.88,10.58,3. 1 - 4 Weeks,ER Registration,Release A,70.0,3. 65 - 79,E,True,True,True,False,True,True,False,V800
+YK,17,2014-04-17 18:00:20,2014-04-29 02:51:22,272.85,11.37,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,HB,True,True,True,False,True,True,True,V801
+YKA,43,2014-08-11 12:54:03,2014-08-30 12:45:00,455.85,18.99,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,G,True,True,True,True,True,True,False,V802
+YL,18,2014-01-21 13:14:20,2014-02-03 10:34:33,309.34,12.89,3. 1 - 4 Weeks,ER Registration,Return ER,85.0,4. 80 and Over,B,True,True,True,False,True,True,True,V803
+YLA,61,2014-03-31 09:31:22,2014-08-17 11:51:18,3338.33,139.1,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,80.0,4. 80 and Over,G,False,False,True,True,False,False,True,V804
+YM,13,2014-05-08 10:34:25,2015-01-17 16:28:08,6101.9,254.25,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,C,True,True,True,False,True,True,True,V805
+YMA,10,2014-09-01 20:26:13,2014-09-26 20:09:59,599.73,24.99,3. 1 - 4 Weeks,ER Registration,Return ER,90.0,4. 80 and Over,OE,False,False,True,False,False,False,True,V041
+YN,7,2014-04-13 06:40:00,2014-04-13 19:32:33,12.88,0.54,1. < 24 Hours,CRP,ER Sepsis Triage,45.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V806
+YO,27,2014-05-26 09:54:55,2014-06-09 15:00:00,341.08,14.21,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,XB,True,True,True,False,True,True,False,V807
+YP,30,2013-11-18 13:18:15,2013-12-03 04:30:00,351.2,14.63,3. 1 - 4 Weeks,ER Registration,Release B,90.0,4. 80 and Over,CC,True,True,True,False,True,True,False,V808
+YQ,12,2014-11-16 19:24:28,2014-11-18 13:00:00,41.59,1.73,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,K,True,True,True,False,True,True,False,V017
+YR,17,2014-05-25 12:20:50,2014-06-01 14:00:00,169.65,7.07,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,Q,True,True,True,False,True,True,False,V809
+YS,23,2014-03-15 09:10:06,2014-07-08 22:52:05,2773.7,115.57,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,60.0,2. 45 - 64,G,True,True,True,True,True,True,True,V810
+YT,17,2014-02-13 22:34:19,2014-03-05 23:27:16,480.88,20.04,3. 1 - 4 Weeks,ER Registration,Return ER,80.0,4. 80 and Over,E,True,True,True,False,True,True,True,V811
+YU,3,2014-02-05 06:49:49,2014-02-05 06:58:54,0.15,0.01,1. < 24 Hours,ER Registration,ER Sepsis Triage,60.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V001
+YV,21,2014-07-19 16:43:56,2014-10-13 18:29:46,2065.76,86.07,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,90.0,4. 80 and Over,B,True,True,True,False,True,True,True,V812
+YW,10,2014-10-31 09:10:03,2014-11-10 09:00:00,239.83,9.99,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,Z,False,False,True,False,False,False,False,V813
+YX,84,2014-04-29 17:24:22,2014-05-29 11:15:00,713.84,29.74,4. > 4 Weeks (Includes Return ER),ER Registration,Release A,65.0,3. 65 - 79,E,True,True,True,True,True,True,False,V814
+YY,21,2014-11-03 20:59:04,2014-11-13 19:00:00,238.02,9.92,3. 1 - 4 Weeks,ER Registration,Release A,65.0,3. 65 - 79,HD,True,True,True,False,True,True,False,V815
+YZ,15,2014-04-11 06:08:23,2014-08-25 06:53:01,3264.74,136.03,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,65.0,3. 65 - 79,D,True,True,True,False,True,True,True,V816
+Z,10,2014-04-03 06:49:53,2014-04-07 08:00:00,97.17,4.05,2. 1 - 7 Days,ER Registration,Release A,80.0,4. 80 and Over,G,True,True,True,True,False,False,False,V817
+ZA,8,2014-05-24 09:32:26,2014-05-24 10:40:56,1.14,0.05,1. < 24 Hours,ER Registration,IV Antibiotics,90.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V004
+ZAA,15,2014-12-26 08:17:46,2015-01-01 15:15:00,150.95,6.29,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V818
+ZB,16,2014-04-26 18:35:33,2015-01-03 11:34:52,6040.99,251.71,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,AA,True,True,True,False,True,True,True,V819
+ZBA,11,2014-10-30 15:29:10,2014-11-02 09:30:00,66.01,2.75,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,R,True,True,True,False,True,True,False,V820
+ZC,10,2014-07-14 16:34:00,2014-07-14 22:56:24,6.37,0.27,1. < 24 Hours,ER Registration,IV Antibiotics,70.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V821
+ZCA,9,2015-02-05 13:33:02,2015-02-05 19:34:00,6.02,0.25,1. < 24 Hours,ER Registration,LacticAcid,75.0,3. 65 - 79,Unrecorded,True,True,False,False,True,True,False,V822
+ZD,7,2014-04-07 08:15:33,2014-04-12 09:00:00,120.74,5.03,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,FA,False,False,True,False,False,False,False,V013
+ZDA,18,2014-09-10 17:02:55,2014-11-24 09:12:02,1792.15,74.67,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,85.0,4. 80 and Over,G,True,True,True,True,True,True,True,V823
+ZE,16,2014-07-02 12:35:50,2014-07-12 16:15:00,243.65,10.15,3. 1 - 4 Weeks,ER Registration,Release B,75.0,3. 65 - 79,D,True,True,True,False,True,True,False,V824
+ZEA,18,2014-07-20 22:57:24,2014-08-17 14:28:24,663.52,27.65,3. 1 - 4 Weeks,ER Registration,Return ER,65.0,3. 65 - 79,H,True,True,True,True,True,True,True,V825
+ZF,14,2014-06-05 19:14:36,2014-06-09 08:00:00,84.76,3.53,2. 1 - 7 Days,ER Registration,Release A,45.0,2. 45 - 64,R,True,True,True,False,True,True,False,V826
+ZFA,13,2014-01-18 14:42:16,2014-08-13 08:11:46,4961.49,206.73,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,H,True,True,True,False,True,True,True,V047
+ZG,10,2014-10-14 21:18:15,2014-10-16 15:00:00,41.7,1.74,2. 1 - 7 Days,ER Registration,Release B,60.0,2. 45 - 64,B,True,True,True,False,True,True,False,V827
+ZGA,29,2015-01-29 18:28:36,2015-03-23 09:59:34,1263.52,52.65,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,ZA,True,True,True,False,True,True,True,V828
+ZH,13,2014-07-27 15:26:54,2014-08-05 12:00:00,212.55,8.86,3. 1 - 4 Weeks,ER Registration,Release A,75.0,3. 65 - 79,AA,True,True,True,False,True,True,False,V829
+ZHA,26,2014-09-05 17:27:33,2014-10-26 15:12:03,1221.74,50.91,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,50.0,2. 45 - 64,F,True,True,True,True,True,True,True,V830
+ZI,18,2014-10-15 20:24:54,2014-10-22 09:15:00,156.84,6.54,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,HA,True,True,True,False,True,True,False,V831
+ZIA,8,2014-05-08 15:53:22,2014-05-08 18:46:30,2.89,0.12,1. < 24 Hours,ER Registration,IV Antibiotics,35.0,1. Under 45,Unrecorded,True,True,False,False,True,True,False,V008
+ZJ,16,2014-10-13 18:24:46,2014-10-22 08:00:00,205.59,8.57,3. 1 - 4 Weeks,ER Registration,Release A,85.0,4. 80 and Over,BB,True,True,True,False,True,True,False,V832
+ZJA,23,2014-09-24 14:38:28,2014-10-12 10:15:00,427.61,17.82,3. 1 - 4 Weeks,ER Registration,Release A,50.0,2. 45 - 64,C,True,True,True,False,True,True,False,V833
+ZK,11,2014-11-30 12:57:54,2014-12-02 14:30:00,49.54,2.06,2. 1 - 7 Days,ER Registration,Release A,65.0,3. 65 - 79,B,True,True,True,False,True,True,False,V834
+ZKA,16,2014-03-15 14:33:42,2014-06-13 13:09:24,2158.59,89.94,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,35.0,1. Under 45,C,True,True,True,False,True,True,True,V835
+ZL,13,2014-10-15 08:14:51,2014-11-20 13:57:24,869.71,36.24,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,B,True,True,True,False,True,True,True,V027
+ZLA,11,2013-12-15 19:30:43,2014-08-30 14:04:43,6186.57,257.77,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,25.0,1. Under 45,C,True,True,True,False,True,True,True,V836
+ZM,28,2014-04-08 15:50:18,2014-04-23 10:00:00,354.16,14.76,3. 1 - 4 Weeks,ER Registration,Release A,80.0,4. 80 and Over,E,True,True,True,False,True,True,False,V837
+ZMA,66,2014-10-19 08:45:58,2014-12-03 14:00:00,1085.23,45.22,4. > 4 Weeks (Includes Return ER),IV Liquid,Release B,70.0,3. 65 - 79,G,True,True,True,True,True,True,False,V838
+ZN,5,2014-04-08 11:41:15,2014-04-08 12:07:00,0.43,0.02,1. < 24 Hours,ER Registration,CRP,55.0,2. 45 - 64,Unrecorded,False,False,False,False,False,False,False,V002
+ZO,12,2014-02-03 22:01:08,2014-02-11 11:00:00,180.98,7.54,3. 1 - 4 Weeks,ER Registration,Release A,90.0,4. 80 and Over,H,True,True,True,False,True,True,False,V839
+ZP,12,2014-02-13 14:01:53,2014-02-16 12:45:00,70.72,2.95,2. 1 - 7 Days,ER Registration,Release A,55.0,2. 45 - 64,C,True,True,True,False,True,True,False,V840
+ZQ,21,2014-10-07 09:30:53,2014-10-16 20:56:00,227.42,9.48,3. 1 - 4 Weeks,ER Registration,Leucocytes,90.0,4. 80 and Over,W,True,True,True,False,True,True,True,V841
+ZR,13,2013-11-26 10:11:34,2013-11-30 14:00:00,99.81,4.16,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,E,True,True,True,False,True,True,False,V842
+ZS,14,2013-11-14 10:58:51,2014-12-18 09:08:54,9574.17,398.92,4. > 4 Weeks (Includes Return ER),ER Registration,Return ER,75.0,3. 65 - 79,PC,True,True,True,False,True,True,True,V843
+ZT,13,2015-01-07 11:47:40,2015-01-12 10:00:00,118.21,4.93,2. 1 - 7 Days,ER Registration,Release D,90.0,4. 80 and Over,C,True,True,True,False,True,True,False,V844
+ZU,10,2014-12-12 12:12:41,2014-12-15 11:16:00,71.06,2.96,2. 1 - 7 Days,ER Registration,Release A,90.0,4. 80 and Over,YC,True,True,True,False,True,True,False,V025
+ZV,12,2014-11-27 13:37:18,2014-12-02 12:50:00,119.21,4.97,2. 1 - 7 Days,ER Registration,Release A,75.0,3. 65 - 79,E,True,True,True,False,True,True,False,V845
+ZW,13,2014-10-03 04:07:59,2014-10-07 13:00:00,104.87,4.37,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,B,True,True,True,False,True,True,False,V846
+ZX,10,2013-12-31 19:55:37,2014-01-05 09:00:00,109.07,4.54,2. 1 - 7 Days,ER Registration,Release A,85.0,4. 80 and Over,H,True,True,True,False,True,True,False,V016
+ZY,8,2014-12-13 10:09:37,2014-12-13 16:22:57,6.22,0.26,1. < 24 Hours,ER Registration,IV Antibiotics,85.0,4. 80 and Over,Unrecorded,True,True,False,False,True,True,False,V006
+ZZ,14,2014-11-12 15:34:30,2014-11-17 17:00:00,121.42,5.06,2. 1 - 7 Days,ER Registration,Release A,70.0,3. 65 - 79,K,True,True,True,False,True,True,False,V062

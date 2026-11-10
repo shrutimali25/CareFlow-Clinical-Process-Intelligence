@@ -1,0 +1,11 @@
+Validation_Check,Result,Status
+Total Events,15214,PASS
+Unique Cases,1050,PASS
+Unique Activities,16,PASS
+Missing values in case:concept:name,0,PASS
+Missing values in concept:name,0,PASS
+Missing values in time:timestamp,0,PASS
+Case 'NA' Preserved,Preserved (24 events),PASS
+Chronological Ordering,1050 cases in order,PASS
+Negative Elapsed Times,0,PASS
+Duplicate Event Combinations,14 clinical re-assays,INFO

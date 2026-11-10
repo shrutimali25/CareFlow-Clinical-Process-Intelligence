@@ -1,0 +1,10 @@
+# CareFlow Project Dependencies
+# Minimal, lightweight, Windows 64-bit compatible (8 GB RAM friendly)
+
+pandas>=2.0.0
+pm4py>=2.7.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+networkx>=3.0
+scipy>=1.10.0
+graphviz>=0.20

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareFlow - Interactive Clinical Process Map</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  body { display: flex; height: 100vh; background: #0f172a; color: #f8fafc; overflow: hidden; }
+  #sidebar { width: 340px; background: #1e293b; border-right: 1px solid #334155; padding: 20px; display: flex; flex-direction: column; gap: 16px; overflow-y: auto; }
+  h1 { font-size: 1.25rem; font-weight: 700; color: #38bdf8; display: flex; align-items: center; gap: 8px; }
+  .subtitle { font-size: 0.8rem; color: #94a3b8; }
+  .card { background: #0f172a; border-radius: 8px; padding: 14px; border: 1px solid #334155; }
+  .card h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: #cbd5e1; margin-bottom: 8px; }
+  .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .stat-item { background: #1e293b; padding: 8px 12px; border-radius: 6px; }
+  .stat-val { font-size: 1.1rem; font-weight: 700; color: #38bdf8; }
+  .stat-lbl { font-size: 0.7rem; color: #94a3b8; }
+  .slider-control { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
+  input[type=range] { width: 100%; accent-color: #38bdf8; }
+  #main { flex: 1; position: relative; background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%); }
+  #canvas { width: 100%; height: 100%; display: block; }
+  .detail-box { font-size: 0.85rem; line-height: 1.5; color: #e2e8f0; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; background: #0284c7; color: white; margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<div id="sidebar">
+  <div>
+    <h1>🏥 CareFlow Process Map</h1>
+    <p class="subtitle">Sepsis Patient Journey Visual Analytics (PM4Py DFG)</p>
+  </div>
+
+  <div class="card">
+    <h3>Dataset Summary</h3>
+    <div class="stat-grid">
+      <div class="stat-item"><div class="stat-val">15,214</div><div class="stat-lbl">Total Events</div></div>
+      <div class="stat-item"><div class="stat-val">1,050</div><div class="stat-lbl">Unique Patients</div></div>
+      <div class="stat-item"><div class="stat-val">16</div><div class="stat-lbl">Activities</div></div>
+      <div class="stat-item"><div class="stat-val">846</div><div class="stat-lbl">Process Variants</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Filter Transitions</h3>
+    <div class="slider-control">
+      <label style="font-size: 0.8rem; display: flex; justify-content: space-between;">
+        <span>Min Frequency:</span>
+        <strong id="filterVal">50 events</strong>
+      </label>
+      <input type="range" id="freqSlider" min="1" max="500" value="50" step="5">
+      <span style="font-size: 0.7rem; color: #94a3b8;">Slide to filter noisy low-frequency transitions.</span>
+    </div>
+  </div>
+
+  <div class="card" id="inspectCard">
+    <h3>Element Details</h3>
+    <div id="inspectContent" class="detail-box">
+      Click on any activity node or transition arc to inspect transition metrics, waiting times, and frequencies.
+    </div>
+  </div>
+</div>
+
+<div id="main">
+  <canvas id="canvas"></canvas>
+</div>
+
+<script>
+const nodes = [{"id": "Admission IC", "label": "Admission IC"}, {"id": "Admission NC", "label": "Admission NC"}, {"id": "CRP", "label": "CRP"}, {"id": "ER Registration", "label": "ER Registration"}, {"id": "ER Sepsis Triage", "label": "ER Sepsis Triage"}, {"id": "ER Triage", "label": "ER Triage"}, {"id": "IV Antibiotics", "label": "IV Antibiotics"}, {"id": "IV Liquid", "label": "IV Liquid"}, {"id": "LacticAcid", "label": "LacticAcid"}, {"id": "Leucocytes", "label": "Leucocytes"}, {"id": "Release A", "label": "Release A"}, {"id": "Release B", "label": "Release B"}, {"id": "Release C", "label": "Release C"}, {"id": "Release D", "label": "Release D"}, {"id": "Release E", "label": "Release E"}, {"id": "Return ER", "label": "Return ER"}];
+const edges = [{"from": "Leucocytes", "to": "CRP", "count": 1778, "pct": 12.55, "mean_hrs": 5.74, "median_hrs": 0.0}, {"from": "CRP", "to": "Leucocytes", "count": 1445, "pct": 10.2, "mean_hrs": 12.4, "median_hrs": 0.0}, {"from": "ER Registration", "to": "ER Triage", "count": 971, "pct": 6.86, "mean_hrs": 0.18, "median_hrs": 0.13}, {"from": "ER Triage", "to": "ER Sepsis Triage", "count": 905, "pct": 6.39, "mean_hrs": 0.05, "median_hrs": 0.01}, {"from": "CRP", "to": "LacticAcid", "count": 629, "pct": 4.44, "mean_hrs": 1.03, "median_hrs": 0.0}, {"from": "LacticAcid", "to": "Leucocytes", "count": 565, "pct": 3.99, "mean_hrs": 3.14, "median_hrs": 0.0}, {"from": "IV Liquid", "to": "IV Antibiotics", "count": 501, "pct": 3.54, "mean_hrs": 0.22, "median_hrs": 0.0}, {"from": "IV Antibiotics", "to": "Admission NC", "count": 489, "pct": 3.45, "mean_hrs": 1.08, "median_hrs": 0.1}, {"from": "Leucocytes", "to": "Leucocytes", "count": 458, "pct": 3.23, "mean_hrs": 34.8, "median_hrs": 24.0}, {"from": "Leucocytes", "to": "LacticAcid", "count": 435, "pct": 3.07, "mean_hrs": 1.62, "median_hrs": 0.0}, {"from": "Admission NC", "to": "Leucocytes", "count": 408, "pct": 2.88, "mean_hrs": 32.74, "median_hrs": 24.97}, {"from": "LacticAcid", "to": "CRP", "count": 404, "pct": 2.85, "mean_hrs": 3.7, "median_hrs": 0.0}, {"from": "Admission NC", "to": "CRP", "count": 369, "pct": 2.61, "mean_hrs": 33.65, "median_hrs": 24.09}, {"from": "CRP", "to": "Release A", "count": 322, "pct": 2.27, "mean_hrs": 46.92, "median_hrs": 31.25}, {"from": "CRP", "to": "CRP", "count": 317, "pct": 2.24, "mean_hrs": 47.68, "median_hrs": 48.0}, {"from": "ER Sepsis Triage", "to": "IV Liquid", "count": 285, "pct": 2.01, "mean_hrs": 0.21, "median_hrs": 0.01}, {"from": "Release A", "to": "Return ER", "count": 276, "pct": 1.95, "mean_hrs": 1976.14, "median_hrs": 1134.4}, {"from": "ER Sepsis Triage", "to": "Leucocytes", "count": 269, "pct": 1.9, "mean_hrs": 0.31, "median_hrs": 0.23}, {"from": "Leucocytes", "to": "Release A", "count": 225, "pct": 1.59, "mean_hrs": 46.99, "median_hrs": 30.25}, {"from": "ER Sepsis Triage", "to": "CRP", "count": 192, "pct": 1.36, "mean_hrs": 0.3, "median_hrs": 0.24}, {"from": "CRP", "to": "Admission NC", "count": 187, "pct": 1.32, "mean_hrs": 8.38, "median_hrs": 4.0}, {"from": "Admission NC", "to": "Admission NC", "count": 175, "pct": 1.24, "mean_hrs": 15.64, "median_hrs": 14.79}, {"from": "Leucocytes", "to": "Admission NC", "count": 153, "pct": 1.08, "mean_hrs": 10.91, "median_hrs": 4.0}, {"from": "ER Sepsis Triage", "to": "LacticAcid", "count": 148, "pct": 1.04, "mean_hrs": 0.26, "median_hrs": 0.2}, {"from": "LacticAcid", "to": "IV Liquid", "count": 124, "pct": 0.88, "mean_hrs": 2.39, "median_hrs": 2.26}, {"from": "Admission NC", "to": "Release A", "count": 117, "pct": 0.83, "mean_hrs": 77.8, "median_hrs": 67.74}, {"from": "CRP", "to": "IV Liquid", "count": 111, "pct": 0.78, "mean_hrs": 2.16, "median_hrs": 1.77}, {"from": "LacticAcid", "to": "Admission NC", "count": 102, "pct": 0.72, "mean_hrs": 4.15, "median_hrs": 3.63}, {"from": "Leucocytes", "to": "IV Liquid", "count": 102, "pct": 0.72, "mean_hrs": 1.82, "median_hrs": 1.41}, {"from": "LacticAcid", "to": "IV Antibiotics", "count": 89, "pct": 0.63, "mean_hrs": 1.64, "median_hrs": 1.64}, {"from": "LacticAcid", "to": "LacticAcid", "count": 83, "pct": 0.59, "mean_hrs": 15.29, "median_hrs": 17.2}, {"from": "CRP", "to": "IV Antibiotics", "count": 81, "pct": 0.57, "mean_hrs": 1.66, "median_hrs": 1.48}, {"from": "ER Sepsis Triage", "to": "IV Antibiotics", "count": 76, "pct": 0.54, "mean_hrs": 0.51, "median_hrs": 0.06}, {"from": "Leucocytes", "to": "IV Antibiotics", "count": 73, "pct": 0.52, "mean_hrs": 1.97, "median_hrs": 2.03}, {"from": "IV Antibiotics", "to": "IV Liquid", "count": 62, "pct": 0.44, "mean_hrs": 1.58, "median_hrs": 0.0}, {"from": "IV Liquid", "to": "Leucocytes", "count": 55, "pct": 0.39, "mean_hrs": 2.32, "median_hrs": 0.18}, {"from": "IV Antibiotics", "to": "Leucocytes", "count": 53, "pct": 0.37, "mean_hrs": 1.18, "median_hrs": 0.23}, {"from": "ER Triage", "to": "Leucocytes", "count": 52, "pct": 0.37, "mean_hrs": 0.89, "median_hrs": 0.21}, {"from": "IV Liquid", "to": "Admission NC", "count": 52, "pct": 0.37, "mean_hrs": 1.66, "median_hrs": 1.6}, {"from": "ER Triage", "to": "CRP", "count": 48, "pct": 0.34, "mean_hrs": 0.27, "median_hrs": 0.22}, {"from": "IV Antibiotics", "to": "CRP", "count": 48, "pct": 0.34, "mean_hrs": 5.07, "median_hrs": 0.15}, {"from": "IV Antibiotics", "to": "Admission IC", "count": 46, "pct": 0.32, "mean_hrs": 0.71, "median_hrs": 0.05}, {"from": "IV Liquid", "to": "CRP", "count": 46, "pct": 0.32, "mean_hrs": 7.42, "median_hrs": 0.17}, {"from": "LacticAcid", "to": "ER Sepsis Triage", "count": 42, "pct": 0.3, "mean_hrs": 0.63, "median_hrs": 0.38}, {"from": "Admission IC", "to": "LacticAcid", "count": 41, "pct": 0.29, "mean_hrs": 4.85, "median_hrs": 3.14}, {"from": "Admission IC", "to": "Leucocytes", "count": 38, "pct": 0.27, "mean_hrs": 5.7, "median_hrs": 3.09}, {"from": "IV Liquid", "to": "LacticAcid", "count": 36, "pct": 0.25, "mean_hrs": 0.43, "median_hrs": 0.15}, {"from": "Leucocytes", "to": "ER Sepsis Triage", "count": 36, "pct": 0.25, "mean_hrs": 0.61, "median_hrs": 0.22}, {"from": "CRP", "to": "ER Sepsis Triage", "count": 35, "pct": 0.25, "mean_hrs": 0.87, "median_hrs": 0.38}, {"from": "Admission IC", "to": "CRP", "count": 32, "pct": 0.23, "mean_hrs": 4.61, "median_hrs": 2.02}, {"from": "ER Triage", "to": "LacticAcid", "count": 29, "pct": 0.2, "mean_hrs": 0.26, "median_hrs": 0.2}, {"from": "IV Antibiotics", "to": "LacticAcid", "count": 28, "pct": 0.2, "mean_hrs": 0.5, "median_hrs": 0.13}, {"from": "Admission NC", "to": "LacticAcid", "count": 27, "pct": 0.19, "mean_hrs": 14.38, "median_hrs": 7.75}, {"from": "IV Liquid", "to": "ER Triage", "count": 23, "pct": 0.16, "mean_hrs": 0.08, "median_hrs": 0.08}, {"from": "Admission NC", "to": "IV Liquid", "count": 22, "pct": 0.16, "mean_hrs": 15.95, "median_hrs": 19.13}, {"from": "ER Registration", "to": "IV Liquid", "count": 22, "pct": 0.16, "mean_hrs": 0.08, "median_hrs": 0.07}, {"from": "ER Registration", "to": "Leucocytes", "count": 21, "pct": 0.15, "mean_hrs": 0.32, "median_hrs": 0.31}, {"from": "Admission NC", "to": "Admission IC", "count": 20, "pct": 0.14, "mean_hrs": 6.56, "median_hrs": 4.88}, {"from": "CRP", "to": "Release B", "count": 19, "pct": 0.13, "mean_hrs": 31.1, "median_hrs": 22.75}, {"from": "ER Sepsis Triage", "to": "Admission NC", "count": 19, "pct": 0.13, "mean_hrs": 2.13, "median_hrs": 1.6}, {"from": "Leucocytes", "to": "Admission IC", "count": 18, "pct": 0.13, "mean_hrs": 5.45, "median_hrs": 3.13}, {"from": "Admission NC", "to": "Release B", "count": 17, "pct": 0.12, "mean_hrs": 34.65, "median_hrs": 20.66}, {"from": "CRP", "to": "Admission IC", "count": 17, "pct": 0.12, "mean_hrs": 14.93, "median_hrs": 2.92}, {"from": "CRP", "to": "ER Triage", "count": 16, "pct": 0.11, "mean_hrs": 0.12, "median_hrs": 0.06}, {"from": "IV Liquid", "to": "ER Registration", "count": 15, "pct": 0.11, "mean_hrs": 0.2, "median_hrs": 0.04}, {"from": "CRP", "to": "ER Registration", "count": 14, "pct": 0.1, "mean_hrs": 5.57, "median_hrs": 5.77}, {"from": "ER Registration", "to": "CRP", "count": 14, "pct": 0.1, "mean_hrs": 0.27, "median_hrs": 0.22}, {"from": "LacticAcid", "to": "ER Triage", "count": 14, "pct": 0.1, "mean_hrs": 0.1, "median_hrs": 0.08}, {"from": "Leucocytes", "to": "ER Registration", "count": 14, "pct": 0.1, "mean_hrs": 5.67, "median_hrs": 5.45}, {"from": "Leucocytes", "to": "Release B", "count": 14, "pct": 0.1, "mean_hrs": 49.63, "median_hrs": 28.51}, {"from": "CRP", "to": "Release C", "count": 13, "pct": 0.09, "mean_hrs": 110.05, "median_hrs": 97.5}, {"from": "CRP", "to": "Release D", "count": 12, "pct": 0.08, "mean_hrs": 84.81, "median_hrs": 62.12}, {"from": "ER Registration", "to": "ER Sepsis Triage", "count": 11, "pct": 0.08, "mean_hrs": 0.06, "median_hrs": 0.04}, {"from": "ER Triage", "to": "IV Liquid", "count": 11, "pct": 0.08, "mean_hrs": 0.26, "median_hrs": 0.1}, {"from": "Leucocytes", "to": "ER Triage", "count": 11, "pct": 0.08, "mean_hrs": 0.1, "median_hrs": 0.08}, {"from": "Leucocytes", "to": "Release D", "count": 11, "pct": 0.08, "mean_hrs": 85.79, "median_hrs": 52.98}, {"from": "ER Registration", "to": "LacticAcid", "count": 10, "pct": 0.07, "mean_hrs": 0.28, "median_hrs": 0.19}, {"from": "LacticAcid", "to": "Admission IC", "count": 10, "pct": 0.07, "mean_hrs": 2.08, "median_hrs": 1.64}, {"from": "Release D", "to": "Return ER", "count": 10, "pct": 0.07, "mean_hrs": 1334.48, "median_hrs": 506.9}, {"from": "Leucocytes", "to": "Release C", "count": 8, "pct": 0.06, "mean_hrs": 126.28, "median_hrs": 101.25}, {"from": "IV Liquid", "to": "ER Sepsis Triage", "count": 7, "pct": 0.05, "mean_hrs": 0.86, "median_hrs": 0.29}, {"from": "IV Antibiotics", "to": "ER Triage", "count": 6, "pct": 0.04, "mean_hrs": 0.1, "median_hrs": 0.04}, {"from": "Release C", "to": "Return ER", "count": 6, "pct": 0.04, "mean_hrs": 1635.73, "median_hrs": 1673.02}, {"from": "Admission NC", "to": "ER Sepsis Triage", "count": 5, "pct": 0.04, "mean_hrs": 1.93, "median_hrs": 0.06}, {"from": "ER Sepsis Triage", "to": "ER Registration", "count": 5, "pct": 0.04, "mean_hrs": 2.09, "median_hrs": 0.07}, {"from": "ER Sepsis Triage", "to": "ER Triage", "count": 5, "pct": 0.04, "mean_hrs": 0.13, "median_hrs": 0.15}, {"from": "ER Triage", "to": "ER Registration", "count": 5, "pct": 0.04, "mean_hrs": 0.92, "median_hrs": 0.31}, {"from": "Admission IC", "to": "Admission NC", "count": 4, "pct": 0.03, "mean_hrs": 8.54, "median_hrs": 7.35}, {"from": "Admission NC", "to": "Release C", "count": 4, "pct": 0.03, "mean_hrs": 211.36, "median_hrs": 222.75}, {"from": "LacticAcid", "to": "Release B", "count": 4, "pct": 0.03, "mean_hrs": 12.28, "median_hrs": 6.41}, {"from": "CRP", "to": "Release E", "count": 3, "pct": 0.02, "mean_hrs": 14.92, "median_hrs": 16.75}, {"from": "IV Liquid", "to": "Admission IC", "count": 3, "pct": 0.02, "mean_hrs": 2.03, "median_hrs": 2.2}, {"from": "LacticAcid", "to": "Release A", "count": 3, "pct": 0.02, "mean_hrs": 90.33, "median_hrs": 98.0}, {"from": "Return ER", "to": "CRP", "count": 3, "pct": 0.02, "mean_hrs": 0.31, "median_hrs": 0.27}, {"from": "Admission NC", "to": "IV Antibiotics", "count": 2, "pct": 0.01, "mean_hrs": 4.3, "median_hrs": 4.3}, {"from": "IV Antibiotics", "to": "Release A", "count": 2, "pct": 0.01, "mean_hrs": 112.9, "median_hrs": 112.9}, {"from": "IV Liquid", "to": "Release A", "count": 2, "pct": 0.01, "mean_hrs": 59.25, "median_hrs": 59.25}, {"from": "Leucocytes", "to": "Release E", "count": 2, "pct": 0.01, "mean_hrs": 98.75, "median_hrs": 98.75}, {"from": "Admission IC", "to": "Admission IC", "count": 1, "pct": 0.01, "mean_hrs": 0.67, "median_hrs": 0.67}, {"from": "Admission IC", "to": "ER Sepsis Triage", "count": 1, "pct": 0.01, "mean_hrs": 0.01, "median_hrs": 0.01}, {"from": "Admission NC", "to": "ER Triage", "count": 1, "pct": 0.01, "mean_hrs": 31.55, "median_hrs": 31.55}, {"from": "Admission NC", "to": "Release D", "count": 1, "pct": 0.01, "mean_hrs": 191.94, "median_hrs": 191.94}, {"from": "ER Registration", "to": "Admission IC", "count": 1, "pct": 0.01, "mean_hrs": 0.66, "median_hrs": 0.66}, {"from": "ER Sepsis Triage", "to": "Admission IC", "count": 1, "pct": 0.01, "mean_hrs": 2.0, "median_hrs": 2.0}, {"from": "ER Triage", "to": "IV Antibiotics", "count": 1, "pct": 0.01, "mean_hrs": 0.58, "median_hrs": 0.58}, {"from": "IV Antibiotics", "to": "ER Registration", "count": 1, "pct": 0.01, "mean_hrs": 0.19, "median_hrs": 0.19}, {"from": "IV Antibiotics", "to": "Release B", "count": 1, "pct": 0.01, "mean_hrs": 0.17, "median_hrs": 0.17}, {"from": "IV Liquid", "to": "Release B", "count": 1, "pct": 0.01, "mean_hrs": 17.43, "median_hrs": 17.43}, {"from": "LacticAcid", "to": "ER Registration", "count": 1, "pct": 0.01, "mean_hrs": 0.52, "median_hrs": 0.52}, {"from": "LacticAcid", "to": "Release E", "count": 1, "pct": 0.01, "mean_hrs": 5.0, "median_hrs": 5.0}, {"from": "Leucocytes", "to": "Return ER", "count": 1, "pct": 0.01, "mean_hrs": 280.88, "median_hrs": 280.88}, {"from": "Release A", "to": "CRP", "count": 1, "pct": 0.01, "mean_hrs": 1.18, "median_hrs": 1.18}, {"from": "Release A", "to": "Leucocytes", "count": 1, "pct": 0.01, "mean_hrs": 5.0, "median_hrs": 5.0}, {"from": "Release B", "to": "Admission NC", "count": 1, "pct": 0.01, "mean_hrs": 0.23, "median_hrs": 0.23}, {"from": "Release E", "to": "Return ER", "count": 1, "pct": 0.01, "mean_hrs": 2705.14, "median_hrs": 2705.14}];
+
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const slider = document.getElementById('freqSlider');
+const filterVal = document.getElementById('filterVal');
+const inspectContent = document.getElementById('inspectContent');
+
+let width, height;
+function resize() {
+  width = canvas.width = canvas.parentElement.clientWidth;
+  height = canvas.height = canvas.parentElement.clientHeight;
+  draw();
+}
+window.addEventListener('resize', resize);
+
+const positions = {
+  'ER Registration': { x: 0.1, y: 0.5 },
+  'ER Triage': { x: 0.22, y: 0.35 },
+  'ER Sepsis Triage': { x: 0.22, y: 0.65 },
+  'IV Liquid': { x: 0.38, y: 0.3 },
+  'IV Antibiotics': { x: 0.38, y: 0.5 },
+  'LacticAcid': { x: 0.38, y: 0.7 },
+  'Leucocytes': { x: 0.54, y: 0.35 },
+  'CRP': { x: 0.54, y: 0.65 },
+  'Admission NC': { x: 0.70, y: 0.4 },
+  'Admission IC': { x: 0.70, y: 0.7 },
+  'Release A': { x: 0.88, y: 0.25 },
+  'Release B': { x: 0.88, y: 0.4 },
+  'Release C': { x: 0.88, y: 0.55 },
+  'Release D': { x: 0.88, y: 0.7 },
+  'Release E': { x: 0.88, y: 0.82 },
+  'Return ER': { x: 0.88, y: 0.93 }
+};
+
+let minFreq = 50;
+let selectedNode = null;
+
+slider.addEventListener('input', (e) => {
+  minFreq = parseInt(e.target.value);
+  filterVal.textContent = minFreq + ' events';
+  draw();
+});
+
+function draw() {
+  ctx.clearRect(0, 0, width, height);
+
+  const activeEdges = edges.filter(e => e.count >= minFreq);
+  const maxCount = Math.max(...edges.map(e => e.count), 1);
+
+  // Draw Edges
+  activeEdges.forEach(e => {
+    const p1 = positions[e.from] || { x: 0.5, y: 0.5 };
+    const p2 = positions[e.to] || { x: 0.5, y: 0.5 };
+
+    const x1 = p1.x * width;
+    const y1 = p1.y * height;
+    const x2 = p2.x * width;
+    const y2 = p2.y * height;
+
+    const lw = 1 + (e.count / maxCount) * 5;
+    ctx.beginPath();
+    ctx.moveTo(x1, y1);
+
+    // Curvature
+    const midX = (x1 + x2) / 2;
+    const midY = (y1 + y2) / 2 + (e.from === e.to ? -40 : (y2 < y1 ? -20 : 20));
+    ctx.quadraticCurveTo(midX, midY, x2, y2);
+
+    ctx.strokeStyle = e.mean_hrs > 24 ? 'rgba(239, 68, 68, 0.7)' : (e.mean_hrs > 6 ? 'rgba(245, 158, 11, 0.6)' : 'rgba(56, 189, 248, 0.5)');
+    ctx.lineWidth = lw;
+    ctx.stroke();
+
+    // Arrowhead
+    const angle = Math.atan2(y2 - midY, x2 - midX);
+    ctx.save();
+    ctx.translate(x2 - Math.cos(angle)*18, y2 - Math.sin(angle)*18);
+    ctx.rotate(angle);
+    ctx.fillStyle = ctx.strokeStyle;
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(-8, -4);
+    ctx.lineTo(-8, 4);
+    ctx.closePath();
+    ctx.fill();
+    ctx.restore();
+  });
+
+  // Draw Nodes
+  nodes.forEach(n => {
+    const pos = positions[n.id] || { x: 0.5, y: 0.5 };
+    const x = pos.x * width;
+    const y = pos.y * height;
+
+    ctx.fillStyle = selectedNode === n.id ? '#38bdf8' : '#1e293b';
+    ctx.strokeStyle = '#0284c7';
+    ctx.lineWidth = selectedNode === n.id ? 3 : 1.5;
+
+    ctx.beginPath();
+    ctx.roundRect(x - 55, y - 16, 110, 32, 8);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.fillStyle = selectedNode === n.id ? '#0f172a' : '#f8fafc';
+    ctx.font = '600 11px system-ui';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(n.label, x, y);
+  });
+}
+
+canvas.addEventListener('click', (e) => {
+  const rect = canvas.getBoundingClientRect();
+  const clickX = e.clientX - rect.left;
+  const clickY = e.clientY - rect.top;
+
+  let clicked = null;
+  nodes.forEach(n => {
+    const pos = positions[n.id] || { x: 0.5, y: 0.5 };
+    const x = pos.x * width;
+    const y = pos.y * height;
+    if (Math.abs(clickX - x) <= 55 && Math.abs(clickY - y) <= 16) {
+      clicked = n.id;
+    }
+  });
+
+  selectedNode = clicked;
+  if (clicked) {
+    const incoming = edges.filter(e => e.to === clicked);
+    const outgoing = edges.filter(e => e.from === clicked);
+    const inTotal = incoming.reduce((acc, c) => acc + c.count, 0);
+    const outTotal = outgoing.reduce((acc, c) => acc + c.count, 0);
+
+    inspectContent.innerHTML = `
+      <div class="badge">${clicked}</div>
+      <p style="margin-bottom: 8px;"><strong>Inflow:</strong> ${inTotal:,} transitions (${incoming.length} sources)</p>
+      <p style="margin-bottom: 8px;"><strong>Outflow:</strong> ${outTotal:,} transitions (${outgoing.length} targets)</p>
+      <hr style="border:0; border-top:1px solid #334155; margin:8px 0;">
+      <p style="font-size:0.75rem; color:#94a3b8;"><strong>Top Outgoing Paths:</strong></p>
+      ${outgoing.sort((a,b)=>b.count-a.count).slice(0,3).map(o=>`<div>• to ${o.to}: <strong>${o.count:,}</strong> (${o.mean_hrs.toFixed(1)}h mean)</div>`).join('')}
+    `;
+  } else {
+    inspectContent.textContent = 'Click on any activity node or transition arc to inspect transition metrics, waiting times, and frequencies.';
+  }
+  draw();
+});
+
+resize();
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+previous_activity,concept:name,total_transitions,average_minutes,median_minutes
+Leucocytes,CRP,1778,344.18,0.0
+CRP,Leucocytes,1445,744.27,0.0
+ER Registration,ER Triage,971,10.59,7.9
+ER Triage,ER Sepsis Triage,905,2.9,0.42
+CRP,LacticAcid,629,61.55,0.0
+LacticAcid,Leucocytes,565,188.49,0.0
+IV Liquid,IV Antibiotics,501,13.46,0.1
+IV Antibiotics,Admission NC,489,64.88,5.87
+Leucocytes,Leucocytes,458,2087.75,1440.0
+Leucocytes,LacticAcid,435,97.17,0.0
+Admission NC,Leucocytes,408,1964.26,1498.18
+LacticAcid,CRP,404,221.92,0.0
+Admission NC,CRP,369,2018.91,1445.57
+CRP,Release A,322,2814.95,1875.0
+CRP,CRP,317,2860.61,2880.0
+ER Sepsis Triage,IV Liquid,285,12.45,0.38
+Release A,Return ER,276,118568.58,68064.03
+ER Sepsis Triage,Leucocytes,269,18.57,14.05
+Leucocytes,Release A,225,2819.21,1815.0
+ER Sepsis Triage,CRP,192,17.99,14.55
+CRP,Admission NC,187,502.76,240.0
+Admission NC,Admission NC,175,938.54,887.52
+Leucocytes,Admission NC,153,654.86,240.0
+ER Sepsis Triage,LacticAcid,148,15.75,12.09
+LacticAcid,IV Liquid,124,143.65,135.33
+Admission NC,Release A,117,4667.87,4064.47
+CRP,IV Liquid,111,129.36,106.07
+Leucocytes,IV Liquid,102,109.25,84.83
+LacticAcid,Admission NC,102,249.06,217.65
+LacticAcid,IV Antibiotics,89,98.64,98.52
+LacticAcid,LacticAcid,83,917.65,1032.0
+CRP,IV Antibiotics,81,99.79,88.83
+ER Sepsis Triage,IV Antibiotics,76,30.82,3.32
+Leucocytes,IV Antibiotics,73,118.37,121.55
+IV Antibiotics,IV Liquid,62,94.64,0.02
+IV Liquid,Leucocytes,55,139.0,11.0
+IV Antibiotics,Leucocytes,53,70.68,13.78
+IV Liquid,Admission NC,52,99.4,96.14
+ER Triage,Leucocytes,52,53.21,12.9
+ER Triage,CRP,48,16.11,13.02
+IV Antibiotics,CRP,48,304.37,9.12
+IV Liquid,CRP,46,445.0,10.02
+IV Antibiotics,Admission IC,46,42.86,2.71
+LacticAcid,ER Sepsis Triage,42,37.73,22.71
+Admission IC,LacticAcid,41,291.06,188.63
+Admission IC,Leucocytes,38,341.72,185.27
+IV Liquid,LacticAcid,36,25.68,8.98
+Leucocytes,ER Sepsis Triage,36,36.79,13.42
+CRP,ER Sepsis Triage,35,52.11,22.65
+Admission IC,CRP,32,276.75,121.11
+ER Triage,LacticAcid,29,15.43,12.07
+IV Antibiotics,LacticAcid,28,29.91,7.67
+Admission NC,LacticAcid,27,862.74,464.82
+IV Liquid,ER Triage,23,4.97,4.57
+Admission NC,IV Liquid,22,957.13,1148.01
+ER Registration,IV Liquid,22,4.86,4.29
+ER Registration,Leucocytes,21,19.35,18.5
+Admission NC,Admission IC,20,393.8,292.62
+CRP,Release B,19,1865.74,1365.0
+ER Sepsis Triage,Admission NC,19,128.0,95.8
+Leucocytes,Admission IC,18,326.86,188.01
+CRP,Admission IC,17,895.88,175.0
+Admission NC,Release B,17,2078.74,1239.73
+CRP,ER Triage,16,7.17,3.38
+IV Liquid,ER Registration,15,12.26,2.1
+Leucocytes,ER Registration,14,340.22,326.9
+Leucocytes,Release B,14,2977.93,1710.46
+CRP,ER Registration,14,334.34,346.0
+ER Registration,CRP,14,16.4,13.36
+LacticAcid,ER Triage,14,5.96,4.89
+CRP,Release C,13,6603.08,5850.0
+CRP,Release D,12,5088.72,3727.5
+ER Triage,IV Liquid,11,15.48,6.13
+Leucocytes,ER Triage,11,6.22,4.82
+Leucocytes,Release D,11,5147.61,3179.02
+ER Registration,ER Sepsis Triage,11,3.32,2.1
+ER Registration,LacticAcid,10,16.6,11.15
+LacticAcid,Admission IC,10,124.89,98.11
+Release D,Return ER,10,80068.77,30413.89
+Leucocytes,Release C,8,7576.88,6075.0
+IV Liquid,ER Sepsis Triage,7,51.55,17.32
+Release C,Return ER,6,98143.62,100381.18
+IV Antibiotics,ER Triage,6,6.09,2.15
+ER Sepsis Triage,ER Triage,5,7.93,9.03
+ER Triage,ER Registration,5,55.38,18.48
+Admission NC,ER Sepsis Triage,5,115.55,3.58
+ER Sepsis Triage,ER Registration,5,125.16,4.48
+Admission NC,Release C,4,12681.58,13365.0
+Admission IC,Admission NC,4,512.68,441.17
+LacticAcid,Release B,4,736.75,384.5
+CRP,Release E,3,895.0,1005.0
+Return ER,CRP,3,18.62,16.0
+LacticAcid,Release A,3,5420.0,5880.0
+IV Liquid,Admission IC,3,121.69,131.77
+IV Liquid,Release A,2,3554.79,3554.79
+IV Antibiotics,Release A,2,6773.95,6773.95
+Leucocytes,Release E,2,5925.0,5925.0
+Admission NC,IV Antibiotics,2,257.88,257.88
+Admission IC,ER Sepsis Triage,1,0.52,0.52
+ER Sepsis Triage,Admission IC,1,120.28,120.28
+ER Registration,Admission IC,1,39.72,39.72
+Admission NC,ER Triage,1,1892.95,1892.95
+Admission NC,Release D,1,11516.62,11516.62
+Admission IC,Admission IC,1,40.4,40.4
+ER Triage,IV Antibiotics,1,34.87,34.87
+IV Antibiotics,ER Registration,1,11.67,11.67
+IV Antibiotics,Release B,1,10.17,10.17
+LacticAcid,ER Registration,1,31.35,31.35
+IV Liquid,Release B,1,1045.68,1045.68
+LacticAcid,Release E,1,300.0,300.0
+Leucocytes,Return ER,1,16852.65,16852.65
+Release B,Admission NC,1,13.5,13.5
+Release A,Leucocytes,1,300.0,300.0
+Release A,CRP,1,71.0,71.0
+Release E,Return ER,1,162308.33,162308.33
