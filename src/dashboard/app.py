@@ -262,7 +262,7 @@ if selected_module.startswith("🩺 1"):
 
     st.markdown("### 📌 Executive Clinical Problem Statement")
     st.info("""
-    Hospital leadership and emergency department clinicians struggle to understand why sepsis patient handoffs stall and how actual care deviates from international clinical guidelines. 
+    Hospital leadership and emergency department clinicians struggle to understand why sepsis patient handoffs stall and how actual care deviates from international clinical guidelines.
     Traditional hospital BI dashboards aggregate data into high-level static metrics such as **Average Length of Stay (ALOS)**, which act as a black box: they indicate *how long* a patient remained in the hospital, but cannot reveal the *chaotic, real-world sequence of clinical activities* patients actually underwent.
 
     **CareFlow** bridges this gap using **Process Mining** algorithms on electronic health record (EHR) event logs. By discovering objective workflows, CareFlow eliminates reliance on idealized clinical flowcharts, uncovering actual diagnostic rework loops, emergency ward boarding delays, and international **Surviving Sepsis Campaign** guideline compliance.
@@ -357,7 +357,7 @@ elif selected_module.startswith("👤 3"):
         k1, k2, k3, k4 = st.columns(4)
         icu_cases = df_cases[df_cases["had_icu_admission"] == True] if "had_icu_admission" in df_cases else pd.DataFrame()
         return_cases = df_cases[df_cases["had_return_er"] == True] if "had_return_er" in df_cases else pd.DataFrame()
-        
+
         k1.metric("Profiled Patients", len(df_cases))
         k2.metric("ICU Admissions (Admission IC)", f"{len(icu_cases)} ({len(icu_cases)/len(df_cases)*100:.1f}%)")
         k3.metric("Recorded Return ER", f"{len(return_cases)} ({len(return_cases)/len(df_cases)*100:.1f}%)")
@@ -445,7 +445,7 @@ elif selected_module.startswith("🧬 5"):
 
         st.markdown("### 📈 Top 15 Most Frequent Patient Trajectories")
         top_15 = df_var.head(15).copy()
-        
+
         chart = alt.Chart(top_15).mark_bar(color="#4527a0").encode(
             x=alt.X("case_count:Q", title="Patient Cases"),
             y=alt.Y("variant_id:N", sort="-x", title="Variant ID"),
@@ -664,7 +664,7 @@ elif selected_module.startswith("⏳ 10"):
         st.warning("Transitions detailed data not available.")
     else:
         st.markdown("### 🔍 Search and Filter Transition Waiting Times")
-        
+
         min_transitions = st.slider("Minimum Transition Volume", min_value=1, max_value=500, value=20)
         filtered_trans = df_trans[df_trans["total_transitions"] >= min_transitions].copy()
 
