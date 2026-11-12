@@ -124,6 +124,21 @@ def get_all_project_data():
     cleaned_log = load_csv_safe(DATA_PROCESSED / "sepsis_cleaned.csv")
     times_log = load_csv_safe(DATA_PROCESSED / "sepsis_with_times.csv")
     case_summary = load_csv_safe(DATA_PROCESSED / "patient_case_summary.csv")
+
+    # Normalize standard XES attributes for dashboard modules.
+    # keep_default_na=False above preserves the valid case ID "NA".
+    xes_column_mapping = {
+        "case:concept:name": "case_id",
+        "concept:name": "activity",
+        "time:timestamp": "timestamp",
+    }
+    cleaned_log = cleaned_log.rename(columns=xes_column_mapping)
+    times_log = times_log.rename(columns=xes_column_mapping)
+    case_summary = case_summary.rename(columns={
+        "case:concept:name": "case_id",
+        "treatment_duration_hours": "total_duration_hours",
+    })
+
     act_summary = load_csv_safe(OUTPUTS_TABLES / "activity_frequency_detailed.csv")
     if act_summary.empty:
         act_summary = load_csv_safe(DATA_PROCESSED / "activity_frequency.csv")
@@ -132,6 +147,19 @@ def get_all_project_data():
     transitions_detailed = load_csv_safe(OUTPUTS_TABLES / "activity_transitions_detailed.csv")
     if transitions_detailed.empty:
         transitions_detailed = load_csv_safe(DATA_PROCESSED / "activity_time_differences.csv")
+
+    # Normalize the actual pipeline output schemas to dashboard-friendly names.
+    # The processed activity_frequency.csv contains occurrence and reach counts,
+    # but does not contain rework calculations.
+    act_summary = act_summary.rename(columns={
+        "concept:name": "activity",
+        "total_occurrences": "occurrence_count",
+        "unique_cases": "unique_cases_reached",
+    })
+    transitions_detailed = transitions_detailed.rename(columns={
+        "concept:name": "next_activity",
+    })
+
     triage_antibiotics = load_csv_safe(OUTPUTS_TABLES / "triage_to_antibiotics_analysis.csv")
     admission_latency = load_csv_safe(OUTPUTS_TABLES / "admission_latency_analysis.csv")
     bottlenecks_summary = load_csv_safe(OUTPUTS_TABLES / "clinical_bottlenecks_summary.csv")
@@ -353,15 +381,16 @@ elif selected_module.startswith("👤 3"):
     if df_cases.empty:
         st.warning("Patient case profiles not available.")
     else:
-        # High level KPIs
+        # High-level KPIs based only on fields present in the case summary.
         k1, k2, k3, k4 = st.columns(4)
-        icu_cases = df_cases[df_cases["had_icu_admission"] == True] if "had_icu_admission" in df_cases else pd.DataFrame()
-        return_cases = df_cases[df_cases["had_return_er"] == True] if "had_return_er" in df_cases else pd.DataFrame()
-
-        k1.metric("Profiled Patients", len(df_cases))
-        k2.metric("ICU Admissions (Admission IC)", f"{len(icu_cases)} ({len(icu_cases)/len(df_cases)*100:.1f}%)")
-        k3.metric("Recorded Return ER", f"{len(return_cases)} ({len(return_cases)/len(df_cases)*100:.1f}%)")
-        k4.metric("Median Log Duration", f"{df_cases['total_duration_hours'].median():.1f} hrs" if "total_duration_hours" in df_cases else "N/A")
+        k1.metric("Profiled Patients", f"{len(df_cases):,}")
+        k2.metric("Total Events", f"{df_cases['total_events'].sum():,}" if "total_events" in df_cases else "N/A")
+        k3.metric("Median Events / Patient", f"{df_cases['total_events'].median():.1f}" if "total_events" in df_cases else "N/A")
+        k4.metric(
+            "Median Treatment Duration",
+            f"{df_cases['total_duration_hours'].median():.1f} hrs"
+            if "total_duration_hours" in df_cases else "N/A"
+        )
 
         st.markdown("---")
         st.markdown("### 🔍 Individual Patient Journey Drill-Down")
@@ -380,7 +409,9 @@ elif selected_module.startswith("👤 3"):
             info_c1.info(f"**Events:** {len(patient_events)}")
             info_c2.info(f"**First Event:** {patient_events.iloc[0]['activity'] if len(patient_events)>0 else 'N/A'}")
             info_c3.info(f"**Last Event:** {patient_events.iloc[-1]['activity'] if len(patient_events)>0 else 'N/A'}")
-            info_c4.info(f"**ICU / Return ER:** {'ICU' if p_row.get('had_icu_admission') else 'No ICU'} | {'Return ER' if p_row.get('had_return_er') else 'No Return'}")
+            duration = p_row.get("total_duration_hours", "N/A")
+            duration_text = f"{float(duration):.2f} hrs" if pd.notna(duration) and duration != "" else "N/A"
+            info_c4.info(f"**Treatment Duration:** {duration_text}")
 
         st.markdown("#### Patient Event Timeline")
         st.dataframe(patient_events[["case_id", "activity", "timestamp", "org:group"]], use_container_width=True)
@@ -391,39 +422,52 @@ elif selected_module.startswith("👤 3"):
 # =============================================================================
 elif selected_module.startswith("🔄 4"):
     st.markdown('<div class="main-title">🔄 Activity Frequency & Clinical Rework Analytics</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">Quantifying diagnostic test repetition, patient reach percentages, and rework rates (Shruti)</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-title">Activity occurrence and patient reach from the available processed summary</div>', unsafe_allow_html=True)
 
     df_act = data["act_summary"]
-    if df_act.empty:
-        st.warning("Activity summary table not found.")
+    required = {"activity", "occurrence_count"}
+    if df_act.empty or not required.issubset(df_act.columns):
+        st.warning("Activity summary is missing or does not contain the required activity and occurrence columns.")
     else:
-        st.markdown("### 📊 Activity Occurrence & Rework Breakdown")
-
-        # Clean display columns
         display_df = df_act.copy()
-        if "rework_case_percentage" in display_df.columns:
-            display_df["rework_case_percentage"] = display_df["rework_case_percentage"].round(2)
-        if "case_reach_percentage" in display_df.columns:
-            display_df["case_reach_percentage"] = display_df["case_reach_percentage"].round(2)
+        numeric_cols = ["occurrence_count", "unique_cases_reached"]
+        for col in numeric_cols:
+            if col in display_df.columns:
+                display_df[col] = pd.to_numeric(display_df[col], errors="coerce")
 
-        # Bar chart of Activity Occurrences
-        chart = alt.Chart(df_act).mark_bar(color="#0d5c75").encode(
+        chart = alt.Chart(display_df).mark_bar(color="#0d5c75").encode(
             x=alt.X("occurrence_count:Q", title="Total Event Occurrences"),
             y=alt.Y("activity:N", sort="-x", title="Clinical Activity"),
-            tooltip=["activity", "occurrence_count", "unique_cases_reached", "rework_cases_count", "rework_case_percentage"]
-        ).properties(height=450, title="Occurrences per Activity across 15,214 Sepsis Events")
+            tooltip=[
+                alt.Tooltip("activity:N", title="Activity"),
+                alt.Tooltip("occurrence_count:Q", title="Occurrences"),
+                *(
+                    [alt.Tooltip("unique_cases_reached:Q", title="Unique Cases")]
+                    if "unique_cases_reached" in display_df.columns else []
+                ),
+            ],
+        ).properties(height=450, title="Occurrences per Activity")
         st.altair_chart(chart, use_container_width=True)
 
-        st.markdown("### 📋 Activity Rework & Patient Reach Data Table")
+        st.markdown("### 📋 Activity Frequency Data")
         st.dataframe(display_df, use_container_width=True)
 
-        st.markdown("### 💡 Key Clinical Insights on Diagnostic Rework")
-        st.info("""
-        - **C-Reactive Protein (CRP):** 3,262 occurrences across 1,052 cases. **68.72%** of patients had repeated measurements, reflecting continuous inflammatory response monitoring.
-        - **Leucocytes (White Blood Cell Count):** 3,383 occurrences across 1,051 cases. **67.84%** repeat rate for ongoing infection tracking.
-        - **Lactic Acid (Sepsis Perfusion Marker):** 1,454 occurrences across 866 cases (**28.53%** repeat rate), matching clinical protocols for assessing tissue hypoperfusion clearance.
-        - **Preservation of Same-Timestamp Assays:** 14 events with identical timestamps (e.g., patient 'ES') were verified as legitimate simultaneous panel draws, not technical duplicates.
-        """)
+        rework_cols = {
+            "rework_cases_count",
+            "rework_case_percentage",
+        }
+        if rework_cols.issubset(display_df.columns):
+            st.markdown("### 🔁 Clinical Rework Breakdown")
+            st.dataframe(
+                display_df[["activity", "rework_cases_count", "rework_case_percentage"]],
+                use_container_width=True,
+            )
+        else:
+            st.info(
+                "Rework metrics are not present in the available activity_frequency.csv. "
+                "This view shows verified occurrence and unique-case counts only; "
+                "no rework rate is inferred or fabricated."
+            )
 
 
 # =============================================================================
@@ -434,9 +478,21 @@ elif selected_module.startswith("🧬 5"):
     st.markdown('<div class="sub-title">Discovering 846 Distinct Care Trajectories & High Clinical Process Entropy (Madhura)</div>', unsafe_allow_html=True)
 
     df_var = data["variants_summary"]
+    variant_required = {"case_count", "case_percentage", "variant_id", "cumulative_percentage", "pathway"}
     if df_var.empty:
         st.warning("Process variants table not available.")
+    elif not variant_required.issubset(df_var.columns):
+        st.warning(
+            "The process variants file exists, but its columns do not match the dashboard's "
+            "expected variant schema. Available columns: " + ", ".join(map(str, df_var.columns))
+        )
+        st.dataframe(df_var, use_container_width=True)
     else:
+        df_var = df_var.copy()
+        df_var["case_count"] = pd.to_numeric(df_var["case_count"], errors="coerce").fillna(0)
+        df_var["case_percentage"] = pd.to_numeric(df_var["case_percentage"], errors="coerce")
+        df_var["cumulative_percentage"] = pd.to_numeric(df_var["cumulative_percentage"], errors="coerce")
+        df_var = df_var.sort_values("case_count", ascending=False)
         v1, v2, v3, v4 = st.columns(4)
         v1.metric("Total Process Variants", f"{len(df_var):,}")
         v2.metric("Total Cohort Cases", "1,050")
@@ -660,12 +716,28 @@ elif selected_module.startswith("⏳ 10"):
     st.markdown('<div class="sub-title">115 Clinical Transitions, Waiting Distributions and Operational Latencies (Shruti & Madhura)</div>', unsafe_allow_html=True)
 
     df_trans = data["transitions_detailed"]
+    transition_required = {"total_transitions", "median_minutes"}
     if df_trans.empty:
         st.warning("Transitions detailed data not available.")
+    elif not transition_required.issubset(df_trans.columns):
+        st.warning(
+            "Transition data is missing required columns. Available columns: "
+            + ", ".join(map(str, df_trans.columns))
+        )
+        st.dataframe(df_trans, use_container_width=True)
     else:
         st.markdown("### 🔍 Search and Filter Transition Waiting Times")
-
-        min_transitions = st.slider("Minimum Transition Volume", min_value=1, max_value=500, value=20)
+        df_trans = df_trans.copy()
+        df_trans["total_transitions"] = pd.to_numeric(df_trans["total_transitions"], errors="coerce").fillna(0)
+        df_trans["median_minutes"] = pd.to_numeric(df_trans["median_minutes"], errors="coerce")
+        max_volume = max(1, int(df_trans["total_transitions"].max()))
+        default_volume = min(20, max_volume)
+        min_transitions = st.slider(
+            "Minimum Transition Volume",
+            min_value=1,
+            max_value=max_volume,
+            value=default_volume,
+        )
         filtered_trans = df_trans[df_trans["total_transitions"] >= min_transitions].copy()
 
         st.dataframe(filtered_trans.sort_values("median_minutes", ascending=False), use_container_width=True)
