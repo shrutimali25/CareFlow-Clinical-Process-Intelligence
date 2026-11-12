@@ -1,10 +1,21 @@
-# CareFlow Project Dependencies
-# Minimal, lightweight, Windows 64-bit compatible (8 GB RAM friendly)
+# CareFlow - Clinical Process Intelligence
+# Versions currently installed and verified in the project virtual environment
 
-pandas>=2.0.0
-pm4py>=2.7.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-networkx>=3.0
-scipy>=1.10.0
-graphviz>=0.20
+# Data processing and analysis
+pandas==3.1.1
+numpy==2.5.4
+scipy==1.18.1
+
+# Process mining
+pm4py==2.7.23.12
+graphviz==0.21
+
+# Visualisation and dashboard
+matplotlib==3.11.2
+networkx==3.7
+streamlit==1.67.0
+altair==6.3.0
+pyarrow==19.0.1
+
+# Automated testing
+pytest==9.2.0
