@@ -1,108 +1,262 @@
+
 """
-Activity Transitions & Probability Matrix Analytics Module
-Calculates transition frequencies, conditional transition probabilities P(B|A),
-and waiting-time distributions from chronological event data.
-Author: Madhura (Member 2 - Process Analytics)
+Activity Transitions & Probability Matrix Analytics Module.
+
+Calculates transition frequencies, conditional transition probabilities,
+and inter-event waiting-time statistics.
+
+Author: Shruti (Member 1 - Data Engineering & Clinical Analytics)
+Co-Author: Madhura (Process Mining Integration)
 """
 
 from pathlib import Path
-from typing import Dict, Any, Union
-import sys
-import pandas as pd
+from typing import Union
+
 import numpy as np
+import pandas as pd
 
-project_root = Path(__file__).resolve().parents[2]
-if str(project_root) not in sys.path:
-    sys.path.insert(0, str(project_root))
-
-from src.data.loader import load_event_log, CASE_COL, ACTIVITY_COL, TIMESTAMP_COL
+from src.data.loader import load_event_log, ACTIVITY_COL
 
 
 def generate_transitions_analysis(
     input_file_path: Union[str, Path],
     processed_output_path: Union[str, Path],
-    tables_output_path: Union[str, Path]
+    tables_output_path: Union[str, Path],
 ) -> pd.DataFrame:
     """
-    Computes activity transition counts, probabilities, and elapsed time statistics.
+    Generate transition counts, waiting-time statistics,
+    conditional probabilities, and a full activity transition matrix.
     """
+
     input_path = Path(input_file_path)
     processed_out = Path(processed_output_path)
     tables_out = Path(tables_output_path)
-    processed_out.parent.mkdir(parents=True, exist_ok=True)
-    tables_out.parent.mkdir(parents=True, exist_ok=True)
 
+    processed_out.parent.mkdir(parents=True, exist_ok=True)
+    tables_out.mkdir(parents=True, exist_ok=True)
+
+    # Load the prepared event log.
     df = load_event_log(input_path, parse_timestamps=True)
 
-    # Filter to consecutive transitions within cases
-    transitions_df = df.dropna(subset=["previous_activity"]).copy()
+    required_columns = [
+        ACTIVITY_COL,
+        "previous_activity",
+        "elapsed_minutes",
+    ]
+
+    missing_columns = [
+        col for col in required_columns if col not in df.columns
+    ]
+
+    if missing_columns:
+        raise ValueError(
+            f"Missing required columns: {missing_columns}"
+        )
+
+    # Keep all valid consecutive activity transitions,
+    # including transitions whose elapsed time is missing.
+    transitions_df = df.dropna(
+        subset=["previous_activity", ACTIVITY_COL]
+    ).copy()
+
     total_transitions = len(transitions_df)
 
-    # 1. Group by source and target
-    grouped = transitions_df.groupby(["previous_activity", ACTIVITY_COL])
+    grouped = transitions_df.groupby(
+        ["previous_activity", ACTIVITY_COL],
+        sort=True,
+    )
 
-    stats = grouped["elapsed_minutes"].agg(
-        total_transitions="count",
-        average_minutes="mean",
-        median_minutes="median",
-        std_minutes="std",
-        min_minutes="min",
-        max_minutes="max",
-        q25_minutes=lambda x: x.quantile(0.25),
-        q75_minutes=lambda x: x.quantile(0.75)
-    ).reset_index()
+    # Count transitions independently of elapsed-time availability.
+    counts = (
+        grouped.size()
+        .rename("total_transitions")
+        .reset_index()
+    )
 
-    stats["std_minutes"] = stats["std_minutes"].fillna(0.0)
-    stats["iqr_minutes"] = (stats["q75_minutes"] - stats["q25_minutes"]).round(4)
-    stats["average_hours"] = (stats["average_minutes"] / 60.0).round(2)
-    stats["median_hours"] = (stats["median_minutes"] / 60.0).round(2)
-    stats["average_minutes"] = stats["average_minutes"].round(2)
-    stats["median_minutes"] = stats["median_minutes"].round(2)
+    # Calculate waiting-time statistics separately.
+    waiting_stats = (
+        grouped["elapsed_minutes"]
+        .agg(
+            average_minutes="mean",
+            median_minutes="median",
+            std_minutes="std",
+            min_minutes="min",
+            max_minutes="max",
+            q25_minutes=lambda x: x.quantile(0.25),
+            q75_minutes=lambda x: x.quantile(0.75),
+        )
+        .reset_index()
+    )
 
-    # 2. Compute Conditional Transition Probability P(B | A)
-    source_totals = stats.groupby("previous_activity")["total_transitions"].transform("sum")
-    stats["transition_probability"] = (stats["total_transitions"] / source_totals).round(4)
-    stats["transition_percentage"] = (stats["transition_probability"] * 100.0).round(2)
+    # Merge counts and waiting statistics.
+    stats = counts.merge(
+        waiting_stats,
+        on=["previous_activity", ACTIVITY_COL],
+        how="left",
+        validate="one_to_one",
+    )
 
-    # Sort by descending volume
-    stats = stats.sort_values("total_transitions", ascending=False).reset_index(drop=True)
+    # Calculate additional time metrics.
+    stats["iqr_minutes"] = (
+        stats["q75_minutes"] - stats["q25_minutes"]
+    )
 
-    # 3. Build Full 16x16 Transition Probability Matrix
-    all_activities = sorted(df[ACTIVITY_COL].unique())
-    matrix_df = pd.DataFrame(0.0, index=all_activities, columns=all_activities)
+    stats["average_hours"] = stats["average_minutes"] / 60.0
+    stats["median_hours"] = stats["median_minutes"] / 60.0
+
+    # Calculate conditional transition probabilities.
+    source_totals = stats.groupby(
+        "previous_activity"
+    )["total_transitions"].transform("sum")
+
+    stats["transition_probability"] = (
+        stats["total_transitions"] / source_totals
+    )
+
+    stats["transition_percentage"] = (
+        stats["transition_probability"] * 100.0
+    ).round(2)
+
+    # Round time statistics for readable output.
+    time_columns = [
+        "average_minutes",
+        "median_minutes",
+        "std_minutes",
+        "min_minutes",
+        "max_minutes",
+        "q25_minutes",
+        "q75_minutes",
+        "iqr_minutes",
+        "average_hours",
+        "median_hours",
+    ]
+
+    stats[time_columns] = stats[time_columns].round(4)
+
+    stats = stats.sort_values(
+        "total_transitions",
+        ascending=False,
+    ).reset_index(drop=True)
+
+    # Build the full activity transition probability matrix.
+    all_activities = sorted(
+        df[ACTIVITY_COL].dropna().unique()
+    )
+
+    if len(all_activities) != 16:
+        raise ValueError(
+            f"Expected 16 activities, found {len(all_activities)}"
+        )
+
+    matrix_df = pd.DataFrame(
+        0.0,
+        index=all_activities,
+        columns=all_activities,
+    )
 
     for _, row in stats.iterrows():
-        src = row["previous_activity"]
-        tgt = row[ACTIVITY_COL]
-        prob = row["transition_probability"]
-        if src in matrix_df.index and tgt in matrix_df.columns:
-            matrix_df.loc[src, tgt] = prob
+        source = row["previous_activity"]
+        target = row[ACTIVITY_COL]
 
-    matrix_file = tables_out / "activity_transition_matrix.csv"
-    matrix_df.to_csv(matrix_file)
+        matrix_df.loc[source, target] = (
+            row["transition_probability"]
+        )
 
-    # 4. Save Detailed Transitions Table
-    detailed_file = tables_out / "activity_transitions_detailed.csv"
-    stats.to_csv(detailed_file, index=False)
+    if matrix_df.shape != (16, 16):
+        raise ValueError(
+            f"Expected a 16x16 matrix, got {matrix_df.shape}"
+        )
 
-    # 5. Save Backward-Compatible CSV for existing scripts
+    # Validate all non-empty probability rows.
+    for source in all_activities:
+        outgoing_total = stats.loc[
+            stats["previous_activity"] == source,
+            "total_transitions",
+        ].sum()
+
+        if outgoing_total > 0:
+            actual_sum = matrix_df.loc[source].sum()
+
+            if not np.isclose(
+                actual_sum,
+                1.0,
+                rtol=1e-9,
+                atol=1e-12,
+            ):
+                raise ValueError(
+                    f"Probability row for {source!r} sums to "
+                    f"{actual_sum}, expected 1.0"
+                )
+
+    # Save the probability matrix.
+    matrix_file = (
+        tables_out / "activity_transition_matrix.csv"
+    )
+
+    matrix_df.to_csv(
+        matrix_file,
+        float_format="%.15g",
+    )
+
+    # Save detailed transition statistics.
+    detailed_file = (
+        tables_out / "activity_transitions_detailed.csv"
+    )
+
+    stats.to_csv(
+        detailed_file,
+        index=False,
+        float_format="%.15g",
+    )
+
+    # Preserve the original backward-compatible five-column output.
     compat_df = stats[
-        ["previous_activity", ACTIVITY_COL, "total_transitions", "average_minutes", "median_minutes"]
+        [
+            "previous_activity",
+            ACTIVITY_COL,
+            "total_transitions",
+            "average_minutes",
+            "median_minutes",
+        ]
     ].copy()
-    compat_df.to_csv(processed_out, index=False)
 
-    print(f"[Transitions Analysis] Completed successfully!")
-    print(f"  - Total transitions analyzed: {total_transitions:,} across {len(stats)} unique pairs")
-    print(f"  - Verified 16x16 transition matrix saved to: {matrix_file}")
-    print(f"  - Detailed transition metrics saved to: {detailed_file}")
-    print(f"  - Backward-compatible summary saved to: {processed_out}")
+    compat_df.to_csv(
+        processed_out,
+        index=False,
+    )
+
+    print("[Transitions Analysis] Completed successfully!")
+    print(f"Total transitions: {total_transitions:,}")
+    print(f"Unique transition pairs: {len(stats):,}")
+    print(f"Activities: {len(all_activities)}")
+    print(f"Matrix saved: {matrix_file}")
+    print(f"Detailed output saved: {detailed_file}")
+    print(f"Compatibility output saved: {processed_out}")
 
     return stats
 
 
 if __name__ == "__main__":
-    times_file = project_root / "data" / "processed" / "sepsis_with_times.csv"
-    processed_file = project_root / "data" / "processed" / "activity_time_differences.csv"
+    project_root = Path(__file__).resolve().parents[2]
+
+    times_file = (
+        project_root
+        / "data"
+        / "processed"
+        / "sepsis_with_times.csv"
+    )
+
+    processed_file = (
+        project_root
+        / "data"
+        / "processed"
+        / "activity_time_differences.csv"
+    )
+
     tables_folder = project_root / "outputs" / "tables"
 
-    generate_transitions_analysis(times_file, processed_file, tables_folder)
+    generate_transitions_analysis(
+        times_file,
+        processed_file,
+        tables_folder,
+    )

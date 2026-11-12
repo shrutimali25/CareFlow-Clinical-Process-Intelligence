@@ -89,8 +89,9 @@ graph TD
 | `src/visualization/interactive_map.py`| Madhura | — | Offline HTML5 interactive visualizer |
 | `src/analysis/activity_summary.py`| Shruti | Madhura | Activity frequency, case reach, rework rates |
 | `src/analysis/case_profiler.py` | Shruti | — | Patient case profiles (1,050 cases) & clinical flags |
-| `src/analysis/transitions_analysis.py`| Madhura | Shruti | Transition matrix & probability calculation |
-| `src/analysis/bottleneck_analysis.py`| Madhura | Shruti | Sepsis Golden Hour & ER boarding latency |
+| src/analysis/transitions_analysis.py| Shruti | Madhura | Transition matrix & probability calculation |
+| src/analysis/bottleneck_analysis.py| Shruti | Madhura | Sepsis Golden Hour & ER boarding latency |
+| src/dashboard/app.py | Madhura | Shruti | Interactive Streamlit Clinical Dashboard (11 modules) |
 | `src/prepare_powerbi_data.py` | Shruti | Madhura | Power BI Star-Schema table generation |
 | `run_pipeline.py` | Shruti | Madhura | Master orchestrator & resource benchmark |
 | `tests/run_all_tests.py` | Shruti | Madhura | Test runner executing all 31 test cases |
