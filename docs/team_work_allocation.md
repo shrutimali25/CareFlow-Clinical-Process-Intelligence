@@ -19,10 +19,10 @@ pie title CareFlow Engineering Workload Distribution
 ```
 
 - **Shruti (Member 1 — Lead Data Engineer & Clinical Analyst):**  
-  Responsible for foundational data infrastructure, XES decompression, raw log parsing, string type-preservation (solving Case `NA`), deduplication vs re-assay classification, timestamp feature engineering, automated data quality verification, XES vs CSV mathematical reconciliation, clinical case profiling, rework metrics, Sepsis Golden Hour bottleneck analysis, and Power BI Star-Schema table engineering.
+  Responsible for foundational data infrastructure, XES decompression, raw log parsing, string type-preservation (solving Case `NA`), deduplication vs re-assay classification, timestamp feature engineering, automated data quality verification, XES vs CSV mathematical reconciliation, activity frequency & unique patient reach, $16 \times 16$ transition probability matrix analysis, clinical case profiling, rework metrics, Sepsis Golden Hour clinical bottleneck and performance analysis, and Power BI Star-Schema table engineering.
 
 - **Madhura (Member 2 — Lead Process Mining Engineer & Visual Analytics Specialist):**  
-  Responsible for PM4Py event log transformation, algorithmic process discovery (Inductive Miner & Heuristics Miner), Sound Petri Net and standard BPMN export pipelines, Directly-Follows Graph (DFG) discovery (frequency & performance), Process Variant analysis (846 patient pathways & Pareto distribution), $16 \times 16$ transition probability matrix modeling, dependency-free static visual maps (Matplotlib/NetworkX), and the standalone interactive HTML5 process explorer.
+  Responsible for PM4Py event log transformation, algorithmic process discovery (Inductive Miner & Heuristics Miner), Sound Petri Net and standard BPMN export pipelines, Directly-Follows Graph (DFG) discovery (frequency & performance), Process Variant analysis (846 patient pathways & Pareto distribution), process model analysis & behavioral conformance, dependency-free static visual maps (Matplotlib/NetworkX), the standalone interactive HTML5 process explorer, and the interactive Streamlit clinical intelligence dashboard.
 
 ---
 
@@ -38,16 +38,18 @@ pie title CareFlow Engineering Workload Distribution
 | **XES vs CSV Reconciliation Engine** | **Shruti** | `shruti` | `src/validation/reconciliation.py` | 100.0% zero-defect reconciliation match |
 | **Clinical Case Profiling (1,050 Cases)** | **Shruti** | `shruti` | `src/analysis/case_profiler.py` | 1,050 case profiles, min 3 / max 185 events |
 | **Activity Frequency & Rework Rates** | **Shruti** | `shruti` | `src/analysis/activity_summary.py` | 16 activities, 15,214 events, rework % |
-| **Clinical Bottleneck Analysis** | **Shruti** | `shruti` | `src/analysis/bottleneck_analysis.py` | Golden Hour compliance (36.9% $\le 1$h), ER boarding |
+| **Transition Probability Analysis** | **Shruti** | `shruti` | `src/analysis/transitions_analysis.py` | $16 \times 16$ Markovian transition probability matrix; row sums equal $1.0000$ |
+| **Clinical Bottleneck & Performance** | **Shruti** | `shruti` | `src/analysis/bottleneck_analysis.py` | Golden Hour compliance (36.9% $\le 1$h), ER boarding latency (3.22h) |
 | **Power BI Star Schema Datasets** | **Shruti** | `shruti` | `src/prepare_powerbi_data.py`, `data/powerbi/` | 4 Dimensions, 3 Fact tables, 100% referential integrity |
 | **PM4Py Event Log Structuring** | **Madhura** | `madhura` | `src/process_mining/log_manager.py` | PM4Py EventLog conversion & classifier setup |
 | **Inductive Process Discovery** | **Madhura** | `madhura` | `src/process_mining/inductive_miner.py` | Petri Net (`inductive_petri_net.pnml`), BPMN XML |
 | **Heuristics Process Discovery** | **Madhura** | `madhura` | `src/process_mining/heuristics_miner.py` | Heuristics Petri Net, $16 \times 16$ Causal Dependency Matrix |
 | **Directly-Follows Graph (DFG)** | **Madhura** | `madhura` | `src/process_mining/dfg_miner.py` | 115 transitions, 14,164 events mined |
 | **Process Variant Analysis** | **Madhura** | `madhura` | `src/process_mining/variants_miner.py` | 846 variants mined, Pareto top-10 coverage |
-| **Transition Probability Matrix** | **Madhura** | `madhura` | `src/analysis/transitions_analysis.py` | $16 \times 16$ Markovian stochastic transition matrix |
+| **Process Model Analysis & Conformance**| **Madhura** | `madhura` | `src/process_mining/inductive_miner.py` | Sound Petri net behavioral verification, token replay |
 | **Static Visual Process Maps** | **Madhura** | `madhura` | `src/visualization/process_map.py` | Graphviz-free NetworkX + Matplotlib diagrams |
 | **Interactive HTML5 Process Viewer** | **Madhura** | `madhura` | `src/visualization/interactive_map.py` | Offline interactive physics graph explorer |
+| **Interactive Streamlit Dashboard** | **Madhura** | `madhura` | `src/dashboard/app.py` | Comprehensive multi-page web dashboard application |
 | **Master Orchestrator Pipeline** | **Joint** | `main` | `run_pipeline.py` | Single-command execution (17.2s, 33.7 MB RAM) |
 | **Automated Testing Suite (31 Tests)**| **Joint** | `main` | `tests/run_all_tests.py`, `tests/` | 100% PASS rate across all 5 test modules |
 | **Power BI Dashboard Specification** | **Joint** | `main` | `reports/powerbi_dashboard_guide.md` | DAX measures, star schema, 4 dashboard pages |
