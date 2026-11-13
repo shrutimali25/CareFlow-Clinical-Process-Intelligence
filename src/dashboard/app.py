@@ -155,6 +155,14 @@ def get_all_project_data():
         "concept:name": "activity",
         "total_occurrences": "occurrence_count",
         "unique_cases": "unique_cases_reached",
+        "repeated_cases_count": "rework_cases_count",
+        "rework_rate_pct": "rework_case_percentage",
+    })
+    variants_summary = variants_summary.rename(columns={
+        "case_frequency": "case_count",
+        "case_coverage_pct": "case_percentage",
+        "cumulative_coverage_pct": "cumulative_percentage",
+        "pathway_signature": "pathway",
     })
     transitions_detailed = transitions_detailed.rename(columns={
         "concept:name": "next_activity",
@@ -284,7 +292,7 @@ if selected_module.startswith("🩺 1"):
         <div class="metric-card">
             <div class="metric-label">Golden Hour Sepsis</div>
             <div class="metric-value">36.9% &le; 1h</div>
-            <small>Median delivery: 1.48 hours</small>
+            <small>Median delivery: 1.73 hours</small>
         </div>
         """, unsafe_allow_html=True)
 
@@ -515,8 +523,8 @@ elif selected_module.startswith("🧬 5"):
         st.markdown("### 🔬 Clinical Interpretation: Process Entropy")
         st.warning("""
         - **Extreme Operational Heterogeneity:** Out of 1,050 patients, there are **846 distinct treatment trajectories**.
-        - **Low Dominance:** The single most common pathway (Variant 1) accounts for only **6.10%** (64 patients).
-        - **Long Tail of Unique Cases:** Over **80%** of variants appear for exactly one patient.
+        - **Low Dominance:** The single most common pathway (Variant 1) accounts for only **3.33%** (35 patients).
+        - **Long Tail of Unique Cases:** See the single-patient variant count and percentage calculated above.
         - **Takeaway:** Prescriptive flowcharts and rigid clinical pathways do not capture the complexity of real-world acute sepsis care.
         """)
 
@@ -687,7 +695,7 @@ elif selected_module.startswith("⏱️ 9"):
         st.warning("""
         - **Clinical Benchmark:** International Sepsis Guidelines recommend broad-spectrum antimicrobials within **1 hour** of recognition.
         - **CareFlow Finding:** Only **36.94%** received antibiotics within the Golden Hour window.
-        - **Median Delivery Time:** **1.48 hours** (88.8 minutes).
+        - **Median Delivery Time:** **1.73 hours** (103.8 minutes).
         """)
 
     with c_col2:
@@ -762,9 +770,39 @@ elif selected_module.startswith("✅ 11"):
     df_recon = data["reconciliation"]
 
     q1, q2, q3 = st.columns(3)
-    q1.metric("Validation Checks", "10 / 10 PASS/INFO", "Zero Failures")
-    q2.metric("XES Discrepancy", "0 Missing / 0 Extra", "100.0% Exact Match")
-    q3.metric("Case 'NA' Preserved", "True", "24 Events Recovered")
+
+    def audit_value(report, metric_name, default="N/A"):
+        if report.empty or not {"Metric", "Value"}.issubset(report.columns):
+            return default
+        matched = report.loc[
+            report["Metric"].astype(str).str.strip() == metric_name, "Value"
+        ]
+        return matched.iloc[0] if not matched.empty else default
+
+    quality_rows = len(df_dq) if not df_dq.empty else 0
+    na_verified = audit_value(df_dq, "Case 'NA' verified present", "0")
+    na_event_count = audit_value(df_dq, "Case 'NA' event count", "N/A")
+    missing_events = audit_value(df_recon, "Missing event occurrences", "N/A")
+    extra_events = audit_value(df_recon, "Extra event occurrences", "N/A")
+    match_pct = audit_value(df_recon, "Reconciliation Match %", "N/A")
+
+    na_is_present = str(na_verified).strip().lower() in {"1", "true", "yes"}
+
+    q1.metric(
+        "Quality Metrics Reported",
+        f"{quality_rows}",
+        "Rows in data_quality_report.csv" if quality_rows else "Report unavailable",
+    )
+    q2.metric(
+        "XES Reconciliation",
+        (str(match_pct).strip() if str(match_pct).strip().endswith(chr(37)) else str(match_pct).strip()+chr(37)) if match_pct != chr(78)+chr(47)+chr(65) else chr(78)+chr(47)+chr(65),
+        f"{missing_events} missing / {extra_events} extra",
+    )
+    q3.metric(
+        "Case 'NA' Events",
+        f"{na_event_count}",
+        "Verified present" if na_is_present else "Presence not confirmed",
+    )
 
     st.markdown("### 📋 Automated Health Checks Audit Trail")
     if not df_dq.empty:
@@ -780,9 +818,9 @@ elif selected_module.startswith("✅ 11"):
 
     st.markdown("### 🛠️ Technical Fix Spotlight: The Case 'NA' Resolution")
     st.success("""
-    - **Problem Identified:** In standard Pandas `read_csv()`, the parameter `keep_default_na=True` automatically interprets the string `"NA"` as missing (`NaN`). This silently erased patient `"NA"` and dropped 24 events (causing dataset count to fall from 15,214 to 15,189).
+    - **Problem Identified:** With the default `keep_default_na=True`, Pandas can interpret the valid string case ID `"NA"` as a missing value.
     - **Engineered Solution:** In `src/data/loader.py`, we explicitly configured `keep_default_na=False` and `na_values=[""]` with explicit string typing for `case_id`.
-    - **Outcome:** Case `'NA'` and all 24 events were recovered, restoring the dataset to the true 15,214 ground-truth events with a **100.0% zero-defect reconciliation match**.
+    - **Outcome:** The data-quality report confirms case `'NA'` is present with 24 events. The reconciliation report independently confirms 15,214 events in both XES and CSV, 1,050 cases, 16 activities, zero missing and extra event occurrences, and a 100.0% reconciliation match.
     """)
 
 # -----------------------------------------------------------------------------
