@@ -1,12 +1,12 @@
 # CareFlow: Quality Assurance & Testing Report
 
-> **Project:** CareFlow – Patient Journey Analysis Using Process Mining  
-> **Total Test Cases:** 31  
-> **Passed:** 31 (100%)  
-> **Failed:** 0  
-> **Execution Duration:** 0.56 seconds  
-> **Test Framework:** Python `unittest`  
-> **Primary Authors:** Shruti (Member 1 - Data Engineering) & Madhura (Member 2 - Process Mining)  
+> **Project:** CareFlow – Patient Journey Analysis Using Process Mining
+> **Total Test Cases:** 31
+> **Passed:** 31 (100%)
+> **Failed:** 0
+> **Latest Master Test-Run Duration:** 0.401 seconds (one verified run; environment-dependent)
+> **Test Framework:** Python `unittest`, executed through `tests/run_all_tests.py`
+> **Primary Authors:** Shruti (Member 1 - Data Engineering) & Madhura (Member 2 - Process Mining)
 
 ---
 
@@ -15,10 +15,10 @@
 The CareFlow QA architecture enforces strict end-to-end verification across every stage of the data and process intelligence lifecycle:
 1. **Schema & Identifier Invariance:** Enforces preservation of alphanumeric case IDs (specifically `"NA"`).
 2. **Clinical Assay Preservation:** Prevents silent truncation of legitimate repeated clinical measurements (e.g. repeated laboratory blood tubes drawn at identical timestamps).
-3. **Trace Monotonicity:** Verifies strictly chronological event progression ($\Delta t \ge 0$) across all 1,050 patient traces.
+3. **Trace Monotonicity:** Verifies non-decreasing chronological event progression ($\Delta t \ge 0$) across all 1,050 patient traces.
 4. **Reconciliation Zero-Defect:** Compares raw IEEE 1849 XES XML streams directly against CSV outputs down to the individual event level.
-5. **Model Completeness:** Asserts formal discovery of Sound Workflow Nets (Inductive Petri Nets), BPMN sequence flows, and Heuristics dependency matrices.
-6. **Referential Integrity:** Guarantees foreign key consistency across the Power BI Star Schema.
+5. **Model Artifact Checks:** Verifies exported Inductive Petri Net and BPMN files and the Heuristics dependency matrix. These checks do not prove Petri Net soundness, deadlock-freedom, or trace fitness.
+6. **Referential Integrity:** Automated testing checks event-to-patient case references. A separate manual audit checked 12 key and reference conditions across the seven Power BI CSV tables; all 12 passed.
 
 ---
 
@@ -28,7 +28,7 @@ The CareFlow QA architecture enforces strict end-to-end verification across ever
 ======================================================================
   CAREFLOW: EXECUTING FULL AUTOMATED TEST SUITE
 ======================================================================
-Ran 31 tests in 0.564s
+Ran 31 tests in 0.401s (latest verified master-runner execution)
 
 OK
 
@@ -53,7 +53,7 @@ OK
 | `test_cleaned_file_integrity` | Verifies `sepsis_cleaned.csv` contains exactly 15,214 events, 1,050 cases, 16 activities | **PASS** |
 | `test_case_na_preservation` | Asserts patient `"NA"` exists as a string identifier with exactly 24 recorded events | **PASS** |
 | `test_times_file_integrity` | Verifies `sepsis_with_times.csv` has 15,214 events, 1,050 initial events, and 0 negative elapsed times | **PASS** |
-| `test_chronological_ordering` | Asserts that all 1,050 patient traces are monotonically increasing in time | **PASS** |
+| `test_chronological_ordering` | Asserts that all 1,050 patient traces have non-decreasing timestamps | **PASS** |
 | `test_reconciliation_report` | Validates `reconciliation_summary.csv` shows 0 missing and 0 extra events (100.0% match) | **PASS** |
 
 ### Suite 2: PM4Py Process Mining Discovery (`tests/test_process_mining.py`)
@@ -100,11 +100,18 @@ OK
 
 ---
 
-## 4. Reproducibility & Resource Benchmarks
+## 4. Test Execution & Historical Resource Notes
 
-Tested on standard Windows 64-bit environment:
-- **Run 1 Execution Time:** 17.36 seconds
-- **Run 2 Execution Time:** 17.17 seconds
-- **Peak Memory Utilization:** **33.66 MB**
-- **Target RAM Budget:** $< 500\text{ MB}$ (Exceedingly safe for 8 GB RAM systems)
-- **Variance Across Runs:** **0.00%** (100% deterministic reproducibility)
+### Latest Verified Master Test Run
+
+- **Runner:** `tests/run_all_tests.py`, using Python `unittest`.
+- **Result:** 31 tests executed, 31 passed, 0 failed, 0 errors.
+- **Observed test duration:** 0.401 seconds in the latest verified run.
+- This is test-suite runtime, not full pipeline runtime. Execution time varies by environment.
+
+### Previously Recorded Pipeline and Resource Measurements
+
+- **Earlier recorded pipeline runs:** 17.36 seconds and 17.17 seconds. These are pipeline timings, not test-suite timings.
+- **Previously reported peak memory:** 33.66 MB. The measurement method has not been independently verified in this audit.
+- **Variance:** No 0.00% deterministic variance claim is made.
+- **RAM budget:** Less than 500 MB remains a stated project target, not a newly verified benchmark.
