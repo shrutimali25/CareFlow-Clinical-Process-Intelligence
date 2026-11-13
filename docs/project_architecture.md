@@ -1,9 +1,9 @@
 # CareFlow: System Architecture & Data Engineering Flow
 
-> **Project:** CareFlow – Patient Journey Analysis Using Process Mining  
-> **Authors:** Shruti (Member 1 - Data Engineering) & Madhura (Member 2 - Process Mining)  
-> **Repository:** `D:\Projects\CareFlow-Clinical-Process-Intelligence`  
-> **Branch:** `shruti`  
+> **Project:** CareFlow – Patient Journey Analysis Using Process Mining
+> **Authors:** Shruti (Member 1 - Data Engineering) & Madhura (Member 2 - Process Mining)
+> **Repository:** `D:\Projects\CareFlow-Clinical-Process-Intelligence`
+> **Primary Branch:** `main` (production baseline); `shruti` and `madhura` are collaboration branches.
 
 ---
 
@@ -45,8 +45,11 @@ flowchart TD
     subgraph Visual_Layer["5. Visual Analytics & Star Schema"]
         DFG --> StaticMaps["Matplotlib/NetworkX Maps\n(PNG Exports)"]
         DFG --> InteractiveMap["Standalone HTML Viewer\n(Interactive Canvas)"]
-        Analytics_Layer --> StarSchema["Power BI Star Schema\n(data/powerbi/)"]
-        StarSchema --> PowerBIDash["5-Page Dashboard\n(powerbi_dashboard_guide.md)"]
+        StreamlitDash["Streamlit Dashboard\n(src/dashboard/app.py; 11 modules)"]
+        DFG --> StreamlitDash
+        Analytics_Layer --> StreamlitDash
+        Analytics_Layer --> StarSchema["Power BI Star Schema\n(7 CSV tables in data/powerbi/)"]
+        StarSchema --> PowerBIGuide["Power BI Reporting Specification\n(5-page guide; no .pbix file found in repository scan)"]
     end
 ```
 
@@ -66,9 +69,9 @@ flowchart TD
 
 ### Component 3: Process Mining Engine (`src/process_mining/`)
 - **`log_manager.py`**: Wraps cleaned DataFrames into PM4Py EventLog structures with formal classifiers (`case:concept:name`, `concept:name`, `time:timestamp`).
-- **`inductive_miner.py`**: Discovers formal, block-structured process trees and transforms them into standard Petri Nets (`.pnml`) and BPMN diagrams (`.bpmn`) with guaranteed soundness.
+- **`inductive_miner.py`**: Discovers block-structured process trees and exports Petri Net (`.pnml`) and BPMN (`.bpmn`) artifacts. Formal soundness and deadlock-freedom have not been independently validated.
 - **`heuristics_miner.py`**: Applies frequency-based dependency thresholds to mine noise-tolerant Heuristics Petri Nets and dependency matrices.
-- **`dfg_miner.py`**: Computes Directly-Follows Graphs for frequency (edge counts) and performance (mean/median transition hours).
+- **`dfg_miner.py`**: Computes frequency and performance Directly-Follows Graphs. The verified outputs contain 115 distinct transitions across 14,164 consecutive event pairs.
 - **`variants_miner.py`**: Extracts all 846 distinct trace pathways and calculates Pareto cumulative coverage distributions.
 
 ### Component 4: Advanced Clinical Analytics (`src/analysis/`)
@@ -77,10 +80,11 @@ flowchart TD
 - **`transitions_analysis.py`**: Computes the full $16 \times 16$ transition probability matrix $P(B \mid A)$ and waiting-time IQR statistics.
 - **`bottleneck_analysis.py`**: Evaluates clinical compliance against the Surviving Sepsis Campaign Golden Hour ($\le 1$ hour) and ER boarding latency.
 
-### Component 5: Visual Analytics & Power BI Integration (`src/visualization/` & `data/powerbi/`)
+### Component 5: Visual Analytics, Streamlit & Power BI Integration (`src/visualization/`, `src/dashboard/` & `data/powerbi/`)
 - **`process_map.py`**: Generates publication-ready 300 DPI process flow maps using pure Matplotlib and NetworkX without requiring Graphviz system executables.
 - **`interactive_map.py`**: Emits an offline, responsive HTML5 canvas viewer allowing interactive node dragging, edge threshold filtering, and metric inspection.
-- **`prepare_powerbi_data.py`**: Exports 7 Star-Schema tables for interactive reporting in Microsoft Power BI.
+- **`src/dashboard/app.py`**: Provides the 11-module Streamlit interface for dataset exploration, patient journeys, process variants, DFG maps, Petri Net/BPMN discovery outputs, transition probabilities, bottlenecks, waiting times, and data-quality reports.
+- **`prepare_powerbi_data.py`**: Exports seven Star-Schema CSV tables for use in Microsoft Power BI. The repository contains a five-page Power BI dashboard guide/specification; no `.pbix` report file was found in the repository scan.
 
 ---
 
@@ -154,6 +158,7 @@ D:\Projects\CareFlow-Clinical-Process-Intelligence/
 │   ├── data/                              # Data engineering engine
 │   ├── process_mining/                    # PM4Py discovery engine
 │   ├── validation/                        # QA & reconciliation engine
+│   ├── dashboard/                         # Streamlit dashboard (11 modules)
 │   └── visualization/                     # Static & interactive visualizers
 └── tests/                                 # Automated test suite (31 tests)
     ├── run_all_tests.py                   # Master test runner
