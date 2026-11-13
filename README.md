@@ -160,7 +160,7 @@ CareFlow/
 │       ├── process_variants_summary.csv    # 846 pathway variants with Pareto coverage
 │       └── triage_to_antibiotics_analysis.csv # Sepsis Golden Hour timing analysis
 ├── reports/                                # Automated validation & audit reports
-│   ├── data_quality_report.csv             # 10 data quality metrics
+│   ├── data_quality_report.csv             # 14 reported metric rows
 │   ├── final_data_validation_report.csv    # Formal PASS/INFO checklist
 │   ├── reconciliation_summary.csv          # 100.0% XES vs CSV reconciliation proof
 │   └── powerbi_dashboard_guide.md          # 5-page Power BI dashboard guide & DAX catalog
@@ -231,7 +231,7 @@ python src/prepare_powerbi_data.py
 ## 🔬 7. Process Mining Discoveries & Clinical Insights
 
 ### A. Formal Process Models Discovered
-1. **Inductive Miner Petri Net (`inductive_petri_net.pnml`):** Discovered a Sound Workflow Net comprising **39 places** and **50 transitions** (16 visible clinical activities, 34 silent $\tau$ routing transitions) mathematically guaranteed to be free of deadlocks.
+1. **Inductive Miner Petri Net (`inductive_petri_net.pnml`):** Exported a workflow net comprising **39 places** and **50 transitions** (16 visible clinical activities, 34 silent $\tau$ routing transitions). Formal soundness and deadlock-freedom have not yet been independently validated.
 2. **Inductive Miner BPMN (`inductive_bpmn.bpmn`):** Exported a standard BPMN 2.0 diagram featuring **62 nodes** and **89 sequence flows** using automated headless XML layout.
 3. **Heuristics Miner Petri Net (`heuristics_petri_net.pnml`):** Discovered a noise-tolerant net comprising **33 places** and **74 transitions** capturing the primary care backbone, alongside an activity dependency matrix.
 
@@ -243,13 +243,13 @@ python src/prepare_powerbi_data.py
 ### C. Process Variants & The "Spaghetti Effect"
 - **846 unique process variants** across 1,050 patients.
 - The single most common pathway (**Variant V001**):
-  $$\text{ER Registration} \rightarrow \text{ER Triage} \rightarrow \text{ER Sepsis Triage} \rightarrow \text{IV Liquid} \rightarrow \text{IV Antibiotics} \rightarrow \text{Admission NC} \rightarrow \text{Release A}$$
+  `ER Registration -> ER Triage -> ER Sepsis Triage` (3 activities).
   Accounts for **35 patients (3.33%)**.
-- The top 10 variants cover **12.98% of all cases**, demonstrating that sepsis care is highly individualized.
+- The top 10 variants cover **12.95% of all cases**, demonstrating that sepsis care is highly individualized.
 
 ### D. Surviving Sepsis Golden Hour & Boarding Latencies
 1. **Triage-to-Antibiotics Interval (823 eligible cases):**
-   - **Median Latency:** **1.73 hours** (104.1 minutes).
+   - **Median Latency:** **1.73 hours** (103.8 minutes).
    - **Golden Hour Compliance ($\le 1$ hour):** **304 patients (36.9%)**.
    - **3-Hour Sepsis Bundle Compliance ($\le 3$ hours):** **616 patients (74.8%)**.
    - **Delayed Cohort ($> 3$ hours):** **207 patients (25.2%)**.
