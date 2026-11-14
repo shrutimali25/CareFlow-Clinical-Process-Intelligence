@@ -78,11 +78,17 @@ const inspectContent = document.getElementById('inspectContent');
 
 let width, height;
 function resize() {
+  if (!canvas.parentElement.clientWidth || !canvas.parentElement.clientHeight) return;
   width = canvas.width = canvas.parentElement.clientWidth;
   height = canvas.height = canvas.parentElement.clientHeight;
   draw();
 }
 window.addEventListener('resize', resize);
+if (typeof ResizeObserver !== 'undefined') {
+  const canvasObserver = new ResizeObserver(() => requestAnimationFrame(resize));
+  canvasObserver.observe(canvas.parentElement);
+}
+requestAnimationFrame(() => requestAnimationFrame(resize));
 
 const positions = {
   'ER Registration': { x: 0.1, y: 0.5 },
@@ -203,11 +209,11 @@ canvas.addEventListener('click', (e) => {
 
     inspectContent.innerHTML = `
       <div class="badge">${clicked}</div>
-      <p style="margin-bottom: 8px;"><strong>Inflow:</strong> ${inTotal:,} transitions (${incoming.length} sources)</p>
-      <p style="margin-bottom: 8px;"><strong>Outflow:</strong> ${outTotal:,} transitions (${outgoing.length} targets)</p>
+      <p style="margin-bottom: 8px;"><strong>Inflow:</strong> ${inTotal.toLocaleString()} transitions (${incoming.length} sources)</p>
+      <p style="margin-bottom: 8px;"><strong>Outflow:</strong> ${outTotal.toLocaleString()} transitions (${outgoing.length} targets)</p>
       <hr style="border:0; border-top:1px solid #334155; margin:8px 0;">
       <p style="font-size:0.75rem; color:#94a3b8;"><strong>Top Outgoing Paths:</strong></p>
-      ${outgoing.sort((a,b)=>b.count-a.count).slice(0,3).map(o=>`<div>• to ${o.to}: <strong>${o.count:,}</strong> (${o.mean_hrs.toFixed(1)}h mean)</div>`).join('')}
+      ${outgoing.sort((a,b)=>b.count-a.count).slice(0,3).map(o=>`<div>• to ${o.to}: <strong>${o.count.toLocaleString()}</strong> (${o.mean_hrs.toFixed(1)}h mean)</div>`).join('')}
     `;
   } else {
     inspectContent.textContent = 'Click on any activity node or transition arc to inspect transition metrics, waiting times, and frequencies.';

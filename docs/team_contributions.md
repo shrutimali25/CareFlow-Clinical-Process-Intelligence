@@ -1,102 +1,136 @@
-# CareFlow: Team Roles, Contributions & Code Ownership
+# CareFlow: Team Roles, Contributions and Code Ownership
 
-> **Project:** CareFlow – Patient Journey Analysis Using Process Mining  
-> **Team Size:** 2 Members  
-> **Repository:** `D:\Projects\CareFlow-Clinical-Process-Intelligence`  
-> **Branch:** `shruti`  
+> **Project:** CareFlow - Clinical Process Intelligence
+> **Team members:** Shruti Mali and Madhura
+> **Repository:** CareFlow-Clinical-Process-Intelligence
+> **Integrated branch:** `main`
 
----
+## 1. Contribution and attribution statement
 
-## 1. Overview & Team Structure
+This document records the team's reported areas of responsibility and the current code structure. Responsibility allocation and Git commit authorship are different forms of evidence.
 
-To maintain complete academic integrity and professional transparency during evaluation, viva voce, and technical interviews, the responsibilities and contributions of each team member are explicitly documented below. Work is honestly attributed according to technical execution.
+The inspected Git history for the selected data, validation, analysis, process-mining, visualization and dashboard paths shows commits authored under the name Shruti Mali. This metadata does not independently prove that every implementation task was completed by one person, nor does it establish the exact amount of work performed by each team member.
 
-```mermaid
-graph TD
-    subgraph Member1["Shruti (Member 1) — Data Engineering & QA"]
-        M1_1["Raw XES Ingestion & Decompression"]
-        M1_2["Data Cleaning & 'NA' Preservation"]
-        M1_3["Time Features & Transition Sequencing"]
-        M1_4["Multi-Attribute XES/CSV Reconciliation"]
-        M1_5["Data Quality Validation Framework"]
-        M1_6["Activity Summary & Rework Analytics"]
-        M1_7["Patient Case Profiling (1,050 Cases)"]
-        M1_8["Power BI Star-Schema Datasets"]
-    end
+The project therefore does not assign a numerical contribution percentage. Each member should describe only the work they personally performed and can demonstrate.
 
-    subgraph Member2["Madhura (Member 2) — Process Mining & Visual Analytics"]
-        M2_1["PM4Py Event Log Structuring"]
-        M2_2["Inductive Miner (Petri Net & BPMN)"]
-        M2_3["Heuristics Miner & Dependency Matrix"]
-        M2_4["Directly-Follows Graph (DFG) Mining"]
-        M2_5["Process Variants Discovery (846 Variants)"]
-        M2_6["NetworkX & Matplotlib Visual Process Maps"]
-        M2_7["Interactive HTML5 Process Map Viewer"]
-        M2_8["Clinical Bottleneck & Golden Hour Analysis"]
-    end
+## 2. Shruti - Data Engineering, Validation and Analytics
 
-    subgraph Joint["Joint Collaboration (Shruti & Madhura)"]
-        J1["Star-Schema Relational Modeling"]
-        J2["Comprehensive Test Suite (31 Tests)"]
-        J3["Technical Documentation & Architecture"]
-        J4["Viva & Interview Preparation"]
-    end
-```
+Reported areas of responsibility:
 
----
+- XES conversion and event-data ingestion.
+- Data loading and cleaning.
+- Preservation of valid case identifier `NA`.
+- Timestamp normalization and elapsed-time features.
+- Automated data-quality checks.
+- XES-to-CSV reconciliation.
+- Patient case profiling and activity-frequency analysis.
+- Transition analysis and bottleneck metrics.
+- Power BI star-schema CSV preparation.
 
-## 2. Detailed Member Responsibilities
+Relevant current modules:
 
-### Member 1: Shruti
-**Domain:** Data Engineering, Preprocessing, Validation & Pipeline Reliability
-- **Raw Data Ingestion:** Implemented XES decompression and tabular translation from `sepsis.xes.gz` using PM4Py.
-- **The Case 'NA' Resolution:** Diagnosed and engineered the solution for preserving the valid pseudonymized patient identifier `"NA"`. Configured `keep_default_na=False, na_values=[""]` with explicit string typing in `src/data/loader.py`, recovering the 24 missing events and restoring the dataset from 15,189 to the verified 15,214 events.
-- **Clinical Repeat Assays Preservation:** Identified that same-timestamp events for patient `"ES"` and others represented legitimate clinical multi-tube blood tests rather than technical duplicates, preventing data loss.
-- **Time Feature Engineering:** Implemented within-case chronological sequencing, computing prior timestamps and non-negative elapsed minutes (`elapsed_minutes`).
-- **Data Quality & Reconciliation Engine:** Developed `src/validation/validator.py` and `src/validation/reconciliation.py`, proving a **100.0% zero-defect reconciliation match** between raw XES and processed CSV.
-- **Case Profiling & Workload Analytics:** Engineered case-level aggregation for all 1,050 patient profiles (`patient_case_profiles.csv`) and activity occurrence summaries (`activity_frequency_detailed.csv`).
-- **Power BI Data Preparation:** Structured and exported the Star-Schema CSV suite in `data/powerbi/`.
+| Module | Responsibility |
+|---|---|
+| `src/data/convert_xes.py` | XES conversion |
+| `src/data/loader.py` | Safe data loading |
+| `src/data/cleaner.py` | Data cleaning and identifier handling |
+| `src/data/time_features.py` | Chronological and elapsed-time features |
+| `src/validation/validator.py` | Data-quality validation |
+| `src/validation/reconciliation.py` | Source-to-processed reconciliation |
+| `src/analysis/activity_summary.py` | Activity counts and rework analysis |
+| `src/analysis/case_profiler.py` | Patient case-level summaries |
+| `src/analysis/transitions_analysis.py` | Transition analysis |
+| `src/analysis/bottleneck_analysis.py` | Bottleneck timing analysis |
+| `src/prepare_powerbi_data.py` | Power BI CSV generation |
 
-### Member 2: Madhura
-**Domain:** Process Mining, PM4Py Implementation, Algorithmic Discovery & Visual Analytics
-- **PM4Py Event Log Integration:** Configured standard event log classifiers (`case:concept:name`, `concept:name`, `time:timestamp`) and trace classifiers.
-- **Inductive Miner Implementation:** Discovered formal, block-structured process trees and exported mathematically sound Petri Nets (`inductive_petri_net.pnml`) and standard BPMN XML models (`inductive_bpmn.bpmn`).
-- **Heuristics Miner Implementation:** Applied relative-to-best frequency thresholds to mine noise-tolerant Heuristics Petri Nets (`heuristics_petri_net.pnml`) and generated the $16 \times 16$ activity dependency matrix.
-- **Directly-Follows Graph (DFG):** Mined frequency DFG and performance DFG across 115 unique transitions and 14,164 event connections.
-- **Process Variants Analytics:** Discovered and classified all 846 unique patient pathways, analyzing Pareto distributions and cumulative case coverage.
-- **Dependency-Free Process Visualizations:** Designed and coded publication-quality process maps using pure **NetworkX and Matplotlib**, completely eliminating external Graphviz system dependencies.
-- **Interactive Process Map:** Built the standalone, offline HTML5 canvas viewer (`careflow_interactive_process_map.html`) with interactive node dragging and edge threshold filtering.
-- **Clinical Bottleneck Analysis:** Analyzed Surviving Sepsis Campaign Golden Hour compliance ($\le 1$ hour) and emergency ward boarding latencies.
+## 3. Madhura - Process Mining and Visual Analytics
 
----
+Reported areas of responsibility:
 
-## 3. Code Ownership Matrix
+- PM4Py event-log structuring.
+- Inductive Miner process discovery.
+- Heuristics Miner process discovery.
+- Directly-Follows Graph analysis.
+- Process variant discovery.
+- Static process maps using NetworkX and Matplotlib.
+- Interactive HTML process map.
+- Streamlit dashboard development and visualization.
 
-| Source File / Module | Primary Author | Secondary Contributor | Technical Scope |
-| :--- | :---: | :---: | :--- |
-| `src/data/loader.py` | Shruti | Madhura | Safe I/O, 'NA' string handling, column normalization |
-| `src/data/convert_xes.py` | Shruti | — | XES decompression and initial CSV generation |
-| `src/data/cleaner.py` | Shruti | — | Timestamp standardization, duplicate assay preservation |
-| `src/data/time_features.py` | Shruti | — | Chronological ordering, elapsed minutes computation |
-| `src/validation/validator.py` | Shruti | — | Automated data quality checks (PASS/FAIL) |
-| `src/validation/reconciliation.py`| Shruti | — | Multi-attribute XES vs CSV reconciliation |
-| `src/process_mining/log_manager.py`| Madhura | Shruti | PM4Py DataFrame & EventLog object creation |
-| `src/process_mining/inductive_miner.py`| Madhura | — | Inductive Miner, Petri Net & BPMN exports |
-| `src/process_mining/heuristics_miner.py`| Madhura | — | Heuristics Miner & dependency matrix calculation |
-| `src/process_mining/dfg_miner.py` | Madhura | — | Frequency & latency DFG extraction |
-| `src/process_mining/variants_miner.py`| Madhura | — | 846 process variants extraction & Pareto analysis |
-| `src/visualization/process_map.py`| Madhura | — | NetworkX/Matplotlib publication-quality maps |
-| `src/visualization/interactive_map.py`| Madhura | — | Offline HTML5 interactive visualizer |
-| `src/analysis/activity_summary.py`| Shruti | Madhura | Activity frequency, case reach, rework rates |
-| `src/analysis/case_profiler.py` | Shruti | — | Patient case profiles (1,050 cases) & clinical flags |
-| src/analysis/transitions_analysis.py| Shruti | Madhura | Transition matrix & probability calculation |
-| src/analysis/bottleneck_analysis.py| Shruti | Madhura | Sepsis Golden Hour & ER boarding latency |
-| src/dashboard/app.py | Madhura | Shruti | Interactive Streamlit Clinical Dashboard (11 modules) |
-| `src/prepare_powerbi_data.py` | Shruti | Madhura | Power BI Star-Schema table generation |
-| `run_pipeline.py` | Shruti | Madhura | Master orchestrator & resource benchmark |
-| `tests/run_all_tests.py` | Shruti | Madhura | Test runner executing all 31 test cases |
-| `tests/test_data_pipeline.py` | Shruti | — | Unit tests for data pipeline & reconciliation |
-| `tests/test_process_mining.py` | Madhura | — | Unit tests for PM4Py models & DFG |
-| `tests/test_advanced_analysis.py`| Shruti | Madhura | Unit tests for rework, profiles, and bottlenecks |
-| `tests/test_powerbi_exports.py` | Shruti | — | Unit tests for Star-Schema tables |
-| `tests/test_end_to_end.py` | Shruti | Madhura | Integration & mathematical identity tests |
+Relevant current modules:
+
+| Module | Responsibility |
+|---|---|
+| `src/process_mining/log_manager.py` | PM4Py event-log preparation |
+| `src/process_mining/inductive_miner.py` | Inductive Miner workflow |
+| `src/process_mining/heuristics_miner.py` | Heuristics Miner workflow |
+| `src/process_mining/dfg_miner.py` | DFG discovery |
+| `src/process_mining/variants_miner.py` | Process variant analysis |
+| `src/process_mining/run_process_mining.py` | Process-mining execution workflow |
+| `src/visualization/process_map.py` | Static process maps |
+| `src/visualization/interactive_map.py` | Interactive process map |
+| `src/dashboard/app.py` | Streamlit dashboard |
+
+## 4. Shared integration and project work
+
+The following areas involve integration or team-level review:
+
+- Connecting the cleaned event log to process-mining modules.
+- Integrating process-mining outputs with analytical datasets.
+- Reviewing the end-to-end pipeline.
+- Running and reviewing automated tests.
+- Preparing technical documentation and presentation material.
+- Preparing for project demonstration and viva.
+
+Relevant shared entry points:
+
+- `run_pipeline.py`
+- `tests/run_all_tests.py`
+- `tests/`
+
+The latest reported test run completed with 31 passed tests. Test status should be refreshed if code changes are made after that run.
+
+## 5. Verified project outputs
+
+| Output | Verified information |
+|---|---|
+| Event log | 15,214 events |
+| Patient cases | 1,050 |
+| Activities | 16 |
+| Process variants | 846 |
+| DFG transitions | 115 |
+| Consecutive event transitions | 14,164 |
+| Event reconciliation | 100% match in the verified reconciliation |
+| Power BI exports | 10 CSV files |
+| Core star schema | 4 dimensions and 3 fact tables |
+| Automated tests | 31 passed in the latest reported run |
+
+Power BI exports include the core dimension and fact tables as well as additional analytical summaries. The repository's CSV exports and dashboard guide do not, by themselves, establish that a `.pbix` report file has been completed.
+
+## 6. Data integrity notes
+
+- The literal case identifier `NA` is valid and must not be interpreted as a blank value.
+- The event log contains 24 events belonging to the `NA` case.
+- The patient-level case table contains one row for that case.
+- `Previous_Timestamp` is expected to be empty for the first event of each of the 1,050 cases.
+- `Triage_to_Antibiotics_Hours` has 227 unavailable values in the current Power BI export.
+- `ER_to_Admission_Hours` has 240 unavailable values in the current Power BI export.
+- Missing timing values represent unavailable measurements and must not be interpreted as zero.
+- Repeated clinical assays must be preserved when they represent distinct events.
+
+## 7. Git history and code ownership transparency
+
+The integrated project is on `main`. The repository also contains local and remote `shruti` and `madhura` development branches.
+
+The inspected recent file-history output reports Shruti Mali as the author for the selected paths. This is useful repository metadata, but it is not a complete record of informal collaboration, reviews, discussions or work performed outside commits.
+
+For an academic contribution statement, the team should confirm the wording with both members before submission. Do not infer a numerical contribution split from branch names or file ownership alone.
+
+## 8. Viva guidance
+
+Each member should be able to explain their reported modules, demonstrate the relevant outputs, and answer questions about limitations. In particular:
+
+- Explain data reconciliation as event matching, not as a claim that every field is non-null.
+- Explain that the literal `NA` case identifier is valid.
+- Explain that missing bottleneck measurements are not zero-duration events.
+- Treat antibiotic timing thresholds as descriptive analytical cohorts, not universal clinical conclusions.
+- Do not claim formal Petri Net soundness unless a separate formal verification has been performed.

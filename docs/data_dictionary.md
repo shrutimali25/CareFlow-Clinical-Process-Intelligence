@@ -19,7 +19,7 @@
 | **`previous_activity`** | String | Predecessor | Yes | Name of the preceding activity in the patient journey (`NaN` for first event). | `"ER Registration"`, `"ER Triage"` |
 | **`previous_event_time`** | Datetime (UTC) | Timestamp | Yes | Timestamp of the preceding event in the patient trace. | `2014-10-22 09:15:41+00:00` |
 | **`elapsed_minutes`** | Float | Metric | Yes | Elapsed time in minutes between previous activity and current activity. | `11.3167`, `0.0000`, `149.7833` |
-| **`Age`** | Integer | Clinical | No | Patient age in years at the time of hospital admission. | `65`, `85`, `45` |
+| **`Age`** | Integer | Clinical | Yes | Patient age in years at the time of hospital admission. | `65`, `85`, `45` |
 | **`Diagnose`** | String | Clinical | Yes | Primary ICD/hospital diagnostic classification code (`NaN` if unrecorded). | `"C"`, `"B"`, `"E"`, `"H"` |
 | **`SIRSCriteria2OrMore`** | Boolean | Clinical | Yes | Flag indicating whether patient met $\ge 2$ Systemic Inflammatory Response Syndrome criteria. | `True`, `False` |
 | **`InfectionSuspected`** | Boolean | Clinical | Yes | Flag indicating whether attending physicians suspected clinical infection. | `True`, `False` |
@@ -109,4 +109,86 @@
 - `Median_Minutes`: Float. Median elapsed minutes.
 - `Average_Hours`: Float. Mean elapsed hours.
 - `Median_Hours`: Float. Median elapsed hours.
-- `Latency_Category`: String (`Immediate (< 1h)`, `Fast (1-6h)`, `Moderate (6-24h)`, `Extended (> 24h)`).
+- `Transition_Percentage`: Float. Transition probability expressed as a percentage.
+- `Std_Minutes`: Float. Standard deviation of transition elapsed time in minutes.
+- `IQR_Minutes`: Float. Interquartile range of transition elapsed time in minutes.
+- `Min_Minutes`: Float. Minimum observed elapsed time in minutes.
+- `Max_Minutes`: Float. Maximum observed elapsed time in minutes.
+- `Latency_Category`: String. Descriptive elapsed-time band assigned to the transition.
+
+### `activity_frequency.csv` (16 rows)
+- `concept:name`: String. Activity name.
+- `total_occurrences`: Integer. Total recorded occurrences of the activity.
+- `unique_cases`: Integer. Number of distinct cases containing the activity.
+
+### `activity_time_differences.csv` (115 rows)
+- `previous_activity`: String. Source activity in the observed transition.
+- `concept:name`: String. Target activity in the observed transition.
+- `total_transitions`: Integer. Number of observed source-to-target transitions.
+- `average_minutes`: Float. Mean elapsed time for the transition, in minutes.
+- `median_minutes`: Float. Median elapsed time for the transition, in minutes.
+
+### `dim_activities.csv` (16 rows)
+- `Activity` (PK): String. Unique activity name.
+- `Clinical_Stage`: String. Grouped stage label used for analysis.
+- `Total_Occurrences`: Integer. Total event count for the activity.
+- `Unique_Cases`: Integer. Number of distinct cases containing the activity.
+- `Case_Reach_Pct`: Float. Percentage of all cases containing the activity.
+- `Repeated_Cases_Count`: Integer. Number of cases with repeated occurrences of the activity.
+- `Rework_Rate_Pct`: Float. Percentage of cases containing the activity that repeat it.
+- `Max_Repetitions_In_Single_Case`: Integer. Maximum occurrences in one case.
+- `Mean_Occurrences_Per_Case`: Float. Mean occurrences per case containing the activity.
+
+### `dim_data_quality.csv` (10 rows)
+- `Check_ID` (PK): String. Identifier for a data-quality check.
+- `Validation_Check`: String. Name or description of the validation performed.
+- `Result`: String. Recorded validation result.
+- `Status`: String. Outcome/status label for the check.
+
+### `dim_variants.csv` (846 rows)
+- `variant_id` (PK): String. Identifier for a distinct recorded activity sequence.
+- `case_frequency`: Integer. Number of cases following the variant.
+- `case_coverage_pct`: Float. Percentage of all cases represented by the variant.
+- `cumulative_coverage_pct`: Float. Cumulative case coverage through the ranked variant.
+- `pathway_length`: Integer. Number of activities in the recorded sequence.
+- `entry_activity`: String. First activity in the variant.
+- `exit_activity`: String. Last activity in the variant.
+- `pathway_signature`: String. Encoded ordered activity sequence.
+
+### `fact_bottlenecks.csv` (1,050 rows)
+- `Case_ID` (PK/FK): String. Case identifier; corresponds to `dim_patient_cases.Case_ID`.
+- `Triage_to_Antibiotics_Hours`: Nullable numeric value stored in the CSV as text where blank. Elapsed hours from triage to IV antibiotics when calculable.
+- `Antibiotics_Compliance_Cohort`: String. Descriptive cohort for the observed triage-to-antibiotics interval.
+- `ER_to_Admission_Hours`: Nullable numeric value stored in the CSV as text where blank. Elapsed hours from ER entry to admission when calculable.
+- `Admission_Latency_Cohort`: String. Descriptive cohort for the observed ER-to-admission interval.
+
+### `fact_event_log.csv` (15,214 rows)
+- `Event_Key` (PK): Integer. Unique event-row identifier.
+- `Case_ID` (FK): String. Case identifier corresponding to `dim_patient_cases.Case_ID`.
+- `Activity` (FK): String. Recorded activity corresponding to `dim_activities.Activity`.
+- `Timestamp`: Datetime string. Timestamp of the event.
+- `Date`: Date string. Calendar date derived from the event timestamp.
+- `Event_Sequence_Nr`: Integer. Chronological event position within the case.
+- `Previous_Activity`: String. Previous activity in the case sequence, where represented.
+- `Previous_Timestamp`: Nullable datetime string. Timestamp of the previous event; blank for the first event in each case (1,050 rows).
+- `Elapsed_Minutes`: Float. Elapsed time in minutes from the previous event, as represented in the exported table.
+- `Elapsed_Hours`: Float. Elapsed time in hours from the previous event, as represented in the exported table.
+- `Is_First_Event`: Boolean. Indicates the first event in the case.
+- `Is_Last_Event`: Boolean. Indicates the last event in the case.
+
+### `patient_case_summary.csv` (1,050 rows)
+- `case:concept:name` (PK): String. Case identifier.
+- `total_events`: Integer. Number of recorded events in the case.
+- `first_event_time`: Datetime string. First recorded event timestamp.
+- `last_event_time`: Datetime string. Last recorded event timestamp.
+- `treatment_duration_hours`: Float. Difference between the last and first recorded event timestamps, in hours.
+
+---
+
+## 4. Data Interpretation & Nullability Notes
+
+- In the event-level `sepsis_with_times.csv`, `Age` is nullable: it is populated on only 1,050 of 15,214 event rows and is blank on 14,164 rows. This reflects the event-log row representation; the case-level Power BI dimension contains an age value or its exported cohort representation.
+- In `fact_event_log.csv`, `Previous_Timestamp` is blank for 1,050 first events, where no preceding event exists.
+- In `fact_bottlenecks.csv`, `Triage_to_Antibiotics_Hours` is blank for 227 cases and `ER_to_Admission_Hours` is blank for 240 cases in the inspected export. These fields are therefore nullable; a blank must not be interpreted as zero hours.
+- The exported CSV data types describe how values are serialized in these files. Some nullable numeric fields (notably the two bottleneck hour fields) are inferred as strings by pandas because blank cells are present; their semantic values are numeric when populated.
+- Percentages and time bands are descriptive summaries of this event log, not independently validated clinical compliance or causal conclusions.
